@@ -3,7 +3,7 @@
 body {
   font-family: Inconsolata, Helvetica, sans-serif;
   font-size: 20px;
-  padding: 4em;
+  padding: 3em;
   background: #e5ffe5; }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
   font-weight: 200;
   border-bottom: 20px #ffffff solid; }
 
-h2 {
+h2, h3 {
   font-family: "Noto Serif KR", Georgia, serif;
   font-weight: 700; }
 
