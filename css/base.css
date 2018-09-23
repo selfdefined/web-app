@@ -59,16 +59,17 @@ li {
     grid-row-gap: 1em; }
   #title {
     grid-column: 1 / span 2;
-    grid-row: 2; }
+    grid-row: 1; }
   #summary {
     grid-column: 3 / span 2;
     grid-row: 1; }
   #description {
-    grid-column: span 4; }
+    grid-column: span 4;
+    grid-row: 2; }
   .item {
     grid-column: span 2; }
   h1 {
-    font-size: 4em; }
+    font-size: 3.5em; }
   h2 {
     font-size: 1.3em; } }
 

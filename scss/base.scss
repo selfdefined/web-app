@@ -121,7 +121,7 @@ li {
 
   #title {
     grid-column: 1 / span 2;
-    grid-row: 2;
+    grid-row: 1;
   }
 
   #summary {
@@ -131,6 +131,7 @@ li {
 
   #description {
     grid-column: span 4;
+    grid-row: 2; 
   }
   
   .item {
@@ -138,7 +139,7 @@ li {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   h2 {
