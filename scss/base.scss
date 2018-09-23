@@ -9,6 +9,7 @@
   $black: #222222;
   $white: #ffffff;
   $pistachio: #e5ffe5;
+  $yellow: #ffff00;
 
   $dark-grey: #4F4F4F;
   $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
@@ -29,14 +30,13 @@
 body {
   font-family: $sans-serif;
   font-size: 20px;
-  padding: 3em;
   background: #e5ffe5;
   }
 
 h1 {
   font-family: $serif;
   font-weight: $thin;
-  border-bottom: 20px $white solid;
+  border-bottom: .25em $white solid;
 }
 
 h2, h3 {
@@ -55,28 +55,49 @@ li {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, [col] 1fr [col]);
+  grid-template-rows: fit-content, fit-content, auto;
   grid-row-gap: 2em;
   grid-column-gap: 1em;
-  grid-gap: .5em;
+}
+
+.item {
 }
 
 
+// MEDIA // 
 
 @media screen and (min-width: 200px) {
-  .item {
+
+  #title, #description, #summary {
+  grid-column: span 4;
+  }
+
+  body {
+  padding: 1em;
+  }
+
+  .list, .item {
   grid-column: span 4;
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
 
 @media screen and (min-width: 600px) {
+  body {
+  padding: 3em;
+  }
+
+  #title, #description, #summary {
+    grid-column: span 2;
+  }
+
   .item {
   grid-column: span 2;
   }
@@ -86,12 +107,29 @@ li {
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .item {
+
+  #title {
+    grid-column: 1 / span 1;
+    grid-row: 1
+  }
+
+   #description {
+    grid-column: 2 / span 1;
+    grid-row: 1
+  }
+
+   #summary {
+    grid-column: 1 / span 2;
+    grid-row: 2
+  }
+
+  .list {
+  grid-row: span 3;
   grid-column: span 1;
   }
 }
