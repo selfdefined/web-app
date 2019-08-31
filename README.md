@@ -1,4 +1,4 @@
-# Self-Defined Dictionary
+# 📕 Self-Defined Dictionary
 A modern dictionary about us. We define our words, but they don't define us.
 
 Self-Defined seeks to provide more inclusive, holistic, and fluid definitions to reflect the modern world.
