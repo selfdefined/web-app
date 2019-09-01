@@ -2,6 +2,11 @@
   @import url("https://use.typekit.net/qlo3dpu.css");
 
 // COLORS //
+
+:root {
+  --auto-grid-min-size: 32rem;
+}
+
   $primary-color: #0e4bff; //cobalt blue is so pretty//
   $secondary-color: #F3F315; //
 
@@ -36,7 +41,7 @@ h1 {
   font-weight: $bold;
 }
 
-h2, h3 {
+.subtitle {
   font-family: $ext-sans;
   font-weight: $regular;
   letter-spacing: .1;
@@ -66,6 +71,14 @@ li {
 }
 
   // GRID //
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, [col] 1fr [col]);
+  grid-template-rows: fit-content, fit-content, auto;
+  grid-row-gap: 10rem;
+  grid-column-gap: 4rem;
+}
 
 .auto-grid {
   display: grid;
@@ -174,8 +187,6 @@ li {
   padding: 0 1rem;
 }
 
-
-
 .block__word {
 display: flex;
 flex-direction: column;
@@ -218,6 +229,14 @@ font-style: italic;
   font-size: .75rem;
   letter-spacing: .15rem;
   padding: .5rem .75rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    border-bottom: darkgrey solid .1em;
+    font-family: $ext-sans;
+  }
   
   &__avoid {
     color: red;
@@ -237,4 +256,107 @@ font-style: italic;
       }
   }
 }
+
+.block__dictionary {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.auto-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+grid-gap: 1rem; 
+  }
+
+.block__word {
+display: flex;
+flex-direction: column;
+margin: 1rem;
+}
+
+p {
+margin: .75rem 0;
+font-size: 1.25rem;
+}
+
+.style__italics {
+font-style: italic;
+}
+
+.word {
+&__title {
+font-family: $serif;
+font-weight: 900;
+font-size: 2.5rem;
+line-height: 1.25;
+}
+
+&__definition {
+font-family: $sans-serif;
+font-size: 1.5rem;
+}
+
+&__speech {
+font-size: .5em;
+font-family: $sans-serif;
+}
+
+&__signal {
+border-top: 1px solid currentcolor;
+// border-radius: 100px;
+display: inline-block;
+font-family: $ext-sans;
+text-transform: uppercase;
+font-size: .75rem;
+letter-spacing: .15rem;
+padding: .5rem .75rem;
+  
+  &__avoid {
+    color: red;
+    
+    &:before {
+      content: "🚨";
+      margin-left: -2.15rem;
+    }
+  }
+  
+  &__better {
+  color: green;
+    
+  &:before  {
+    content: "👍";
+    margin-left: -2.15rem;
+    }
+  }
+}
+}
+
+.word__issue {
+text-align: right;
+padding-right: 1rem;
+font-family: $con-sans;
+font-size: .85rem;
+text-transform: uppercase;
+}
+
+.word__link {
+text-decoration: none;
+color: black;
+border-bottom: darkgrey solid .1em;
+font-family: $ext-sans;
+}
+
+.block__issue {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: baseline;
+
+}
+
+.word__breakdown {
+font-family: $sans-serif;
+border-left: .1rem solid lightgrey;
+padding-left: 1rem;
 }

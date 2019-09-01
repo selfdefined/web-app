@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/qlo3dpu.css");
+:root {
+  --auto-grid-min-size: 32rem;
+}
+
 body {
   font-family: monotype-grotesque, "Lucida Sans", sans-serif;
   font-size: 20px;
@@ -10,7 +14,7 @@ h1 {
   font-weight: 700;
 }
 
-h2, h3 {
+.subtitle {
   font-family: monotype-grotesque-extended, Arial Black, sans-serif;
   font-weight: 400;
   letter-spacing: 0.1;
@@ -35,6 +39,14 @@ li:last-child {
 li.subterm:before {
   content: "↳";
   padding-right: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, [col] 1fr [col]);
+  grid-template-rows: fit-content, fit-content, auto;
+  grid-row-gap: 10rem;
+  grid-column-gap: 4rem;
 }
 
 .auto-grid {
@@ -175,6 +187,78 @@ p {
   letter-spacing: 0.15rem;
   padding: 0.5rem 0.75rem;
 }
+.word__link {
+  text-decoration: none;
+  color: black;
+  border-bottom: darkgrey solid 0.1em;
+  font-family: monotype-grotesque-extended, Arial Black, sans-serif;
+}
+.word__avoid {
+  color: red;
+}
+.word__avoid:before {
+  content: "🚨";
+  margin-left: -2.15rem;
+}
+.word__better {
+  color: green;
+}
+.word__better:before {
+  content: "👍";
+  margin-left: -2.15rem;
+}
+
+.block__dictionary {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+.block__word {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+p {
+  margin: 0.75rem 0;
+  font-size: 1.25rem;
+}
+
+.style__italics {
+  font-style: italic;
+}
+
+.word__title {
+  font-family: orpheuspro, Palatino, Times, serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+.word__definition {
+  font-family: monotype-grotesque, "Lucida Sans", sans-serif;
+  font-size: 1.5rem;
+}
+.word__speech {
+  font-size: 0.5em;
+  font-family: monotype-grotesque, "Lucida Sans", sans-serif;
+}
+.word__signal {
+  border-top: 1px solid currentcolor;
+  display: inline-block;
+  font-family: monotype-grotesque-extended, Arial Black, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15rem;
+  padding: 0.5rem 0.75rem;
+}
 .word__signal__avoid {
   color: red;
 }
@@ -188,6 +272,33 @@ p {
 .word__signal__better:before {
   content: "👍";
   margin-left: -2.15rem;
+}
+
+.word__issue {
+  text-align: right;
+  padding-right: 1rem;
+  font-family: monotype-grotesque-condensed, Arial Narrow, sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.word__link {
+  text-decoration: none;
+  color: black;
+  border-bottom: darkgrey solid 0.1em;
+  font-family: monotype-grotesque-extended, Arial Black, sans-serif;
+}
+
+.block__issue {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: baseline;
+}
+
+.word__breakdown {
+  font-family: monotype-grotesque, "Lucida Sans", sans-serif;
+  border-left: 0.1rem solid lightgrey;
+  padding-left: 1rem;
 }
 
 /*# sourceMappingURL=base.css.map */
