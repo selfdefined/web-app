@@ -1,5 +1,4 @@
 @charset 'utf-8';
-  @import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif+KR');
   @import url("https://use.typekit.net/qlo3dpu.css");
 
 // COLORS //
@@ -15,11 +14,11 @@
   $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
   $light-grey: #eeeeee; // for backgrounds only
 
-
-// TYPOGRAPHY // 
-  $sans-serif: Inconsolata, Helvetica, sans-serif;
-  $serif: 'Noto Serif KR', Georgia, serif;
-  $mono: Courier, mono;
+  // TYPOGRAPHY // 
+  $sans-serif: monotype-grotesque, 'Lucida Sans', sans-serif;
+  $serif: orpheuspro, Palatino, Times, serif;
+  $ext-sans: monotype-grotesque-extended, Arial Black, sans-serif;
+  $con-sans: monotype-grotesque-condensed, Arial Narrow, sans-serif;
 
   $thin: 200;
   $light: 300;
@@ -30,19 +29,19 @@
 body {
   font-family: $sans-serif;
   font-size: 20px;
-  background: #e5ffe5;
   }
 
 h1 {
-  font-family: $serif;
-  font-weight: $thin;
-  border-bottom: .25em $white solid;
+  font-family: $ext-sans;
+  font-weight: $bold;
 }
 
 h2, h3 {
-  font-family: $serif;
-  font-weight: $bold;
+  font-family: $ext-sans;
+  font-weight: $regular;
+  letter-spacing: .1;
 }
+
 ul {
   padding: 0 0 0 1em;
   margin: 0;
@@ -68,17 +67,11 @@ li {
 
   // GRID //
 
-.grid {
+.auto-grid {
   display: grid;
-  grid-template-columns: repeat(4, [col] 1fr [col]);
-  grid-template-rows: fit-content, fit-content, auto;
-  grid-row-gap: 2em;
-  grid-column-gap: 1em;
-}
-
-.item {
-}
-
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem; 
+  }
 
 // MEDIA // 
 
@@ -172,4 +165,76 @@ li {
   grid-row: span 3;
   grid-column: span 1;
   }
+}
+
+.block__dictionary {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+
+
+.block__word {
+display: flex;
+flex-direction: column;
+margin: 1rem;
+}
+
+p {
+margin: .75rem 0;
+font-size: 1.25rem;
+}
+
+.style__italics {
+font-style: italic;
+}
+
+.word {
+  &__title {
+  font-family: $serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  }
+
+  &__definition {
+  font-family: $sans-serif;
+  font-size: 1.5rem;
+  }
+
+  &__speech {
+  font-size: .5em;
+  font-family: $sans-serif;
+  }
+
+  &__signal {
+  border-top: 1px solid currentcolor;
+  // border-radius: 100px;
+  display: inline-block;
+  font-family: $ext-sans;
+  text-transform: uppercase;
+  font-size: .75rem;
+  letter-spacing: .15rem;
+  padding: .5rem .75rem;
+  
+  &__avoid {
+    color: red;
+    
+    &:before {
+      content: "🚨";
+      margin-left: -2.15rem;
+    }
+  }
+  
+  &__better {
+  color: green;
+    
+    &:before  {
+      content: "👍";
+      margin-left: -2.15rem;
+      }
+  }
+}
 }
