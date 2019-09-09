@@ -11,7 +11,7 @@ For now, this stands as a list only, from which you can self-educate. Pull reque
 
 ## Components (Build order)
 1. **Dictionary site**: Webapp where words can be connected, linking to alternates for bad terms or alternates for definitions with nuance. Create ability to use parameters so someone can connect multiple words they use together, to help clear up how they define themselves. For example, `?disabled+pan+Indigenous`. Creating such a strand easily would allow people to link in email signatures, Twitter bios, etc.
-2. **Twitter bot:** Allows someone to tag [@SelfDefinedBot](https://www.twitter.com/SelfDefinedBot) in order to get automated reply. For example '@SelfDefinedBot define racism'.
+2. **Twitter bot:** Allows someone to tag [@SelfDefinedBot](https://twitter.com/SelfDefinedBot) in order to get automated reply. For example '@SelfDefinedBot define racism'.
 3. **Slack bot:** Problematic words could be flagged and alternates could be provided. Could also define words.
 4. **Custom API:** Allows dictionary to be adapted and included into other large-scale projects. 
 
@@ -26,4 +26,4 @@ Work in progress on [CodePen](https://codepen.io/tatianamac/pen/zYOqZRp). Hoping
 ## How to Help
 🐛 Check [Issues](https://github.com/tatianamac/selfdefined/issues), which include code and also definition writing.
 💰 Support this OSS project by [sponsoring me](https://github.com/users/tatianamac/sponsorship).
-🐦 Follow [Self-Defined on Twitter](https://www.twitter.com/selfdefinedapp).
+🐦 Follow [Self-Defined on Twitter](https://twitter.com/selfdefinedapp).
