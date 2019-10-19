@@ -47,29 +47,11 @@ h1 {
   font-family: $ext-sans;
   font-weight: $regular;
   letter-spacing: .1;
+  grid-column: span 2;
 }
 
-ul {
-  padding: 0 0 0 1em;
-  margin: 0;
-}
-
-li {
-  list-style: none;
-  padding-bottom: .5em;
-  text-transform: capitalize;
-  &.subterm {
-  padding-left: 10px;
-  }
-
-  &:last-child {
-  padding: 0;
-  }
-
-  &.subterm:before {
-  content: "\21B3 ";
-  padding-right: 5px;
-  }
+.summary {
+  grid-column: span 2;
 }
 
   // GRID //
@@ -86,6 +68,42 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   grid-gap: 1rem; 
+  }
+
+  .box {
+    grid-column: span 2;
+    background: black;
+    color: white;
+    padding: 1rem;
+
+    a {
+      color: white;
+    }
+  }
+
+  .list {
+    ul {
+      padding: 0 0 0 1em;
+      margin: 0;
+    }
+    
+    li {
+      list-style: none;
+      padding-bottom: .5em;
+      text-transform: capitalize;
+      &.subterm {
+      padding-left: 10px;
+      }
+    
+      &:last-child {
+      padding: 0;
+      }
+    
+      &.subterm:before {
+      content: "\21B3 ";
+      padding-right: 5px;
+      }
+    }
   }
 
 // MEDIA // 
@@ -113,7 +131,7 @@ li {
     font-size: 9vw;
     line-height: .75;
     padding: 0;
-    margin: -1.5rem -2rem;
+    margin: 0.5rem 0rem;
   }
 
   h2 {

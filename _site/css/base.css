@@ -21,27 +21,11 @@ h1 {
   font-family: monotype-grotesque-extended, Arial Black, sans-serif;
   font-weight: 400;
   letter-spacing: 0.1;
+  grid-column: span 2;
 }
 
-ul {
-  padding: 0 0 0 1em;
-  margin: 0;
-}
-
-li {
-  list-style: none;
-  padding-bottom: 0.5em;
-  text-transform: capitalize;
-}
-li.subterm {
-  padding-left: 10px;
-}
-li:last-child {
-  padding: 0;
-}
-li.subterm:before {
-  content: "↳";
-  padding-right: 5px;
+.summary {
+  grid-column: span 2;
 }
 
 .grid {
@@ -56,6 +40,36 @@ li.subterm:before {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   grid-gap: 1rem;
+}
+
+.box {
+  grid-column: span 2;
+  background: black;
+  color: white;
+  padding: 1rem;
+}
+.box a {
+  color: white;
+}
+
+.list ul {
+  padding: 0 0 0 1em;
+  margin: 0;
+}
+.list li {
+  list-style: none;
+  padding-bottom: 0.5em;
+  text-transform: capitalize;
+}
+.list li.subterm {
+  padding-left: 10px;
+}
+.list li:last-child {
+  padding: 0;
+}
+.list li.subterm:before {
+  content: "↳";
+  padding-right: 5px;
 }
 
 @media screen and (min-width: 200px) {
@@ -80,7 +94,7 @@ li.subterm:before {
     font-size: 9vw;
     line-height: 0.75;
     padding: 0;
-    margin: -1.5rem -2rem;
+    margin: 0.5rem 0rem;
   }
 
   h2 {
