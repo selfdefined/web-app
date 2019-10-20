@@ -375,7 +375,7 @@ font-family: $ext-sans;
 .block__issue {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  align-items: baseline;
+  align-items: flex-start;
 
 }
 
