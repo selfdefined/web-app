@@ -296,7 +296,13 @@ p {
   margin-left: -2.15rem;
 }
 
-.word__issue {
+.block__type {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: flex-start;
+}
+
+.word__type {
   text-align: right;
   padding-right: 1rem;
   font-family: monotype-grotesque-condensed, Arial Narrow, sans-serif;
@@ -309,12 +315,6 @@ p {
   color: black;
   border-bottom: darkgrey solid 0.1em;
   font-family: monotype-grotesque-extended, Arial Black, sans-serif;
-}
-
-.block__issue {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  align-items: flex-start;
 }
 
 .word__breakdown {
