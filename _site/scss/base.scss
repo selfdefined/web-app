@@ -253,15 +253,7 @@ font-style: italic;
   font-size: .75rem;
   letter-spacing: .15rem;
   padding: .5rem .75rem;
-  }
 
-  &__link {
-    text-decoration: none;
-    color: black;
-    border-bottom: darkgrey solid .1em;
-    font-family: $ext-sans;
-  }
-  
   &__avoid {
     color: red;
     
@@ -281,15 +273,24 @@ font-style: italic;
   }
 
   &__tool {
+    color: black;
     
     &:before {
       content: "🧰";
       margin-left: -2.15rem;
     }
   }
+  
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    border-bottom: darkgrey solid .1em;
+    font-family: $ext-sans;
+  }
+  
 }
-
-
 
 .block__dictionary {
   max-width: 50rem;

@@ -208,29 +208,32 @@ p {
   letter-spacing: 0.15rem;
   padding: 0.5rem 0.75rem;
 }
+.word__signal__avoid {
+  color: red;
+}
+.word__signal__avoid:before {
+  content: "🚨";
+  margin-left: -2.15rem;
+}
+.word__signal__better {
+  color: green;
+}
+.word__signal__better:before {
+  content: "👍";
+  margin-left: -2.15rem;
+}
+.word__signal__tool {
+  color: black;
+}
+.word__signal__tool:before {
+  content: "🧰";
+  margin-left: -2.15rem;
+}
 .word__link {
   text-decoration: none;
   color: black;
   border-bottom: darkgrey solid 0.1em;
   font-family: monotype-grotesque-extended, Arial Black, sans-serif;
-}
-.word__avoid {
-  color: red;
-}
-.word__avoid:before {
-  content: "🚨";
-  margin-left: -2.15rem;
-}
-.word__better {
-  color: green;
-}
-.word__better:before {
-  content: "👍";
-  margin-left: -2.15rem;
-}
-.word__tool:before {
-  content: "🧰";
-  margin-left: -2.15rem;
 }
 
 .block__dictionary {
