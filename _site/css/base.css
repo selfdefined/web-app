@@ -228,6 +228,10 @@ p {
   content: "👍";
   margin-left: -2.15rem;
 }
+.word__tool:before {
+  content: "🧰";
+  margin-left: -2.15rem;
+}
 
 .block__dictionary {
   max-width: 50rem;

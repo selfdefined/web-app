@@ -279,7 +279,17 @@ font-style: italic;
       margin-left: -2.15rem;
       }
   }
+
+  &__tool {
+    
+    &:before {
+      content: "🧰";
+      margin-left: -2.15rem;
+    }
+  }
 }
+
+
 
 .block__dictionary {
   max-width: 50rem;
