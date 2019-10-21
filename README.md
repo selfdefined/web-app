@@ -20,7 +20,7 @@ For now, this stands as a list only, from which you can self-educate. Pull reque
 ## Design
 - Typography at its core, focused on legibility, performance, and future-proofing for translations/non-Roman alphabets.
 - High-contrast colour palette, again for legibility.
-- Lack of imagery or ornamentation, given the sensitivity and representation of these communities. Depitcting them visually at this time feels reductionist.
+- Lack of imagery or ornamentation, given the sensitivity and representation of these communities. Depicting them visually at this time feels reductionist.
 
 ## Philosophies
 - Maintain OSS nature for non-profit and other OSS uses, but charge for corporate uses.
