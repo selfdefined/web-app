@@ -18,7 +18,9 @@ For now, this stands as a list only, from which you can self-educate. Pull reque
 4. **Custom API:** Allows dictionary to be adapted and included into other large-scale projects. 
 
 ## Design
-Work in progress on [CodePen](https://codepen.io/tatianamac/pen/zYOqZRp). Hoping to connect core words with adjacent words.
+- Typography at its core, focused on legibility, performance, and future-proofing for translations/non-Roman alphabets.
+- High-contrast colour palette, again for legibility.
+- Lack of imagery or ornamentation, given the sensitivity and representation of these communities. Depitcting them visually at this time feels reductionist.
 
 ## Philosophies
 - Maintain OSS nature for non-profit and other OSS uses, but charge for corporate uses.
