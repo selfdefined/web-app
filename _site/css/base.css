@@ -33,7 +33,7 @@ h1 {
 }
 
 .title__thicc {
-  font-size: 10vh;
+  font-size: 8vh;
   line-height: 0.75;
   padding: 0;
   margin: 0.5rem 0rem;
@@ -258,6 +258,16 @@ p {
   font-family: monotype-grotesque, "Lucida Sans", sans-serif;
   border-left: 0.1rem solid lightgrey;
   padding-left: 1rem;
+}
+
+.flag__red {
+  background-color: pink;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 0.45rem 0.65rem;
+  margin: 0 0.75rem;
 }
 
 /*# sourceMappingURL=base.css.map */

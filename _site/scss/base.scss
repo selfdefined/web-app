@@ -59,7 +59,7 @@ h1 {
   }
 
 .title__thicc {
-  font-size: 10vh;
+  font-size: 8vh;
   line-height: .75;
   padding: 0;
   margin: 0.5rem 0rem;
@@ -319,4 +319,14 @@ font-family: $ext-sans;
 font-family: $sans-serif;
 border-left: .1rem solid lightgrey;
 padding-left: 1rem;
+}
+
+.flag__red {
+  background-color: pink;
+  color: black;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: .45rem .65rem;
+  margin: 0 .75rem;
 }
