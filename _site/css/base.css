@@ -268,6 +268,7 @@ p {
   border-radius: 1rem;
   padding: 0.45rem 0.65rem;
   margin: 0 0.75rem;
+  text-transform: lowercase;
 }
 
 /*# sourceMappingURL=base.css.map */

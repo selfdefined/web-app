@@ -113,6 +113,7 @@ h1 {
       list-style: none;
       padding-bottom: .5em;
       text-transform: capitalize;
+
       &.subterm {
       padding-left: 10px;
       }
@@ -329,4 +330,5 @@ padding-left: 1rem;
   border-radius: 1rem;
   padding: .45rem .65rem;
   margin: 0 .75rem;
+  text-transform: lowercase;
 }
