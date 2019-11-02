@@ -230,6 +230,11 @@ font-style: italic;
     color: black;
     border-bottom: darkgrey solid .1em;
     font-family: $ext-sans;
+    margin: 1rem 0;
+
+    &:hover {
+      border-bottom: red solid .1rem;
+    }
   }
   
 }

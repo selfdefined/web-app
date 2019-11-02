@@ -162,6 +162,10 @@ p {
   color: black;
   border-bottom: darkgrey solid 0.1em;
   font-family: monotype-grotesque-extended, Arial Black, sans-serif;
+  margin: 1rem 0;
+}
+.word__link:hover {
+  border-bottom: red solid 0.1rem;
 }
 
 .block__dictionary {
