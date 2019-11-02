@@ -31,6 +31,24 @@
   $medium: 500;
   $bold: 700;
 
+//MIXINS
+
+@mixin icon__avoid() {
+  content: "🚨";
+}
+
+@mixin icon__alt() {
+  content: "👍";
+}
+
+@mixin icon__hanging() {
+  margin-left: -2.15rem;
+}
+
+@mixin icon__embed() {
+  margin-right: .35rem;
+}
+
 body {
   border-top: 1rem solid red;
   font-family: $sans-serif;
@@ -112,7 +130,6 @@ h1 {
     li {
       list-style: none;
       padding-bottom: .5em;
-      text-transform: capitalize;
 
       &.subterm {
       padding-left: 10px;
@@ -183,8 +200,8 @@ font-style: italic;
     color: red;
     
     &:before {
-      content: "🚨";
-      margin-left: -2.15rem;
+      @include icon__avoid();
+      @include icon__hanging();
     }
   }
   
@@ -192,8 +209,8 @@ font-style: italic;
   color: green;
     
     &:before  {
-      content: "👍";
-      margin-left: -2.15rem;
+      @include icon__avoid();
+      @include icon__hanging();
       }
   }
 
@@ -323,12 +340,15 @@ padding-left: 1rem;
 }
 
 .flag__red {
-  background-color: pink;
-  color: black;
+  background-color: rgb(255, 192, 203);
   font-size: .9rem;
   font-weight: bold;
   border-radius: 1rem;
   padding: .45rem .65rem;
-  margin: 0 .75rem;
+  margin: .25rem .75rem;
   text-transform: lowercase;
+  &:before {
+    @include icon__avoid();
+    @include icon__embed();
+  }
 }

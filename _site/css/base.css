@@ -79,7 +79,6 @@ h1 {
 .list li {
   list-style: none;
   padding-bottom: 0.5em;
-  text-transform: capitalize;
 }
 .list li.subterm {
   padding-left: 10px;
@@ -148,7 +147,7 @@ p {
   color: green;
 }
 .word__signal__better:before {
-  content: "👍";
+  content: "🚨";
   margin-left: -2.15rem;
 }
 .word__signal__tool {
@@ -262,13 +261,16 @@ p {
 
 .flag__red {
   background-color: pink;
-  color: black;
   font-size: 0.9rem;
   font-weight: bold;
   border-radius: 1rem;
   padding: 0.45rem 0.65rem;
-  margin: 0 0.75rem;
+  margin: 0.25rem 0.75rem;
   text-transform: lowercase;
+}
+.flag__red:before {
+  content: "🚨";
+  margin-right: 0.35rem;
 }
 
 /*# sourceMappingURL=base.css.map */
