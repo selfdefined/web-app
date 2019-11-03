@@ -41,6 +41,10 @@
   content: "👍";
 }
 
+@mixin icon__tool() {
+  content: "🧰";
+}
+
 @mixin icon__hanging() {
   margin-left: -2.15rem;
 }
@@ -188,7 +192,6 @@ font-style: italic;
 
   &__signal {
   border-top: 1px solid currentcolor;
-  // border-radius: 100px;
   display: inline-block;
   font-family: $ext-sans;
   text-transform: uppercase;
@@ -218,8 +221,8 @@ font-style: italic;
     color: black;
     
     &:before {
-      content: "🧰";
-      margin-left: -2.15rem;
+      @include icon__tool();
+      @include icon__hanging();
     }
   }
 
