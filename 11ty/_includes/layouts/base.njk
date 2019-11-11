@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+  <body>
+    <main>
+      {{ content | safe }}
+      <section class="auto-grid">
+        <h2>Table of Content</h2>
+        <ul>
+          {% for definition in collections.definitions %}
+            {% set renderedName %}
+              {{ definition.data.title}}
+              {%- if definition.data.flag and (definition.data.flag_type == 'avoid') -%}
+                <span class="flag__red">{{ definition.data.flag}}</span>
+              {% endif %}
+            {% endset %}
+            <li>
+              {%- if definition.data.alt_words -%}
+                {% set linkTarget %}
+                  #{{ definition.data.slug }}
+                {% endset %}
+                <a href={{ linkTarget }}>{{ renderedName | safe }}</a>
+              {%- else -%}
+                {{ renderedName }}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="auto-grid">
+        <h2>Words</h2>
+        {% for definition in collections.definitions %}
+          <article id={{ definition.data.slug }}>
+            <h3>{{ definition.data.title}}</h3>
+            <p>{{ definition.data.flag }}</p>
+            {# <p>{{ definition.data.alt_words }}</p> #}
+            {%- if definition.data.alt_words -%}
+              <h4>Alt words</h4>
+              <ul class="list-semicolon">
+                {% for word in definition.data.alt_words %}
+                  <li>{{ word }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </section>
+    </main>
+  </body>
