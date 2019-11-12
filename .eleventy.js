@@ -36,8 +36,12 @@ module.exports = function (config) {
   // You can return your Config object (optional).
   return {
     dir: {
-      input: "11ty",
-      output: "dist"
-    }
+      input: '11ty',
+      output: 'dist'
+    },
+    templateFormats: ['njk', 'md'],
+    htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
+    passthroughFileCopy: true
   };
 };
