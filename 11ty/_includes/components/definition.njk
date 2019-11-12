@@ -1,6 +1,9 @@
-<article id={{ definition.data.slug }}>
-  <h3>{{ definition.data.title}}</h3>
-  <p>{{ definition.data.flag }}</p>
+<article id={{ definition.data.slug }} class="block__word word">
+  <h3 class="word__title">
+    {{ definition.data.title}}
+    <span class="word__speech">{{ definition.data.speech}}</span>
+  </h3>
+  {{ definition.templateContent | safe }}
   {# <p>{{ definition.data.alt_words }}</p> #}
   {%- if definition.data.alt_words -%}
     <h4>Alt words</h4>
