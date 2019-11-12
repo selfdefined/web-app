@@ -34,21 +34,7 @@
       </section>
       <section class="auto-grid">
         <h2>Words</h2>
-        {% for definition in collections.definitions %}
-          <article id={{ definition.data.slug }}>
-            <h3>{{ definition.data.title}}</h3>
-            <p>{{ definition.data.flag }}</p>
-            {# <p>{{ definition.data.alt_words }}</p> #}
-            {%- if definition.data.alt_words -%}
-              <h4>Alt words</h4>
-              <ul class="list-semicolon">
-                {% for word in definition.data.alt_words %}
-                  <li>{{ word }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </article>
-        {% endfor %}
+        {% include 'components/defintions-list.njk' %}
       </section>
     </main>
   </body>
