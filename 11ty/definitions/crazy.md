@@ -1,8 +1,9 @@
 ---
 title: crazy
 slug: crazy
-flag: ableist-slur
-flag_type: avoid
+flag:
+  type: ableist-slur
+  level: avoid
 defined: true
 speech: noun
 alt_words:
@@ -24,16 +25,14 @@ alt_words:
 
 mentally deranged; demented; insane.
 
----
-
-### Issues
+#### Issues
 
 Crazy is very commonly used as an adjective to embody a vast array of ideas, often not specifically. It is used so frequently that it sometimes is a filler. Crazy can also be used in a derogatory manner for someone with mental or psychiatric disabilities.
 
-### Impact
+#### Impact
 
 By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
-### Usage Tip
+#### Usage Tip
 
 Be more specific. Typically we can find an alternate definition by simply reflecting on what emotion we're really feeling.

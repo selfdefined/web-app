@@ -1,6 +1,8 @@
 ---
-title: psychopath
+title: Psychopath
 slug: psychopath
-flag: ableist-slur
+flag:
+  type: ableist-slur
+  level: avoid
 defined: false
 ---
