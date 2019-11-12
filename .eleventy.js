@@ -1,6 +1,13 @@
 module.exports = function (config) {
   // Add a filter using the Config API
-  // config.addFilter("myFilter", function () { });
+  config.addFilter('linkTarget', (slug) => `#${slug}`);
+
+  config.addFilter('postInspect', function (post) {
+    console.log(post);
+
+  })
+
+  config.addPassthroughCopy({'_site/css/': 'assets/css/'})
 
   // Add collections here
   config.addCollection('definitions', collection => {
