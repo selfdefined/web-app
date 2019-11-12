@@ -2545,7 +2545,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "dist/"
 	},
 "settingsFileVersion": "3"
 }
