@@ -21,28 +21,30 @@
   <body>
     <main>
       {{ content | safe }}
-      <section class="auto-grid">
+      <section>
         <h2>Table of Content</h2>
-        <ul>
-          {% for definition in collections.definitions %}
-            {% set renderedName %}
-              {{ definition.data.title}}
-              {%- if definition.data.flag and (definition.data.flag_type == 'avoid') -%}
-                <span class="flag__red">{{ definition.data.flag}}</span>
-              {% endif %}
-            {% endset %}
-            <li>
-              {%- if definition.data.alt_words -%}
-                {% set linkTarget %}
-                  #{{ definition.data.slug }}
-                {% endset %}
-                <a href={{ linkTarget }}>{{ renderedName | safe }}</a>
-              {%- else -%}
-                {{ renderedName }}
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+        <div class="auto-grid list">
+          <ul>
+            {% for definition in collections.definitions %}
+              {% set renderedName %}
+                {{ definition.data.title}}
+                {%- if definition.data.flag and (definition.data.flag.level == 'avoid') -%}
+                  <span class="flag__red">{{ definition.data.flag.type }}</span>
+                {% endif %}
+              {% endset %}
+              <li>
+                {%- if definition.data.defined -%}
+                  <a
+                    href={{ definition.data.slug | linkTarget | url }}
+                    class="word__link"
+                  >{{ renderedName | safe }}</a>
+                {%- else -%}
+                  {{ renderedName | safe }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </section>
       <section>
         <h2>Words</h2>
