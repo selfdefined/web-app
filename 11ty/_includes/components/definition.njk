@@ -3,14 +3,16 @@
     {{ definition.data.title}}
     <span class="word__speech">{{ definition.data.speech}}</span>
   </h3>
-  {{ definition.templateContent | safe }}
-  {# <p>{{ definition.data.alt_words }}</p> #}
-  {%- if definition.data.alt_words -%}
-    <h4>Alt words</h4>
-    <ul class="list-semicolon">
-      {% for word in definition.data.alt_words %}
-        <li>{{ word }}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+  <div class="word__content">
+    {{ definition.templateContent | safe }}
+    {# <p>{{ definition.data.alt_words }}</p> #}
+    {%- if definition.data.alt_words -%}
+      <h4>Alt words</h4>
+      <ul class="list-semicolon">
+        {% for word in definition.data.alt_words %}
+          <li>{{ word }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 </article>
