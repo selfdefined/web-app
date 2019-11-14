@@ -182,7 +182,8 @@ a {
     font-weight: 900;
     font-size: 2.5rem;
     line-height: 1.25;
-    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
   }
 
   &__content {
@@ -195,7 +196,7 @@ a {
       grid-gap: 1rem;
 
       & > * {
-        margin: 0 !important;
+        margin: 0;
       }
     }
 
@@ -209,18 +210,25 @@ a {
       grid-column: 1;
       font-family: $con-sans;
       font-size: 0.85rem;
+      font-weight: normal;
       flex: 0 1 auto;
       text-transform: uppercase;
+      transform: translateY(0.4em);
 
       @supports (display: grid) {
         text-align: right;
       }
     }
 
+    & h4,
+    & h4 + * {
+      margin-top: 1rem;
+    }
+
     & h4 ~ p,
     & h4 ~ ul {
-      border-left: 0.1rem solid lightgrey;
-      padding-left: 1rem;
+      // border-left: 0.1rem solid lightgrey;
+      // padding-left: 1rem;
       grid-column: 2;
       font-size: inherit;
     }
