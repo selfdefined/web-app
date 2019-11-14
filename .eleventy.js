@@ -21,7 +21,7 @@ module.exports = function (config) {
         })]
   })
 
-  config.addCollection('definedDefinitions', collection => {
+  config.addCollection('definedWords', collection => {
     return [
       ...collection
         .getFilteredByGlob('./11ty/definitions/*.md')
