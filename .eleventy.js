@@ -1,10 +1,22 @@
+const makeItemLink = (slug) => `#${slug}`
+
 module.exports = function (config) {
   // Add a filter using the Config API
-  config.addFilter('linkTarget', (slug) => `#${slug}`);
+  config.addFilter('linkTarget', makeItemLink);
 
+  config.addFilter('linkIfExistsInCollection', (word, collection) => {
+    const existingDefintion = collection.find(item => item.data.title === word)
+
+    if (existingDefintion) {
+      return `<a href=${makeItemLink(existingDefintion.data.slug)}>${word}</a>`
+    }
+
+    return word
+  })
+
+  // just a debug filter to lazily inspect the content of anything in a template
   config.addFilter('postInspect', function (post) {
     console.log(post);
-
   })
 
   config.addPassthroughCopy({'_site/css/': 'assets/css/'})
