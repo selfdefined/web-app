@@ -147,8 +147,13 @@ a {
   }
 }
 
+.sub-headline {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
 .list {
-  ul {
+  ol {
     padding: 0 0 0 1em;
     margin: 0;
   }
