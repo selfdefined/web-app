@@ -28,7 +28,7 @@ module.exports = function (config) {
         .sort((a, b) => {
           // `toLowerCase()` is just a safety measure, slugs should be lower case anyway
           // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-          return a.data.slug.toLowerCase().localeCompare(b.data.slug.toLowerCase())
+          return a.data.title.toLowerCase().localeCompare(b.data.title.toLowerCase())
         })
   })
 
@@ -37,9 +37,8 @@ module.exports = function (config) {
         .getFilteredByGlob('./11ty/definitions/*.md')
         .filter(word => word.data.defined)
         .sort((a, b) => {
-          // `toLowerCase()` is just a safety measure, slugs should be lower case anyway
           // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-          return a.data.slug.toLowerCase().localeCompare(b.data.slug.toLowerCase())
+          return a.data.title.toLowerCase().localeCompare(b.data.title.toLowerCase())
         })
   })
 
