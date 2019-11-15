@@ -4,7 +4,10 @@
       {% for definition in collections.definitions %}
         {% set renderedName %}
           {{ definition.data.title}}
-          {%- if definition.data.flag and (definition.data.flag.level == 'avoid') -%}
+          {%- if
+            definition.data.flag and
+            definition.data.flag.type and
+            (definition.data.flag.level == 'avoid') -%}
             <span class="flag__red">{{ definition.data.flag.type }}</span>
           {% endif %}
         {% endset %}
