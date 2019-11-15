@@ -1,0 +1,24 @@
+<section>
+  <nav class="auto-grid list" aria-label="Definitions">
+    <ul>
+      {% for definition in collections.definitions %}
+        {% set renderedName %}
+          {{ definition.data.title}}
+          {%- if definition.data.flag and (definition.data.flag.level == 'avoid') -%}
+            <span class="flag__red">{{ definition.data.flag.type }}</span>
+          {% endif %}
+        {% endset %}
+        <li>
+          {%- if definition.data.defined -%}
+            <a
+              href={{ definition.data.slug | linkTarget | url }}
+              class="word__link"
+            >{{ renderedName | safe }}</a>
+          {%- else -%}
+            {{ renderedName | safe }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</section>
