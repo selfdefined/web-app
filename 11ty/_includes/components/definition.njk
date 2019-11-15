@@ -1,4 +1,5 @@
-<article id={{ definition.data.slug }} class="block__word word">
+<article id="{{ definition.data.slug }}" class="block__word word">
+  {% definitionFlag definition.data.flag %}
   <h3 class="word__title">
     {{ definition.data.title}}
     <span class="word__speech">{{ definition.data.speech}}</span>

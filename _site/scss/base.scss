@@ -182,6 +182,8 @@ a {
 }
 
 .word {
+  --word-signal-color: currentColor;
+
   &__title {
     font-family: $serif;
     font-weight: 900;
@@ -245,7 +247,8 @@ a {
   }
 
   &__signal {
-    border-top: 1px solid currentcolor;
+    border-top: 1px solid var(--word-signal-color);
+    color: var(--word-signal-color);
     display: inline-block;
     font-family: $ext-sans;
     text-transform: uppercase;
@@ -253,8 +256,8 @@ a {
     letter-spacing: 0.15rem;
     padding: 0.5rem 0.75rem;
 
-    &__avoid {
-      color: red;
+    &--avoid {
+      --word-signal-color: red;
 
       &:before {
         @include icon__avoid();
@@ -262,8 +265,8 @@ a {
       }
     }
 
-    &__better {
-      color: green;
+    &--better {
+      --word-signal-color: green;
 
       &:before {
         @include icon__avoid();
@@ -271,9 +274,7 @@ a {
       }
     }
 
-    &__tool {
-      color: black;
-
+    &--tool {
       &:before {
         @include icon__tool();
         @include icon__hanging();

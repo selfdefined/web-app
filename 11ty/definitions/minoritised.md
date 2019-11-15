@@ -4,7 +4,7 @@ slug: minoritised
 defined: true
 speech: adj
 flag:
-  level: better-alternate
+  level: better-alternative
   alt-for: minorities
 reading:
   - text: Minority vs minoritze

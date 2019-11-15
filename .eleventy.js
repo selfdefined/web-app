@@ -21,6 +21,34 @@ module.exports = function (config) {
 
   config.addPassthroughCopy({'_site/css/': 'assets/css/'})
 
+  config.addShortcode("definitionFlag", (flag) => {
+    const cleanText = new Map([
+      ['avoid', {
+        class: 'avoid',
+        text: 'Avoid'
+      }],
+      ['better-alternative', {
+        class: 'better',
+        text: 'Better alternate'
+      }],
+      ['tool', {
+        class: 'tool',
+        text: ''
+      }]
+    ])
+
+    if (flag) {
+      const info = cleanText.get(flag.level)
+
+      const sep = flag.text && info.text ? '—' : ''
+      const text = flag.text ? [info.text, flag.text].join(sep) : info.text
+
+      return `<p class="word__signal word__signal--${info.class}">${text}</p>`
+    }
+
+    return '<p class="word__signal"></p>'
+  });
+
 
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
   config.addCollection('definitions', collection => {
