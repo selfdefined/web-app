@@ -5,10 +5,10 @@ module.exports = function (config) {
   config.addFilter('linkTarget', makeItemLink);
 
   config.addFilter('linkIfExistsInCollection', (word, collection) => {
-    const existingDefintion = collection.find(item => item.data.title === word)
+    const existingDefinition = collection.find(item => item.data.title === word)
 
-    if (existingDefintion) {
-      return `<a href=${makeItemLink(existingDefintion.data.slug)}>${word}</a>`
+    if (existingDefinition) {
+      return `<a href=${makeItemLink(existingDefinition.data.slug)}>${word}</a>`
     }
 
     return word
