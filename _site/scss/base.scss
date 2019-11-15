@@ -269,7 +269,7 @@ a {
       --word-signal-color: green;
 
       &:before {
-        @include icon__avoid();
+        @include icon__alt();
         @include icon__hanging();
       }
     }
