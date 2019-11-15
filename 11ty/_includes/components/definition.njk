@@ -14,5 +14,15 @@
         {% endfor %}
       </ul>
     {% endif %}
+    {%- if definition.data.reading -%}
+      <h4>Further Reading</h4>
+      <ul class="list-semicolon">
+        {% for link in definition.data.reading %}
+          <li>
+            <a href="{{link.href}}">{{ link.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 </article>
