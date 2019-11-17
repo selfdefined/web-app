@@ -135,6 +135,17 @@ module.exports = function (config) {
         })
   })
 
+  const mdIt = require('markdown-it')({
+    html: true
+  })
+  const prism = require('markdown-it-prism')
+  const anchor = require('markdown-it-anchor')
+
+  mdIt.use(prism)
+  mdIt.use(anchor)
+
+  config.setLibrary('md', mdIt);
+
   // You can return your Config object (optional).
   return {
     dir: {
