@@ -1,17 +1,28 @@
 const makeItemLink = (slug) => `#${slug}`
+const findExistingDefinition = (word, collection) => collection.find(item => item.data.title === word)
 
 module.exports = function (config) {
   // Add a filter using the Config API
   config.addFilter('linkTarget', makeItemLink);
 
   config.addFilter('linkIfExistsInCollection', (word, collection) => {
-    const existingDefinition = collection.find(item => item.data.title === word)
+    const existingDefinition = findExistingDefinition(word, collection)
 
     if (existingDefinition) {
       return `<a href=${makeItemLink(existingDefinition.data.slug)}>${word}</a>`
     }
 
     return word
+  })
+
+  config.addFilter('linkSubTermIfDefined', (subTermData, collection) => {
+    const existingDefinition = findExistingDefinition(subTermData.full_title, collection)
+
+    if (existingDefinition) {
+      return `<a href=${makeItemLink(existingDefinition.data.slug)} aria-label="${subTermData.full_title}">${subTermData.text}</a>`
+    }
+
+    return subTermData.text
   })
 
   // just a debug filter to lazily inspect the content of anything in a template
