@@ -1,19 +1,10 @@
-{% set renderedName %}
-  {{ definition.data.title}}
+<li>
+  {{ definition.data.title | linkIfExistsInCollection(collections.definedWords) | safe  }}
   {%- if
     definition.data.flag and
     definition.data.flag.type and
     (definition.data.flag.level == 'avoid') -%}
     <span class="flag__red">{{ definition.data.flag.type }}</span>
   {% endif %}
-{% endset %}
-<li>
-  {%- if definition.data.defined -%}
-    <a
-      href={{ definition.data.slug | linkTarget | url }}
-      class="word__link"
-    >{{ renderedName | safe }}</a>
-  {%- else -%}
-    {{ renderedName | safe }}
   {% endif %}
 </li>
