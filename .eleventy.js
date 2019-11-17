@@ -9,7 +9,7 @@ module.exports = function (config) {
     const existingDefinition = findExistingDefinition(word, collection)
 
     if (existingDefinition) {
-      return `<a href=${makeItemLink(existingDefinition.data.slug)}>${word}</a>`
+      return `<a href="${makeItemLink(existingDefinition.data.slug)}">${word}</a>`
     }
 
     return word
@@ -19,7 +19,7 @@ module.exports = function (config) {
     const existingDefinition = findExistingDefinition(subTermData.full_title, collection)
 
     if (existingDefinition) {
-      return `<a href=${makeItemLink(existingDefinition.data.slug)} aria-label="${subTermData.full_title}">${subTermData.text}</a>`
+      return `<a href="${makeItemLink(existingDefinition.data.slug)}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`
     }
 
     return subTermData.text
@@ -32,7 +32,7 @@ module.exports = function (config) {
 
   config.addPassthroughCopy({'_site/css/': 'assets/css/'})
 
-  config.addShortcode("definitionFlag", (flag) => {
+  config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
       ['avoid', {
         class: 'avoid',
