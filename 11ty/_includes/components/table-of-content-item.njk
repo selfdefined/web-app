@@ -2,9 +2,9 @@
   {{ definition.data.title | linkIfExistsInCollection(collections.definedWords) | safe  }}
   {%- if
     definition.data.flag and
-    definition.data.flag.type and
+    definition.data.flag.text and
     (definition.data.flag.level == 'avoid') -%}
-    <span class="flag__red">{{ definition.data.flag.type }}</span>
+    <span class="flag__red">{{ definition.data.flag.text }}</span>
   {% endif %}
   {%- if definition.data.sub_terms -%}
     <ul class="sub-terms">
