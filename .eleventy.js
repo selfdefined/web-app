@@ -53,11 +53,12 @@ module.exports = function (config) {
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
   config.addCollection('tableOfContent', collection => {
     const allItems = collection
-        .getFilteredByGlob('./11ty/definitions/*.md')
-        .sort((a, b) => {
-          // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-          return a.data.title.toLowerCase().localeCompare(b.data.title.toLowerCase())
-        })
+      .getFilteredByGlob('./11ty/definitions/*.md')
+      .filter(word => !word.data.skip_in_table_of_content)
+      .sort((a, b) => {
+        // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+        return a.data.title.toLowerCase().localeCompare(b.data.title.toLowerCase())
+      })
 
     const split = {
       notLetters: {
@@ -83,7 +84,7 @@ module.exports = function (config) {
     }
 
     allItems.forEach(word => {
-      const { title } = word.data
+      const { title, skip_in_table_of_content } = word.data
       const { notLetters, aToE, fToL, mToS, tToZ } = split
 
       if (/^[a-e]/gmi.test(title)) {
