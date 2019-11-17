@@ -2,7 +2,7 @@
 title: 👌 [ok-hand]
 slug: ok-hand
 flag:
-  type: racist-symbol
+  text: 'Racist Symbol'
   level: avoid
 defined: true
 speech: noun

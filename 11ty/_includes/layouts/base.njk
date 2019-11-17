@@ -15,16 +15,11 @@
 
     <link
       rel="stylesheet"
-      href="{{ 'assets/css/base.css' | url }}"
+      href="{{ '/assets/css/base.css' | url }}"
     >
   </head>
   <body>
-    <main>
-      {{ content | safe }}
-      {% include 'components/table-of-content.njk' %}
-      <section>
-        <h2>Words</h2>
-        {% include 'components/defintions-list.njk' %}
-      </section>
-    </main>
+    {% block content %}
+    {% endblock content %}
   </body>
+</html>

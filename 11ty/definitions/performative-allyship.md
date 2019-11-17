@@ -7,9 +7,9 @@ flag:
   level: tool
   text: White Supremacy Tool
 reading:
-  - text: Are you practicing performative allyship?
+  - text: 'Are you practicing performative allyship?'
     href: http://affinitymagazine.us/2017/07/09/are-you-practicing-performative-allyship/
-  - text: Is This Your Queen? Ellen Pompeo, Growth and Performative White Allyship
+  - text: 'Is This Your Queen? Ellen Pompeo, Growth and Performative White Allyship'
     href: https://www.theroot.com/is-this-your-queen-ellen-pompeo-growth-and-performati-1830593400
   - text: 'Performative allyship: what it is, what it looks like, and why we want to avoid it.'
     href: https://www.scarymommy.com/performative-allyship-what-it-is-what-it-looks-like-and-why-we-want-to-avoid-it/
