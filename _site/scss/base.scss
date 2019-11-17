@@ -1,6 +1,12 @@
 @charset 'utf-8';
 @import url('https://use.typekit.net/qlo3dpu.css');
 
+@import 'prism-themes/themes/prism-a11y-dark';
+
+pre[class*='language-'] {
+  font-size: 1.1rem;
+}
+
 // COLORS //
 
 :root {
@@ -66,6 +72,14 @@ h1 {
   font-weight: $bold;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
 p {
   margin: 0.75rem 0;
   font-size: 1.25rem;
@@ -89,6 +103,12 @@ a {
   font-weight: $regular;
   letter-spacing: 0.1;
   grid-column: span 2;
+}
+
+ul[class] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .summary {
@@ -116,6 +136,9 @@ a {
   }
 }
 
+th {
+  text-align: left;
+}
 // GRID //
 
 .grid {
@@ -133,6 +156,15 @@ a {
     minmax(var(--auto-grid-min-size), 1fr)
   );
   grid-gap: 1rem;
+}
+
+.small-left-grid {
+  display: grid;
+  grid-gap: 1rem;
+
+  @media (min-width: 800px) {
+    grid-template-columns: 10rem 1fr;
+  }
 }
 
 .box {
@@ -167,11 +199,11 @@ a {
     }
 
     &:last-child {
-      padding: 0;
+      padding-bottom: 0;
     }
 
     &.subterm:before {
-      content: '\21B3 ';
+      content: '\21B3';
       padding-right: 5px;
     }
   }
@@ -351,4 +383,8 @@ a {
       content: '; ';
     }
   }
+}
+
+.site-footer {
+  margin-top: 3rem;
 }
