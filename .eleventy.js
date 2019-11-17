@@ -51,7 +51,7 @@ module.exports = function (config) {
 
 
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
-  config.addCollection('definitions', collection => {
+  config.addCollection('tableOfContent', collection => {
     const allItems = collection
         .getFilteredByGlob('./11ty/definitions/*.md')
         .sort((a, b) => {
