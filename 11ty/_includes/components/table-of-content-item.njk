@@ -6,5 +6,11 @@
     (definition.data.flag.level == 'avoid') -%}
     <span class="flag__red">{{ definition.data.flag.type }}</span>
   {% endif %}
+  {%- if definition.data.sub_terms -%}
+    <ul class="sub-terms">
+      {% for term in definition.data.sub_terms %}
+        <li class="subterm">{{ term.text }}
+      {% endfor %}
+    </ul>
   {% endif %}
 </li>
