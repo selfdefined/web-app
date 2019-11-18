@@ -16,7 +16,7 @@ The complete title of a definition.
 
 ### Example
 
-```YAML
+```yaml
 title: Obsessive Compulsive Disorder (OCD)
 ```
 
@@ -30,7 +30,7 @@ A link-friendly version of the title.
 
 ### Example
 
-```YAML
+```yaml
 slug: obsessive-compulsive-disorder
 ```
 
@@ -44,7 +44,7 @@ Whether or not the definition of this word is finished and should be displayed p
 
 ### Example
 
-```YAML
+```yaml
 defined: true
 ```
 
@@ -60,7 +60,7 @@ Note: If it is an adjective please use the abbreviation „adj”.
 
 ### Example
 
-```YAML
+```yaml
 speech: noun
 ```
 
@@ -74,7 +74,7 @@ If set to true, the word will not be shown in the table of content. This is help
 
 ### Example
 
-```YAML
+```yaml
 skip_in_table_of_content: false
 ```
 
@@ -98,7 +98,7 @@ Let’s take a look at some examples.
 
 Items that have a flag level of `avoid` will be marked in the table of content. We could structure it as follows:
 
-```YAML
+```yaml
 flag:
   level: avoid
   text: 'Racist Symbol'
@@ -106,7 +106,7 @@ flag:
 
 A level of `tool` designates words that are used, as an example, to facilitate white supremacy. These words are not flagged in the table of content. Let’s take a look:
 
-```YAML
+```yaml
 flag:
   level: tool
   text: 'White Supremacy Tool'
@@ -114,7 +114,7 @@ flag:
 
 And finally we have the words that are more suitable then others.
 
-```YAML
+```yaml
 flag:
   level: 'better-alternative'
   for: 'minorities'
@@ -132,7 +132,7 @@ Provides a list of helpful links to further information about the discussed word
 
 ### Example
 
-```YAML
+```yaml
 reading:
   - text: Minority vs minoritze
     href: https://www.theodysseyonline.com/minority-vs-minoritize
@@ -148,7 +148,7 @@ Adds a list of words that might be used instead of the described one. If a word 
 
 ### Example
 
-```YAML
+```yaml
 alt_words:
   - conscientious
   - exact
@@ -174,7 +174,7 @@ In the following example the words «Fatphobia» or «Fat Shaming» will be link
 
 ### Example
 
-```YAML
+```yaml
 sub_terms:
   - text: -phobia
     full_title: Fatphobia
