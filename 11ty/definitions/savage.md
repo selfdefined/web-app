@@ -1,5 +1,8 @@
 ---
-title: Savage racist slur
+title: Savage
 slug: savage
 defined: false
+flag:
+  level: avoid
+  text: racist slur
 ---
