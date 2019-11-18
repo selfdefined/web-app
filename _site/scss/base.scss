@@ -179,7 +179,7 @@ th {
   grid-gap: 1rem;
 
   @media (min-width: 800px) {
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: 10rem 60ch;
   }
 }
 
