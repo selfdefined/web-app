@@ -1,5 +1,8 @@
 ---
-title: Front Matter Documentation
+title: Front Matter
+parent:
+  title: Documentation
+  href: '/documentation'
 ---
 
 We use Front Matter for a range of things. Of course, we provide basic information through it. But also more advanced stuff (technical term) such as sub terms for items in the table of content or further reading links for the definition.
