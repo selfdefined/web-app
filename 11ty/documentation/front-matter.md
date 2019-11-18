@@ -61,7 +61,7 @@ defined: true
 
 The type of word. E.g. a noun or an adjective
 
-Note: If it is an adjective please use the abbreviation „adj”.
+Note: If it is an adjective please use the abbreviation “adj”.
 
 ### Example
 
@@ -94,7 +94,7 @@ A word is an ableist slur? Or a better alternative for another word? That’s wh
 Flags _can_ consist of these properties:
 
 - `level`: Either `avoid`, `tool` or `better-alternative`. Used to render the icon.
-- `text`: Additional info about the flag. E.g. „Tool of Oppression” or „Racist Slur”.
+- `text`: Additional info about the flag. E.g. “Tool of Oppression” or “Racist Slur”.
 - `for`: Only applicable if `level` is `better-alternative`. Title of the word that should be replaced with the current word. [Note: Currently discarded during rendering.]
 
 Let’s take a look at some examples.
