@@ -9,6 +9,8 @@ We use Front Matter for a range of things. Of course, we provide basic informati
 
 This page will tell you all you need to know.
 
+Note: We also maintain a list of annotated, complete example definitions, which you can grab and go. They are listed on the [Examples documentation page](/documentation/examples).
+
 ## Title
 
 | Key   | Type   | required |
