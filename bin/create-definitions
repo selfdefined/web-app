@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+require = require('esm')(module /*, options*/);
+
+require('../_temp/create-empty-definitions').createDefinitions()
