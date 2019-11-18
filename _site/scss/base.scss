@@ -4,7 +4,23 @@
 @import 'prism-themes/themes/prism-a11y-dark';
 
 pre[class*='language-'] {
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+code {
+  background-color: #333333;
+  border: 1px solid black;
+  color: white;
+  padding: 0.15em;
+  border-radius: 0.25em;
+  font-size: 95%;
+
+  pre & {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    font-size: inherit;
+  }
 }
 
 // COLORS //
@@ -164,6 +180,16 @@ th {
 
   @media (min-width: 800px) {
     grid-template-columns: 10rem 1fr;
+  }
+}
+
+.page {
+  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  & > * {
+    grid-column: 1;
   }
 }
 
