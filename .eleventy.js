@@ -104,11 +104,6 @@ module.exports = function (config) {
       const { notLetters, aToE, fToL, mToS, tToZ } = split
       const sortableTitle = title.replace(/^-/, '')
 
-      if (title.startsWith('-')) {
-        console.log(sortableTitle);
-
-      }
-
       if (/^[a-e]/gmi.test(sortableTitle)) {
         return aToE.definitions.push(word)
       }
