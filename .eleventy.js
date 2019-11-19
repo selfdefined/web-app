@@ -67,8 +67,13 @@ module.exports = function (config) {
       .getFilteredByGlob('./11ty/definitions/*.md')
       .filter(word => !word.data.skip_in_table_of_content)
       .sort((a, b) => {
+        const { title: firstTitle } = a.data
+        const { title: secondTitle } = b.data
+        const sortA = firstTitle.toLowerCase().replace(/^-/, '')
+        const sortB = secondTitle.toLowerCase().replace(/^-/, '')
+
         // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-        return a.data.title.toLowerCase().localeCompare(b.data.title.toLowerCase())
+        return sortA.localeCompare(sortB)
       })
 
     const split = {
@@ -95,22 +100,28 @@ module.exports = function (config) {
     }
 
     allItems.forEach(word => {
-      const { title, skip_in_table_of_content } = word.data
+      const { title } = word.data
       const { notLetters, aToE, fToL, mToS, tToZ } = split
+      const sortableTitle = title.replace(/^-/, '')
 
-      if (/^[a-e]/gmi.test(title)) {
+      if (title.startsWith('-')) {
+        console.log(sortableTitle);
+
+      }
+
+      if (/^[a-e]/gmi.test(sortableTitle)) {
         return aToE.definitions.push(word)
       }
 
-      if (/^[f-l]/i.test(title)) {
+      if (/^[f-l]/i.test(sortableTitle)) {
         return fToL.definitions.push(word)
       }
 
-      if (/^[m-s]/i.test(title)) {
+      if (/^[m-s]/i.test(sortableTitle)) {
         return mToS.definitions.push(word)
       }
 
-      if (/^[t-z]/i.test(title)) {
+      if (/^[t-z]/i.test(sortableTitle)) {
         return tToZ.definitions.push(word)
       }
 
