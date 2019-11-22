@@ -5,9 +5,13 @@
   "description": "A modern dictionary about us.",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run build:css && npm run build:site",
+    "build:site": "eleventy",
+    "build:css": "parcel build assets/css/base.scss --out-dir assets/css/",
     "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
+    "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
+    "watch:css": "parcel watch assets/css/base.scss --out-dir dist/assets/css/",
+    "serve:site": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-definitions": "bin/create-definitions"
   },
@@ -34,7 +38,10 @@
     "prism-themes": "^1.3.0"
   },
   "devDependencies": {
+    "concurrently": "^5.0.0",
     "esm": "^3.2.25",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7",
     "slugify": "^1.3.6"
   }
 }

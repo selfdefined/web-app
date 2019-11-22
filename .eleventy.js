@@ -30,7 +30,7 @@ module.exports = function (config) {
     console.log(post);
   })
 
-  config.addPassthroughCopy({'_site/css/': 'assets/css/'})
+  config.addPassthroughCopy({'assets/css/': 'assets/css/'})
 
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
