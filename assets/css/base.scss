@@ -27,6 +27,8 @@ code {
 
 :root {
   --auto-grid-min-size: 17rem;
+
+  --l-gap: 1rem;
 }
 
 $primary-color: #0e4bff; //cobalt blue is so pretty//
@@ -171,7 +173,13 @@ th {
     auto-fill,
     minmax(var(--auto-grid-min-size), 1fr)
   );
-  grid-gap: 1rem;
+  grid-gap: var(--l-gap);
+}
+
+.multi-column {
+  column-count: auto;
+  column-gap: var(--l-gap);
+  column-width: var(--auto-grid-min-size);
 }
 
 .small-left-grid {
@@ -413,4 +421,8 @@ th {
 
 .site-footer {
   margin-top: 3rem;
+}
+
+.u-no-padding-left {
+  padding-left: 0 !important;
 }
