@@ -1,0 +1,28 @@
+{
+  "name": "selfdefined",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A modern dictionary about us.",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatianamac/selfdefined.git"
+  },
+  "keywords": [
+    "dictionary"
+  ],
+  "author": "Tatiana Mac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatianamac/selfdefined/issues"
+  },
+  "homepage": "https://github.com/tatianamac/selfdefined#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}

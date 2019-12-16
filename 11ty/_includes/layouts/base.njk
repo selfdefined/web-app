@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta
+      name="description"
+      content="{{ renderData.description or description or metadata.description }}"
+    >
+
+    <link
+      rel="stylesheet"
+      href="{{ 'assets/css/base.css' | url }}"
+    >
+  </head>
+  <body>
+    <main>
+      {{ content | safe }}
+      <section>
+        <h2>Table of Content</h2>
+        <div class="auto-grid list">
+          <ul>
+            {% for definition in collections.definitions %}
+              {% set renderedName %}
+                {{ definition.data.title}}
+                {%- if definition.data.flag and (definition.data.flag.level == 'avoid') -%}
+                  <span class="flag__red">{{ definition.data.flag.type }}</span>
+                {% endif %}
+              {% endset %}
+              <li>
+                {%- if definition.data.defined -%}
+                  <a
+                    href={{ definition.data.slug | linkTarget | url }}
+                    class="word__link"
+                  >{{ renderedName | safe }}</a>
+                {%- else -%}
+                  {{ renderedName | safe }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Words</h2>
+        {% include 'components/defintions-list.njk' %}
+      </section>
+    </main>
+  </body>
