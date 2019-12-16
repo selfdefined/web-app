@@ -1,0 +1,19 @@
+---
+title: Basic Definition
+parent:
+  title: Examples
+  href: '/documentation/examples'
+---
+
+This example is the very basic variant. It is not very involved, but gets its job done.
+
+```md
+---
+title: Example Word
+slug: 'example-word'
+speech: noun
+defined: true
+---
+
+This is a sentence. It describes a word. This definition is written in Markdown. So you can do stuff. [Including links](/link), for example.
+```

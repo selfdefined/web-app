@@ -2,7 +2,7 @@
 title: Psychopath
 slug: psychopath
 flag:
-  type: ableist-slur
+  type: 'Ableist Slur'
   level: avoid
 defined: false
 ---

@@ -2,7 +2,7 @@
 title: crazy
 slug: crazy
 flag:
-  type: ableist-slur
+  text: 'Ableist Slur'
   level: avoid
 defined: true
 speech: noun

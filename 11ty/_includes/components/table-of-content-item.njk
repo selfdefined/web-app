@@ -1,0 +1,18 @@
+<li>
+  {{ definition.data.title | linkIfExistsInCollection(collections.definedWords) | safe  }}
+  {%- if
+    definition.data.flag and
+    definition.data.flag.text and
+    (definition.data.flag.level == 'avoid') -%}
+    <span class="flag__red">{{ definition.data.flag.text }}</span>
+  {% endif %}
+  {%- if definition.data.sub_terms -%}
+    <ul class="sub-terms">
+      {% for term in definition.data.sub_terms %}
+        <li
+          class="subterm"
+        >{{ term | linkSubTermIfDefined(collections.definedWords) | safe }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</li>

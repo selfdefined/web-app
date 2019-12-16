@@ -1,0 +1,16 @@
+<section>
+  <nav class="" aria-label="Definitions">
+    <ol class="multi-column u-no-padding-left list">
+    {% for section in collections.tableOfContent %}
+      <li>
+        <span class="sub-headline">{{ section.title }}</span>
+        <ol>
+          {% for definition in section.definitions %}
+            {% include 'components/table-of-content-item.njk' %}
+          {% endfor %}
+        </ol>
+      </li>
+    {% endfor %}
+    </ol>
+  </nav>
+</section>
