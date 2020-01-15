@@ -1,4 +1,0 @@
----
-tags: dateTestTag
-date: Created
----

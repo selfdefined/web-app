@@ -1,9 +1,0 @@
----
-pagination:
-  data: collections.post
-  size: 5
-  alias: posts
----
-{%- for post in posts -%}
-{{ post.templateContent | safe }}
-{%- endfor -%}
