@@ -181,6 +181,7 @@ th {
   column-gap: var(--l-gap);
   column-width: var(--auto-grid-min-size);
 }
+@import './structures/table-of-content';
 
 .small-left-grid {
   display: grid;
