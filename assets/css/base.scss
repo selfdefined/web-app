@@ -142,9 +142,18 @@ ul[class] {
   line-height: 0.75;
   padding: 0;
   margin: 0.5rem 0rem;
-  grid-column: span 2;
   // transform: rotateZ(90deg);
   // margin: 13rem -7rem;
+}
+
+@media (min-width: 800px) {
+  .title__thicc {
+      grid-column: 1 / 3;
+  }
+
+  .title__thicc + p {
+    grid-column: 1 / 2;
+  }
 }
 
 .help {
