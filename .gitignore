@@ -2,3 +2,4 @@
 node_modules
 dist
 config.codekit3
+.cache
