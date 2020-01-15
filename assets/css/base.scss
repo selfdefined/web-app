@@ -138,12 +138,29 @@ ul[class] {
 }
 
 .title__thicc {
-  font-size: 8vh;
+  // a sensible base font size
+  font-size: 3rem;
   line-height: 0.75;
   padding: 0;
   margin: 0.5rem 0rem;
   // transform: rotateZ(90deg);
   // margin: 13rem -7rem;
+}
+
+@media (min-width: 51rem) and (min-height: 400px) {
+  // a dramatic font size
+  .title__thicc {
+    font-size: 12vh;
+  } 
+}
+
+@media (min-width: 51rem) and (min-height: 850px) {
+  // cap the max-height of the title
+  // at the same size that 12vh computes to
+  // when the viewport is 850px high
+  .title__thicc {
+    font-size: 6.75rem;
+  } 
 }
 
 @media (min-width: 800px) {
