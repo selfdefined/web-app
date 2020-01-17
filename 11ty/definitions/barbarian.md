@@ -26,13 +26,14 @@ cultures that need to be colonized to rescue them from themselves. A perfect lin
 #### Impact
 
 When you use words, that are in vogue primarily inside circles of bigots, with racist etymologies, it's a wilful act of violence, ignorance and an indication to the vilified and minoritized communities that their history of wounds and abuses are inconsequential to our words. 
+
 #### Usage Tip
 
 Avoid words that have obscene etymologies. There is almost always a better alternative: an inclusive and a less hurtful one. 
 
 ####Sources
 
-External link: [is the word barbarian a slur?](https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/)</br>
+External link: [is the word barbarian a slur?](https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/)
 <br/>
 External link: [Barbarian Wiki](https://en.wikipedia.org/wiki/Barbarian)
 ```
