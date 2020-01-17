@@ -17,7 +17,7 @@ someone who is "savagely cruel"; primitive ; unsophisticated
 
 #### Issues
 
-Barbarian originates from the greek word *bárbaros* meaning "babbler", to denote the "unintelligle sounds" (_"bar bar bar") made by foreign speakers.
+Barbarian originates from the greek word *bárbaros* meaning "babbler", to denote the "unintelligle sounds" (_"bar bar bar"_) made by foreign speakers.
 Similar words exist in many other languages, for the identical purpose labeling a "strange"/"foriegn" person/culture. 
 
 In modern day usage, you can notice this rhetoric being employed almost always for the purpose of demonizing "foreign" (more often than not from the global south) cultures - cultures that need to be civilized;
