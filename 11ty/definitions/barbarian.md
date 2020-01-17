@@ -34,6 +34,6 @@ Avoid words that have obscene etymologies. There is almost always a better alter
 ####Sources
 
 External link: [is the word barbarian a slur?](https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/)
-<br/>
+
 External link: [Barbarian Wiki](https://en.wikipedia.org/wiki/Barbarian)
 ```
