@@ -66,7 +66,7 @@ module.exports = function(config) {
     ]);
 
     if (flag) {
-      const info = cleanText.get(flag.level);
+      const info = cleanText.get(flag.level.toLowerCase());
 
       const sep = flag.text && info.text ? '—' : '';
       const text = flag.text ? [info.text, flag.text].join(sep) : info.text;
