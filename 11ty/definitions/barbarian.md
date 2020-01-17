@@ -2,10 +2,15 @@
 title: Barbarian
 slug: barbarian
 flag:
-  text: 'Colonial/Racist slur'
-  level: 'Avoid'
+  text: 'Neo-Colonial/Racist slur'
+  level: 'avoid'
 defined: true
 speech: noun
+reading:
+  - text: "is the word barbarian a slur?"
+    href: https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/
+  - text: "Barbarian wiki"
+    href: https://en.wikipedia.org/wiki/Barbarian
 alt_words:
   - cruel
   - vicious
@@ -30,10 +35,3 @@ When you use words, that are in vogue primarily inside circles of bigots, with r
 #### Usage Tip
 
 Avoid words that have obscene etymologies. There is almost always a better alternative: an inclusive and a less hurtful one. 
-
-####Sources
-
-External link: [is the word barbarian a slur?](https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/)
-
-External link: [Barbarian Wiki](https://en.wikipedia.org/wiki/Barbarian)
-```
