@@ -1,80 +1,96 @@
-const makeItemLink = (slug) => `#${slug}`
-const findExistingDefinition = (word, collection) => collection.find(item => item.data.title === word)
+const makeItemLink = (slug) => `#${slug}`;
+const findExistingDefinition = (word, collection) =>
+  collection.find((item) => item.data.title === word);
 
-module.exports = function (config) {
+module.exports = function(config) {
   // Add a filter using the Config API
   config.addFilter('linkTarget', makeItemLink);
 
   config.addFilter('linkIfExistsInCollection', (word, collection) => {
-    const existingDefinition = findExistingDefinition(word, collection)
+    const existingDefinition = findExistingDefinition(word, collection);
 
     if (existingDefinition) {
-      return `<a href="${makeItemLink(existingDefinition.data.slug)}">${word}</a>`
+      return `<a href="${makeItemLink(
+        existingDefinition.data.slug
+      )}">${word}</a>`;
     }
 
-    return word
-  })
+    return word;
+  });
 
   config.addFilter('linkSubTermIfDefined', (subTermData, collection) => {
-    const existingDefinition = findExistingDefinition(subTermData.full_title, collection)
+    const existingDefinition = findExistingDefinition(
+      subTermData.full_title,
+      collection
+    );
 
     if (existingDefinition) {
-      return `<a href="${makeItemLink(existingDefinition.data.slug)}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`
+      return `<a href="${makeItemLink(
+        existingDefinition.data.slug
+      )}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`;
     }
 
-    return subTermData.text
-  })
+    return subTermData.text;
+  });
 
   // just a debug filter to lazily inspect the content of anything in a template
-  config.addFilter('postInspect', function (post) {
+  config.addFilter('postInspect', function(post) {
     console.log(post);
-  })
+  });
 
-  config.addPassthroughCopy({'assets/css/': 'assets/css/'})
+  config.addPassthroughCopy({ 'assets/css/': 'assets/css/' });
 
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
-      ['avoid', {
-        class: 'avoid',
-        text: 'Avoid'
-      }],
-      ['better-alternative', {
-        class: 'better',
-        text: 'Better alternate'
-      }],
-      ['tool', {
-        class: 'tool',
-        text: ''
-      }]
-    ])
+      [
+        'avoid',
+        {
+          class: 'avoid',
+          text: 'Avoid'
+        }
+      ],
+      [
+        'better-alternative',
+        {
+          class: 'better',
+          text: 'Better alternate'
+        }
+      ],
+      [
+        'tool',
+        {
+          class: 'tool',
+          text: ''
+        }
+      ]
+    ]);
 
     if (flag) {
-      const info = cleanText.get(flag.level)
+      const info = cleanText.get(flag.level.toLowerCase());
 
-      const sep = flag.text && info.text ? '—' : ''
-      const text = flag.text ? [info.text, flag.text].join(sep) : info.text
+      const sep = flag.text && info.text ? '—' : '';
+      const text = flag.text ? [info.text, flag.text].join(sep) : info.text;
 
-      return `<p class="word__signal word__signal--${info.class}">${text}</p>`
+      return `<p class="word__signal word__signal--${info.class}">${text}</p>`;
     }
 
-    return '<p class="word__signal"></p>'
+    return '<p class="word__signal"></p>';
   });
 
-
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
-  config.addCollection('tableOfContent', collection => {
+  config.addCollection('tableOfContent', (collection) => {
     const allItems = collection
       .getFilteredByGlob('./11ty/definitions/*.md')
-      .filter(word => !word.data.skip_in_table_of_content)
+      .filter((word) => !word.data.skip_in_table_of_content)
       .sort((a, b) => {
-        const { title: firstTitle } = a.data
-        const { title: secondTitle } = b.data
-        const sortA = firstTitle.toLowerCase().replace(/^-/, '')
-        const sortB = secondTitle.toLowerCase().replace(/^-/, '')
+        const { title: firstTitle } = a.data;
+        const { title: secondTitle } = b.data;
+        const sortA = firstTitle.toLowerCase().replace(/^-/, '');
+        const sortB = secondTitle.toLowerCase().replace(/^-/, '');
 
         // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-        return sortA.localeCompare(sortB)
-      })
+        return sortA.localeCompare(sortB);
+      });
 
     const split = {
       notLetters: {
@@ -97,58 +113,60 @@ module.exports = function (config) {
         title: 'T–Z',
         definitions: []
       }
-    }
+    };
 
-    allItems.forEach(word => {
-      const { title } = word.data
-      const { notLetters, aToE, fToL, mToS, tToZ } = split
-      const sortableTitle = title.replace(/^-/, '')
+    allItems.forEach((word) => {
+      const { title } = word.data;
+      const { notLetters, aToE, fToL, mToS, tToZ } = split;
+      const sortableTitle = title.replace(/^-/, '');
 
-      if (/^[a-e]/gmi.test(sortableTitle)) {
-        return aToE.definitions.push(word)
+      if (/^[a-e]/gim.test(sortableTitle)) {
+        return aToE.definitions.push(word);
       }
 
       if (/^[f-l]/i.test(sortableTitle)) {
-        return fToL.definitions.push(word)
+        return fToL.definitions.push(word);
       }
 
       if (/^[m-s]/i.test(sortableTitle)) {
-        return mToS.definitions.push(word)
+        return mToS.definitions.push(word);
       }
 
       if (/^[t-z]/i.test(sortableTitle)) {
-        return tToZ.definitions.push(word)
+        return tToZ.definitions.push(word);
       }
 
       // no reg ex as the fallback to avoid testing for emojis and numbers
-      notLetters.definitions.push(word)
-    })
+      notLetters.definitions.push(word);
+    });
 
-    return Object.keys(split).map(key => {
-      const { title, definitions } = split[key]
+    return Object.keys(split).map((key) => {
+      const { title, definitions } = split[key];
 
-      return { title, definitions }
-    })
-  })
+      return { title, definitions };
+    });
+  });
 
-  config.addCollection('definedWords', collection => {
+  config.addCollection('definedWords', (collection) => {
     return collection
-        .getFilteredByGlob('./11ty/definitions/*.md')
-        .filter(word => word.data.defined)
-        .sort((a, b) => {
-          // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
-          return a.data.title.toLowerCase().localeCompare(b.data.title.toLowerCase())
-        })
-  })
+      .getFilteredByGlob('./11ty/definitions/*.md')
+      .filter((word) => word.data.defined)
+      .sort((a, b) => {
+        // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+        return a.data.title
+          .toLowerCase()
+          .localeCompare(b.data.title.toLowerCase());
+      });
+  });
 
   const mdIt = require('markdown-it')({
     html: true
-  })
-  const prism = require('markdown-it-prism')
-  const anchor = require('markdown-it-anchor')
+  });
+  const prism = require('markdown-it-prism');
+  const anchor = require('markdown-it-anchor');
 
-  mdIt.use(prism)
-  mdIt.use(anchor)
+  mdIt.use(prism);
+  mdIt.use(anchor);
 
   config.setLibrary('md', mdIt);
 
