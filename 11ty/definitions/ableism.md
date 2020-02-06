@@ -1,5 +1,6 @@
 ---
 title: Ableism
 slug: ableism
-defined: false
+defined: true
+speech: noun
 ---
