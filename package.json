@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run build:css && npm run build:site",
     "build:site": "eleventy",
-    "build:css": "parcel build assets/css/base.scss --out-dir assets/css/",
+    "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
     "watch": "eleventy --watch",
     "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
     "watch:css": "parcel watch assets/css/base.scss --out-dir dist/assets/css/",
