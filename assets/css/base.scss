@@ -151,7 +151,7 @@ ul[class] {
   // a dramatic font size
   .title__thicc {
     font-size: 12vh;
-  } 
+  }
 }
 
 @media (min-width: 51rem) and (min-height: 850px) {
@@ -160,12 +160,12 @@ ul[class] {
   // when the viewport is 850px high
   .title__thicc {
     font-size: 6.75rem;
-  } 
+  }
 }
 
 @media (min-width: 800px) {
   .title__thicc {
-      grid-column: 1 / 3;
+    grid-column: 1 / 3;
   }
 
   .title__thicc + p {
@@ -349,7 +349,7 @@ th {
     padding: 0.5rem 0.75rem;
 
     &--avoid {
-      --word-signal-color: red;
+      --word-signal-color: #a40000;
 
       &:before {
         @include icon__avoid();
