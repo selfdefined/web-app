@@ -38,8 +38,6 @@ module.exports = function(config) {
     console.log(post);
   });
 
-  config.addPassthroughCopy({ 'assets/css/': 'assets/css/' });
-
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
       [
@@ -178,7 +176,6 @@ module.exports = function(config) {
     },
     templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',
-    markdownTemplateEngine: 'njk',
-    passthroughFileCopy: true
+    markdownTemplateEngine: 'njk'
   };
 };
