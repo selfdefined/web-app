@@ -114,6 +114,10 @@ a {
   &:hover {
     border-bottom: red solid 0.1rem;
   }
+  &:focus {
+    outline: 3px solid $primary-color;
+    outline-offset: 5px;
+  }
 }
 
 .subtitle {
