@@ -30,7 +30,7 @@ module.exports = function(config) {
       )}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`;
     }
 
-    return subTermData.text;
+    return `<span aria-label="${subTermData.full_title}">${subTermData.text}</span>`;
   });
 
   // just a debug filter to lazily inspect the content of anything in a template
