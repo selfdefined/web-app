@@ -6,7 +6,7 @@ Hi! Nice to have you with us. This guide will walk you through the steps you hav
 
 The contribution process currently relies on some knowledge of working with Github and writing in Markdown. We understand that this creates a barrier to entry for folks who haven't worked with either of those before. Long term, we hope to provide a solution that can minimise these sorts of barriers.
 
-We also want to encourage you to dive into Github and Markdown even if you haven't before. We've collected a list of [useful links](#useful-links) that may help you understand both Github and Markdown:
+We also want to encourage you to dive into Github and Markdown even if you haven't before. We've collected a list of useful links that may help you understand both Github and Markdown:
 
 - [Chaser Pettit's introduction to the GitHub workflow](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 - [Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
