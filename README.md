@@ -16,7 +16,7 @@ Self-Defined is proud to be built on [Eleventy](https://github.com/11ty/eleventy
 We want to create and to foster a welcoming, inclusive, and safer environment where contributors of many backgrounds and talents can contribute to Self-Defined, in particular, first-time contributors from "non-technical" backgrounds. Our hope is that people can truly self-define and write about the words that they identify as. We are grateful for the community contributions.
 
 ### Code of Conduct
-We have adapted the [Contributor Convenent](https://www.contributor-covenant.org/) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
+We have adapted the [Contributor Convenent](https://github.com/tatianamac/selfdefined/blob/master/CODE-of-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
 
 ### Contributing Guide
 Please read our [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) to get started.
