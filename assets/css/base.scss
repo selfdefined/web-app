@@ -206,11 +206,8 @@ th {
   grid-gap: var(--l-gap);
 }
 
-.multi-column {
-  column-count: auto;
-  column-gap: var(--l-gap);
-  column-width: var(--auto-grid-min-size);
-}
+@import './structures/multi-column';
+@import './structures/table-of-content';
 
 .small-left-grid {
   display: grid;
