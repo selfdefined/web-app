@@ -1,4 +1,4 @@
-# 📕 [Self-Defined Dictionary] (https://www.selfdefined.app)
+# 📕 [Self-Defined Dictionary](https://www.selfdefined.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys)
 
 A modern dictionary about us. We define our words, but they don't define us.
