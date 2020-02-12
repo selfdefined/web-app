@@ -77,10 +77,26 @@ $bold: 700;
   margin-right: 0.35rem;
 }
 
+// FUNCTIONS
+
+$browser-context: 16;
+
+@function rem($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
 body {
   border-top: 1rem solid red;
   font-family: $sans-serif;
-  font-size: 20px;
+  font-size: rem(20);
   padding: 2rem;
   margin: 0;
 }
