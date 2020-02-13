@@ -1,5 +1,6 @@
 # 📕 [Self-Defined Dictionary](https://www.selfdefined.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys)
+[Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/tatianamac/selfdefined/blob/master/CODE-OF-CONDUCT.md)
 
 A modern dictionary about us. We define our words, but they don't define us.
 
@@ -16,10 +17,13 @@ Self-Defined is proud to be built on [Eleventy](https://github.com/11ty/eleventy
 We want to create and to foster a welcoming, inclusive, and safer environment where contributors of many backgrounds and talents can contribute to Self-Defined, in particular, first-time contributors from "non-technical" backgrounds. Our hope is that people can truly self-define and write about the words that they identify as. We are grateful for the community contributions.
 
 ### Code of Conduct
-We have adapted the [Contributor Convenent](https://github.com/tatianamac/selfdefined/blob/master/CODE-of-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
+We have adapted the [Contributor Convenent](https://github.com/tatianamac/selfdefined/blob/master/CODE-OF-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
 
 ### Contributing Guide
 Please read our [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) to get started.
+
+### Documentation
+Please see our [Documentation](https://www.selfdefined.app/documentation/).
 
 #### First-Time Contributors
 We love encouraging first-time contributors and have labelled [good first issues](https://github.com/tatianamac/selfdefined/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) that tend to be isolated and require less knowledge of our codebase.
