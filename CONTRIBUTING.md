@@ -12,7 +12,7 @@ We also want to encourage you to dive into Github and Markdown even if you haven
 - [Basic Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 - [Good First Issues](https://github.com/tatianamac/selfdefined/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22good+first+issue%22+)
 
-Please remember that the contributing team is always here to help. No question is "too simple" or "too easy". We'd rather you ask, as someone else might want to know, too!
+Please remember that the contributing team is always here to [help](#get-help). No question is "too simple" or "too easy". We'd rather you ask, as someone else might want to know, too!
 
 Below we describe two ways for you to get started: through [issues](#version-1-issues) or [pull requests](#version-2-pull-requests).
 
@@ -25,7 +25,7 @@ Below we describe two ways for you to get started: through [issues](#version-1-i
 
 ### Version 1: Issues
 
-If you know a word that should be defined, but – for whatever reason – don’t feel confident writing the definition yourself (or maybe you disagree with an existing defintion), please [open an issue](https://github.com/tatianamac/selfdefined/issues/new). We can then collectively figure out how to best get this word defined.
+If you know a word that should be defined, but—for whatever reason—don’t feel confident writing the definition yourself (or maybe you disagree with an existing defintion), please [open an issue](https://github.com/tatianamac/selfdefined/issues/new). We can then collectively figure out how to best get this word defined.
 
 An issue might also be appropriate if you are unsure about some nuances of a definition you want to define. By opening an issue you start a conversation, and that is always a good thing!
 
@@ -37,13 +37,15 @@ You got a definition and want to define it. That’s awesome. Let’s go. Curren
 
 #### Working on Words
 
-After you’ve forked the repo, you will need to write a definition. Good times. Hopefully. Always remember that if you are unsure, you can first open an issue or create a PR, include «WIP» in the title («WIP» stands for «work in progress»), and ask for early feedback.
+After you’ve forked the repo, you will need to write a definition. Good times. Hopefully. 
+
+Always remember that if you are unsure, you can first open an issue or create a PR with «WIP» in the title («WIP» stands for «work in progress») and ask for early feedback. For example, it might be called *«\[WIP\] Propose definition for spirit animal»*.
 
 - Step 1: Create a file named `word.md` in in the [definitions folder](11ty/definitions/) where we store all definitions.
 
   `word` should be the name of the word you are defining. Not `word`. Except you are defining «word». In this case it should be `word`. 
 
-  For this tutorial we will take the word «Obsessive Compulsive Disorder», as it allows us to show some of the features. That means we would create the file named `obsessive-compulsive-disorder.md`. As it is already defined, you can have a look at the [finished definition of «Obsessive Compulsive Disorder»](11ty/definitions/obsessive-compulsive-disorder.md).
+  For this tutorial we will take the word «Obsessive Compulsive Disorder», as it allows us to show some of the features. That means we would create the file named `obsessive-compulsive-disorder.md` (as it is already defined, you can have a look at the [finished definition of «Obsessive Compulsive Disorder»](11ty/definitions/obsessive-compulsive-disorder.md)).
 
 - Step 2: Populate the file you created.
 
@@ -76,3 +78,11 @@ After you’ve forked the repo, you will need to write a definition. Good times.
 #### Pre-Made File Examples
 
 We have created some examples that you can use as the baseline for your work. Take a look at the [File Examples](https://www.selfdefined.app/documentation/examples/) section of our documentation.
+
+## Get Help
+
+If you've already tried reading through our [documentation](https://www.selfdefined.app/documentation/) and are stuck, we're here to help and ask your questions:
+
+- Reach out to [@SelfDefinedApp](https://www.twitter.com/selfdefinedapp) on Twitter.
+- File an [issue](https://github.com/tatianamac/selfdefined/issues/new) if you think our docs are missing some information that might be helpful.
+- Contact <selfdefined@tatianamac.com>.
