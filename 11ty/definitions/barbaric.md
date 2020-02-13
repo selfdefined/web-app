@@ -17,12 +17,11 @@ alt_words:
   - obscene
   - feral
 ---
-something which is obscenely cruel;primitive;unsophisticated
-
+something which is obscenely cruel; primitive; unsophisticated
 
 #### Issues
 
-Barbarian originates from the Greek word *bárbaros* meaning "babbler", to denote the "unintelligle sounds" (_"bar bar bar"_ ) made by foreign speakers.
+Barbarian originates from the Greek word *bárbaros* meaning "babbler", to denote the "unintelligible sounds" (_"bar bar bar"_) made by foreign speakers.
 Similar words exist in many other languages, for the identical purpose labeling a "strange"/"foreign" person/culture. 
 
 In modern day usage, you can notice this rhetoric being employed almost always for the purpose of demonizing "foreign" (more often than not from the global south) cultures - cultures that need to be civilized;
