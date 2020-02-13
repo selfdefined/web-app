@@ -41,11 +41,13 @@ After you’ve forked the repo, you will need to write a definition. Good times.
 
 Always remember that if you are unsure, you can first open an issue or create a PR with «WIP» in the title («WIP» stands for «work in progress») and ask for early feedback. For example, it might be called *«\[WIP\] Propose definition for spirit animal»*.
 
-- Step 1: Create a file named `word.md` in in the [definitions folder](11ty/definitions/) where we store all definitions.
+For this tutorial we will take the word «Obsessive Compulsive Disorder», as it allows us to show some of the features.
 
-  `word` should be the name of the word you are defining. Not `word`. Except you are defining «word». In this case it should be `word`. 
+- Step 1: Create a file named `word.md` in the [definitions folder](11ty/definitions/) where we store all definitions.
 
-  For this tutorial we will take the word «Obsessive Compulsive Disorder», as it allows us to show some of the features. That means we would create the file named `obsessive-compulsive-disorder.md` (as it is already defined, you can have a look at the [finished definition of «Obsessive Compulsive Disorder»](11ty/definitions/obsessive-compulsive-disorder.md)).
+  Replace `word` with the word or the phrase you are defining. Write it in all-lowercase letters with hyphens instead of spaces.
+
+  In our example, we would create the file named `obsessive-compulsive-disorder.md` (as it is already defined, you can have a look at the [finished definition of «Obsessive Compulsive Disorder»](11ty/definitions/obsessive-compulsive-disorder.md)).
 
 - Step 2: Populate the file you created.
 
@@ -53,11 +55,11 @@ Always remember that if you are unsure, you can first open an issue or create a 
 
   Every definition _needs_ to have the following meta information: `title`, `slug`, `defined`, and `speech`. Let's discuss what each of these mean:
   
-  - `title` is a word or a phrase you are defining. In this example it's «Obsessive Compulsive Disorder». 
+  - `title` is a word or a phrase you are defining. In this example it's «Obsessive Compulsive Disorder».
   
-  - `slug` is a string that we'll use to link to this word. It should be a URL-friendly, all-lowercase hyphenated version of the full title. In our example it's `obsessive-compulsive-disorder`. 
+  - `slug` is a string that we'll use to link to this word. It should be a URL-friendly, all-lowercase hyphenated version of the full title. In our example it's `obsessive-compulsive-disorder`.
   
-  - `defined` flag can either be `true` or `false`. As soon as you set it to `true`, your definition will be visible on our website. 
+  - `defined` flag can either be `true` or `false`. As soon as you set it to `true`, your definition will be visible on our website.
   
   - `speech` stores information about the word's part of speech. What kind of word you are defining? A noun? Or an adjective? That’s what `speech` is for. In our example it is a `noun`.
 
