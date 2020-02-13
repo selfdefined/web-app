@@ -1,11 +1,11 @@
 ---
-title: Barbarian
-slug: barbarian
+title: Barbaric
+slug: barbaric
 flag:
   text: 'Neo-Colonial/Racist slur'
   level: 'avoid'
 defined: true
-speech: noun
+speech: adjective
 reading:
   - text: "is the word barbarian a slur?"
     href: https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/
@@ -17,7 +17,7 @@ alt_words:
   - obscene
   - feral
 ---
-someone who is obscenely cruel;primitive;unsophisticated
+something which is obscenely cruel;primitive;unsophisticated
 
 
 #### Issues
