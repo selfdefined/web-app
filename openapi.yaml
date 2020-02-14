@@ -1,0 +1,390 @@
+openapi: 3.0.1
+info:
+  title: Self Defined
+  description: |
+    A modern dictionary about us. We define our words, but they don't define us. [Self-Defined](https://www.selfdefined.app/) seeks to provide more inclusive, holistic, and fluid definitions to reflect the modern world. The goal for [Self-Defined](https://www.selfdefined.app/) is to become the first modern dictionary that reflects our digital world, using the best aspects of technology while minimising the worst aspects of technology that can cause harm. [Self-Defined](https://www.selfdefined.app/) is successful if it supports greater, more nuanced understanding and tolerance of fellow humans through words.
+  termsOfService: https://www.selfdefined.app/terms-of-service
+  # contact:
+  #   email: apiteam@swagger.io
+  # license:
+  #   name: Apache 2.0
+  #   url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+externalDocs:
+  description: Find out more
+  url: https://github.com/tatianamac/selfdefined
+servers:
+- url: https://api.selfdefined.app/
+tags:
+- name: Word
+  description: Self-Defined Words
+  externalDocs:
+    description: Find out more
+    url: https://schemas.selfdefined.app/words
+components:
+  schemas:
+    Word:
+      allOf: 
+      - $ref: '#/components/schemas/Id'
+      - $ref: '#/components/schemas/NewWord'
+    FullWord:
+      allOf: 
+      - $ref: '#/components/schemas/Word'
+      - $ref: '#/components/schemas/Translations'
+      - $ref: '#/components/schemas/Synonyms'
+      - $ref: '#/components/schemas/Alternatives'
+      - $ref: '#/components/schemas/FurtherReadings'
+    ShortLink:
+      description: Shortlink terms which map to this word.
+      type: object
+      properties:
+        shortLinkText:
+          type: string
+        word:
+          $ref: '#/components/schemas/Link'
+      required:
+      - shortLink
+      - word
+    Link:
+      type: object
+      properties:
+        displayName:
+          type: string
+        url:
+          type: string
+          format: url
+        icon:
+          type: string
+          format: url
+      required:
+      - displayName
+      - url
+    Translations:
+      type: object
+      properties:
+        translations:
+          type: array
+          minItems: 0
+          items:
+            $ref: '#/components/schemas/Link'
+    Synonyms:
+      type: object
+      properties:
+        synonyms:
+          type: array
+          minItems: 0
+          items:
+            $ref: '#/components/schemas/Link'
+    Alternatives:
+      description: A positive alternative choice to communicate without exclusion.
+      type: object
+      properties:
+        alternatives:
+          type: array
+          minItems: 0
+          items:
+            $ref: '#/components/schemas/Link'
+    FurtherReadings:
+      description: For further reading on the word.
+      type: object
+      properties:
+        furtherReadings:
+          type: array
+          minItems: 0
+          items:
+            $ref: '#/components/schemas/Link'
+    NewWord:
+      type: object
+      properties:
+        displayName:
+          type: string
+        definition:
+          type: string
+        originLanguage:
+          type: string
+          description: This should be the ISO internationalization value.
+        tag:
+          type: object
+          properties:
+            displayName: 
+              type: string
+              enum: &word-tags
+              - ABLEIST SLUR
+              - RACIST SYMBOL
+              - CULTURAL APPROPRIATION
+              - ANTI-TRANS SLUR
+              - NEO-COLONIAL RACIST SLUR
+              - MEDICAL APPROPRIATION
+              - TOOL OF OPPRESSION
+            icon:
+              type: string
+              format: url
+          required:
+          - displayName
+        wordStatus:
+          type: string
+          enum:
+          - AVOID
+          - PREFERRED
+          - ACCEPTABLE
+        wordType:
+          type: string
+          enum: &word-types
+            - ADJECTIVE
+            - NOUN
+            - VERB
+            - ADVERB
+        issues:
+          type: string
+        impact:
+          type: string
+        notes:
+          type: string
+        usageTips:
+          type: string
+      required:
+        - displayName
+        - definition
+        - wordStatus
+        - wordType
+    NewTranslation:
+      $ref: '#/components/schemas/Link'
+    NewSynonym:
+      $ref: '#/components/schemas/Link'
+    NewAlternative:
+      $ref: '#/components/schemas/Link'
+    NewFurtherReading:
+      $ref: '#/components/schemas/Link'
+    NewShortLink:
+      description: Shortlink terms which map to this word.
+      type: object
+      properties:
+        shortLinkText:
+          type: string
+        wordLink:
+          type: string
+          format: url
+      required:
+      - shortLink
+      - word
+    Id:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+      required:
+        - id
+  # Commenting all this out for now to just get things up and running.
+  # securitySchemes:
+  #   petstore_auth:
+  #     type: oauth2
+  #     flows:
+  #       implicit:
+  #         authorizationUrl: http://petstore.swagger.io/oauth/dialog
+  #         scopes:
+  #           write:pets: modify pets in your account
+  #           read:pets: read your pets
+  #   api_key:
+  #     type: apiKey
+  #     name: api_key
+  #     in: header
+
+paths:
+  '/words':
+    get:
+      tags:
+      - Word
+      summary: Find Words
+      operationId: findWords
+      responses: &words-responses
+        200: 
+          description: Successful Request
+          content:
+            application/vnd.self-defined.words+json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Word'
+            application/vnd.self-defined.full-words+json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/FullWord'
+        404:
+          description: Not Found
+    post:
+      tags:
+      - Word
+      summary: Add Word
+      operationId: addWord
+      requestBody:
+        description: Add word to dictionary
+        content:
+          application/vnd.self-defined.new-word+json:
+            schema:
+              $ref: '#/components/schemas/NewWord'
+      responses:
+        200: 
+          description: Successful Request
+          content:
+            application/vnd.self-defined.word+json:
+              schema:
+                $ref: '#/components/schemas/Word'
+        400:
+          description: Bad Request
+  '/words/{wordId}':
+    parameters:
+      - name: wordId
+        in: path
+        description: ID of word to return
+        required: true
+        schema:
+          type: string
+          format: uuid
+    get:
+      tags:
+      - Word
+      summary: Get Words
+      operationId: getWord
+      responses: &word-responses
+        200: 
+          description: Successful Request
+          content:
+            application/vnd.self-defined.word+json:
+              schema:
+                $ref: '#/components/schemas/Word'
+            application/vnd.self-defined.translations+json:
+              schema:
+                allOf: 
+                - $ref: '#/components/schemas/Id'
+                - $ref: '#/components/schemas/Translations'
+            application/vnd.self-defined.synonyms+json:
+              schema:
+                allOf: 
+                - $ref: '#/components/schemas/Id'
+                - $ref: '#/components/schemas/Synonyms'
+            application/vnd.self-defined.alternatives+json:
+              schema:
+                allOf: 
+                - $ref: '#/components/schemas/Id'
+                - $ref: '#/components/schemas/Alternatives'
+            application/vnd.self-defined.further-readings+json:
+              schema:
+                allOf: 
+                - $ref: '#/components/schemas/Id'
+                - $ref: '#/components/schemas/FurtherReadings'
+            application/vnd.self-defined.full-word+json:
+              schema:
+                $ref: '#/components/schemas/FullWord'
+        404:
+          description: Not Found
+    put:
+      tags:
+      - Word
+      description: Update related words links
+      summary: Update related words links
+      operationId: updateRelatedWords
+      requestBody:
+        description: Relationship link to add to this word
+        content:
+          application/vnd.self-defined.translations+json:
+            schema:
+              $ref: '#/components/schemas/Translations'
+          application/vnd.self-defined.synonyms+json:
+            schema:
+              $ref: '#/components/schemas/Synonyms'
+          application/vnd.self-defined.alternatives+json:
+            schema:
+              $ref: '#/components/schemas/Alternatives'
+          application/vnd.self-defined.further-readings+json:
+            schema:
+              $ref: '#/components/schemas/FurtherReadings'
+      responses: *word-responses
+    post:
+      tags:
+      - Word
+      description: Add related words links
+      summary: Add related words links
+      operationId: addRelatedWords
+      requestBody:
+        description: Relationship link to add to this word
+        content:
+          application/vnd.self-defined.new-translation+json:
+            schema:
+              $ref: '#/components/schemas/NewTranslation'
+          application/vnd.self-defined.new-synonym+json:
+            schema:
+              $ref: '#/components/schemas/NewSynonym'
+          application/vnd.self-defined.new-alternative+json:
+            schema:
+              $ref: '#/components/schemas/NewAlternative'
+          application/vnd.self-defined.new-further-reading+json:
+            schema:
+              $ref: '#/components/schemas/NewFurtherReading'
+      responses: *word-responses
+    delete:
+      tags:
+      - Word
+      summary: Remove Word
+      operationId: deleteWord
+      responses:
+        204:
+          description: No Content
+        404:
+          description: Not Found
+  '/shortlinks':
+    post:
+      tags:
+      - Shortlink
+      summary: Add Shortlink
+      operationId: addShortlink
+      requestBody:
+        description: Add Shortlink to a word
+        content:
+          application/vnd.self-defined.new-short-link+json:
+            schema:
+              $ref: '#/components/schemas/NewShortLink'
+      responses: &shortlink-responses
+        200: 
+          description: Successful Request
+          content:
+            application/vnd.self-defined.short-link+json:
+              schema:
+                $ref: '#/components/schemas/ShortLink'
+            application/vnd.self-defined.short-link-word+json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ShortLink'
+                  - $ref: '#/components/schemas/Word'
+            application/vnd.self-defined.short-link-full-word+json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/ShortLink'
+                  - $ref: '#/components/schemas/FullWord'
+        404:
+          description: Not Found
+  '/shortlinks/{shortLinkId}':
+    parameters:
+      - name: shortLinkId
+        in: path
+        description: Percent encoded value of shortlink value for profile linking
+        required: true
+        schema:
+          type: string
+    get:
+      tags:
+      - Shortlink
+      summary: Get Shortlink
+      operationId: getShortlink
+      responses: *shortlink-responses
+    delete:
+      tags:
+      - Shortlink
+      summary: Remove Shortlink
+      operationId: deleteShortlink
+      responses:
+        204:
+          description: No Content
+        404:
+          description: Not Found
