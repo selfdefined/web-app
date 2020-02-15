@@ -1,4 +1,4 @@
-const makeItemLink = (slug) => `#${slug}`;
+const makeItemLink = (slug) => `/definitions/${slug}/`;
 const findExistingDefinition = (word, collection) =>
   collection.find((item) => item.data.title === word);
 
