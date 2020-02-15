@@ -7,7 +7,7 @@ flag:
   level: better-alternative
   alt-for: minorities
 reading:
-  - text: Minority vs minoritze
+  - text: Minority vs minoritize
     href: https://www.theodysseyonline.com/minority-vs-minoritize
 ---
 
