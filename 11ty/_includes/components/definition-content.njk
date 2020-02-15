@@ -1,6 +1,6 @@
-<article id="{{ slug }}" class="block__word word">
-  <p class="word__speech">{{ speech}}</p>
-  <div class="word__content">
+<article id="{{ slug }}" class="block__word definition-content">
+  <p class="definition-content__speech">{{ speech}}</p>
+  <div class="definition-content__content">
     {{ content | safe }}
     {# <p>{{ alt_words }}</p> #}
     {%- if alt_words -%}

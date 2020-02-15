@@ -1,0 +1,18 @@
+.page {
+  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  & > * {
+    grid-column: 1;
+  }
+}
+
+.small-left-grid {
+  display: grid;
+  grid-gap: 1rem;
+
+  @media (min-width: 800px) {
+    grid-template-columns: 10rem 60ch;
+  }
+}
