@@ -1,0 +1,25 @@
+<article id="{{ slug }}" class="block__word word">
+  <p class="word__speech">{{ speech}}</p>
+  <div class="word__content">
+    {{ content | safe }}
+    {# <p>{{ alt_words }}</p> #}
+    {%- if alt_words -%}
+      <h4>Alt Words</h4>
+      <ul class="list-semicolon">
+        {% for word in alt_words %}
+          <li>{{ word | linkIfExistsInCollection(collections.definedWords) | safe }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {%- if reading -%}
+      <h4>Further Reading</h4>
+      <ul class="list-semicolon">
+        {% for link in reading %}
+          <li>
+            <a href="{{link.href}}">{{ link.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</article>

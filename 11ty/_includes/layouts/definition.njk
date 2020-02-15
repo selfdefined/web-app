@@ -8,7 +8,8 @@
       <p>A modern dictionary about us.<br>We define our words, but they don't define us.</p>
     </div>
     <main class="page">
+      {% definitionFlag flag %}
       <h1 class="title__thicc" >{{ title }}</h1>
-      {{ content | safe }}
+      {% include 'components/definition-content.njk' %}
     </main>
 {% endblock %}
