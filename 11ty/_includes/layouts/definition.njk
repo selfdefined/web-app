@@ -2,14 +2,13 @@
 {% set pageType = 'Definition' %}
 
 {% block content %}
-  <div class="small-left-grid">
-    <div id="title">
-      <a href="/">Self-Defined</a>
-      <p>A modern dictionary about us.<br>We define our words, but they don't define us.</p>
-    </div>
-    <main class="page">
-      {% definitionFlag flag %}
-      <h1 class="title__thicc" >{{ title }}</h1>
+  <div class="wide-content">
+    {% include 'components/sub-page-header.njk' %}
+    <main class="definition">
+      <header class="definition__header">
+        {% definitionFlag flag %}
+        <h1 class="main-headline" >{{ title }}</h1>
+      </header>
       {% include 'components/definition-content.njk' %}
     </main>
 {% endblock %}
