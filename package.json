@@ -12,7 +12,7 @@
     "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
     "watch:css": "parcel watch assets/css/base.scss --out-dir dist/assets/css/",
     "serve:site": "eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "create-definitions": "bin/create-definitions"
   },
   "bin": {
@@ -38,6 +38,7 @@
     "prism-themes": "^1.3.0"
   },
   "devDependencies": {
+    "ava": "^3.3.0",
     "concurrently": "^5.0.0",
     "esm": "^3.2.25",
     "parcel-bundler": "^1.12.4",
