@@ -16,3 +16,18 @@
     grid-template-columns: 10rem 45rem;
   }
 }
+
+.wide-content {
+  @media (min-width: 800px) {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 10rem 1fr;
+  }
+}
+
+.definition {
+}
+
+.definition__header {
+  margin-bottom: 3rem;
+}
