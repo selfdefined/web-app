@@ -8,11 +8,11 @@
   }
 }
 
-.small-left-grid {
+.article-content {
   display: grid;
   grid-gap: 1rem;
 
   @media (min-width: 800px) {
-    grid-template-columns: 10rem 60ch;
+    grid-template-columns: 10rem 45rem;
   }
 }
