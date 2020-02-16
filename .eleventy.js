@@ -1,6 +1,5 @@
 const makeItemLink = (slug) => `#${slug}`;
-const findExistingDefinition = (word, collection) =>
-  collection.find((item) => item.data.title === word);
+const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
 
 module.exports = function(config) {
   // Add a filter using the Config API
