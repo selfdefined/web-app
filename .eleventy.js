@@ -1,16 +1,17 @@
-const makeItemLink = (slug) => `/definitions/${slug}/`;
+const definitionPermalink = require('./11ty/filters/definitionPermalink');
+
 const findExistingDefinition = (word, collection) =>
   collection.find((item) => item.data.title === word);
 
 module.exports = function(config) {
   // Add a filter using the Config API
-  config.addFilter('linkTarget', makeItemLink);
+  config.addFilter('linkTarget', definitionPermalink);
 
   config.addFilter('linkIfExistsInCollection', (word, collection) => {
     const existingDefinition = findExistingDefinition(word, collection);
 
     if (existingDefinition) {
-      return `<a href="${makeItemLink(
+      return `<a href="${definitionPermalink(
         existingDefinition.data.slug
       )}">${word}</a>`;
     }
@@ -25,7 +26,7 @@ module.exports = function(config) {
     );
 
     if (existingDefinition) {
-      return `<a href="${makeItemLink(
+      return `<a href="${definitionPermalink(
         existingDefinition.data.slug
       )}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`;
     }
