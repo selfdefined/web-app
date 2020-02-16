@@ -15,10 +15,10 @@ alt_words:
 
 often used as a phrase to encompass “non-white, non-men,” seeking to provide solidarity for these two groups
 
-#### Issues
+## Issues
 
 What happens to women of colour? As a woman of colour, I am split between both women and people of colour.
 
-#### Impact
+## Impact
 
 As such, it elicits feelings of erasure for women of colour. It also neglects [non-binary](/#non-binary) individuals.

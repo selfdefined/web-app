@@ -30,7 +30,7 @@
       font-size: 1.5rem;
     }
 
-    & h4 {
+    & h2 {
       grid-column: 1;
       font-family: $con-sans;
       font-size: 0.85rem;
@@ -44,13 +44,13 @@
       }
     }
 
-    & h4,
-    & h4 + * {
+    & h2,
+    & h2 + * {
       margin-top: 1rem;
     }
 
-    & h4 ~ p,
-    & h4 ~ ul {
+    & h2 ~ p,
+    & h2 ~ ul {
       // border-left: 0.1rem solid lightgrey;
       // padding-left: 1rem;
       grid-column: 2;

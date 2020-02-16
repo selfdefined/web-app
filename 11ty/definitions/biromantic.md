@@ -14,7 +14,7 @@ reading:
 
 of, relating to, or characterised by being romantically attracted to more than one gender.
 
-#### Note
+## Note
 
 Biromantic does not imply any particular kind of sexual attraction, or sexual attraction at all. A biromantic person may be asexual, homosexual, heterosexual, [bisexual](#bisexual), [pansexual](#pan-sexual), etc.
 

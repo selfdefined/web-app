@@ -4,7 +4,7 @@
     {{ content | safe }}
     {# <p>{{ alt_words }}</p> #}
     {%- if alt_words -%}
-      <h4>Alt Words</h4>
+      <h2>Alt Words</h2>
       <ul class="list-semicolon">
         {% for word in alt_words %}
           <li>{{ word | linkIfExistsInCollection(collections.definedWords) | safe }}</li>
@@ -12,7 +12,7 @@
       </ul>
     {% endif %}
     {%- if reading -%}
-      <h4>Further Reading</h4>
+      <h2>Further Reading</h2>
       <ul class="list-semicolon">
         {% for link in reading %}
           <li>

@@ -9,7 +9,7 @@ of, relating to, or characterised by being any gender that does not fit into the
 
 For example, a non-binary person may have some gender between male and female, have multiple genders, no gender, a culturally-specific gender (e.g., two-spirit).
 
-#### Note
+## Note
 
 Non-binary people may or may not also identify as [transgender](/#transgender).
 

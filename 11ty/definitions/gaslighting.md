@@ -15,7 +15,7 @@ reading:
 
 psychological manipulation tactic used to abuse by instilling doubt in the victim's own thoughts, observations, feelings by denying, misdirecting, and lying to them; originated from the Gaslight play (1933) and film (1944), where a man changes the lights in the house, while denying her observations of the changes.
 
-#### Impact
+## Impact
 
 Gaslighting reinfoces systems of power, as gaslighting abusers will tend to be in systematically dominant positions where they are intrinsically believed over their victim (e.g., white person over person of colour, man over woman, abled person over disabled person, parent over child, manager over worker, etc). Gaslighting is an abusive and oppressive behaviour and tactic.
 
