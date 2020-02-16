@@ -85,47 +85,8 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-family: $ext-sans;
-  font-weight: $bold;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
-p {
-  margin: 0.75rem 0;
-  font-size: 1.25rem;
-  line-height: 1.25;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  border-bottom: darkgrey solid 0.1em;
-  font-family: $ext-sans;
-  margin: 1rem 0;
-
-  &:hover {
-    border-bottom: red solid 0.1rem;
-  }
-  &:focus {
-    outline: 3px solid $primary-color;
-    outline-offset: 5px;
-  }
-}
-
-.subtitle {
-  font-family: $ext-sans;
-  font-weight: $regular;
-  letter-spacing: 0.1;
-  grid-column: span 2;
-}
+@import './base/typography';
+@import './atoms/a';
 
 ul[class] {
   list-style: none;
@@ -135,46 +96,6 @@ ul[class] {
 
 .summary {
   grid-column: span 2;
-}
-
-.small {
-  font-size: 0.75em;
-}
-
-.title__thicc {
-  // a sensible base font size
-  font-size: 3rem;
-  line-height: 0.75;
-  padding: 0;
-  margin: 0.5rem 0rem;
-  // transform: rotateZ(90deg);
-  // margin: 13rem -7rem;
-}
-
-@media (min-width: 51rem) and (min-height: 400px) {
-  // a dramatic font size
-  .title__thicc {
-    font-size: 12vh;
-  }
-}
-
-@media (min-width: 51rem) and (min-height: 850px) {
-  // cap the max-height of the title
-  // at the same size that 12vh computes to
-  // when the viewport is 850px high
-  .title__thicc {
-    font-size: 6.75rem;
-  }
-}
-
-@media (min-width: 800px) {
-  .title__thicc {
-    grid-column: 1 / 3;
-  }
-
-  .title__thicc + p {
-    grid-column: 1 / 2;
-  }
 }
 
 .help {
@@ -292,8 +213,4 @@ th {
 
 .site-footer {
   margin-top: 3rem;
-}
-
-.u-no-padding-left {
-  padding-left: 0 !important;
 }

@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: darkgrey solid 0.1em;
+  font-family: $ext-sans;
+  margin: 1rem 0;
+
+  &:hover {
+    border-bottom: red solid 0.1rem;
+  }
+  &:focus {
+    outline: 3px solid $primary-color;
+    outline-offset: 5px;
+  }
+}
