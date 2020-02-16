@@ -1,5 +1,8 @@
 .definition-content {
   --word-signal-color: currentColor;
+  --marker-height: 0.25rem;
+
+  max-width: 45rem;
 
   &__title {
     font-family: $serif;
@@ -13,6 +16,18 @@
   &__content {
     align-items: stretch;
 
+    & + & {
+      margin-top: 2rem;
+    }
+
+    &::before {
+      background-color: black;
+      content: '';
+      display: block;
+      grid-column: 1;
+      height: var(--marker-height);
+    }
+
     @supports (display: grid) {
       // align-items: flex-start;
       display: grid;
@@ -20,14 +35,15 @@
       grid-gap: 1rem;
 
       & > * {
-        margin: 0;
+        margin: 0 !important;
       }
     }
 
     & > p {
       grid-column: 1 / -1;
       font-family: $sans-serif;
-      font-size: 1.5rem;
+      // font-size: 1.25rem;
+      line-height: 1.5;
     }
 
     & h2 {
@@ -59,12 +75,12 @@
   }
 
   &__speech {
-    font-size: 0.5em;
+    // font-size: 0.5em;
     font-family: $sans-serif;
   }
 
   &__signal {
-    border-top: 1px solid var(--word-signal-color);
+    border-top: 0.25rem solid var(--word-signal-color);
     color: var(--word-signal-color);
     display: inline-block;
     font-family: $ext-sans;

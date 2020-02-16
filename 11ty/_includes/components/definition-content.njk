@@ -1,17 +1,24 @@
 <article id="{{ slug }}" class="block__word definition-content">
-  <p class="definition-content__speech">{{ speech}}</p>
-  <div class="definition-content__content">
+  <section class="definition-content__content u-margin-bottom-double">
+    <h2>Speech</h2>
+    <p class="definition-content__speech">{{ speech }}</p>
+  </section>
+  <section class="definition-content__content">
     {{ content | safe }}
     {# <p>{{ alt_words }}</p> #}
-    {%- if alt_words -%}
+  </section>
+  {%- if alt_words -%}
+    <section class="definition-content__content">
       <h2>Alt Words</h2>
       <ul class="list-semicolon">
         {% for word in alt_words %}
           <li>{{ word | linkIfExistsInCollection(collections.definedWords) | safe }}</li>
         {% endfor %}
       </ul>
-    {% endif %}
-    {%- if reading -%}
+    </section>
+  {% endif %}
+  {%- if reading -%}
+    <section class="definition-content__content">
       <h2>Further Reading</h2>
       <ul class="list-semicolon">
         {% for link in reading %}
@@ -20,6 +27,6 @@
           </li>
         {% endfor %}
       </ul>
-    {% endif %}
-  </div>
+    </section>
+  {% endif %}
 </article>
