@@ -2,22 +2,9 @@
 @import url('https://use.typekit.net/qlo3dpu.css');
 
 @import '~prism-themes/themes/prism-a11y-dark';
-
-// FUNCTIONS
+@import '_sass/functions';
 
 $browser-context: 16;
-
-@function pxToRem($pixels, $context: $browser-context) {
-  @if (unitless($pixels)) {
-    $pixels: $pixels * 1px;
-  }
-
-  @if (unitless($context)) {
-    $context: $context * 1px;
-  }
-
-  @return $pixels / $context * 1rem;
-}
 
 pre[class*='language-'] {
   font-size: 1rem;
@@ -96,7 +83,7 @@ $bold: 700;
 body {
   border-top: 1rem solid red;
   font-family: $sans-serif;
-  font-size: rem(20);
+  font-size: pxToRem(20);
   padding: 2rem;
   margin: 0;
 }
