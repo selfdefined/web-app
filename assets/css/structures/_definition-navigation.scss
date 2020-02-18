@@ -1,0 +1,31 @@
+.definition-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  & > div {
+    flex: 0 1 15rem;
+  }
+}
+
+.definition-navigation__headline {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.definition-navigation__sub-headline {
+  color: #333;
+  font-size: 1rem;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.01em;
+  margin-top: 0;
+  word-spacing: 0.01em;
+}
+
+.definition-navigation__nav {
+  flex: 0 0 max-content;
+
+  & li + li {
+    margin-top: 0.5rem;
+  }
+}
