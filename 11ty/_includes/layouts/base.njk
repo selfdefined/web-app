@@ -21,8 +21,7 @@
     >
   </head>
   <body>
-    {% block content %}
-    {% endblock content %}
+    {% block content %}{% endblock content %}
     <footer class="site-footer">
       <nav aria-label="">
         <ul class="navigation-list">
@@ -32,5 +31,7 @@
         </ul>
       </nav>
     </footer>
+    {% block pageScript %}
+    {% endblock pageScript %}
   </body>
 </html>
