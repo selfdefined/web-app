@@ -419,12 +419,13 @@ th {
 
 .flag__red {
   background-color: rgb(255, 192, 203);
+  border-radius: 1rem;
   font-size: 0.9rem;
   font-weight: bold;
-  border-radius: 1rem;
-  padding: 0.45rem 0.65rem;
   margin: 0.25rem 0.75rem;
+  padding: 0.45rem 0.65rem;
   text-transform: lowercase;
+  white-space: nowrap;
 
   &:before {
     @include icon__avoid();
