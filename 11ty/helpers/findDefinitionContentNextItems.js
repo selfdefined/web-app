@@ -4,7 +4,8 @@ module.exports = function findDefinitionContentNextItems({ slug }, collection) {
   let previous = [];
   let next = [];
 
-  const index = collection.findIndex((def) => def.slug === slug);
+  const flattenedCollection = collection.map((d) => d.data);
+  const index = flattenedCollection.findIndex((def) => def.slug === slug);
 
   // make this a no-op if we are at the beginning
   if (index > 0) {
@@ -14,7 +15,7 @@ module.exports = function findDefinitionContentNextItems({ slug }, collection) {
     // never get more than three items
     const end = start + Math.min(index, 3);
 
-    previous = collection.slice(start, end);
+    previous = flattenedCollection.slice(start, end);
   }
 
   // make this a no-op if we are at the end
@@ -23,7 +24,7 @@ module.exports = function findDefinitionContentNextItems({ slug }, collection) {
     // end overflow doesn't matter too much, cap it still because it feels right
     const end = Math.min(start + 3, collection.length);
 
-    next = collection.slice(start, end);
+    next = flattenedCollection.slice(start, end);
   }
 
   return { previous, next };

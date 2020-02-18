@@ -6,7 +6,7 @@ import findDefinitionContentNextItems from '../findDefinitionContentNextItems';
 
 test('finds no previous previous elements for the first item', (t) => {
   const { previous } = findDefinitionContentNextItems(
-    testCollection[0],
+    testCollection[0].data,
     testCollection
   );
 
@@ -15,94 +15,98 @@ test('finds no previous previous elements for the first item', (t) => {
 
 test('finds one previous element for the second item', (t) => {
   const { previous } = findDefinitionContentNextItems(
-    testCollection[1],
+    testCollection[1].data,
     testCollection
   );
 
-  t.deepEqual(previous, [testCollection[0]]);
+  t.deepEqual(previous, [testCollection[0].data]);
 });
 
 test('finds two previous elements for the third item', (t) => {
   const { previous } = findDefinitionContentNextItems(
-    testCollection[2],
+    testCollection[2].data,
     testCollection
   );
 
-  t.deepEqual(previous, [testCollection[0], testCollection[1]]);
+  t.deepEqual(previous, [testCollection[0].data, testCollection[1].data]);
 });
 
 test('finds three previous elements for the fourth item', (t) => {
   const { previous } = findDefinitionContentNextItems(
-    testCollection[3],
+    testCollection[3].data,
     testCollection
   );
 
   t.deepEqual(previous, [
-    testCollection[0],
-    testCollection[1],
-    testCollection[2]
+    testCollection[0].data,
+    testCollection[1].data,
+    testCollection[2].data
   ]);
 });
 
 test('finds three previous elements for the eigth item', (t) => {
   const { previous } = findDefinitionContentNextItems(
-    testCollection[7],
+    testCollection[7].data,
     testCollection
   );
 
   t.deepEqual(previous, [
-    testCollection[4],
-    testCollection[5],
-    testCollection[6]
+    testCollection[4].data,
+    testCollection[5].data,
+    testCollection[6].data
   ]);
 });
 
 test('finds three next elements for the eigth item', (t) => {
   const { next } = findDefinitionContentNextItems(
-    testCollection[7],
-    testCollection
-  );
-
-  t.deepEqual(next, [testCollection[8], testCollection[9], testCollection[10]]);
-});
-
-test('finds three next elements for the fourth to last item', (t) => {
-  const { next } = findDefinitionContentNextItems(
-    testCollection[testCollection.length - 4],
+    testCollection[7].data,
     testCollection
   );
 
   t.deepEqual(next, [
-    testCollection[testCollection.length - 3],
-    testCollection[testCollection.length - 2],
-    testCollection[testCollection.length - 1]
+    testCollection[8].data,
+    testCollection[9].data,
+    testCollection[10].data
+  ]);
+});
+
+test('finds three next elements for the fourth to last item', (t) => {
+  const { next } = findDefinitionContentNextItems(
+    testCollection[testCollection.length - 4].data,
+    testCollection
+  );
+
+  t.deepEqual(next, [
+    testCollection[testCollection.length - 3].data,
+    testCollection[testCollection.length - 2].data,
+    testCollection[testCollection.length - 1].data
   ]);
 });
 
 test('finds two next elements for the third to last item', (t) => {
   const { next } = findDefinitionContentNextItems(
-    testCollection[testCollection.length - 3],
+    testCollection[testCollection.length - 3].data,
     testCollection
   );
 
   t.deepEqual(next, [
-    testCollection[testCollection.length - 2],
-    testCollection[testCollection.length - 1]
+    testCollection[testCollection.length - 2].data,
+    testCollection[testCollection.length - 1].data
   ]);
 });
 
 test('finds one next elements for the second to last item', (t) => {
   const { next } = findDefinitionContentNextItems(
-    testCollection[testCollection.length - 2],
+    testCollection[testCollection.length - 2].data,
     testCollection
   );
 
-  t.deepEqual(next, [testCollection[testCollection.length - 1]]);
+  t.deepEqual(next, [testCollection[testCollection.length - 1].data]);
 });
 
 test('finds no next elements for the last item', (t) => {
   const { next } = findDefinitionContentNextItems(
-    testCollection[testCollection.length - 1],
+    testCollection[testCollection.length - 1].data,
     testCollection
   );
 
