@@ -2,6 +2,9 @@
 @import url('https://use.typekit.net/qlo3dpu.css');
 
 @import '~prism-themes/themes/prism-a11y-dark';
+@import '_sass/functions';
+
+$browser-context: 16;
 
 pre[class*='language-'] {
   font-size: 1rem;
@@ -9,7 +12,7 @@ pre[class*='language-'] {
 
 code {
   background-color: #333333;
-  border: 1px solid black;
+  border: pxToRem(1) solid black;
   color: white;
   padding: 0.15em;
   border-radius: 0.25em;
@@ -80,7 +83,7 @@ $bold: 700;
 body {
   border-top: 1rem solid red;
   font-family: $sans-serif;
-  font-size: 20px;
+  font-size: pxToRem(20);
   padding: 2rem;
   margin: 0;
 }
@@ -147,7 +150,7 @@ th {
     padding-bottom: 0.5em;
 
     &.subterm {
-      padding-left: 10px;
+      padding-left: pxToRem(10);
     }
 
     &:last-child {
@@ -156,7 +159,7 @@ th {
 
     &.subterm:before {
       content: '\21B3';
-      padding-right: 5px;
+      padding-right: pxToRem(5);
     }
   }
 }
