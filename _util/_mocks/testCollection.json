@@ -1,0 +1,33 @@
+[
+  { "slug": "ok-hand", "title": "👌 [ok-hand]" },
+  { "slug": "ableism", "title": "Ableism" },
+  { "slug": "barbaric", "title": "Barbaric" },
+  { "slug": "biromantic", "title": "Biromantic" },
+  { "slug": "bisexual", "title": "Bisexual" },
+  { "slug": "cisgender", "title": "Cisgender" },
+  { "slug": "crazy", "title": "crazy" },
+  {
+    "slug": "english-as-second-language",
+    "title": "English as Second Language (ESL)"
+  },
+  { "slug": "fatphobia", "title": "Fatphobia" },
+  { "slug": "gaslighting", "title": "Gaslighting" },
+  { "slug": "minorities", "title": "minorities" },
+  { "slug": "minoritised", "title": "minoritised" },
+  { "slug": "non-binary", "title": "Non-binary" },
+  {
+    "slug": "obsessive-compulsive-disorder",
+    "title": "Obsessive Compulsive Disorder (OCD)"
+  },
+  { "slug": "pan-sexual", "title": "Pansexual" },
+  { "slug": "performative-allyship", "title": "performative allyship" },
+  { "slug": "polyamory", "title": "Polyamory" },
+  { "slug": "spaz", "title": "Spaz" },
+  { "slug": "transgender", "title": "Transgender" },
+  { "slug": "unreal", "title": "unreal" },
+  { "slug": "white-fragility", "title": "White Fragility" },
+  {
+    "slug": "women-and-people-of-colour",
+    "title": "women and people of colour"
+  }
+]
