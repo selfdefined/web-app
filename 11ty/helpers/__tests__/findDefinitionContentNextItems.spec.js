@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import testCollection from '../../../../_util/_mocks/testCollection.json';
+import testCollection from '../../../_util/_mocks/testCollection.json';
 
 import findDefinitionContentNextItems from '../findDefinitionContentNextItems';
 
