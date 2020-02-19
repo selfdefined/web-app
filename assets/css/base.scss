@@ -1,11 +1,7 @@
-@charset 'utf-8';
-@import url('https://use.typekit.net/qlo3dpu.css');
-
+@charset 'UTF-8';
 @import '~prism-themes/themes/prism-a11y-dark';
 @import '_sass/functions';
-@import '_sass/colours'
-
-$browser-context: 16;
+@import '_sass/colours' $browser-context: 16;
 
 pre[class*='language-'] {
   font-size: 1rem;
@@ -438,10 +434,30 @@ th {
   }
 }
 
-.site-footer {
-  margin-top: 3rem;
-}
+// 1. Configuration and helpers
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins',
+  'abstracts/universal-selector';
 
-.u-no-padding-left {
-  padding-left: 0 !important;
-}
+// 2. Vendors
+// @import
+// 'vendors/normalize';
+
+// 3. Base stuff
+@import 'base/custom-properties', 'base/fonts', 'base/base', 'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import 'structures/header', 'structures/footer', 'structures/grid',
+  'structures/multi-column', 'structures/table-of-content';
+
+// 5. Components
+@import 'components/word', 'components/lists', 'components/definitions',
+  'components/flag';
+
+// 6. Page-specific styles
+// @import
+//   'pages/home';
+
+// 7. Themes
+// @import
+//   'themes/default';
