@@ -1,8 +1,6 @@
 const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
-
-const findExistingDefinition = (word, collection) =>
-  collection.find((item) => item.data.title === word);
+const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
 
 module.exports = function(config) {
   // Add a filter using the Config API
