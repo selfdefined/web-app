@@ -5,7 +5,8 @@
 @import
   'abstracts/variables',
   'abstracts/functions',
-  'abstracts/mixins';
+  'abstracts/mixins',
+  'abstracts/universal-selector';
 
 // 2. Vendors
 // @import
@@ -13,6 +14,7 @@
 
 // 3. Base stuff
 @import
+  'base/custom-properties',
   'base/fonts',
   'base/base',
   'base/typography',
@@ -28,6 +30,8 @@
 
 // 5. Components
 @import
+  'components/word',
+  'components/lists',
   'components/definitions',
   'components/flag';
 
