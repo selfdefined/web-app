@@ -13,18 +13,18 @@
 
 // 3. Base stuff
 @import
-  'base/base',
   'base/fonts',
+  'base/base',
   'base/typography',
   'base/helpers';
 
 // 4. Layout-related sections
 @import
-  'structure/header',
-  'structure/footer',
-  'structure/grid',
-  'structure/multi-column',
-  'structure/table-of-content';
+  'structures/header',
+  'structures/footer',
+  'structures/grid',
+  'structures/multi-column',
+  'structures/table-of-content';
 
 // 5. Components
 @import
@@ -32,10 +32,10 @@
   'components/flag';
 
 // 6. Page-specific styles
-@import
-  'pages/home';
+// @import
+//   'pages/home';
 
 // 7. Themes
-@import
-  'themes/default';
+// @import
+//   'themes/default';
 
