@@ -3,6 +3,7 @@
 
 @import '~prism-themes/themes/prism-a11y-dark';
 @import '_sass/functions';
+@import '_sass/colours'
 
 $browser-context: 16;
 
@@ -11,9 +12,9 @@ pre[class*='language-'] {
 }
 
 code {
-  background-color: #333333;
-  border: pxToRem(1) solid black;
-  color: white;
+  background-color: $dark-grey;
+  border: 1px solid $black;
+  color: $white;
   padding: 0.15em;
   border-radius: 0.25em;
   font-size: 95%;
@@ -33,18 +34,6 @@ code {
 
   --l-gap: 1rem;
 }
-
-$primary-color: #0e4bff; //cobalt blue is so pretty//
-$secondary-color: #f3f315; //
-
-$black: #222222;
-$white: #ffffff;
-$pistachio: #e5ffe5;
-$yellow: #ffff00;
-
-$dark-grey: #4f4f4f;
-$mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
-$light-grey: #eeeeee; // for backgrounds only
 
 // TYPOGRAPHY //
 $sans-serif: monotype-grotesque, 'Lucida Sans', sans-serif;
