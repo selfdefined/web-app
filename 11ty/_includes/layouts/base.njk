@@ -2,24 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>{{ renderData.title or title or metadata.title }}</title>
-    <meta
-      name="description"
-      content="{{ renderData.description or description or metadata.description }}"
-    >
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
 
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/base.css' | url }}"
-    >
+    <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
   </head>
   <body>
-    {% block content %}
-    {% endblock content %}
+    {% block content %}{% endblock content %}
   </body>
 </html>
