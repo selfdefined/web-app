@@ -9,15 +9,11 @@ un système qui accorde de l'importance aux corps et esprits des gens selon des 
 
 - Talia "TL" Lewis
 
-a system that places value on people’s bodies and minds based on societally constructed ideas of normalcy, intelligence, excellence, and productivity. These constructed ideas are deeply rooted in anti-Blackness, eugenics, colonialism, and capitalism.
-
-— Talia "TL" Lewis
-
 #### Impact
 
-To paraphrase Lewis, ableism "leads to people and society determining who is valuable and worthy based on a person’s appearance and/or their ability to [...] produce, excel, and 'behave.'" You do not have to be disabled to experience ableism, and Disabled people can also reinforce ableism internally (manifesting as harm to themselves) and externally (harm to other disabled people).
+Pour paraphraser Lewis, le capacistisme "pousse les gens et la société à considérer comme importantes les personnes selon leurs apparences et/ou leur s capacités à [...] produire, exceller ou 'bien se comporter'". Vous n'avez pas besoin d'être handicapé pour éprouver le capacitisme, et les personnes handicapées peuvent egalement participer au renforcement du capacitisme, que ce soit intérieurement(et ainsi se faisant du mal eux-mêmes) et extérieurement (en faisant du mal à d'autres personnes handicapées).
 
-#### Further reading
+#### Pour aller plus loin
 
-- [Longmore Lecture: Context, Clarity & Grounding](https://www.talilalewis.com/blog/longmore-lecture-context-clarity-grounding)
-- [Ableism 2020: An Updated Definition](https://www.talilalewis.com/blog/ableism-2020-an-updated-definition)
+- [Conférence: Contexte, Clarté & Foundation](https://www.talilalewis.com/blog/longmore-lecture-context-clarity-grounding)
+- [Capacitisme 2020: Une définition mise à jour](https://www.talilalewis.com/blog/ableism-2020-an-updated-definition)
