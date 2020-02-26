@@ -9,6 +9,10 @@ sub_terms:
     full_title: Asian American
   - text: Black
     full_title: Black American
+  - text: Hispanic
+    full_title: Hispanic American
   - text: Indigenous
     full_title: Indigenous American
+  - text: Latin
+    full_title: Latin American
 ---

@@ -1,13 +1,13 @@
 ---
-title: Hispanic
-slug: hispanic
+title: Latin American/Latino/Latina
+slug: latino
 defined: true
 reading:
     - text: "Remezcla: Hispanic vs. Latino vs. Latinx: A Brief History of How These Words Originated"
       href: https://remezcla.com/features/culture/latino-vs-hispanic-vs-latinx-how-these-words-originated/
 ---
 
-of Spanish, or Spanish-speaking origin. 
+From Latin America, or of Latin American origin. 
 
 #### Note
-People who self-identify as Hispanic may also self-identify as Chicano/Chicana, [Latino/Latina](#/latino), or [Latinx](#/latinx), but don't assume that they do.
+People who self-identify as Latin American or Latino/Latina may also self-identify as Chicano/Chicana, [Hispanic](#/hispanic), or [Latinx](#/latinx).
