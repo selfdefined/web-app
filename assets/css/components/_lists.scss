@@ -1,0 +1,37 @@
+  ol {
+    padding: 0 0 0 1em;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    padding-bottom: 0.5em;
+
+    &.subterm {
+      padding-left: pxToRem(10);
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &.subterm:before {
+      content: '\21B3';
+      padding-right: pxToRem(5);
+    }
+  }
+  
+.list-semicolon {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  & > li {
+    display: inline;
+
+    &:not(:last-child)::after {
+      content: '; ';
+    }
+  }
+}
+
