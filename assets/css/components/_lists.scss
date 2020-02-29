@@ -1,6 +1,6 @@
   ol {
-    padding: 0 0 0 1em;
     margin: 0;
+    padding: 0 0 0 1em;
   }
 
   li {
@@ -20,11 +20,11 @@
       padding-right: pxToRem(5);
     }
   }
-  
+
 .list-semicolon {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 
   & > li {
     display: inline;
