@@ -1,10 +1,11 @@
 .flag__red {
   background-color: rgb(255, 192, 203);
+  display: inline-block;
   font-size: 0.9rem;
   font-weight: bold;
   border-radius: 1rem;
   padding: 0.45rem 0.65rem;
-  margin: 0.25rem 0.75rem;
+  margin: 0.50rem 0.75rem 0.25rem 0;
   text-transform: lowercase;
 
   &:before {
