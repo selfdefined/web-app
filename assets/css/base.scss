@@ -1,224 +1,32 @@
-@charset 'utf-8';
-@import url('https://use.typekit.net/qlo3dpu.css');
+@charset 'UTF-8';
 
+// 1. Configuration and helpers
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins',
+  'abstracts/universal-selector';
+
+// 2. Vendors
+// @import
+// 'vendors/normalize';
+
+// 3. Base stuff
+@import 'base/custom-properties', 'base/fonts', 'base/base', 'base/typography',
+  './base/a', 'base/helpers';
+
+// 4. Layout-related sections
+@import 'structures/header', 'structures/footer', 'structures/grid',
+  'structures/multi-column', 'structures/table-of-content',
+  './structures/definition-content', './structures/definition-navigation';
+
+// 5. Components
+@import 'components/word', 'components/lists', 'components/definitions',
+  'components/flag';
+
+// 5.1 Code Highlighting
 @import '~prism-themes/themes/prism-a11y-dark';
-@import '_sass/functions';
 
-$browser-context: 16;
-
-pre[class*='language-'] {
-  font-size: 1rem;
-}
-
-code {
-  background-color: #333333;
-  border: pxToRem(1) solid black;
-  color: white;
-  padding: 0.15em;
-  border-radius: 0.25em;
-  font-size: 95%;
-
-  pre & {
-    border: none;
-    padding: 0;
-    border-radius: 0;
-    font-size: inherit;
-  }
-}
-
-// COLORS //
-
-:root {
-  --auto-grid-min-size: 17rem;
-
-  --l-gap: 1rem;
-}
-
-$primary-color: #0e4bff; //cobalt blue is so pretty//
-$secondary-color: #f3f315; //
-
-$black: #222222;
-$white: #ffffff;
-$pistachio: #e5ffe5;
-$yellow: #ffff00;
-
-$dark-grey: #4f4f4f;
-$mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
-$light-grey: #eeeeee; // for backgrounds only
-
-// TYPOGRAPHY //
-$sans-serif: monotype-grotesque, 'Lucida Sans', sans-serif;
-$serif: orpheuspro, Palatino, Times, serif;
-$ext-sans: monotype-grotesque-extended, Arial Black, sans-serif;
-$con-sans: monotype-grotesque-condensed, Arial Narrow, sans-serif;
-
-$thin: 200;
-$light: 300;
-$regular: 400;
-$medium: 500;
-$bold: 700;
-
-//MIXINS
-
-@mixin icon__avoid() {
-  content: '🚨';
-}
-
-@mixin icon__alt() {
-  content: '👍';
-}
-
-@mixin icon__tool() {
-  content: '🧰';
-}
-
-@mixin icon__hanging() {
-  margin-left: -2.15rem;
-}
-
-@mixin icon__embed() {
-  margin-right: 0.35rem;
-}
-
-body {
-  border-top: 1rem solid red;
-  font-family: $sans-serif;
-  font-size: pxToRem(20);
-  padding: 2rem;
-  margin: 0;
-}
-
-@import './base/universal-selector';
-@import './base/selection';
-@import './base/typography';
-@import './atoms/a';
-
-ul[class] {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.summary {
-  grid-column: span 2;
-}
-
-.help {
-  margin: 1rem 0;
-  li {
-    margin: 0.75rem 0;
-  }
-}
-
-th {
-  text-align: left;
-}
-
-@import './structures/multi-column';
-@import './structures/table-of-content';
-@import './structures/definition-content';
-@import './structures/definition-navigation';
-
-@import './layouts/grids';
+// 6. Page-specific styles
 @import './layouts/pages';
 
-.box {
-  background: black;
-  color: white;
-  padding: 1rem;
-  margin: 1rem 0.5rem;
-  height: auto;
-
-  a {
-    color: white;
-  }
-}
-
-.sub-headline {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.list {
-  ol {
-    padding: 0 0 0 1em;
-    margin: 0;
-  }
-
-  li {
-    list-style: none;
-    padding-bottom: 0.5em;
-
-    &.subterm {
-      padding-left: pxToRem(10);
-    }
-
-    &:last-child {
-      padding-bottom: 0;
-    }
-
-    &.subterm:before {
-      content: '\21B3';
-      padding-right: pxToRem(5);
-    }
-  }
-}
-
-.style__italics {
-  font-style: italic;
-}
-
-.block__dictionary {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1rem;
-}
-
-.block__word {
-  grid-column: span 2;
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-}
-
-.block__type {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  align-items: flex-start;
-}
-
-.flag__red {
-  background-color: rgb(255, 192, 203);
-  font-size: 0.9rem;
-  font-weight: bold;
-  border-radius: 1rem;
-  padding: 0.45rem 0.65rem;
-  margin: 0.25rem 0.75rem;
-  text-transform: lowercase;
-
-  &:before {
-    @include icon__avoid();
-    @include icon__embed();
-  }
-}
-
-.list-semicolon {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  & > li {
-    display: inline;
-
-    &:not(:last-child)::after {
-      content: '; ';
-    }
-  }
-}
-
-.site-footer {
-  margin-top: 3rem;
-}
-
-@import './utilities/spacing';
+// 7. Themes
+// @import
+//   'themes/default';

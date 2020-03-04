@@ -11,6 +11,7 @@ alt_words:
   - bizarre
   - enormous
   - ludicrous
+  - obnoxious
   - outlandish
   - ridiculous
   - unbelievable
@@ -21,6 +22,7 @@ alt_words:
   - shocking
   - strange
   - wicked
+  - wild
 ---
 
 mentally deranged; demented; insane.
