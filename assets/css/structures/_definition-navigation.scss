@@ -6,11 +6,13 @@
   & > div {
     flex: 0 1 15rem;
   }
-}
 
-.definition-navigation__headline {
-  flex: 0 0 100%;
-  width: 100%;
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 15rem);
+    grid-gap: 1.5rem;
+    width: 100%;
+  }
 }
 
 .definition-navigation__sub-headline {
@@ -26,6 +28,6 @@
   flex: 0 0 max-content;
 
   & li + li {
-    margin-top: 0.5rem;
+    // margin-top: 0.5rem;
   }
 }
