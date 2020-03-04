@@ -10,7 +10,7 @@ test('first item', (t) => {
   t.is(
     renderDefinitionContentNextEntries(title, slug, testCollection),
     `<section class="definition-navigation definition__further-definitions_nav" aria-label="Browse definitions">
-    <h2 class="definition-navigation__headline">Browse</h2>
+    <h2 class="visually-hidden">Browse</h2>
     <div><h3 class="definition-navigation__sub-headline" id="context-nav-previous">Previous words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-previous">
         </nav>
@@ -27,7 +27,7 @@ test('last item', (t) => {
   t.is(
     renderDefinitionContentNextEntries(title, slug, testCollection),
     `<section class="definition-navigation definition__further-definitions_nav" aria-label="Browse definitions">
-    <h2 class="definition-navigation__headline">Browse</h2>
+    <h2 class="visually-hidden">Browse</h2>
     <div><h3 class="definition-navigation__sub-headline" id="context-nav-previous">Previous words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-previous">
         <ul class="definition-navigation__list"><li><a href=/definitions/transgender/>Transgender</a></li><li><a href=/definitions/unreal/>unreal</a></li><li><a href=/definitions/white-fragility/>White Fragility</a></li></ul></nav>

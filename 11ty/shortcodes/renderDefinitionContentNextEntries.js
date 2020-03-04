@@ -18,7 +18,7 @@ module.exports = function definitionContentNextEntries(
   const { next, previous } = findDefinitionContentNextItems(entry, collection);
 
   return `<section class="definition-navigation definition__further-definitions_nav" aria-label="Browse definitions">
-    <h2 class="definition-navigation__headline">Browse</h2>
+    <h2 class="visually-hidden">Browse</h2>
     <div><h3 class="definition-navigation__sub-headline" id="context-nav-previous">Previous words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-previous">
         ${
