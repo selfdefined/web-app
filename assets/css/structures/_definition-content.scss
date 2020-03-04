@@ -67,12 +67,13 @@
   &__speech {
     // font-size: 0.5em;
     font-family: $sans-serif;
+    font-weight: 500;
   }
 
   &__signal {
-    border-top: 0.25rem solid var(--word-signal-color);
+    border-top: 0.15rem solid var(--word-signal-color);
     color: var(--word-signal-color);
-    display: inline-block;
+    display: block;
     font-family: $ext-sans;
     text-transform: uppercase;
     font-size: 0.75rem;

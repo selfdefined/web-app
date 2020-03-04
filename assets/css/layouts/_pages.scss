@@ -26,7 +26,7 @@
 }
 
 .definition {
-  max-width: 38rem;
+  max-width: var(--auto-grid-min-size);
 }
 
 .definition__further-definitions_nav {
@@ -34,5 +34,5 @@
 }
 
 .definition__header {
-  margin-bottom: 3rem;
+  font-family: orpheuspro, Palatino, Times, serif;
 }

@@ -5,9 +5,11 @@ a {
   font-family: $ext-sans;
   margin: 1rem 0;
 
-  &:hover {
+  &:hover,
+  &:focus {
     border-bottom: $primary-color solid 0.1rem;
   }
+
   &:focus {
     outline: pxToRem(3) solid $primary-color;
     outline-offset: pxToRem(5);
