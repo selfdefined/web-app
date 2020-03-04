@@ -1,6 +1,6 @@
 <section class="definition-content">
-  <section class="definition-content__content u-margin-bottom-double">
-    <h2>Speech</h2>
+  <section class="u-margin-bottom-double" aria-labelledby="definition-speech">
+    <h2 id="definition-speech" class="visually-hidden">Speech</h2>
     <p class="definition-content__speech">{{ speech }}</p>
   </section>
   <section class="definition-content__content">
@@ -9,8 +9,8 @@
   </section>
   {%- if alt_words -%}
     <section class="definition-content__content">
-      <h2>Alt Words</h2>
-      <ul class="list-semicolon">
+      <h2 id="alt-words">Alt Words</h2>
+      <ul class="list-semicolon" aria-labelledby="alt-words">
         {% for word in alt_words %}
           <li>{{ word | linkIfExistsInCollection(collections.definedWords) | safe }}</li>
         {% endfor %}
@@ -19,8 +19,8 @@
   {% endif %}
   {%- if reading -%}
     <section class="definition-content__content">
-      <h2>Further Reading</h2>
-      <ul class="list-semicolon">
+      <h2 id="further-reading">Further Reading</h2>
+      <ul class="list-semicolon" aria-labelledby="further-reading">
         {% for link in reading %}
           <li>
             <a href="{{link.href}}">{{ link.text }}</a>
