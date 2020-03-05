@@ -33,6 +33,17 @@
     "url": "https://github.com/tatianamac/selfdefined/issues"
   },
   "homepage": "https://github.com/tatianamac/selfdefined#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "11ty/**/*.js": [
+      "npm run lint:js -- --fix",
+      "npm run test"
+    ]
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.9.0",
     "markdown-it-anchor": "^5.2.5",
@@ -46,6 +57,8 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "esm": "^3.2.25",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
     "sass": "^1.23.7",
