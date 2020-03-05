@@ -43,6 +43,9 @@
     "11ty/**/*.js": [
       "npm run lint:js -- --fix",
       "npm run test"
+    ],
+    "assets/css/**/*.scss": [
+      "npm run lint:css -- --fix"
     ]
   },
   "dependencies": {
