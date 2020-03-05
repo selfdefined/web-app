@@ -40,7 +40,7 @@
   },
   "lint-staged": {
     "11ty/**/*.js": [
-      "npm run lint:js",
+      "npm run lint:js -- --fix",
       "npm run test"
     ]
   },
