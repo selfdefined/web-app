@@ -9,7 +9,8 @@
     "build:site": "eleventy",
     "build": "npm run build:css && npm run build:site",
     "create-definitions": "bin/create-definitions",
-    "lint": "npm run lint:js",
+    "lint": "npm run lint:css && npm run lint:js",
+    "lint:css": "stylelint \"assets/css/**/*.scss\"",
     "lint:js": "eslint \"11ty/**/*.js\"",
     "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
     "serve:site": "eleventy --serve",
@@ -33,6 +34,20 @@
     "url": "https://github.com/tatianamac/selfdefined/issues"
   },
   "homepage": "https://github.com/tatianamac/selfdefined#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "11ty/**/*.js": [
+      "npm run lint:js -- --fix",
+      "npm run test"
+    ],
+    "assets/css/**/*.scss": [
+      "npm run lint:css -- --fix"
+    ]
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.9.0",
     "markdown-it-anchor": "^5.2.5",
@@ -46,9 +61,15 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "esm": "^3.2.25",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
     "sass": "^1.23.7",
-    "slugify": "^1.3.6"
+    "slugify": "^1.3.6",
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.14.2"
   }
 }

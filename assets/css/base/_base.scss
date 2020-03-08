@@ -2,8 +2,8 @@ body {
   border-top: 1rem solid $primary-color;
   font-family: $sans-serif;
   font-size: pxToRem(20);
-  padding: 2rem;
   margin: 0;
+  padding: 2rem;
 }
 
 h1 {
@@ -15,22 +15,22 @@ h1,
 h2,
 h3,
 h4 {
-  margin-top: 1em;
   margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 p {
-  margin: 0.75rem 0;
   font-size: 1.25rem;
   line-height: 1.25;
+  margin: 0.75rem 0;
 }
 
 a {
-  text-decoration: none;
-  color: $black;
   border-bottom: $dark-grey solid 0.1em;
+  color: $black;
   font-family: $ext-sans;
   margin: 1rem 0;
+  text-decoration: none;
 
   &:hover {
     border-bottom: $primary-color solid 0.1rem;
@@ -44,16 +44,16 @@ a {
 code {
   background-color: $dark-grey;
   border: 1px solid $black;
-  color: $white;
-  padding: 0.15em;
   border-radius: 0.25em;
+  color: $white;
   font-size: 95%;
+  padding: 0.15em;
 
   pre & {
     border: none;
-    padding: 0;
     border-radius: 0;
     font-size: inherit;
+    padding: 0;
   }
 }
 
