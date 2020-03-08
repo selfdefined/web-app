@@ -1,3 +1,8 @@
 .toc__list-item {
   break-inside: avoid;
+
+    > span, > a {
+    margin-right: 0.75rem;
+    }
+
 }
