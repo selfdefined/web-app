@@ -10,10 +10,6 @@
   font-style: italic;
 }
 
-.small {
-  font-size: 0.75em;
-}
-
 .help {
   margin: 1rem 0;
   li {
@@ -22,8 +18,8 @@
 }
 
 .visually-hidden {
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  clip-path: inset(100%);
   height: 1px;
   overflow: hidden;
   position: absolute;

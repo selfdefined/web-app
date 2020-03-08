@@ -7,22 +7,22 @@ h1,
 h2,
 h3,
 h4 {
-  margin-top: 1em;
   margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 p {
-  margin: 0.75rem 0;
   font-size: 1.25rem;
   line-height: 1.25;
+  margin: 0.75rem 0;
 }
 
 .title__thicc {
   // a sensible base font size
   font-size: 3rem;
   line-height: 0.75;
-  padding: 0;
   margin: 0.5rem 0rem;
+  padding: 0;
   // transform: rotateZ(90deg);
   // margin: 13rem -7rem;
 }
@@ -54,8 +54,8 @@ p {
 }
 
 .main-headline {
-  font-size: 3.5rem;
   font-family: orpheuspro, Palatino, Times, serif;
+  font-size: 3.5rem;
   line-height: 1.2;
   margin: 0;
 }
@@ -63,8 +63,8 @@ p {
 .subtitle {
   font-family: $ext-sans;
   font-weight: $regular;
-  letter-spacing: 0.1;
   grid-column: span 2;
+  letter-spacing: 0.1;
 }
 
 .small {
