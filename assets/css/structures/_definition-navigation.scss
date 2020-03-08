@@ -9,8 +9,8 @@
 
   @supports (display: grid) {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 15rem);
     grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, 15rem);
     width: 100%;
   }
 }

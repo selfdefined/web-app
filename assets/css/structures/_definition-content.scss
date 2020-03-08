@@ -4,8 +4,8 @@
 
   &__title {
     font-family: $serif;
-    font-weight: 900;
     font-size: 2.5rem;
+    font-weight: 900;
     line-height: 1.25;
     margin-bottom: 1rem;
     margin-top: 0;
@@ -21,8 +21,8 @@
     @supports (display: grid) {
       // align-items: flex-start;
       display: grid;
-      grid-template-columns: 1fr 4fr;
       grid-gap: 1rem;
+      grid-template-columns: 1fr 4fr;
 
       & > * {
         margin: 0 !important;
@@ -30,18 +30,18 @@
     }
 
     & > p {
-      grid-column: 1 / -1;
       font-family: $sans-serif;
       font-size: 1.5rem;
+      grid-column: 1 / -1;
       line-height: 1.4;
     }
 
     & h2 {
-      grid-column: 1;
+      flex: 0 1 auto;
       font-family: $con-sans;
       font-size: 0.85rem;
       font-weight: normal;
-      flex: 0 1 auto;
+      grid-column: 1;
       text-transform: uppercase;
       transform: translateY(0.4em);
 
@@ -57,10 +57,10 @@
 
     & h2 ~ p,
     & h2 ~ ul {
+      font-size: inherit;
       // border-left: 0.1rem solid lightgrey;
       // padding-left: 1rem;
       grid-column: 2;
-      font-size: inherit;
     }
   }
 
@@ -75,10 +75,10 @@
     color: var(--word-signal-color);
     display: block;
     font-family: $ext-sans;
-    text-transform: uppercase;
     font-size: 0.75rem;
     letter-spacing: 0.15rem;
     padding: 0.5rem 0.75rem;
+    text-transform: uppercase;
 
     &--avoid {
       --word-signal-color: #a40000;
@@ -108,22 +108,22 @@
 }
 
 .definition-content__type {
-  text-align: right;
-  padding-right: 1rem;
   font-family: $con-sans;
   font-size: 0.85rem;
+  padding-right: 1rem;
+  text-align: right;
   text-transform: uppercase;
 }
 
 .definition-content__link {
-  text-decoration: none;
-  color: black;
   border-bottom: darkgrey solid 0.1em;
+  color: black;
   font-family: $ext-sans;
+  text-decoration: none;
 }
 
 .definition-content__breakdown {
-  font-family: $sans-serif;
   border-left: 0.1rem solid lightgrey;
+  font-family: $sans-serif;
   padding-left: 1rem;
 }
