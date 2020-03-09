@@ -16,10 +16,10 @@ reading:
 
 the teaching of English to people who speak a different language and who live in a country where English is the main language spoken
 
-#### Issues
+## Issues
 
 Monolinguist, English-only speakers often refer to people who don't speak English natively as "ESL" or say they are learning a "second language". More often than not, this is not true, as many people are multi-lingual with 3 or more languages
 
-#### Impact
+## Impact
 
 It makes false assumptions about English learners, centres English as the "default" or "expected" first language, ignoring that many people learn multiple (>3), non-English languages first.
