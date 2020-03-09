@@ -15,7 +15,7 @@ module.exports = function(config) {
       )}">${word}</a>`;
     }
 
-    return word;
+    return `<span>${word}</span>`;
   });
 
   config.addFilter('linkSubTermIfDefined', (subTermData, collection) => {
