@@ -17,6 +17,6 @@ reading:
 
 when an individual or group of power/majority/privilege (e.g., white, male, abled, unqueer, etc) loudly profess(es) their actions in the name of 'allyship,' while actively conducting harm to, taking focus away from, and generally being unhelpful towards the group they claim to support, often to receive praise and attention, without taking critical action to dismantle the systems of harm.
 
-## Impact
+#### Impact
 
 Performative allyship detracts from the stories of the oppressed and the impact that oppression has on them in favour of the stories of the oppressors and their intent to help. The cost of performative allyship can also be that the stories of the oppressed people are appropriated, watered down, and inaccurately retold by people who should not be telling those stories.

@@ -10,10 +10,3 @@
 
   # Default build command.
   command = "npm run build"
-
-[[redirects]]
-  from = "/#ok-hand"
-  to = "/definitions/ok-hand/"
-  status = 301
-  force = true
-  headers = {X-From = "Netlify"}

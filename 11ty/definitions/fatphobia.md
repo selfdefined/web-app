@@ -13,11 +13,11 @@ reading:
 
 the fear, hatred, and stigmitasation of fat people.
 
-## Issues
+#### Issues
 
 Fatphobia is the racialised, classist, and ableist tool of oppression that codifies a “ideal” body type that centres a white, Western aesthetic, demands time and resources that people may not have, and attempts to correlate thinness and heathliness—perpetuating white supremacist violence against people of colour, perpetuates classist oppression of people living with limited resources, and the ableist idea of healthiness as an indicator of human value.
 
-## Impact
+#### Impact
 
 A history of being ignored and shamed prevents many fat people from visiting medical professionals even if they have the financial and physical means to do so. Medical professionals hold fatphobic biases and often prescribe weight loss as a default instead of listening to their fat patients' concerns.
 

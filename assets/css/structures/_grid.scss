@@ -1,3 +1,8 @@
+:root {
+  --auto-grid-min-size: 17rem;
+  --l-gap: 1rem;
+}
+
 .grid {
   display: grid;
   grid-column-gap: 4rem;

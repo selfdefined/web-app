@@ -14,6 +14,6 @@ reading:
 
 belief that romantic and/or sexual exclusivity is not necessary for a happy, committed relationship; an umbrella term for various types of relationships (coded as romantic or quasi-romantic, sexual or non-sexual) where all partners involved consent to ethical non-monogamy, such as polycules, throuples, group marriages, etc.
 
-## Note
+#### Note
 
 One can be polyamorous despite currently being single or in a monogamous relationship.
