@@ -36,7 +36,8 @@
   "homepage": "https://github.com/tatianamac/selfdefined#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint && npm run test"
     }
   },
   "lint-staged": {
