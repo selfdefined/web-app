@@ -1,45 +1,32 @@
 @charset 'UTF-8';
-@import '~prism-themes/themes/prism-a11y-dark';
 
 // 1. Configuration and helpers
-@import
-  'abstracts/variables',
-  'abstracts/functions',
-  'abstracts/mixins',
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins',
   'abstracts/universal-selector';
 
 // 2. Vendors
 // @import
-  // 'vendors/normalize';
+// 'vendors/normalize';
 
 // 3. Base stuff
-@import
-  'base/custom-properties',
-  'base/fonts',
-  'base/base',
-  'base/typography',
-  'base/helpers';
+@import 'base/custom-properties', 'base/fonts', 'base/base', 'base/selection',
+  'base/typography', './base/a', 'base/helpers';
 
 // 4. Layout-related sections
-@import
-  'structures/header',
-  'structures/footer',
-  'structures/grid',
-  'structures/multi-column',
-  'structures/table-of-content';
+@import 'structures/header', 'structures/footer', 'structures/grid',
+  'structures/multi-column', 'structures/table-of-content',
+  './structures/definition-content', './structures/definition-navigation';
 
 // 5. Components
-@import
-  'components/word',
-  'components/lists',
-  'components/definitions',
+@import 'components/word', 'components/lists', 'components/definitions',
   'components/flag';
 
+// 5.1 Code Highlighting
+@import '~prism-themes/themes/prism-a11y-dark';
+
 // 6. Page-specific styles
-// @import
-//   'pages/home';
+@import './layouts/pages';
 
 // 7. Themes
 // @import
 //   'themes/default';
-

@@ -1,25 +1,25 @@
-  ol {
-    margin: 0;
-    padding: 0 0 0 1em;
+ol {
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 0.5em;
+
+  &.subterm {
+    padding-left: pxToRem(10);
   }
 
-  li {
-    list-style: none;
-    padding-bottom: 0.5em;
-
-    &.subterm {
-      padding-left: pxToRem(10);
-    }
-
-    &:last-child {
-      padding-bottom: 0;
-    }
-
-    &.subterm:before {
-      content: '\21B3';
-      padding-right: pxToRem(5);
-    }
+  &:last-child {
+    padding-bottom: 0;
   }
+
+  &.subterm:before {
+    content: '\21B3';
+    padding-right: pxToRem(5);
+  }
+}
 
 .list-semicolon {
   list-style: none;
@@ -34,4 +34,3 @@
     }
   }
 }
-
