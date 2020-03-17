@@ -60,7 +60,8 @@
   height: auto;
   margin: 1rem 0.5rem;
   padding: 1rem;
-
+  grid-column: span 2;
+  
   a {
     color: white;
   }
