@@ -21,9 +21,6 @@
 @import 'components/word', 'components/lists', 'components/definitions',
   'components/flag';
 
-// 5.1 Code Highlighting
-@import '~prism-themes/themes/prism-a11y-dark';
-
 // 6. Page-specific styles
 @import './layouts/pages';
 
