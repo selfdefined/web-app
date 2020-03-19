@@ -5,33 +5,41 @@ parent:
   href: '/documentation'
 ---
 
-This guide will walk you through the current state of the development config. Things get a bit technical here. 🤖
+This guide will walk you through the process of setting up your computer so that you can run Self-Defined locally.
 
-All file names, except stated differently, are relative to the project root.
+## Pre-requisites
 
-We are using [Eleventy](https://www.11ty.io/) to generate the site based on the given definitions. As a module bundle we use Parcel.
+Whether you'd like to contribute a definition, or
 
-## Setup
+To contribute to Self-Defined, you should be familiar with local development tools such as Git and the terminal, and comfortable working in a text editor such as Visual Studio Code, Sublime, or Atom. Additionally, you'll need to a GitHub account to submit your changes to us for review.
 
-You will need to have Node and Git installed on your machine. To start developing please create a fork of the root repository.
+We're working on making it possible to contribute definitions to Self-Defined without the need for developer tooling! Stay tuned!
 
-Afterwards, install the dependencies.
+If you'd like some help getting your local development environment set up, check out our TBD_LINK_TO_SETUP_GUIDE. Otherwise, you can continue to the next section.
+
+## About the project
+
+We're using [Eleventy](https://www.11ty.io/) to generate Self-Defined website, and Parcel to bundle our modules.
+
+## Installing Self-Defined
+
+In your terminal, run the following command:
 
 ```bash
 npm install
 ```
 
-That’s it, actually.
+This will install everything you need to run Self-Defined locally.
 
-## Development Mode
+## Starting the development server
 
-To start the dev server run this command:
+In your terminal, run the following command:
 
 ```bash
 npm run serve
 ```
 
-This will start Eleventy’s development server and watch the CSS entry point for changes. The output in the console will show the local URL to use.
+This will start Eleventy's development server and watch all the project's files for changes. Once the startup process completes, you your terminal will show you the local URL where Self-Defined is running. We default to [http://localhost:8080](http://localhost:8080).
 
 ### Eleventy Config
 
