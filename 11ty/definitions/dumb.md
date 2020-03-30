@@ -5,7 +5,7 @@ flag:
   text: 'Ableist Slur'
   level: avoid
 defined: true
-speech: noun
+speech: adjective
 alt_words:
   - incomprehensible
   - nonsensical
@@ -32,17 +32,17 @@ reading:
     href: https://history.stackexchange.com/questions/7293/who-first-wrote-about-deafness
 ---
 
-mute, silent, refraining from speaking or unable to speak; colloquially used to mean unintelligent or senseless.
+non-verbal, non-speaking, silent, refraining from speaking or unable to speak; sometimes __mute__ which can also be ableist; colloquially used to mean unintelligent or senseless
 
 ## Issues
 
 Dumb initially meant "mute, silent, refraining or unable to speak." Old German __thumb__ carried a dual meaning of "stupid", which eventually took over.
 
-An oft-cited quote by Greek philosopher Aristotle reads, "Men that are deaf are in all cases also dumb.*" Historically the Greeks valued physical prowess (as evidenced by their invention of the Olympic Games) and their language, so anyone who lacked the ability to perform certain physical tasks or conduct reason (verbalise reason, rather) in their language was considered invaluable to society. The historical context is still ever present today, where we devalue disabled bodies and minds.
+An oft-cited quote by Greek philosopher Aristotle reads, "Men that are deaf are in all cases also dumb.**" Historically the Greeks valued physical prowess (as evidenced by their invention of the Olympic Games) and their language, so anyone who lacked the ability to perform certain physical tasks or conduct reason (verbalise reason, rather) in their language was considered invaluable to society. The historical context is still ever present today, where we devalue disabled bodies and minds.
 
 Using dumb reinforces these cultural values.
 
-*Isolation to only "men" also reinforces the historical patriarchical ideas that intersected with these ableist ones.
+**Isolation to only "men" also reinforces the historical patriarchical ideas that intersected with these ableist ones.
 
 ## Impact
 
