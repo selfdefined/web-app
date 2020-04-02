@@ -64,5 +64,10 @@
 
   a {
     color: white;
+
+    &:focus {
+      background-color: pink;
+      color: $black;
+    }
   }
 }
