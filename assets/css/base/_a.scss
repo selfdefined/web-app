@@ -13,5 +13,6 @@ a {
   &:focus {
     background-color: pink;
     color: $black;
+    outline: 0;
   }
 }
