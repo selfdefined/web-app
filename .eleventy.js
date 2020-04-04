@@ -173,6 +173,8 @@ module.exports = function(config) {
 
   config.setLibrary('md', mdIt);
 
+  config.addPassthroughCopy('11ty/admin/config.yml');
+
   // You can return your Config object (optional).
   return {
     dir: {
