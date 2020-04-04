@@ -3,6 +3,7 @@ backend:
   branch: try/open-authoring
   repo: greatislander/selfdefined
   open_authoring: true
+publish_mode: editorial_workflow
 site_url: "https://nifty-snyder-07e6ef.netlify.com/"
 media_folder: "11ty/images/uploads"
 public_folder: "images/uploads"
