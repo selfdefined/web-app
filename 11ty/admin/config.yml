@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: try/open-authoring
   site_url: "https://nifty-snyder-07e6ef.netlify.com/"
+  media_folder: "11ty/images/uploads"
+  public_folder: "images/uploads"
 collections:
   - name: "definitions"
     label: "Definitions"
