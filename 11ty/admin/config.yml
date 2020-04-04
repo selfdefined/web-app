@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: try/open-authoring
+  site_url: "https://nifty-snyder-07e6ef.netlify.com/"
+collections:
+  - name: "definitions"
+    label: "Definitions"
+    folder: "11ty/definitions"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "hidden"}
+      - {label: "Defined", name: "defined", widget: "boolean"}
+      # flag
+        # - text
+        # - level
+      # speech
+      # reading
+        # - text, href
+      # alt_words
+      - {label: "Body", name: "body", widget: "markdown"}
