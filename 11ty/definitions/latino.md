@@ -7,7 +7,9 @@ reading:
       href: https://remezcla.com/features/culture/latino-vs-hispanic-vs-latinx-how-these-words-originated/
 ---
 
-From Latin America, or of Latin American origin. 
+Serves as an umbrella term for people of Latin American ancestry. Latino (and Latina) are inherently gendered terms due to Spanish's gendered language. Latino is considered a pan-ethnic term that does not provide context for someone's language, country of origin, or race.
+
+Also can be written in gender neutral forms of [Latinx](#/latinx), or Latin@s. When in doubt, default to Latino, and ask individual parties their preference, if possible.
 
 #### Note
 People who self-identify as Latin American or Latino/Latina may also self-identify as Chicano/Chicana, [Hispanic](#/hispanic), or [Latinx](#/latinx).
