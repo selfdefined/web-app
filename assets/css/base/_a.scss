@@ -11,7 +11,7 @@ a {
     text-decoration-color: $primary-color;
   }
   &:focus {
-    background-color: pink;
+    background-color: $lt-background-color;
     color: $black;
     outline: 0;
   }
