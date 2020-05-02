@@ -62,9 +62,11 @@ p {
 
 .subtitle {
   font-family: $ext-sans;
+  font-size: 1.25rem;
   font-weight: $regular;
   grid-column: span 2;
   letter-spacing: 0.1;
+  margin: .75rem 0;
 }
 
 .small {

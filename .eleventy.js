@@ -27,10 +27,10 @@ module.exports = function(config) {
     if (existingDefinition) {
       return `<a href="${definitionPermalink(
         existingDefinition.data.slug
-      )}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`;
+      )}">${subTermData.text}</a>`;
     }
 
-    return `<span aria-label="${subTermData.full_title}">${subTermData.text}</span>`;
+    return `<span>${subTermData.text}</span>`;
   });
 
   // just a debug filter to lazily inspect the content of anything in a template
