@@ -33,7 +33,7 @@ npm run serve
 
 This will start a local development server. Once the startup process completes, you your terminal will show you the local URL that you can visit to view Self-Defined in your browser. We default to [http://localhost:8080](http://localhost:8080).
 
-The `serve` script watches your files for changes and then refreshes your browser. Try `assets/css/abstracts/_variables.scss` and changing a color variable defined there. You'll see your new color as soon as you save!
+The `serve` script also watches your files for changes, so that your browser will refresh while you work. Try opening `assets/css/abstracts/_variables.scss` and changing a color variable defined there, then save the file. You'll see your new color when you check your browser!
 
 ## About the project
 
