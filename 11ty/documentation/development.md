@@ -39,4 +39,4 @@ The `serve` script watches your files for changes and then refreshes your browse
 
 We're using [Eleventy](https://www.11ty.io/), a static site generator, to generate the files that make up the Self-Defined website, and [Syntactically Awesome Stylesheets (SASS)](https://sass-lang.com) to write our CSS. You're welcome to make contributions to any part of this code base. If you're not sure where to begin, check out [our issues on GitHub](https://github.com/tatianamac/selfdefined/issues)! If you're having trouble, feel free to open an issue!
 
-Static site generators like Eleventy rely on something called _front matter_. front matter makes it such that all of the content can be written in Markdown then built into the static HTML and CSS. Here's how we structured our [front matter](/documentation/front-matter/).
+Static site generators like Eleventy rely on something called _front matter_. Font matter provides Eleventy with useful information about what to do with a file as the site gets built. You can read about how we structured our [front matter for our definitions](/documentation/front-matter/) if you'd like to contribute a definition.
