@@ -1,16 +1,18 @@
 a {
-  border-bottom: $dark-grey solid 0.1em;
   color: $black;
   font-family: $ext-sans;
   margin: 1rem 0;
-  text-decoration: none;
+  text-decoration-color: $dark-grey;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.1em;
 
   &:hover,
   &:focus {
-    border-bottom: $primary-color solid 0.1rem;
+    text-decoration-color: $primary-color;
   }
   &:focus {
-    outline: pxToRem(3) solid $primary-color;
-    outline-offset: pxToRem(5);
+    background-color: $lt-background-color;
+    color: $black;
+    outline: 0;
   }
 }
