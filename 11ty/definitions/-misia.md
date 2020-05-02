@@ -9,13 +9,12 @@ sub_terms:
   - text: Islam
     full_title: fatmisia
   - text: Trans
-  full_title: transmisia
+    full_title: transmisia
 reading:
   - text: Beatley Library Anti-Oppression Guide
     href: https://simmons.libguides.com/anti-oppression#s-lib-ctab-10174165-1
   - text: 'Anti-Oppression: Anti-Fatmisia'
     href: https://simmons.libguides.com/anti-oppression/anti-fatmisia
----
 ---
 from Greek for hate or hatred
 
