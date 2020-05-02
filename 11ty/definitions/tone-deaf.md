@@ -2,7 +2,7 @@
 title: tone-deaf
 slug: tone-deaf
 flag:
-  text: 'Ableist Slur'
+  text: 'Medical appropriation'
   level: avoid
 defined: true
 speech: adjective
