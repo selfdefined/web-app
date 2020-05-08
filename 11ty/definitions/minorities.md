@@ -21,3 +21,11 @@ By referring to a group as 'minorities,' it can suggest the group hasn't taken i
 ## Impact
 
 By repeatedly referring to groups as "minorities," they are being infantised to their numerical representation and made to feel minor. The vagueness also abstracts the identify of the marginalised group, making it difficult to address why they are minoritised to begin with.
+
+## See Also
+
+## See also
+
+- [minoritised](/definitions/minoritised)
+- [overrepresented majority](/definitions/overrepresented-majority)
+- [underrepresented majority](/definitions/underrepresented-majority)
