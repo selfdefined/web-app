@@ -1,0 +1,129 @@
+.definition-content {
+  --word-signal-color: currentColor;
+  --marker-height: 0.25rem;
+
+  &__title {
+    font-family: $serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  &__content {
+    align-items: stretch;
+
+    & + & {
+      margin-top: 2rem;
+    }
+
+    @supports (display: grid) {
+      // align-items: flex-start;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr 4fr;
+
+      & > * {
+        margin: 0 !important;
+      }
+    }
+
+    & > p {
+      font-family: $sans-serif;
+      font-size: 1.5rem;
+      grid-column: 1 / -1;
+      line-height: 1.4;
+    }
+
+    & h2 {
+      flex: 0 1 auto;
+      font-family: $con-sans;
+      font-size: 0.85rem;
+      font-weight: normal;
+      grid-column: 1;
+      text-transform: uppercase;
+      transform: translateY(0.4em);
+
+      @supports (display: grid) {
+        text-align: right;
+      }
+    }
+
+    & h2,
+    & h2 + * {
+      margin-top: 1rem;
+    }
+
+    & h2 ~ p,
+    & h2 ~ ul {
+      font-size: inherit;
+      // border-left: 0.1rem solid lightgrey;
+      // padding-left: 1rem;
+      grid-column: 2;
+    }
+  }
+
+  &__speech {
+    // font-size: 0.5em;
+    font-family: $sans-serif;
+    font-weight: 500;
+  }
+
+  &__signal {
+    border-top: 0.15rem solid var(--word-signal-color);
+    color: var(--word-signal-color);
+    display: block;
+    font-family: $ext-sans;
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+    padding: 0.5rem 0.75rem;
+    text-transform: uppercase;
+
+    &--avoid {
+      --word-signal-color: #a40000;
+
+      &:before {
+        @include icon__avoid();
+        @include icon__hanging();
+      }
+    }
+
+    &--better {
+      --word-signal-color: green;
+
+      &:before {
+        @include icon__alt();
+        @include icon__hanging();
+      }
+    }
+
+    &--tool {
+      &:before {
+        @include icon__tool();
+        @include icon__hanging();
+      }
+    }
+  }
+}
+
+.definition-content__type {
+  font-family: $con-sans;
+  font-size: 0.85rem;
+  padding-right: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.definition-content__link {
+  border-bottom: darkgrey solid 0.1em;
+  color: black;
+  font-family: $ext-sans;
+  text-decoration: none;
+}
+
+.definition-content__breakdown {
+  border-left: 0.1rem solid lightgrey;
+  font-family: $sans-serif;
+  padding-left: 1rem;
+}

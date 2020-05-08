@@ -1,5 +1,6 @@
 # 📕 [Self-Defined Dictionary](https://www.selfdefined.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys)
+
 [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/tatianamac/selfdefined/blob/master/CODE-OF-CONDUCT.md)
 
 A modern dictionary about us. We define our words, but they don't define us.
@@ -47,3 +48,33 @@ We love encouraging first-time contributors and have labelled [good first issues
 - Maintain OSS nature for non-profit and other OSS uses, but charge for corporate uses.
 - Ensure that dictionary includes nuances and expresses that not everyone ascribes to terms exactly as they are; illustrate and articulate those nuances wherever possible.
 - Accessibility, inclusion, and performance are at the core of this project.
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/tatianamac/SelfDefined/graphs/contributors"><img src="https://opencollective.com/SelfDefined/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/SelfDefined/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/SelfDefined"><img src="https://opencollective.com/SelfDefined/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/SelfDefined/contribute)]
+
+<a href="https://opencollective.com/SelfDefined/organization/0/website"><img src="https://opencollective.com/SelfDefined/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/1/website"><img src="https://opencollective.com/SelfDefined/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/2/website"><img src="https://opencollective.com/SelfDefined/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/3/website"><img src="https://opencollective.com/SelfDefined/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/4/website"><img src="https://opencollective.com/SelfDefined/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/5/website"><img src="https://opencollective.com/SelfDefined/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/6/website"><img src="https://opencollective.com/SelfDefined/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/7/website"><img src="https://opencollective.com/SelfDefined/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/8/website"><img src="https://opencollective.com/SelfDefined/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/SelfDefined/organization/9/website"><img src="https://opencollective.com/SelfDefined/organization/9/avatar.svg"></a>

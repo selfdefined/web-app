@@ -7,7 +7,7 @@
     <span class="flag__red">{{ definition.data.flag.text }}</span>
   {% endif %}
   {%- if definition.data.sub_terms -%}
-    <ul class="sub-terms">
+    <ul class="sub-terms" role="list" aria-label="{{definition.data.title}}">
       {% for term in definition.data.sub_terms %}
         <li
           class="subterm"

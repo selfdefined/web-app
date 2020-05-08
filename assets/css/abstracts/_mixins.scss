@@ -1,0 +1,19 @@
+@mixin icon__avoid() {
+  content: '🚨';
+}
+
+@mixin icon__alt() {
+  content: '👍';
+}
+
+@mixin icon__tool() {
+  content: '🧰';
+}
+
+@mixin icon__hanging() {
+  margin-left: -2.15rem;
+}
+
+@mixin icon__embed() {
+  margin-right: 0.35rem;
+}
