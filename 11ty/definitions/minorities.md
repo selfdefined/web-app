@@ -28,4 +28,4 @@ By repeatedly referring to groups as "minorities," they are being infantised to 
 
 - [minoritised](/definitions/minoritised)
 - [overrepresented majority](/definitions/overrepresented-majority)
-- [underrepresented majority](/definitions/underrepresented-majority)
+- [underrepresented majority](/definitions/underrepresented-minority)
