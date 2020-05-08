@@ -40,4 +40,4 @@ The term overrepresented majority allows us to discuss the holistic systems and 
 
 - [minorities](/definitions/minorities)
 - [minoritised](/definitions/minoritised)
-- [underrepresented majority](/definitions/underrepresented-majority)
+- [underrepresented majority](/definitions/underrepresented-minority)
