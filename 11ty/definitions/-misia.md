@@ -13,7 +13,7 @@ sub_terms:
 reading:
   - text: Beatley Library Anti-Oppression Guide
     href: https://simmons.libguides.com/anti-oppression#s-lib-ctab-10174165-1
-  - text: `Anti-Oppression: Anti-Fatmisia`
+  - text: "Anti-Oppression: Anti-Fatmisia"
     href: https://simmons.libguides.com/anti-oppression/anti-fatmisia
 ---
 ---
