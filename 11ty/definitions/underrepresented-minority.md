@@ -1,6 +1,6 @@
 ---
 title: underrepresented minority (URM)
-slug: underrepresented-majority
+slug: underrepresented-minority
 defined: true
 speech: noun
 flag:
