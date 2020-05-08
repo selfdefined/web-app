@@ -26,11 +26,11 @@ URM can also imply that the group in question isn't "showing up" to be represent
 
 By naming the underrepresented minority often without the overrepresented majority, we are often reinforcing the idea that people harmed by oppressive systems are on the hook to fix them.
 
-By repeatedly referring to groups as "[minorities](minorities)," they are being infantilised to their numerical representation and made to feel minor. The vagueness also abstracts the identify of the marginalised group, making it difficult to address why they are minoritised to begin with and often erasing the complexity of those intersections.
+By repeatedly referring to groups as "[minorities](/definitions/minorities)," they are being infantilised to their numerical representation and made to feel minor. The vagueness also abstracts the identify of the marginalised group, making it difficult to address why they are minoritised to begin with and often erasing the complexity of those intersections.
 
 ## Usage
 
-When using any term for a group, it's important to contextualise it into people. So, for example, "people from the underrepresented minorities are less likely to be affected by this change" over "the overrepresented majority are less likely to be affected by this change."
+When using any term for a group, it's important to contextualise it into people. So, for example, "people from the underrepresented minorities are more likely to be affected by this change" over "the underrepresented minority are more likely to be affected by this change."
 
 Additionally, it's important to examine the context of the usage:
 
