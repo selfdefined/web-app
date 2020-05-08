@@ -10,11 +10,12 @@ alt_words:
   - incomprehensible
   - nonsensical
   - redundant
+  - shallow
   - silly
   - senseless
   - strange
   - weird
-  - unfamilair
+  - unfamiliar
   - unfathomable
   - unnecessary
 reading:
