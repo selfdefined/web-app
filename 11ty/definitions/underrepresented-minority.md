@@ -4,7 +4,7 @@ slug: underrepresented-majority
 defined: true
 speech: noun
 flag:
-  level: caution
+  level: avoid
 reading:
   - text: Free Dictionary definition
     href: https://medical-dictionary.thefreedictionary.com/underrepresented+minority
