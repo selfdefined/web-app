@@ -2,7 +2,7 @@
 title: dumb
 slug: dumb
 flag:
-  text: 'Ableist Slur'
+  text: 'ableist language'
   level: avoid
 defined: true
 speech: adjective
