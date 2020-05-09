@@ -18,7 +18,7 @@ alt_words:
   - soundness check
   - spot check
 reading:
-  - text: Stack XChange
+  - text: Stack Exchange
     href: https://english.stackexchange.com/questions/282282/near-universally-applicable-alternative-to-sanity-check
 ---
 
