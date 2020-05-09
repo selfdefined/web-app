@@ -4,5 +4,5 @@ slug: stupid
 defined: false
 flag:
   level: avoid
-  text: ableist slur
+  text: ableist language
 ---

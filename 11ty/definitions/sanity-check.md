@@ -11,22 +11,29 @@ alt_words:
   - coherence check
   - confidence check
   - consistency check
+  - initial check
+  - quick check
   - sense check
   - smoke test
   - soundness check
   - spot check
+reading:
+  - text: Stack XChange
+    href: https://english.stackexchange.com/questions/282282/near-universally-applicable-alternative-to-sanity-check
 ---
 
- a basic test to quickly evaluate whether a claim or the result of a calculation can possibly be true; when expressed literally, examines if the author of a test was sane when they wrote it; commonly used in software engineering to assess whether something is reasonable and sound.
+ a basic test to quickly evaluate whether a claim or the result of a calculation can possibly be true; when expressed literally, examines if the author of a test was sane when they wrote it; commonly used in software engineering to assess whether something is reasonable and sound or meets its goals/acceptance criteria.
 
 ## Issues
 
-Connoting sanity with the thoroughness of a piece of software
+Connoting sanity (which is an assessment of a person's neurologically status—something that largely can't be changed) with the thoroughness of a piece of software (which is an object we create by decisions, which can be changed) reinforces the ableist idea that sanity (being neurotypical or mentally ill) is good and its opposite of insanity (being neurodivergent) is bad.
 
 ## Impact
+
+Using sanity check in our engineering processes also reinforces a system that excludes mentally ill and disabled people, reinforcing biases by making unsafe places for them to work. Using this language causes harm to our mentally ill, neurodivergent, and disabled colleagues.
 
 By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
 ## Usage Tip
 
-Be more specific. Typically we can find an alternate definition by simply reflecting on what emotion we're really feeling.
+Be more specific. Typically we can find an alternate definition by simply reflecting on what criteria we hope our test can meet.
