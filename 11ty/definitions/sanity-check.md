@@ -26,14 +26,18 @@ reading:
 
 ## Issues
 
-Connoting sanity (which is an assessment of a person's neurologically status—something that largely can't be changed) with the thoroughness of a piece of software (which is an object we create by decisions, which can be changed) reinforces the ableist idea that sanity (being neurotypical or mentally ill) is good and its opposite of insanity (being neurodivergent) is bad.
+Connoting sanity (which is an assessment of a person's neurological status—a medical condition that largely can't be changed) with the thoroughness of a piece of software (which is an object we create by decisions, which can be changed) reinforces the ableist idea that sanity (being neurotypical or mentally well) is good and its opposite of insanity (being neurodivergent or mentally ill) is bad.
 
 ## Impact
 
-Using sanity check in our engineering processes also reinforces a system that excludes mentally ill and disabled people, reinforcing biases by making unsafe places for them to work. Using this language causes harm to our mentally ill, neurodivergent, and disabled colleagues.
+Using sanity check in our engineering processes also reinforces a system that excludes mentally ill and disabled people, reinforcing negative biases against them and making unsafe places for them to work and to be. Using this language causes harm to our mentally ill, neurodivergent, and disabled colleagues.
 
 By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
 ## Usage Tip
 
-Be more specific. Typically we can find an alternate definition by simply reflecting on what criteria we hope our test can meet and what kind of feedback we're hoping to gain.
+Be more specific. Typically we can find an alternate definition by taking time to reflect on what criteria we hope our test can meet and what kind of feedback we're hoping to gain.
+
+## Read Also 
+
+- [sane](/definitions/sane)

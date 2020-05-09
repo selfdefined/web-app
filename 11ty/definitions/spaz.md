@@ -25,4 +25,4 @@ By using ableist language, we are perpetuating violence against people who exper
 
 ## Usage Tip
 
-Be more specific. Typically we can find an alternate definition by simply reflecting on what emotion we're really feeling.
+Be more specific. Typically we can find an alternate definition by taking time to reflect on what emotion we're really feeling.
