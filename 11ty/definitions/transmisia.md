@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: transmisia
+slug: transmisia
 defined: false
 flag:
   level: warning

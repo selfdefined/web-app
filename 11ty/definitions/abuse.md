@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Abuse
+slug: abuse
 defined: false
 flag:
   level: warning

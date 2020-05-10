@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: pedophilia
+slug: pedophilia
 defined: false
 flag:
   level: warning
