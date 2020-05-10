@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: white feminism
+slug: white-feminism
 defined: false
 flag:
   level: warning

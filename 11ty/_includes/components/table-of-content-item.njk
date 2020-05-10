@@ -5,7 +5,7 @@
     definition.data.flag.text and
     (definition.data.flag.level == 'avoid') -%}
     <span class="flag__red">{{ definition.data.flag.text }}</span>
-    {%- else 
+  {%- elseif
     definition.data.flag and
     definition.data.flag.text and
     (definition.data.flag.level == 'warning') -%}

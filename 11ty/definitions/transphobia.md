@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: transphobia
+slug: transphobia
 defined: false
 flag:
   level: warning
