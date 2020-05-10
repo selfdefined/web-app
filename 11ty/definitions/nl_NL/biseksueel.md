@@ -11,6 +11,6 @@ het zijn, relateren aan of zich laten kenmerken door seksueel aangetrokken zijn 
 
 Biseksualiteit sluit aangetrokken zijn tot [non-binaire](#non-binair) personen of [transgenders](#transgender) niet uit.
 
-#### Meer lezen
+#### Meer informatie
 
 [Am I Bisexual?](http://www.bisexualindex.org.uk/index.php/AmIBisexual)
