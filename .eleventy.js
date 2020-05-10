@@ -61,6 +61,13 @@ module.exports = function(config) {
           text: ''
         }
       ]
+      [
+        'warning',
+        {
+          class: 'warning',
+          text: 'Content warning'
+        }
+      ]
     ]);
 
     if (flag) {
