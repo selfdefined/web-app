@@ -16,7 +16,7 @@ alt-words:
 reading:
 - text: Use these culturally offensive phrases, questions at your own risk
   href: https://www.ictinc.ca/blog/culturally-offensive-phrases-you-should-use-at
-  text: "Vice: How to be an ally to Native Americans and Indigenous people"
+- text: "Vice: How to be an ally to Native Americans and Indigenous people"
   href: https://www.vice.com/en_us/article/pa5a3m/how-to-be-an-ally-to-native-americans-indigenous-people
 - text: "Mic: Things we need to stop saying about Native Americans"
   href: https://www.mic.com/articles/144584/things-we-need-to-stop-saying-about-native-americans
