@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Racist language
+slug: racist-language
 defined: false
 flag:
   level: warning

@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Self-harm
+slug: self-harm
 defined: false
 flag:
   level: warning

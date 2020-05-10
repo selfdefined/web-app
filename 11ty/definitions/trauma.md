@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: trauma
+slug: trauma
 defined: false
 flag:
   level: warning

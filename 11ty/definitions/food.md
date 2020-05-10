@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Food
+slug: food
 defined: false
 flag:
   level: warning

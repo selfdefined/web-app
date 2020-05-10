@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Bullying
+slug: bullying
 defined: false
 flag:
   level: warning
