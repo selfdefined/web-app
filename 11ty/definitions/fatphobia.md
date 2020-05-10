@@ -4,6 +4,9 @@ slug: fatphobia
 defined: true
 speech: noun
 skip_in_table_of_content: true
+flag:
+  level: warning
+  text: content warning
 reading:
   - text: Sizeism and Fatphobia
     href: https://www.srhweek.ca/providers/people-and-communities/sizeism-and-fatphobia/

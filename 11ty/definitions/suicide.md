@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Suicide
+slug: suicide
 defined: false
 flag:
   level: warning

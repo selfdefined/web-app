@@ -81,7 +81,7 @@
     text-transform: uppercase;
 
     &--avoid {
-      --word-signal-color: #a40000;
+      --word-signal-color: $dark-red;
 
       &:before {
         @include icon__avoid();
@@ -90,7 +90,7 @@
     }
 
     &--better {
-      --word-signal-color: green;
+      --word-signal-color: $dark-green;
 
       &:before {
         @include icon__alt();
@@ -101,6 +101,15 @@
     &--tool {
       &:before {
         @include icon__tool();
+        @include icon__hanging();
+      }
+    }
+
+    &--warning {
+      --word-signal-color: $dark-yellow;
+
+      &:before {
+        @include icon__warning();
         @include icon__hanging();
       }
     }

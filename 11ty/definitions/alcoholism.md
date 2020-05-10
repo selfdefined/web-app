@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: alcoholism
+slug: alcoholism
 defined: false
 flag:
   level: warning

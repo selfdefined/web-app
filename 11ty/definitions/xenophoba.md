@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: xenophobia
+slug: xenophobia
 defined: false
 flag:
   level: warning
