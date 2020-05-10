@@ -1,0 +1,18 @@
+a {
+  color: $black;
+  font-family: $ext-sans;
+  margin: 1rem 0;
+  text-decoration-color: $dark-grey;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.1em;
+
+  &:hover,
+  &:focus {
+    text-decoration-color: $primary-color;
+  }
+  &:focus {
+    background-color: $lt-background-color;
+    color: $black;
+    outline: 0;
+  }
+}
