@@ -60,7 +60,7 @@ module.exports = function(config) {
           class: 'tool',
           text: ''
         }
-      ]
+      ],
       [
         'warning',
         {

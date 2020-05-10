@@ -104,6 +104,15 @@
         @include icon__hanging();
       }
     }
+
+    &--warning {
+      --word-signal-color: $dark-yellow;
+
+      &:before {
+        @include icon__warning();
+        @include icon__hanging();
+      }
+    }
   }
 }
 
