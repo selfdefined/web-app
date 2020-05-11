@@ -8,7 +8,7 @@ flag:
   text: ableist slur
 ---
 
-Previously, the r-word was used in a medical context as an umbrella term to describe people with intellectual and developmental disabilities (I/DD).
+Previously, the word "retard" (often referred to by the euphemism "the r-word") was used in a medical context as an umbrella term to describe people with intellectual and developmental disabilities (I/DD).
 
 In modern use, the r-word is generally used as a denigrating term for a person with an I/DD, or to compare someone _without_ an I/DD to someone _with_ an I/DD in a derogatory sense.
 
@@ -22,7 +22,9 @@ The [DSM-5 update in 2013](https://www.psychiatry.org/File%20Library/Psychiatris
 
 ## Impact
 
-Regardless of whether r-word is being used to describe someone with or without an I/DD, use of the word contributes to the dehumanization, stigmatization, and negative perceptions of people with an I/DD.
+Regardless of whether r-word is being used to describe someone with or without an I/DD, use of the word contributes to the dehumanisation, stigmatisation, and negative perceptions of people with an I/DD.
+
+By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
 ## Alt Words
 
