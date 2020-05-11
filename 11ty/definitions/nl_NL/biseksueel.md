@@ -7,10 +7,14 @@ defined: true
 
 het zijn, relateren aan of zich laten kenmerken door seksueel aangetrokken zijn tot meer dan een geslacht.
 
-#### Opmerking
+## Opmerking
 
-Biseksualiteit sluit aangetrokken zijn tot [non-binaire](#non-binair) personen of [transgenders](#transgender) niet uit.
+Biseksualiteit sluit aangetrokken zijn tot [non-binaire](../../non-binary) personen of [transgenders](../../transgender) niet uit.
 
-#### Meer informatie
+## Meer informatie
 
 [Am I Bisexual?](http://www.bisexualindex.org.uk/index.php/AmIBisexual)
+
+## Andere talen
+
+[English](../../bisexual)
