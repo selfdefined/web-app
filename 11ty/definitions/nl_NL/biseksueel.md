@@ -5,7 +5,7 @@ speech: adj
 defined: true
 ---
 
-het zijn, relateren aan of zich laten kenmerken door seksueel aangetrokken te zijn tot meer dan één geslacht.
+het zijn, relateren aan of zich laten kenmerken door seksueel aangetrokken te zijn tot meer dan één gender.
 
 ## Opmerking
 
