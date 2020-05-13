@@ -29,7 +29,7 @@ Keeping your question simple usually is best:
 
 "What pronoun(s) should I use for you [add context if it's beyond one on one usage, including who might see it]?"
 
-Avoid adding extra words, like, "[preferred pronoun](/definitions/preferred-pronoun)" or "[gender pronoun](gender-pronoun)"
+Avoid adding extra words, like, "[preferred pronoun](/definitions/preferred-pronoun)" or "[gender pronoun](/definitions/gender-pronouns)"
 
 ## Tips for Correction
 **If you get someone's pronouns wrong and you're alerted of it or realise, correct the pronoun, apologise swiftly, and move on.** Avoid dwelling on it (providing long back story or berating yourself and expecting them to console you).
@@ -64,4 +64,4 @@ It is particularly important for people whose gender presentation and identity a
 
 ## See Also
 [gender pronouns](/definitions/gender-pronouns)
-[preferred pronouns](/definitions/preferred-pronouns)
+[preferred pronoun](/definitions/preferred-pronoun)
