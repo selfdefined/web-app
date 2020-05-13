@@ -61,3 +61,7 @@ Some ideas of places to put pronouns include:
 By respecting others' pronouns, asking them for consent, and sharing our own pronouns, we can normalise this step in socialisation. Doing so causes us to pause before presuming someone's pronouns. When people presume pronouns, it can lead to misgendering, which causes harm toward people, particularly trans and non-binary folks.
 
 It is particularly important for people whose gender presentation and identity aligns with their pronouns to take this step, as they have the most power to influence society.
+
+## See Also
+[gender pronouns](/definitions/gender-pronouns)
+[preferred pronouns](/definitions/preferred-pronouns)
