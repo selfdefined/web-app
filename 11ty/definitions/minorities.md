@@ -24,8 +24,6 @@ By repeatedly referring to groups as "minorities," they are being infantised to 
 
 ## Read also
 
-## Read also
-
 - [minoritised](/definitions/minoritised)
 - [overrepresented majority](/definitions/overrepresented-majority)
 - [underrepresented majority](/definitions/underrepresented-minority)
