@@ -30,14 +30,16 @@ Connoting sanity (which is an assessment of a person's neurological status—a m
 
 ## Impact
 
-Using sanity check in our engineering processes also reinforces a system that excludes mentally ill and disabled people, reinforcing negative biases against them and making unsafe places for them to work and to be. Using this language causes harm to our mentally ill, neurodivergent, and disabled colleagues.
+Using "sanity check" in our engineering processes reinforces a system that excludes mentally ill and disabled people, reinforcing negative biases against them and making unsafe places for them to work and to be. Using this language causes harm to our mentally ill, neurodivergent, and disabled colleagues.
 
-By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
+Using "sane" reinforces the system that excludes mentally ill and disabled people, reinforcing negative biases against them. Using this language causes harm to mentally ill, neurodivergent, and disabled people.
+
+By using this ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
 ## Usage Tip
 
 Be more specific. Typically we can find an alternate definition by taking time to reflect on what criteria we hope our test can meet and what kind of feedback we're hoping to gain.
 
-## Read Also 
+## Read Also
 
 - [sane](/definitions/sane)

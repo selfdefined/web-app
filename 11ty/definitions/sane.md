@@ -24,15 +24,15 @@ of sound mind, mentally healthy
 
 ## Issues
 
-While insane might seem more obvious to people as an ableist word to use, the subtle connotation that sanity is good implicitly suggests that _insanity_, its opposite, is bad.
+While "[insane](/definitions/insane)" might seem more obvious to people as an ableist word to use, the subtle connotation that sanity is good implicitly suggests that _insanity_, its opposite, is bad.
 
-Connoting sanity (which is an assessment of a person's neurological status—a medical condition that largely can't be changed) with being well thought out, reasonable, sensible (reflective of an event or series of events ) reinforces the ableist idea that sanity (being neurotypical or mentally well and abled) is good and its opposite of insanity (being neurodivergent or mentally ill and disabled) is bad.
+Connoting sanity (which is an assessment of a person's neurological status—a medical condition that largely can't be changed) with being well-thought out, reasonable, sensible (or mindful of an event or series of events) reinforces the ableist idea that sanity (being neurotypical or mentally well and abled) is good, and its opposite of insanity (being neurodivergent or mentally ill and disabled), is bad.
 
 ## Impact
 
-Using sane reinforces the system that excludes mentally ill and disabled people, reinforcing negative biases against them. Using this language causes harm to mentally ill, neurodivergent, and disabled people.
+Using "sane" reinforces the system that excludes mentally ill and disabled people, reinforcing negative biases against them. Using this language causes harm to mentally ill, neurodivergent, and disabled people.
 
-By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
+By using this ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
 ## Usage Tip
 
