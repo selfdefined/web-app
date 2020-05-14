@@ -14,6 +14,7 @@ alt_words:
   - initial check
   - quick check
   - sense check
+  - temperature check
   - smoke test
   - soundness check
   - spot check
