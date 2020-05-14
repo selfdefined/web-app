@@ -29,7 +29,7 @@ Keeping your question simple usually is best:
 
 "What pronoun(s) should I use for you [add context if it's beyond one on one usage, including who might see it]?"
 
-Avoid adding extra words, like, "[preferred pronoun](/definitions/preferred-pronoun)" or "[gender pronoun](gender-pronoun)"
+Avoid adding extra words, like, "[preferred pronoun](/definitions/preferred-pronoun)" or "[gender pronoun](/definitions/gender-pronouns)"
 
 ## Tips for Correction
 **If you get someone's pronouns wrong and you're alerted of it or realise, correct the pronoun, apologise swiftly, and move on.** Avoid dwelling on it (providing long back story or berating yourself and expecting them to console you).
@@ -41,7 +41,7 @@ It can be very uncomfortable for whom you used the wrong pronoun, as it can ofte
 ## Considerations
 - Usually people will list the pronouns as they/them or they/them/theirs.
 - Some people use multiple pronouns, such as she/they or they/he. Sometimes the order of these can imply which pronoun they use more frequently or if there is a slight preference to one over the other. It can also sometimes imply that they are in transition between using one pronoun to another. It can also imply none of these things, so it is best not to assume.
-- Some people change their pronouns based on settings. For example, if someone is transitioning and does not want to be outed in one setting, they may use different pronouns in that setting. Hence, why it is important to 
+- Some people change their pronouns based on settings. For example, if someone is transitioning and does not want to be outed in one setting, they may use different pronouns in that setting. Hence, why it is important to follow someone's lead and to confirm usage based on context.
 - They/them is a singular pronoun and has been since the late 1300s, so if someone tries to tell you that it's only plural, it's unlikely they take issue with the grammar but with something else.
 - Some plural people will refer to themselves as "we" to represent their plural identities.
 
@@ -62,6 +62,7 @@ By respecting others' pronouns, asking them for consent, and sharing our own pro
 
 It is particularly important for people whose gender presentation and identity aligns with their pronouns to take this step, as they have the most power to influence society.
 
-## See Also
+
+## Read Also
 [gender pronouns](/definitions/gender-pronouns)
-[preferred pronouns](/definitions/preferred-pronouns)
+[preferred pronoun](/definitions/preferred-pronoun)

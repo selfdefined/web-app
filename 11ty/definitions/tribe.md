@@ -3,6 +3,5 @@ title: Tribe
 slug: tribe
 defined: false
 flag:
-  text: 'cultural appropriation'
-  level: avoid
----
+ level: avoid
+ text: cultural appropriation
