@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: police brutality
+slug: police-brutality
 defined: false
 flag:
   level: warning

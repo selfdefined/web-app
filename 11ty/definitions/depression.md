@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Depression
+slug: depression
 defined: false
 flag:
   level: warning

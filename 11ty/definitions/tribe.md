@@ -5,4 +5,3 @@ defined: false
 flag:
  level: avoid
  text: cultural appropriation
----

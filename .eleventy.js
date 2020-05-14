@@ -60,6 +60,13 @@ module.exports = function(config) {
           class: 'tool',
           text: ''
         }
+      ],
+      [
+        'warning',
+        {
+          class: 'warning',
+          text: 'Content warning'
+        }
       ]
     ]);
 

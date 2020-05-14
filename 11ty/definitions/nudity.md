@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: Nudity
+slug: nudity
 defined: false
 flag:
   level: warning

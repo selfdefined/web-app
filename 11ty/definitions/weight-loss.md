@@ -1,6 +1,6 @@
 ---
-title: Racism
-slug: racism
+title: weight loss
+slug: weight-loss
 defined: false
 flag:
   level: warning
