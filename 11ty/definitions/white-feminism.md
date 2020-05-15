@@ -35,6 +35,8 @@ White feminism is a tool of white supremacy, as it reinforces the power and defa
 
 - For a white woman to not be a white feminist, they must engage in actively dismantling their unearned privilege and fight their engrained nature. This usually involves learning how to become anti-racist, anti-ablelist, anti-transmisic, etc.
 
+- While it is not a white feminist's _fault_ that they were born into, indoctrinated with, and socialised to use white feminist tools, it is their _responsibility_ to examine and to unpack the harm they can intentional and unintentionally commit. Just like it's not minoritised women's fault that they were born into bodies that are harmed by white feminism.
+
 - White feminists can come in any gender, ability, race, orientation, nationality. White men benefit from supporting white feminism and white feminists, as it supports white supremacy. For Black/brown folks, the white feminism may take a form of internalised oppression and require a decolonialisation of self to understand.
 
 - Other forms of oppression do not negate this white privilege. So, a disabled white woman still is indoctrinated with the power of and benefits from white feminism and white privilege, at the harm of Black/brown disabled women. Same goes for size-privilege, etc.
