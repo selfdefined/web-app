@@ -1,5 +1,5 @@
 ---
-title: White Fragility
+title: White fragility
 slug: white-fragility
 defined: true
 speech: noun
