@@ -19,8 +19,11 @@ alt_words:
   - soundness check
   - spot check
 reading:
+  - text: "Google Developer Documentation Style Guide: Inclusive Documentation"
+    href: https://developers.google.com/style/inclusive-documentation
   - text: Stack Exchange
     href: https://english.stackexchange.com/questions/282282/near-universally-applicable-alternative-to-sanity-check
+
 ---
 
  a basic test to quickly evaluate whether a claim or the result of a calculation can possibly be true; when expressed literally, examines if the author of a test was sane when they wrote it; commonly used in software engineering to assess whether something is reasonable and sound or meets its goals/acceptance criteria.
