@@ -37,7 +37,7 @@ You got a definition and want to define it. That’s awesome. Let’s go. Curren
 
 #### Working on Words
 
-After you’ve forked the repo, you will need to write a definition. Good times. Hopefully. 
+After you’ve forked the repo, you will need to write a definition. Good times. Hopefully.
 
 Always remember that if you are unsure, you can first open an issue or create a PR with «WIP» in the title («WIP» stands for «work in progress») and ask for early feedback. For example, it might be called *«\[WIP\] Propose definition for spirit animal»*.
 
