@@ -58,6 +58,7 @@ If you suspect you might be a white feminist, examine your brand of feminism.
 If you are white, examine your own [white fragility](/definitions/white-fragility). Reading Black feminist and womanist texts by authors like Angela Davis, bell hooks, and Audre Lorde is a good place to start.
 
 ## Editor's Notes
+
 [Non-binary](/definitions/non-binary), agender, gender non-conforming, and other gender minoritised people are often neglected in traditional feminist rhetoric. In this entry, we've explicitly not conflated and used the term "non-binary people and women" as many non-binary people do not like being lumped in with women. Exploring the nuance between even Black/brown women and Black/brown non-binary people, as one example, requires separate subtext beyond the scope of this singular definition.
 
 In our definition of women, we include trans women, because trans women are women.
