@@ -12,4 +12,5 @@ Serves as an umbrella term for people of Latin American ancestry. Latino (and La
 Also can be written in gender neutral forms of [Latinx](#/latinx), or Latin@s. When in doubt, default to Latino, and ask individual parties their preference, if possible.
 
 #### Note
+
 People who self-identify as Latin American or Latino/Latina may also self-identify as Chicano/Chicana, [Hispanic](#/hispanic), or [Latinx](#/latinx).
