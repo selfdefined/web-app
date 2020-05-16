@@ -10,4 +10,5 @@ reading:
 Serves as an umbrella term for people of Spanish, or Spanish-speaking ancestry. Hispanic is considered a pan-ethnic term, and does not provide context for someone's race or country of origin.
 
 #### Note
+
 People who self-identify as Hispanic may also self-identify as Chicano/Chicana, [Latino/Latina](#/latino), or [Latinx](#/latinx), but don't assume that they do. When in doubt, ask for individual preferences.
