@@ -4,7 +4,7 @@ slug: gender-pronouns
 defined: true
 ---
 
-gender pronouns are often used to mean [pronouns](/definition/pronouns).
+gender pronouns are often used to mean [pronouns](/definitions/pronouns).
 
 ## Issue
 
