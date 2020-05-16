@@ -18,6 +18,7 @@ alt_words:
   - temperature check
   - soundness check
   - spot check
+  - gut check
 reading:
   - text: "Google Developer Documentation Style Guide: Inclusive Documentation"
     href: https://developers.google.com/style/inclusive-documentation
