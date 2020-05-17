@@ -51,16 +51,6 @@
   grid-template-columns: 1fr 4fr;
 }
 
-.page {
-  align-items: start;
-  display: grid;
-  grid-template-columns: 1fr;
-
-  & > * {
-    grid-column: 1;
-  }
-}
-
 .box {
   background: black;
   color: white;
