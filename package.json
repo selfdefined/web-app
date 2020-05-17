@@ -48,6 +48,9 @@
     ],
     "assets/css/**/*.scss": [
       "npm run lint:css -- --fix"
+    ],
+    "**/*.md": [
+      "npm run lint:markdown -- --fix"
     ]
   },
   "dependencies": {
