@@ -9,7 +9,7 @@
     "build:site": "eleventy",
     "build": "npm run build:css && npm run build:site",
     "create-definitions": "bin/create-definitions",
-    "lint": "npm run lint:css && npm run lint:js && npm run lint:markdown",
+    "lint": "concurrently npm:lint:*",
     "lint:css": "stylelint \"assets/css/**/*.scss\"",
     "lint:js": "eslint \"11ty/**/*.js\"",
     "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "ava": "^3.5.0",
-    "concurrently": "^5.0.0",
+    "concurrently": "^5.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
