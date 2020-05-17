@@ -5,9 +5,9 @@
   "description": "A modern dictionary about us.",
   "main": "index.js",
   "scripts": {
+    "build": "concurrently npm:build:*",
     "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
     "build:site": "eleventy",
-    "build": "npm run build:css && npm run build:site",
     "create-definitions": "bin/create-definitions",
     "lint": "concurrently npm:lint:*",
     "lint:css": "stylelint \"assets/css/**/*.scss\"",
