@@ -5,15 +5,19 @@
   "description": "A modern dictionary about us.",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:css && npm run build:site",
-    "build:site": "eleventy",
     "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
-    "watch": "eleventy --watch",
+    "build:site": "eleventy",
+    "build": "npm run build:css && npm run build:site",
+    "create-definitions": "bin/create-definitions",
+    "lint": "npm run lint:css && npm run lint:js && npm run lint:markdown",
+    "lint:css": "stylelint \"assets/css/**/*.scss\"",
+    "lint:js": "eslint \"11ty/**/*.js\"",
+    "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
     "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
-    "watch:css": "parcel watch assets/css/base.scss --out-dir dist/assets/css/",
     "serve:site": "eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "create-definitions": "bin/create-definitions"
+    "test": "ava",
+    "watch": "eleventy --watch",
+    "watch:css": "parcel watch assets/css/base.scss --out-dir dist/assets/css/"
   },
   "bin": {
     "create-definitions": "bin/create-definitions"
@@ -31,17 +35,46 @@
     "url": "https://github.com/tatianamac/selfdefined/issues"
   },
   "homepage": "https://github.com/tatianamac/selfdefined#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint && npm run test"
+    }
+  },
+  "lint-staged": {
+    "11ty/**/*.js": [
+      "npm run lint:js -- --fix",
+      "npm run test"
+    ],
+    "assets/css/**/*.scss": [
+      "npm run lint:css -- --fix"
+    ]
+  },
   "dependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.10.0",
     "markdown-it-anchor": "^5.2.5",
-    "markdown-it-prism": "^2.0.3",
-    "prism-themes": "^1.3.0"
+    "markdown-it-prism": "^2.0.3"
   },
   "devDependencies": {
+    "ava": "^3.5.0",
     "concurrently": "^5.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "esm": "^3.2.25",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "markdownlint-cli": "^0.23.0",
     "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
     "sass": "^1.23.7",
-    "slugify": "^1.3.6"
+    "slugify": "^1.3.6",
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.14.2"
+  },
+  "engines": {
+    "node": "12"
   }
 }

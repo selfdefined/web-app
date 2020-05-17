@@ -1,21 +1,21 @@
-const makeItemLink = (slug) => `#${slug}`;
-const findExistingDefinition = (word, collection) =>
-  collection.find((item) => item.data.title === word);
+const definitionPermalink = require('./11ty/helpers/definitionPermalink');
+const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
+const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
 
 module.exports = function(config) {
   // Add a filter using the Config API
-  config.addFilter('linkTarget', makeItemLink);
+  config.addFilter('linkTarget', definitionPermalink);
 
   config.addFilter('linkIfExistsInCollection', (word, collection) => {
     const existingDefinition = findExistingDefinition(word, collection);
 
     if (existingDefinition) {
-      return `<a href="${makeItemLink(
+      return `<a href="${definitionPermalink(
         existingDefinition.data.slug
       )}">${word}</a>`;
     }
 
-    return word;
+    return `<span>${word}</span>`;
   });
 
   config.addFilter('linkSubTermIfDefined', (subTermData, collection) => {
@@ -25,12 +25,12 @@ module.exports = function(config) {
     );
 
     if (existingDefinition) {
-      return `<a href="${makeItemLink(
+      return `<a href="${definitionPermalink(
         existingDefinition.data.slug
-      )}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`;
+      )}">${subTermData.text}</a>`;
     }
 
-    return `<span aria-label="${subTermData.full_title}">${subTermData.text}</span>`;
+    return `<span>${subTermData.text}</span>`;
   });
 
   // just a debug filter to lazily inspect the content of anything in a template
@@ -60,6 +60,13 @@ module.exports = function(config) {
           class: 'tool',
           text: ''
         }
+      ],
+      [
+        'warning',
+        {
+          class: 'warning',
+          text: 'Content warning'
+        }
       ]
     ]);
 
@@ -69,11 +76,16 @@ module.exports = function(config) {
       const sep = flag.text && info.text ? '—' : '';
       const text = flag.text ? [info.text, flag.text].join(sep) : info.text;
 
-      return `<p class="word__signal word__signal--${info.class}">${text}</p>`;
+      return `<p class="definition-content__signal definition-content__signal--${info.class}">${text}</p>`;
     }
 
-    return '<p class="word__signal"></p>';
+    return '<p class="definition-content__signal"></p>';
   });
+
+  config.addShortcode(
+    'renderDefinitionContentNextEntries',
+    renderDefinitionContentNextEntries
+  );
 
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
   config.addCollection('tableOfContent', (collection) => {

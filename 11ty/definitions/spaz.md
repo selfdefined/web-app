@@ -15,14 +15,14 @@ alt_words:
 
 irrationally nervous person; hyperactive
 
-#### Issues
+## Issues
 
 The origin of the word “Spaz” is a shortened version of “Spastic.” Spastic refers to an alteration in muscle tone affected by the medical condition spasticity, which is seen in spastic diplegia and many other forms of cerebral palsy.
 
-#### Impact
+## Impact
 
 By using ableist language, we are perpetuating violence against people who experience mental or psychological disabilities. Using this language perpetuates those systems and language of harm, regardless of our intent.
 
-#### Usage Tip
+## Usage Tip
 
-Be more specific. Typically we can find an alternate definition by simply reflecting on what emotion we're really feeling.
+Be more specific. Typically we can find an alternate definition by taking time to reflect on what emotion we're really feeling.

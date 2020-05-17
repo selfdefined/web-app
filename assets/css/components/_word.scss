@@ -1,0 +1,108 @@
+.word {
+  --word-signal-color: currentColor;
+
+  &__title {
+    font-family: $serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  &__content {
+    align-items: stretch;
+
+    @supports (display: grid) {
+      // align-items: flex-start;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr 4fr;
+
+      & > * {
+        margin: 0;
+      }
+    }
+
+    & > p {
+      font-family: $sans-serif;
+      font-size: 1.5rem;
+      grid-column: 1 / -1;
+    }
+
+    & h4 {
+      flex: 0 1 auto;
+      font-family: $con-sans;
+      font-size: 0.85rem;
+      font-weight: normal;
+      grid-column: 1;
+      text-transform: uppercase;
+      transform: translateY(0.4em);
+
+      @supports (display: grid) {
+        text-align: right;
+      }
+    }
+
+    & h4,
+    & h4 + * {
+      margin-top: 1rem;
+    }
+
+    & h4 ~ p,
+    & h4 ~ ul {
+      font-size: inherit;
+      // border-left: 0.1rem solid lightgrey;
+      // padding-left: 1rem;
+      grid-column: 2;
+    }
+  }
+
+  &__speech {
+    font-family: $sans-serif;
+    font-size: 0.5em;
+  }
+
+  &__signal {
+    border-top: pxToRem(1) solid var(--word-signal-color);
+    color: var(--word-signal-color);
+    display: inline-block;
+    font-family: $ext-sans;
+    font-size: 0.75rem;
+    letter-spacing: 0.15rem;
+    padding: 0.5rem 0.75rem;
+    text-transform: uppercase;
+
+    &--avoid {
+      --word-signal-color: $dark-red;
+
+      &:before {
+        @include icon__avoid();
+        @include icon__hanging();
+      }
+    }
+
+    &--better {
+      --word-signal-color: $dark-green;
+
+      &:before {
+        @include icon__alt();
+        @include icon__hanging();
+      }
+    }
+
+    &--tool {
+      &:before {
+        @include icon__tool();
+        @include icon__hanging();
+      }
+    }
+    &--warning {
+      --word-signal-color: $dark-yellow;
+      &:before {
+        @include icon__warning();
+        @include icon__hanging();
+      }
+    }
+  }
+}

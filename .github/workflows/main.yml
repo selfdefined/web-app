@@ -1,0 +1,21 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+    - name: npm install, lint, and test
+      run: |
+        npm install
+        npm run lint
+        npm test
+      env:
+        CI: true

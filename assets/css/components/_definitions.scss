@@ -1,0 +1,20 @@
+.word__type {
+    font-family: $con-sans;
+    font-size: 0.85rem;
+    padding-right: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+.word__link {
+    border-bottom: darkgrey solid 0.1em;
+    color: black;
+    font-family: $ext-sans;
+    text-decoration: none;
+  }
+
+.word__breakdown {
+    border-left: 0.1rem solid lightgrey;
+    font-family: $sans-serif;
+    padding-left: 1rem;
+}
