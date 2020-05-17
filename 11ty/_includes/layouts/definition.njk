@@ -11,6 +11,10 @@
         <header class="definition__header">
           {% definitionFlag flag %}
           <h1 class="main-headline" >{{ title }}</h1>
+          <section class="u-margin-bottom-double" aria-labelledby="definition-speech">
+            <h2 id="definition-speech" class="visually-hidden">Speech</h2>
+            <p class="definition-content__speech">{{ speech }}</p>
+          </section>
         </header>
         {% include 'components/definition-content.njk' %}
         {% renderDefinitionContentNextEntries title, slug, collections.definedWords %}
