@@ -12,6 +12,7 @@ alt_words:
   - foolish
   - misshapen
   - malformed
+  - silly
 ---
 
 clumsy, foolish, unattractive, or otherwise less intelligent person; 
