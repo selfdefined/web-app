@@ -1,0 +1,15 @@
+{%- if
+  flag and
+  flag.text and
+  (flag.level == 'avoid') -%}
+  <div class="u-margin-bottom-double content-flag">
+    <p class="small">There is a content warning against this term, we would recommend <a href="#content-warning-guide">reading the guidance</a> on warning other people before using this term in any context.</p>
+  </div>
+{%- elseif
+  flag and
+  flag.text and
+  (flag.level == 'warning') -%}
+  <div class="u-margin-bottom-double content-flag">
+    <p class="small">There is a content warning against this term, we would recommend <a href="#content-warning-guide">reading the guidance</a> on warning other people before using this term in any context.</p>
+  </div>
+{% endif %}

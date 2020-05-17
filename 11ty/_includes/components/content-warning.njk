@@ -1,0 +1,17 @@
+{%- if
+  flag and
+  flag.text and
+  (flag.level == 'avoid') -%}
+  <div class="u-margin-bottom-double u-margin-top-double box box--divider" id="content-warning-guide">
+    <p>You may want to add a content warning before discussing or showing imagery involving this topic, as it is a topic that can elicit negative feelings and visceral reactions like a panic attack or trauma.</p>
+    <p>Content warnings usually take the form of: "Content warning: [topic]" and should precede the subject matter. Please ensure your content warnings are accessible.</p>
+  </div>
+{%- elseif
+  flag and
+  flag.text and
+  (flag.level == 'warning') -%}
+  <div class="u-margin-bottom-double u-margin-top-double box box--divider" id="content-warning-guide">
+    <p>You may want to add a content warning before discussing or showing imagery involving this topic, as it is a topic that can elicit negative feelings and visceral reactions like a panic attack or trauma.</p>
+    <p>Content warnings usually take the form of: "Content warning: [topic]" and should precede the subject matter. Please ensure your content warnings are accessible.</p>
+  </div>
+{% endif %}
