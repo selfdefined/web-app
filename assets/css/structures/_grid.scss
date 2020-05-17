@@ -10,7 +10,7 @@
   display: grid;
   grid-gap: var(--l-gap);
   grid-template-columns: repeat(
-    auto-fill,
+    auto-fit,
     minmax(var(--auto-grid-min-size), 1fr)
   );
 }
