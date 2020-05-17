@@ -1,0 +1,7 @@
+.homepage-section {
+  margin-top: calc(var(--l-gap) * 2);
+
+  @media (min-width: 800px) {
+    margin-top: calc(var(--l-gap) * 4);
+  }
+}
