@@ -81,4 +81,8 @@
       color: $black;
     }
   }
+  *::selection {
+    background: white; /* WebKit/Blink Browsers */
+    color: black;
+  }
 }
