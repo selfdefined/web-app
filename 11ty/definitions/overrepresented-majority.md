@@ -36,7 +36,7 @@ It also allows prevents the false dichotomy where everyone is either "default/un
 
 The term overrepresented majority allows us to discuss the holistic systems and all of the players involved.
 
-## See also
+## Read also
 
 - [minorities](/definitions/minorities)
 - [minoritised](/definitions/minoritised)

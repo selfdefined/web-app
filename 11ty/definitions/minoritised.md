@@ -25,7 +25,7 @@ Minoritised places the emphasis on the power struggle, and on the systemic issue
 
 It removes the pejorative nature of "minorities", illuminating that this is an effect upon the individual or group, rather than the singular way to identify the group.
 
-## See Also
+## Read also
 
 - [minorities](/definitions/minorities)
 - [overrepresented majority](/definitions/overrepresented-majority)

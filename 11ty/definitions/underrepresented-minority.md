@@ -40,7 +40,7 @@ Additionally, it's important to examine the context of the usage:
 - Is URM accurate?
 - If no, can you be more specific than URM?
 
-## See also
+## Read also
 
 - [minorities](/definitions/minorities)
 - [minoritised](/definitions/minoritised)

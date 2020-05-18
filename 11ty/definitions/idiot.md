@@ -4,5 +4,5 @@ slug: idiot
 defined: false
 flag:
   level: avoid
-  text: 'Ableist Slur'
+  text: 'Ableist language'
 ---
