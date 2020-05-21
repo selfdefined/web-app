@@ -1,6 +1,7 @@
 {
   "title": "Self-Defined",
   "url": "https://www.selfdefined.app/",
+  "feedPermalink": "/feed.xml",
   "description": "A modern dictionary about us. We define our words, but they don't define us.",
   "author": {
     "name": "Tatiana & the Crew",
