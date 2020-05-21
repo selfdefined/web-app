@@ -52,6 +52,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
     "markdown-it-anchor": "^5.2.5",
     "markdown-it-prism": "^2.0.3"
   },

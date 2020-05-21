@@ -1,6 +1,7 @@
 const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
 const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 module.exports = function(config) {
   // Add a filter using the Config API
@@ -37,6 +38,8 @@ module.exports = function(config) {
   config.addFilter('postInspect', function(post) {
     console.log(post);
   });
+
+  config.addPlugin(pluginRss);
 
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
