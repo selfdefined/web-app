@@ -6,7 +6,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <link href="{{ metadata.feedUrl }}" rel="self"/>
+  <link href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.definedWords | rssLastUpdatedDate }}</updated>
   <id>{{ metadata.url }}</id>
