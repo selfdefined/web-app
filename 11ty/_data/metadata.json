@@ -5,6 +5,7 @@
   "description": "A modern dictionary about us. We define our words, but they don't define us.",
   "author": {
     "name": "Tatiana & the Crew",
+    "name_safe": "Tatiana &amp; the Crew",
     "email": "info@selfdefined.app"
   }
 }
