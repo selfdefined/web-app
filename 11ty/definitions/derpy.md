@@ -23,6 +23,7 @@ reading:
 clumsy, foolish, unattractive, or otherwise unintelligent act or person.
 
 ## Related Words
+
 derp, derp face, herp derp, hurr durr
 
 ## Issues
