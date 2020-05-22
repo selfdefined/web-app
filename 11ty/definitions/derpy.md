@@ -30,7 +30,7 @@ derp, derp face, herp derp, hurr durr
 
 Derpy is very commonly used as an adjective to describe someone's clumsy or foolish behavior, occasionally that of the speaker themselves. Sometimes it is used as a direct replacement of the [r-word](https://www.selfdefined.app/definitions/r-word/).
 
-It is also used to describe someone else's physical features as unattractive or akin to someone with intellectual and developmental disabilities. In imagery, derpy or a so-called "derp face", is often signified by crossed eyes, a stuck out tongue, or permanent facial differences. 
+It is also used to describe someone else's physical features as unattractive or akin to someone with intellectual and developmental disabilities. In imagery, derpy or a so-called "derp face", is often signified by crossed eyes, a stuck out tongue, or permanent facial differences.
 
 ## Origins
 
