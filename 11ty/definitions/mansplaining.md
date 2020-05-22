@@ -1,6 +1,6 @@
 ---
 title: Mansplain
-slug: mansplaining
+slug: mansplain
 speech: verb
 defined: true
 reading:
@@ -23,4 +23,3 @@ A good way to check if you're mansplaining is to ask yourself whether:
 (2) you are assuming incompetence, and, 
 
 (3) how bias affects your interpretation of (1) and (2)
-
