@@ -20,7 +20,7 @@
 }
 
 .content-flag {
-  background: $lt-background-color-warning;
+  background-color: $lt-background-color-warning;
   overflow: hidden;
   padding: 0 1rem 0 3rem;
   position: relative;
@@ -31,5 +31,26 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  &--avoid {
+    background-color: $pink;
+
+    &:before {
+      content: "🚨";
+    }
+  }
+}
+
+.content-warning {
+  background-color: $lt-background-color-warning;
+  border-left: 4px $yellow solid;
+  overflow: hidden;
+  padding: 1rem 1.5rem;
+  position: relative;
+
+  &--avoid {
+    background-color: $pink;
+    border-left-color: red;
   }
 }
