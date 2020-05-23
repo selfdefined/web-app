@@ -42,16 +42,6 @@ p {
   }
 }
 
-@media (min-width: 800px) {
-  .thicc-headline {
-    grid-column: 1 / 3;
-  }
-
-  .introduction {
-    grid-column: 1 / 2;
-  }
-}
-
 .main-headline {
   font-family: orpheuspro, Palatino, Times, serif;
   font-size: 3.5rem;
