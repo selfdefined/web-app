@@ -5,11 +5,11 @@
   "description": "A modern dictionary about us.",
   "main": "index.js",
   "scripts": {
+    "build": "concurrently npm:build:*",
     "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
     "build:site": "eleventy",
-    "build": "npm run build:css && npm run build:site",
     "create-definitions": "bin/create-definitions",
-    "lint": "npm run lint:css && npm run lint:js && npm run lint:markdown",
+    "lint": "concurrently npm:lint:*",
     "lint:css": "stylelint \"assets/css/**/*.scss\"",
     "lint:js": "eslint \"11ty/**/*.js\"",
     "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
@@ -48,6 +48,9 @@
     ],
     "assets/css/**/*.scss": [
       "npm run lint:css -- --fix"
+    ],
+    "**/*.md": [
+      "npm run lint:markdown -- --fix"
     ]
   },
   "dependencies": {
@@ -57,7 +60,7 @@
   },
   "devDependencies": {
     "ava": "^3.5.0",
-    "concurrently": "^5.0.0",
+    "concurrently": "^5.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
