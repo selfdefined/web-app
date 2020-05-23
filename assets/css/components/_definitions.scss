@@ -20,6 +20,16 @@
 }
 
 .content-flag {
-  border-left: 0.1rem solid red;
-  padding-left: 1rem;
+  background: $lt-background-color-warning;
+  overflow: hidden;
+  padding: 0 1rem 0 3rem;
+  position: relative;
+
+  &:before {
+    content: "⚠️";
+    left: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
