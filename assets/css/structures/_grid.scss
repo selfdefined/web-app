@@ -56,8 +56,11 @@
   color: white;
   grid-column: span 2;
   height: auto;
-  margin: 1rem 0.5rem;
+  margin: 1rem 0;
   padding: 1rem;
+  @media (min-width: #{pxToRem(768)}) {
+    margin: 1rem 0.5rem;
+  }
 
   a {
     color: white;
