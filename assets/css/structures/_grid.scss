@@ -67,13 +67,14 @@
       color: $black;
     }
   }
-  &__list {
-    margin: 1rem 0;
-    li {
-      margin: 0.75rem 0;
-    }
-    a {
-      word-break: break-word;
-    }
+}
+
+.list {
+  margin: 1rem 0;
+  li {
+    margin: 0.75rem 0;
+  }
+  a {
+    word-break: break-word;
   }
 }
