@@ -13,6 +13,7 @@
           <h1 class="main-headline" >{{ title }}</h1>
         </header>
         {% include 'components/definition-content.njk' %}
+        {% include 'components/alertbox.njk' %}
         {% renderDefinitionContentNextEntries title, slug, collections.definedWords %}
       </article>
     </main>
