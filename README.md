@@ -1,6 +1,6 @@
 # 📕 [Self-Defined Dictionary](https://www.selfdefined.app)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys) [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tatianamac/selfdefined)
 
 [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/tatianamac/selfdefined/blob/master/CODE-OF-CONDUCT.md)
 
@@ -19,6 +19,18 @@ Self-Defined is proud to be built on [Eleventy](https://github.com/11ty/eleventy
 ## Contributing
 
 We want to create and to foster a welcoming, inclusive, and safer environment where contributors of many backgrounds and talents can contribute to Self-Defined, in particular, first-time contributors from "non-technical" backgrounds. Our hope is that people can truly self-define and write about the words that they identify as. We are grateful for the community contributions.
+
+### Online one-click setup for code contributions
+
+You can use Gitpod (a free online VS Code like IDE) for contributing to the code online, with a single click it will launch a workspace and automatically:
+
+- clone the self-defined repo.
+- install the dependencies.
+- start `npm run serve`.
+
+so that you can start straight away.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ### Code of Conduct
 
