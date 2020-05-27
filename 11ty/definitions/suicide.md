@@ -25,6 +25,6 @@ Unless used with sensitivity and care, discussion of suicide can reinforce negat
 
 - Avoid mentioning details of methods used and suggesting that these are "easy" or "painless" to reduce the risk of imitation. 
 - Avoid suggesting that suicide is an "easy way out".
-- Avoid speculation over possible triggers: Suicide is complex and not necessarily the result of a single event. Attempting to explain away suicide with a specific cause downplays the wider circumstances and the impact on all those affected.
+- Avoid speculation over possible triggers: Suicide and suicidal ideation is complex and not necessarily the result of a single event or condition. Attempting to explain away suicide with a specific cause or condition downplays the wider circumstances and the impact on all those affected.
 - Rather than saying that a person "committed suicide", instead say that a person "died by suicide". This frames suicide as a symptom of wider conditions and the individual as a victim rather than a perpetrator.
 - Discussing or reporting on suicide can be an opportunity to signpost the support available and educate people about the importance of mental wellbeing.
