@@ -13,7 +13,7 @@ reading:
 ---
 the deliberate act of voluntarily ending one's own life. Motivation for suicide can be the result of conscious or unconscious thoughts and feelings.
 
-## Issues
+## Usage Notes
 
 Commonly referred to in conversation and journalism as "committed suicide", "took their own life", or similar, which can have negative connotations with criminality and judgement, and can place blame on the individual. Can also be used in combination with a related measure of "success" which promotes suicide as a desirable result.
 
