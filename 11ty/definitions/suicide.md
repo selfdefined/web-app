@@ -1,5 +1,5 @@
 ---
-title: Suicide
+title: suicide
 slug: suicide
 defined: true
 flag:
