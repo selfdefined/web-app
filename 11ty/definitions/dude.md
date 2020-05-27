@@ -2,6 +2,8 @@
 title: dude
 slug: dude
 defined: true
+flag:
+  - level: avoid
 reading:
   - text: Etymonline entry
     href: https://www.etymonline.com/word/dude
