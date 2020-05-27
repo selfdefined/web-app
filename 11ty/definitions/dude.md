@@ -11,7 +11,7 @@ colloquially, a man; a discourse marker expressing masculine solidarity; an expr
 
 ## Issues
 
-Dude was originally used to refer to a man who paid a lot of attention to his appearance, but became more broadly used to describe any man as part of African American Vernacular English in the 1960s. It was subsequently appropriated by white men in the 1980s, particularly on the West Coast, and has since grown to be used broadly by white men and women as a noun as well as a discourse marker.
+"Dude" was originally used to refer to a man who paid a lot of attention to his appearance, but became more broadly used to describe any man as part of African American Vernacular English in the 1960s. It was subsequently appropriated by white men in the 1980s, particularly on the West Coast, and has since grown to be used broadly by white men and women as a noun as well as a discourse marker.
 
 When used as a discourse marker, it carries the connotation that the speaker believes that they are speaking to a man; however, as both a discourse marker and a noun, it is frequently used without regard for the gender or pronouns of listeners.
 
