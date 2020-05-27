@@ -1,6 +1,6 @@
 ---
 title: Cisgenre
-slug: cisgender
+slug: cisgenre
 speech: adj
 defined: true
 ---

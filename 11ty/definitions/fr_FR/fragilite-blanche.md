@@ -1,6 +1,6 @@
 ---
 title: Fragilité Blanche
-slug: white-fragility
+slug: fragilite-blanche
 defined: true
 speech: noun
 flag:
