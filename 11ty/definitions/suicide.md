@@ -1,7 +1,7 @@
 ---
 title: Suicide
 slug: suicide
-defined: false
+defined: true
 flag:
   level: warning
   text: content warning
