@@ -22,7 +22,7 @@ Commonly referred to in conversation and journalism as "committed suicide", "too
 Unless used with sensitivity and care, discussion of suicide can reinforce negative stereotypes and stigma around mental illness. Sensationalist reporting of suicide also risks inadvertently promoting suicide.
 
 ## Usage Tips
-
+When discussing suicide and suicidal ideation:
 - Avoid mentioning details of methods used and suggesting that these are "easy" or "painless" to reduce the risk of imitation. 
 - Avoid suggesting that suicide is an "easy way out".
 - Avoid speculation over possible triggers: Suicide and suicidal ideation is complex and not necessarily the result of a single event or condition. Attempting to explain away suicide with a specific cause or condition downplays the wider circumstances and the impact on all those affected.
