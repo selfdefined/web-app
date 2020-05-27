@@ -7,9 +7,9 @@ flag:
   text: content warning
 reading:
   - text: "Mental Health Foundation: Suicide"
-  href: https://www.mentalhealth.org.uk/a-to-z/s/suicide
+    href: https://www.mentalhealth.org.uk/a-to-z/s/suicide
   - text: "Samaritans: Best Practice Suicide Reporting Tips"
-  href: https://www.samaritans.org/about-samaritans/media-guidelines/best-practice-suicide-reporting-tips/
+    href: https://www.samaritans.org/about-samaritans/media-guidelines/best-practice-suicide-reporting-tips/
 ---
 the deliberate act of voluntarily ending one's own life. Motivation for suicide can be the result of conscious or unconscious thoughts and feelings.
 
