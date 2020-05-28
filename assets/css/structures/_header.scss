@@ -1,44 +1,15 @@
-.title__thicc {
-  // a sensible base font size
-  font-size: 3rem;
-  line-height: 0.75;
-  margin: 0.5rem 0rem;
-  padding: 0;
-  // transform: rotateZ(90deg);
-  // margin: 13rem -7rem;
-}
-
-@media (min-width: 51rem) and (min-height: #{pxToRem(400)}) {
-  // a dramatic font size
-  .title__thicc {
-    font-size: 12vh;
-  }
-}
-
-@media (min-width: 51rem) and (min-height: #{pxToRem(850)}) {
-  // cap the max-height of the title
-  // at the same size that 12vh computes to
-  // when the viewport is 850px high
-  .title__thicc {
-    font-size: 6.75rem;
-  }
-}
-
-@media (min-width: #{pxToRem(800)}) {
-  .title__thicc {
-    grid-column: 1 / 3;
-  }
-
-  .title__thicc + p {
-    grid-column: 1 / 2;
-  }
-}
-
-.sub-headline {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
 .summary {
   grid-column: span 2;
+}
+
+
+@media (min-width: 800px) {
+  .introduction {
+    &__title {
+      grid-column: 1 / 3;
+    }
+    &__body {
+      grid-column: 1 / 2;
+    }
+  }
 }
