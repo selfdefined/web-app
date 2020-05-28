@@ -62,6 +62,10 @@
     margin: 1rem 0.5rem;
   }
 
+  &--divider {
+    margin: 2rem 0;
+  }
+
   a {
     color: white;
 
@@ -69,6 +73,10 @@
       background-color: $lt-background-color;
       color: $black;
     }
+  }
+  *::selection {
+    background: white; /* WebKit/Blink Browsers */
+    color: black;
   }
 }
 
