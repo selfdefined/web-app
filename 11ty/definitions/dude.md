@@ -4,6 +4,13 @@ slug: dude
 defined: true
 flag:
   level: avoid
+alt_words:
+  - wow
+  - oh my word
+  - yikes
+  - y'all
+  - friend
+  - mate
 reading:
   - text: Etymonline entry
     href: https://www.etymonline.com/word/dude
