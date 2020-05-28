@@ -78,7 +78,6 @@
 
       &:before {
         @include icon__avoid();
-        @include icon__hanging();
       }
     }
 
@@ -87,21 +86,18 @@
 
       &:before {
         @include icon__alt();
-        @include icon__hanging();
       }
     }
 
     &--tool {
       &:before {
         @include icon__tool();
-        @include icon__hanging();
       }
     }
     &--warning {
       --word-signal-color: $dark-yellow;
       &:before {
         @include icon__warning();
-        @include icon__hanging();
       }
     }
   }

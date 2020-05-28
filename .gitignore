@@ -4,3 +4,4 @@ dist
 config.codekit3
 .cache
 .sass-cache
+.idea

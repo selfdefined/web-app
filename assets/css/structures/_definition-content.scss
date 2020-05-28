@@ -77,7 +77,6 @@
     font-family: $ext-sans;
     font-size: 0.75rem;
     letter-spacing: 0.15rem;
-    padding: 0.5rem 0.75rem;
     text-transform: uppercase;
 
     &--avoid {
@@ -85,7 +84,6 @@
 
       &:before {
         @include icon__avoid();
-        @include icon__hanging();
       }
     }
 
@@ -94,14 +92,12 @@
 
       &:before {
         @include icon__alt();
-        @include icon__hanging();
       }
     }
 
     &--tool {
       &:before {
         @include icon__tool();
-        @include icon__hanging();
       }
     }
 
@@ -110,7 +106,6 @@
 
       &:before {
         @include icon__warning();
-        @include icon__hanging();
       }
     }
   }
