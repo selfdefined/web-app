@@ -18,8 +18,8 @@ Preferred pronoun can imply that this is merely what is _preferred_ rather than 
 
 ## Impact
 
-Preferred pronouns can delegitimise pronouns of trans and non-binary people in particular, especially when their pronouns are wrongly assumed to be different than they are or [neopronouns](definitions/neopronouns) that are less commonly known. Delegitimising their pronouns delegitimes aspects of their identity, reinforces transmisia and non-binary erasure, and leads to harm against them.
+Preferred pronouns can delegitimise pronouns of trans and non-binary people in particular, especially when their pronouns are wrongly assumed to be different than they are or [neopronouns](/definitions/neopronouns) that are less commonly known. Delegitimising their pronouns delegitimes aspects of their identity, reinforces transmisia and non-binary erasure, and leads to harm against them.
 
 ## Usage Tip
 
-Use [pronouns](definitions/pronouns) instead.
+Use [pronouns](/definitions/pronouns) instead.
