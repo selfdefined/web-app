@@ -34,4 +34,4 @@ Continuer d'utiliser le symbole avec ses connotations dénuées de haine pour "l
 
 ## Autres Langues
 
-[English](/definitions/ok-sign)
+[English](/definitions/ok-hand)

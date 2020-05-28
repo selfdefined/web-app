@@ -2,9 +2,10 @@
 title: suicide
 slug: suicide
 defined: true
+speech: noun
 flag:
   level: warning
-  text:
+  text: content warning
 reading:
   - text: "Mental Health Foundation: Suicide"
     href: https://www.mentalhealth.org.uk/a-to-z/s/suicide
