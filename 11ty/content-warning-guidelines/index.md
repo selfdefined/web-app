@@ -23,7 +23,7 @@ To help with this, definitions on Self Defined will advise you when we recommend
 There are two standardised ways of giving a content warning in writing:
 
 <ul class="list-default">
-  <li>Content warning: [topic or topics]</li>
+  <li>Content Warning: [topic or topics]</li>
   <li>CW: [topic or topics]</li>
 </ul>
 
