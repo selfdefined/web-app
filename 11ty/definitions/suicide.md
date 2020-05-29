@@ -20,7 +20,7 @@ Commonly referred to in conversation and journalism as "committed suicide", "too
 
 Can also be used in combination with a related measure of "success" which promotes suicide as a desirable result.
 
-Suicide is sometimes used colloquially in phrases such as "social suicide" and "career suicide". Instead, use self-sabotage and career-ending which convey the same intent.
+Suicide is sometimes used colloquially in "social suicide" and "career suicide". Instead of "carrer suicide" use career-ending which conveys the same intent. Instead of "social suicide" rephrase completely and avoid placing blame on the individual. eg. "That is social suicide" can be rephrased as "That will impact your social life".
 
 ## Impact
 
