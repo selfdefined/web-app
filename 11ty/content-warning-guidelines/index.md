@@ -44,8 +44,8 @@ In order to give someone a chance to decide to engage with a possibly distressin
   <li>Podcasts (before topic, in transcript)</li>
   <li>Books (introductory page, summary)</li>
   <li>Conference talks/webinars (introduction)</li>
-  <li>Start of social media posts including this term</li>
-  <li>Social media posts with a link to content including this term</li>
+  <li>Start of social media posts including this topic</li>
+  <li>Social media posts with a link to content including this topic</li>
 </ul>
 
 ## Responding to feedback
