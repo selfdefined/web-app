@@ -20,6 +20,8 @@ Commonly referred to in conversation and journalism as "committed suicide", "too
 
 Can also be used in combination with a related measure of "success" which promotes suicide as a desirable result.
 
+Suicide is sometimes used colloquially in phrases such as "social suicide" and "career suicide". Instead, use self-sabotage and career-ending which convey the same intent.
+
 ## Impact
 
 Unless used with sensitivity and care, discussion of suicide can reinforce negative stereotypes and stigma around mental illness. Sensationalist reporting of suicide also risks inadvertently promoting suicide.
