@@ -33,13 +33,13 @@ alt_words:
 
 ## Issues
 
-> Following the discovery of America, the phrase "savage" for indigenous peoples was used disparagingly to justify colonialism. The concept of the savage gave Europeans the supposed right to establish colonies without considering the possibility of preexisting, functional societies.[1](https://en.wikipedia.org/wiki/Noble_savage).
+"Following the discovery of America, the phrase "savage" for indigenous peoples was used disparagingly to justify colonialism. The concept of the savage gave Europeans the supposed right to establish colonies without considering the possibility of preexisting, functional societies."[1](https://en.wikipedia.org/wiki/Noble_savage).
 
 The term savage is deeply rooted in settler colonialism, used primarily to justify colonisation by dehumanising Indigenous people, in particular, with regard to North American Indigenous peoples.
 
 The theories behind the "noble savage" led to scientific racism. [Boarding schools](https://eji.org/history-racial-injustice-cultural-genocide) were constructed to separate Indigenous children from their parents, becuase white colonisers didn't believe that they were equipped to be parents.
 
->“When the school is on the reserve the child lives with its parents, who are savages; he is surrounded by savages, and though he may learn to read and write his habits, and training and mode of thought are Indian. He is simply a savage who can read and write … [T]he Indian children should be withdrawn as much as possible from the parental influence, and the only way to do that would be to put them in central training industrial schools where they will acquire the habits and modes of thought of white men.”
+“When the school is on the reserve the child lives with its parents, who are savages; he is surrounded by savages, and though he may learn to read and write his habits, and training and mode of thought are Indian. He is simply a savage who can read and write … [T]he Indian children should be withdrawn as much as possible from the parental influence, and the only way to do that would be to put them in central training industrial schools where they will acquire the habits and modes of thought of white men.”[2](https://eji.org/history-racial-injustice-cultural-genocide)
 
 ## Impact
 
@@ -53,6 +53,4 @@ The imagery associated with the "savage" is used to justify oppressive and syste
 
 Rihanna has a lingerie line called Savage by Fenty. Megan Thee Stallion has a song called "Savage."
 
-The intersection of oppression of Black and Indigenous cultures is one worth noting. [Gwen Benaway's piece, Rihanna’s Lingerie Line Brings Up a Complicated Discussion About Language](https://www.flare.com/fashion/rihanna-savage-fenty-lingerie/) addresses this complexity.
-
->As much as we like clear right and wrongs with easy retweetable hot takes, some issues—like the dialogue about savage between Indigenous and Black communities—isn’t one to simplify
+The intersection of oppression of Black and Indigenous cultures is one worth noting. [Gwen Benaway's piece, Rihanna’s Lingerie Line Brings Up a Complicated Discussion About Language](https://www.flare.com/fashion/rihanna-savage-fenty-lingerie/) addresses this complexity: "As much as we like clear right and wrongs with easy retweetable hot takes, some issues—like the dialogue about savage between Indigenous and Black communities—isn’t one to simplify."
