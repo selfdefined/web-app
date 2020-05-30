@@ -32,8 +32,8 @@ Examples include but aren't limited to: a man explaining to a woman how to prono
 
 A good way to check if you're mansplaining is to ask yourself whether:
 
-1. the person explicitly asked for the explanation
+(1) the person explicitly asked for the explanation
 
-2. you are assuming incompetence because of the person's gender, race, ability, etc, and,
+(2) you are assuming incompetence because of the person's gender, race, ability, etc, and,
 
-3. how your systematic and individual bias, particularly gender bias in this context, affects your interpretation of (1) and (2)
+(3) how your systematic and individual bias, particularly gender bias in this context, affects your interpretation of (1) and (2)
