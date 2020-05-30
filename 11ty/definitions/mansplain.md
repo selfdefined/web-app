@@ -10,7 +10,7 @@ reading:
   href: https://ichef.bbci.co.uk/wwfeatures/live/1600_900/images/live/p0/6f/zj/p06fzjxg.jpg
 ---
 
-the act of explaining (usually by a man) something without asking consent to do so, often to someone who already knows and/or after someone else has already explained it (usually a woman or femme)
+the act of explaining (usually by a man) something without asking consent to do so, often to someone who already knows and/or after someone else has already explained it (usually a woman or femme person)
 
 ## Issues
 
