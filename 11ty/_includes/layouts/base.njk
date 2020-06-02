@@ -6,11 +6,16 @@
 
     {# Use title with path, or append a space to the page title to avoid collpasing with the meta title #}
     {% set pageTitle = titleWithPath or title + ' ' or '' %}
+
+    {% set alert = flag.level or '' %}
+    {% set socialPreview = excerpt or renderData.description or description or metadata.description %}
+
+
     <title>{{ pageTitle + metadata.title }}</title>
 
     <meta
       name="twitter:description"
-      content="{{ flag.level + ": " + socialPreview }}"
+      content="{{ alert + ": " + socialPreview }}"
     >
 
     <meta name="twitter:card" content="summary"/>
@@ -19,14 +24,14 @@
 
     <meta
       name="og:description"
-      content="{{ flag.level + ": " + socialPreview }}"
+      content="{{ alert + ": " + socialPreview }}"
     >
 
     <meta name="og:title" content="{{ pageTitle }}"/>
 
     <meta
       name="description"
-      content="{{ renderData.description or description or metadata.description }}"
+      content="{{ alert + ": " + socialPreview }}"
     >
 
 
