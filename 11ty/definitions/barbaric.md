@@ -5,7 +5,7 @@ flag:
   text: 'Neo-Colonial/Racist slur'
   level: 'avoid'
 defined: true
-socialPreview: something which is obscenely cruel; primitive; unsophisticated. 
+excerpt: something which is obscenely cruel; primitive; unsophisticated. 
 speech: adjective
 reading:
   - text: 'is the word barbarian a slur?'

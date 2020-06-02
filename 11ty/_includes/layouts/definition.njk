@@ -1,8 +1,8 @@
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'Definition' %}
 {% set titleWithPath = title + ' « Definitions « ' %}
-{% set description = 'The definition of ' + title + ' in Self-Defined, a modern dictionary about us.'%}
-
+{% set description =   (flag.level + ' : ' if flag.level ) +  excerpt if excerpt else 'The definition of ' + title + ' in Self-Defined, a modern dictionary about us.' %}
+ 
 {% block content %}
   <div class="wide-content">
     {% include 'components/sub-page-header.njk' %}
