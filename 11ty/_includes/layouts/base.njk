@@ -9,17 +9,13 @@
 
     {% set alert = flag.level or '' %}
 
-    {% set shortExcerpt = excerpt.substring(0, 50) + '... [see full definition on Self-Defined]'%}
-
-    {% set shortPreview = shortExcerpt or renderData.description or description or metadata.description %}
-
-    {% set longPreview = excerpt or renderData.description or description or metadata.description %}
+    {% set preview = excerpt or renderData.description or description or metadata.description %}
 
     <title>{{ pageTitle + metadata.title }}</title>
 
     <meta
       name="twitter:description"
-      content="{{ alert + ": " + shortPreview }}"
+      content="{{ alert + ": " + preview }}"
     >
 
     <meta name="twitter:card" content="summary"/>
@@ -28,14 +24,14 @@
 
     <meta
       name="og:description"
-      content="{{ alert + ": " + longPreview }}"
+      content="{{ alert + ": " + preview }}"
     >
 
     <meta name="og:title" content="{{ pageTitle }}"/>
 
     <meta
       name="description"
-      content="{{ alert + ": " + longPreview }}"
+      content="{{ alert + ": " + preview }}"
     >
 
 
