@@ -160,6 +160,17 @@ module.exports = function(config) {
 			})
 	})
 
+  config.addCollection('definedWordsChronological', (collection) => {
+    return collection
+      .getFilteredByGlob('./11ty/definitions/*.md')
+      .filter((word) => word.data.defined)
+      .sort((a, b) => {
+        if (a.date > b.date) return 1
+        if (a.date < b.date) return -1
+        return 0;
+      })
+  })
+
 	const mdIt = require('markdown-it')({
 		html: true
 	})
