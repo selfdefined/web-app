@@ -1,3 +1,7 @@
 .site-footer {
   margin-top: 3rem;
+
+  ul > li {
+    display: inline-block;
+  }
 }
