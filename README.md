@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys)
 
-[Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/tatianamac/selfdefined/blob/master/CODE-OF-CONDUCT.md)
+[Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/prod/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/tatianamac/selfdefined/blob/prod/CODE-OF-CONDUCT.md)
 
 A modern dictionary about us. We define our words, but they don't define us.
 
@@ -22,11 +22,11 @@ We want to create and to foster a welcoming, inclusive, and safer environment wh
 
 ### Code of Conduct
 
-We have adapted the [Contributor Convenent](https://github.com/tatianamac/selfdefined/blob/master/CODE-OF-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
+We have adapted the [Contributor Convenent](https://github.com/tatianamac/selfdefined/blob/prod/CODE-OF-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
 
 ### Contributing Guide
 
-Please read our [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/master/CONTRIBUTING.md) to get started.
+Please read our [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/prod/CONTRIBUTING.md) to get started.
 
 ### Documentation
 
