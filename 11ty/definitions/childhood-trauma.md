@@ -1,5 +1,5 @@
 ---
-title: chilldhood trauma
+title: childhood trauma
 slug: childhood-trauma
 defined: false
 flag:
