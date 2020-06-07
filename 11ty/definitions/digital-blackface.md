@@ -10,7 +10,9 @@ Digital Blackface is a form of appropriation where white and non-black individua
 
 ## Issues
 
- This type of action is another in a long history of dehumanizing black individuals into exaggerated versions of themselves, especially black women. Rarely are Black characters given subtle feelings, emotion or actions.
+Digital Blackface is one of many ways of dehumanising Black individuals into exaggerated versions of themselves, especially Black women. Rarely are Black characters given subtle feelings, emotion or actions. Additionally, power comes into it as a non-Black person is using a Black person as a mask (hence where the minstrelsy comes in).
+
+Digital Blackface is also an issue of representation and culture appropriation: memes and gifs are often used in spaces where no real Black people are present, which presents them as a prop to be used in all-white spaces. Black culture is stolen from Black people and commodified by non-Black people.
 
 
 ## Examples
