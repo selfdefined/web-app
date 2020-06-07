@@ -1,5 +1,5 @@
 ---
-title: Digital Blackface
+title: digital Blackface
 slug: digital-blackface
 defined: true
 Speech: noun
