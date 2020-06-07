@@ -14,7 +14,9 @@ Digital Blackface is a form of appropriation where white and non-black individua
 
 
 ## Examples
-It can go further than appropration where entire online personas are created. These are easy to spot as they almost always use terms like "as a black woman..." and resort to incorrect and illegitimate use of African American Vernacular English (AAVE).
+- Online personas: It can go further than appropration. Falsified personas are easy to spot as they almost always use terms like "as a black woman..." [sic] and resort to incorrect and illegitimate use of African American Vernacular English (AAVE).[1](https://www.buzzfeednews.com/article/ryanhatesthis/your-slip-is-showing-4chan-trolls-operation-lollipop) 
+- Gifs
+- Emojis (using a darker-than-your-own skin-tone, especially when you are white)[1](https://www.npr.org/sections/codeswitch/2018/03/21/425573955/white-skin-black-emojis)[2](https://techcrunch.com/2017/10/01/thoughts-on-white-people-using-dark-skinned-emoji/)
 
 Simple actions like using dark toned emoji in text or social media posts
 
