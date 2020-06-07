@@ -5,7 +5,7 @@ defined: true
 Speech: noun
 ---
 
-Digital Blackface is a form of appropriation where white and non-black individuals use memes featuring Black people. This is a 21st century version of Black minstrelsy which was prevalent in the 19th and 20th centuries.
+a form of appropriation where non-Black individuals use memes and gifs featuring Black people and even emojis with dark skin; a 21st century version of Black minstrelsy, which was prevalent in the 19th and 20th centuries
 
 
 ## Issues
