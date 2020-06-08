@@ -26,7 +26,7 @@ We have adapted the [Contributor Convenent](https://github.com/selfdefined/web-a
 
 ### Contributing Guide
 
-Please read our [Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/prod/CONTRIBUTING.md) to get started.
+Please read our [Contributing Guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) to get started.
 
 ### Documentation
 
