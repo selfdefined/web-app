@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82274e91-8f6a-474e-9b2a-fca29bb72d75/deploy-status)](https://app.netlify.com/sites/selfdefined/deploys)
 
-[Contributing Guidelines](https://github.com/tatianamac/selfdefined/blob/prod/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/tatianamac/selfdefined/blob/prod/CODE-OF-CONDUCT.md)
+[Contributing Guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) · [Documentation](https://www.selfdefined.app/documentation/) · [Code of Conduct](https://github.com/selfdefined/web-app/blob/prod/CODE-OF-CONDUCT.md)
 
 A modern dictionary about us. We define our words, but they don't define us.
 
