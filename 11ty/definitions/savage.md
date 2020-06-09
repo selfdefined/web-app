@@ -22,8 +22,10 @@ reading:
 alt_words:
   - capricious
   - cold-blooded
+  - cruel
   - fierce
   - harsh
+  - merciless
   - ruthless
   - uncalled for
   - unconscionable
