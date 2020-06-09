@@ -38,6 +38,10 @@ module.exports = function(config) {
     console.log(post);
   });
 
+  config.addFilter('isArray', function(thing) {
+    return Array.isArray(thing);
+  });
+
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
       [
