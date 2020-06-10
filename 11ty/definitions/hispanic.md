@@ -11,4 +11,4 @@ Serves as an umbrella term for people of Spanish, or Spanish-speaking ancestry. 
 
 #### Note
 
-People who self-identify as Hispanic may also self-identify as Chicano/Chicana, [Latino/Latina](#/latino), or [Latinx](#/latinx), but don't assume that they do. When in doubt, ask for individual preferences.
+People who self-identify as Hispanic may also self-identify as Chicano/Chicana, [Latino/Latina](/definitions/latino), or [Latinx](/definitions/latinx), but don't assume that they do. When in doubt, ask for individual preferences.
