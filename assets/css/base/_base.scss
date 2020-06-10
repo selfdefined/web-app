@@ -1,7 +1,7 @@
 body {
   border-top: 1rem solid $primary-color;
   font-family: $sans-serif;
-  font-size: pxToRem(20);
+  font-size: var(--step-0);
   margin: 0;
   padding: 2rem;
 }
@@ -11,7 +11,7 @@ code {
   border: pxToRem(1px) solid $black;
   border-radius: 0.25em;
   color: $white;
-  font-size: 95%;
+  font-size: var(--step--2);
   padding: 0.15em;
 
   pre & {
@@ -33,5 +33,5 @@ th {
 }
 
 pre[class*='language-'] {
-  font-size: 1rem;
+  font-size: var(--step--1);
 }

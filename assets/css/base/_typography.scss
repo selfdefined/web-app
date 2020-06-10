@@ -1,63 +1,148 @@
+@use "sass:map";
+
+$fluid-config: (
+  // minimum and maximum
+  viewport: (min: 320, max: 1140),
+  // bodycopy at minimum and maximum breakpoints
+  body-copy: (min: 18, max: 20),
+  // typescale ratio ( minor-third, major-third etc ) at min and max breakpoints
+  typescale-ratio: (min: 1.2, max: 1.25)
+);
+
+:root {
+
+  // TODO: create a function that can access nested maps
+  --fluid-min-width: 320;
+  --fluid-max-width: 1200;
+  --fluid-min-size: 18;
+  --fluid-max-size: 21;
+  --fluid-min-ratio: 1.2;
+  --fluid-max-ratio:1.25;
+
+  --fluid-screen: 100vw;
+  --fluid-bp: calc(
+    (var(--fluid-screen) - ((var(--fluid-min-width) / 16) * 1rem)) /
+    ((var(--fluid-max-width) / 16) - (var(--fluid-min-width) / 16))
+  );
+
+  @media screen and (min-width: 1140px) {
+    & {
+      --fluid-screen: calc(var(--fluid-max-width) * 1px);
+    }
+  }
+  --fluid-max-negative: (1 / var(--fluid-max-ratio) / var(--fluid-max-ratio));
+  --fluid-min-negative: (1 / var(--fluid-min-ratio) / var(--fluid-min-ratio));
+  --fluid-min-scale--3: var(--fluid-min-scale--2) * var(--fluid-min-ratio) * var(--fluid-min-negative);
+  --fluid-max-scale--3: var(--fluid-max-scale--2) * var(--fluid-max-ratio) * var(--fluid-max-negative);
+  --fluid-min-size--3: (var(--fluid-min-size) * var(--fluid-min-scale--3)) / 16;
+  --fluid-max-size--3: (var(--fluid-max-size) * var(--fluid-max-scale--3)) / 16;
+  --step--3: calc(((var(--fluid-min-size--3) * 1rem) + (var(--fluid-max-size--3) - var(--fluid-min-size--3)) * var(--fluid-bp)));
+
+  --fluid-min-scale--2: var(--fluid-min-scale--1) * var(--fluid-min-ratio) * var(--fluid-min-negative);
+  --fluid-max-scale--2: var(--fluid-max-scale--1) * var(--fluid-max-ratio) * var(--fluid-max-negative);
+  --fluid-min-size--2: (var(--fluid-min-size) * var(--fluid-min-scale--2)) / 16;
+  --fluid-max-size--2: (var(--fluid-max-size) * var(--fluid-max-scale--2)) / 16;
+  --step--2: calc(((var(--fluid-min-size--2) * 1rem) + (var(--fluid-max-size--2) - var(--fluid-min-size--2)) * var(--fluid-bp)));
+
+  --fluid-min-scale--1: var(--fluid-min-ratio) * var(--fluid-min-negative);
+  --fluid-max-scale--1: var(--fluid-max-ratio) * var(--fluid-max-negative);
+  --fluid-min-size--1: (var(--fluid-min-size) * var(--fluid-min-scale--1)) / 16;
+  --fluid-max-size--1: (var(--fluid-max-size) * var(--fluid-max-scale--1)) / 16;
+  --step--1: calc(((var(--fluid-min-size--1) * 1rem) + (var(--fluid-max-size--1) - var(--fluid-min-size--1)) * var(--fluid-bp)));
+
+  --fluid-min-scale-0: var(--fluid-min-ratio);
+  --fluid-max-scale-0: var(--fluid-max-ratio);
+  --fluid-min-size-0: (var(--fluid-min-size)) / 16;
+  --fluid-max-size-0: (var(--fluid-max-size)) / 16;
+  --step-0: calc(((var(--fluid-min-size-0) * 1rem) + (var(--fluid-max-size-0) - var(--fluid-min-size-0)) * var(--fluid-bp)));
+
+  --fluid-min-scale-1: var(--fluid-min-scale-0) * var(--fluid-min-ratio);
+  --fluid-max-scale-1: var(--fluid-max-scale-0) * var(--fluid-max-ratio);
+  --fluid-min-size-1: (var(--fluid-min-size) * var(--fluid-min-scale-0)) / 16;
+  --fluid-max-size-1: (var(--fluid-max-size) * var(--fluid-max-scale-0)) / 16;
+  --step-1: calc(((var(--fluid-min-size-1) * 1rem) + (var(--fluid-max-size-1) - var(--fluid-min-size-1)) * var(--fluid-bp)));
+
+  --fluid-min-scale-2: var(--fluid-min-scale-1) * var(--fluid-min-ratio);
+  --fluid-max-scale-2: var(--fluid-max-scale-1) * var(--fluid-max-ratio);
+  --fluid-min-size-2: (var(--fluid-min-size) * var(--fluid-min-scale-1)) / 16;
+  --fluid-max-size-2: (var(--fluid-max-size) * var(--fluid-max-scale-1)) / 16;
+  --step-2: calc(((var(--fluid-min-size-2) * 1rem) + (var(--fluid-max-size-2) - var(--fluid-min-size-2)) * var(--fluid-bp)));
+
+  --fluid-min-scale-3: var(--fluid-min-scale-2) * var(--fluid-min-ratio);
+  --fluid-max-scale-3: var(--fluid-max-scale-2) * var(--fluid-max-ratio);
+  --fluid-min-size-3: (var(--fluid-min-size) * var(--fluid-min-scale-2)) / 16;
+  --fluid-max-size-3: (var(--fluid-max-size) * var(--fluid-max-scale-2)) / 16;
+  --step-3: calc(((var(--fluid-min-size-3) * 1rem) + (var(--fluid-max-size-3) - var(--fluid-min-size-3)) * var(--fluid-bp)));
+
+  --fluid-min-scale-4: var(--fluid-min-scale-3) * var(--fluid-min-ratio);
+  --fluid-max-scale-4: var(--fluid-max-scale-3) * var(--fluid-max-ratio);
+  --fluid-min-size-4: (var(--fluid-min-size) * var(--fluid-min-scale-3)) / 16;
+  --fluid-max-size-4: (var(--fluid-max-size) * var(--fluid-max-scale-3)) / 16;
+  --step-4: calc(((var(--fluid-min-size-4) * 1rem) + (var(--fluid-max-size-4) - var(--fluid-min-size-4)) * var(--fluid-bp)));
+
+  --fluid-min-scale-5: var(--fluid-min-scale-4) * var(--fluid-min-ratio);
+  --fluid-max-scale-5: var(--fluid-max-scale-4) * var(--fluid-max-ratio);
+  --fluid-min-size-5: (var(--fluid-min-size) * var(--fluid-min-scale-4)) / 16;
+  --fluid-max-size-5: (var(--fluid-max-size) * var(--fluid-max-scale-4)) / 16;
+  --step-5: calc(((var(--fluid-min-size-5) * 1rem) + (var(--fluid-max-size-5) - var(--fluid-min-size-5)) * var(--fluid-bp)));
+
+  --fluid-min-scale-6: var(--fluid-min-scale-5) * var(--fluid-min-ratio);
+  --fluid-max-scale-6: var(--fluid-max-scale-5) * var(--fluid-max-ratio);
+  --fluid-min-size-6: (var(--fluid-min-size) * var(--fluid-min-scale-5)) / 16;
+  --fluid-max-size-6: (var(--fluid-max-size) * var(--fluid-max-scale-5)) / 16;
+  --step-6: calc(((var(--fluid-min-size-6) * 1rem) + (var(--fluid-max-size-6) - var(--fluid-min-size-6)) * var(--fluid-bp)));
+
+  --fluid-min-scale-7: var(--fluid-min-scale-6) * var(--fluid-min-ratio);
+  --fluid-max-scale-7: var(--fluid-max-scale-6) * var(--fluid-max-ratio);
+  --fluid-min-size-7: (var(--fluid-min-size) * var(--fluid-min-scale-6)) / 16;
+  --fluid-max-size-7: (var(--fluid-max-size) * var(--fluid-max-scale-6)) / 16;
+  --step-7: calc(((var(--fluid-min-size-7) * 1rem) + (var(--fluid-max-size-7) - var(--fluid-min-size-7)) * var(--fluid-bp)));
+}
+
+
 h1 {
-	font-family: $ext-sans;
-	font-weight: $bold;
+  font-family: $ext-sans;
+  font-weight: $bold;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	margin-bottom: 0.5em;
-	margin-top: 1em;
-	word-break: break-word;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  word-break: break-word;
 }
 
 p {
-	font-size: 1.25rem;
-	line-height: 1.25;
-	margin: 0.75rem 0;
+  font-size: var(--step-0,1.25rem);
+  line-height: 1.25;
+  margin: 0.75rem 0;
 }
 
 .thicc-headline {
-	// a sensible base font size
-	font-size: 3rem;
-	line-height: 0.75;
-	margin: 0.5rem 0rem;
-	padding: 0;
-}
-
-@media (min-width: 51rem) and (min-height: 400px) {
-	// a dramatic font size
-	.thicc-headline {
-		font-size: 12vh;
-	}
-}
-
-@media (min-width: 51rem) and (min-height: 850px) {
-	// cap the maximum font size of the title
-	// at the same size that 12vh computes to
-	// when the viewport is 850px high
-	// One day we can use CSS clamp https://caniuse.com/#feat=mdn-css_types_clamp
-	.thicc-headline {
-		font-size: 6.75rem;
-	}
+  // a sensible base font size
+  font-size: var(--step-6);
+  line-height: 0.8;
+  margin: 0.5rem 0rem;
+  padding: 0;
 }
 
 .main-headline {
-	font-family: orpheuspro, Palatino, Times, serif;
-	font-size: 3.5rem;
-	line-height: 1.2;
-	margin: 0;
+  font-family: orpheuspro, Palatino, Times, serif;
+  font-size: var(--step-3);
+  line-height: 1.2;
+  margin: 0;
 }
 
 .sub-headline {
-	font-family: $ext-sans;
-	font-size: 1.25rem;
-	font-weight: $bold;
-	letter-spacing: 0.1;
-	margin: .75rem 0;
+  font-family: $ext-sans;
+  font-size: var(--step-0);
+  font-weight: $bold;
+  letter-spacing: 0.1;
+  margin: .75rem 0;
 }
 
 .small {
-	font-size: 0.75em;
+  font-size: var(--step--1);
 }
