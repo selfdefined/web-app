@@ -25,4 +25,4 @@ performative allyship, non-optical allyship
 
 ## Impact
 
-Optical allyship detracts from the stories of the oppressed and the impact that oppression has on them in favour of the stories of the oppressors and their intent to help. The cost of optical allyship can also be that the stories of the oppressed people are appropriated, watered down, and inaccurately retold by people who should not be telling those stories. For example, in #blackouttuesday, many rushed to publicly respond without understanding the intent which "derailed the conversation."
+Optical allyship detracts from the stories of the oppressed and the impact that oppression has on them in favour of the stories of the oppressors and their intent to help. Optical allyship centres the perspectives of the oppressor. The cost of optical allyship can also be that the stories of the oppressed people are appropriated, watered down, and inaccurately retold by people who should not be telling those stories. For example, in #BlackOutTuesday, many rushed to publicly respond without understanding the intent which "derailed the conversation."
