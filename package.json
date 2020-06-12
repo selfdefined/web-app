@@ -9,8 +9,8 @@
     "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
     "build:site": "eleventy",
     "lint": "concurrently npm:lint:*",
-    "lint:css": "stylelint \"assets/css/**/*.scss\"",
-    "lint:js": "eslint \"11ty/**/*.js\"",
+    "lint:css": "stylelint \"assets/css/**/*.scss\" --fix",
+    "lint:js": "eslint \"**/*.js\" --fix",
     "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
     "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
     "serve:site": "eleventy --serve",
@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
     "markdown-it-anchor": "^5.3.0",
     "markdown-it-prism": "^2.0.5"
   },
