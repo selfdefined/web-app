@@ -6,16 +6,19 @@
   margin: 0.5rem 0.75rem 0.25rem 0;
   padding: 0.45rem 0.65rem;
   text-transform: lowercase;
+
   &--red {
-    background-color:$lt-background-color;
+    background-color: var(--clr-avoid-background);
+
     &:before {
       @include icon__avoid();
       @include icon__embed();
     }
   }
+
   &--yellow {
-    background-color: $lt-background-color-warning;
-  
+    background-color: var(--clr-warning-background);
+
     &:before {
       @include icon__warning();
       @include icon__embed();
