@@ -30,7 +30,7 @@ Digital Blackface is also an issue of representation and culture appropriation: 
 
 - Emojis (using a darker-than-your-own skin-tone, especially when you are white)[1](https://www.npr.org/sections/codeswitch/2018/03/21/425573955/white-skin-black-emojis)[2](https://techcrunch.com/2017/10/01/thoughts-on-white-people-using-dark-skinned-emoji/)
 
-Simple actions like using dark toned emoji in text or social media posts
+- Simple actions like using dark toned emoji in text or social media posts
 
 ## What To Do (instead)
 
