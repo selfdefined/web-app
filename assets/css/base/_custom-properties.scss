@@ -1,4 +1,17 @@
 :root {
+  // create variables for all colours
+  @each $name, $value in $colors {
+    --clr-#{$name}: #{$value};
+  }
+
+  // map the raw colours to useful names in standard color mode
+  --clr-primary: var(--clr-red);
+  --clr-secondary: var(--clr-green);
+  --clr-foreground: var(--clr-black);
+  --clr-background: white;
+  --clr-background-light: var(--clr-pink);
+  --clr-border-main: var(--clr-dark-grey);
+
   --auto-grid-min-size: 17rem;
   --l-gap: 1rem;
 }
