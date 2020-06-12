@@ -17,6 +17,8 @@ reading:
     href: https://www.msn.com/en-ca/news/politics/what-is-optical-allyship-ways-you-can-support-the-blm-movement-apart-from-spreading-hashtags/ar-BB15cJgz
 ---
 
+a form of allyship.
+
 > allyship that only serves at the surface level to platform the 'ally,' it makes a statement but doesn’t go beneath the surface and is not aimed at breaking away from the systems of power that oppress.
 
 ## Related Words
