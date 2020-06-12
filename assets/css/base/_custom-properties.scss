@@ -4,13 +4,27 @@
     --clr-#{$name}: #{$value};
   }
 
-  // map the raw colours to useful names in standard color mode
+  // map the raw colours to abstract names in standard color mode
+  // we map the colour values here to prepare for dark mode
+  // with these mapping we express the _design intention_ rather than the colour value
   --clr-primary: var(--clr-red);
   --clr-secondary: var(--clr-green);
   --clr-foreground: var(--clr-black);
   --clr-background: white;
   --clr-background-light: var(--clr-pink);
   --clr-border-main: var(--clr-dark-grey);
+
+  --clr-positive: var(--clr-green);
+  --clr-positive-text: var(--clr-dark-green);
+  --clr-positive-background: var(--clr-pale-green);
+
+  --clr-warning: var(--clr-yellow);
+  --clr-warning-background: var(--clr-pale-yellow);
+  --clr-warning-text: var(--clr-dark-yellow);
+
+  --clr-avoid: var(--clr-red);
+  --clr-avoid-background: var(--clr-pink);
+  --clr-avoid-text: var(--clr-dark-red);
 
   --auto-grid-min-size: 17rem;
   --l-gap: 1rem;
