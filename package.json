@@ -74,5 +74,8 @@
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.17.2"
+  },
+  "engines": {
+    "node": "12"
   }
 }
