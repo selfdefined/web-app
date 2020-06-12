@@ -39,6 +39,10 @@ module.exports = function(config) {
     console.log(post);
   });
 
+  config.addFilter('isArray', function(thing) {
+    return Array.isArray(thing);
+  });
+
   config.addPlugin(pluginRss);
 
   config.addShortcode('definitionFlag', (flag) => {

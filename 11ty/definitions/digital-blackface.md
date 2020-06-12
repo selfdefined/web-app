@@ -22,14 +22,15 @@ Digital Blackface is also an issue of representation and culture appropriation: 
 
 - Online personas: It can go further than appropration. Falsified personas are easy to spot as they almost always use terms like "as a black woman..." [sic] and resort to incorrect and illegitimate use of African American Vernacular English (AAVE).[1](https://www.buzzfeednews.com/article/ryanhatesthis/your-slip-is-showing-4chan-trolls-operation-lollipop)
 
-"On Twitter lie countless handles featuring a Black person’s image, run by users who are most assuredly not Black. These accounts, which often include a “ghetto” name — the formula prefix “La+” is a favored trope — are riddled with poor attempts at Black vernacular, and feature stereotypes from the minstrel stage." [2](https://www.theawl.com/2014/08/memes-and-misogynoir/)
+  "On Twitter lie countless handles featuring a Black person’s image, run by users who are most assuredly not Black. These accounts, which often include a “ghetto” name — the formula prefix “La+” is a favored trope — are riddled with poor attempts at Black vernacular, and feature stereotypes from the minstrel stage." [2](https://www.theawl.com/2014/08/memes-and-misogynoir/)
 
 - Gifs
+
   "For while reaction GIFs can and do every feeling under the sun, white and nonblack users seem to especially prefer GIFs with black people when it comes to emitting their most exaggerated emotions. Extreme joy, annoyance, anger and occasions for drama and gossip are a magnet for images of black people, especially black femmes." [1](https://www.teenvogue.com/story/digital-blackface-reaction-gifs)
 
 - Emojis (using a darker-than-your-own skin-tone, especially when you are white)[1](https://www.npr.org/sections/codeswitch/2018/03/21/425573955/white-skin-black-emojis)[2](https://techcrunch.com/2017/10/01/thoughts-on-white-people-using-dark-skinned-emoji/)
 
-Simple actions like using dark toned emoji in text or social media posts
+- Simple actions like using dark toned emoji in text or social media posts
 
 ## What To Do (instead)
 
