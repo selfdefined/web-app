@@ -101,7 +101,7 @@ module.exports = function(config) {
   });
 
   // add filter to strip Markdown formatting from search text
-  config.addFilter('stripMarkdown', (value) => {
+  config.addFilter('removeMarkdownFormatting', (value) => {
     return removeMd(value).replace(/[\s\s+,\n]/g, ' ');
   });
 
