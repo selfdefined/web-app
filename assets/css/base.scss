@@ -10,7 +10,7 @@
 
 // 3. Base stuff
 @import 'base/custom-properties', 'base/fonts', 'base/base', 'base/selection',
-  'base/typography', './base/a', 'base/helpers';
+  'base/typography','base/type-scale', './base/a', 'base/helpers';
 
 // 4. Layout-related sections
 @import 'structures/header', 'structures/footer', 'structures/grid',

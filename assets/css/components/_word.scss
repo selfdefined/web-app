@@ -3,7 +3,7 @@
 
   &__title {
     font-family: $serif;
-    font-size: var(--step-2);
+    font-size: var(--step2);
     font-weight: 900;
     line-height: 1.25;
     margin-bottom: 1rem;
@@ -26,14 +26,14 @@
 
     & > p {
       font-family: $sans-serif;
-      font-size: var(--step-1);
+      font-size: var(--step1);
       grid-column: 1 / -1;
     }
 
     & h4 {
       flex: 0 1 auto;
       font-family: $con-sans;
-      font-size: var(--step--2);
+      font-size: var(--step2);
       font-weight: normal;
       grid-column: 1;
       text-transform: uppercase;
@@ -60,7 +60,7 @@
 
   &__speech {
     font-family: $sans-serif;
-    font-size: var(--step--3);
+    font-size: var(--step-3);
   }
 
   &__signal {
@@ -68,7 +68,7 @@
     color: var(--word-signal-color);
     display: inline-block;
     font-family: $ext-sans;
-    font-size: var(--step--2);
+    font-size: var(--step-2);
     letter-spacing: 0.15rem;
     padding: 0.5rem 0.75rem;
     text-transform: uppercase;
