@@ -15,7 +15,6 @@
   }
   &--yellow {
     background-color: $lt-background-color-warning;
-
     &:before {
       @include icon__warning();
       @include icon__embed();
