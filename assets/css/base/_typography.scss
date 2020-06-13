@@ -1,34 +1,46 @@
+$line-height-heading: 1;
+$line-height-body: 1.4;
+$line-height-tight: 0.8;
+
+
 h1 {
   font-family: $ext-sans;
   font-weight: $bold;
+  line-height: $line-height-heading;
 }
 
 h1,
 h2,
 h3,
 h4 {
+  line-height: $line-height-heading;
   margin-bottom: 0.5em;
   margin-top: 1em;
   word-break: break-word;
 }
 
 p {
-  font-size: var(--step0);
-  line-height: 1.25;
+  font-size: var(--step-1);
+  line-height: $line-height-body;
   margin: 0.75rem 0;
+}
+li {
+  font-size: var(--step-1);
+  line-height: $line-height-body;
+ 
 }
 
 .thicc-headline {
   font-size: var(--step6);
-  line-height: 0.8;
+  line-height: $line-height-tight;
   margin: 0.5rem 0rem;
   padding: 0;
 }
 
 .main-headline {
   font-family: orpheuspro, Palatino, Times, serif;
-  font-size: var(--step3);
-  line-height: 1.2;
+  font-size: var(--step4);
+  line-height: $line-height-heading;
   margin: 0;
 }
 
@@ -36,10 +48,12 @@ p {
   font-family: $ext-sans;
   font-size: var(--step0);
   font-weight: $bold;
-  letter-spacing: 0.1;
+  letter-spacing: 0.01rem;
+  line-height: $line-height-heading;
   margin: .75rem 0;
 }
 
 .small {
   font-size: var(--step-1);
+  line-height: $line-height-body;
 }

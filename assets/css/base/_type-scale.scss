@@ -11,7 +11,7 @@ $fluid-config: (
   viewport-scale: 0.5vw,
   // number of positive steps (--step1, --step2 etc)
   // and number of negative steps (--step-1, --step-2 etc)
-  steps: (pos: 7, neg: 3)
+  steps: (pos: 10, neg: 3)
 );
 
 /// Creates all required css step variables
