@@ -5,16 +5,18 @@ defined: true
 flag:
   level: avoid
 alt_words:
-  - wow
-  - oh my word
-  - yikes
-  - y'all
-  - friend
-  - mate
-  - fam
-  - folks
-  - pal*
-  - buddy*
+  expression of astonishment:
+    - wow
+    - oh my word
+    - yikes
+  noun:
+    - y'all
+    - friend
+    - mate
+    - fam
+    - folks
+    - pal*
+    - buddy*
 reading:
   - text: Etymonline entry
     href: https://www.etymonline.com/word/dude
