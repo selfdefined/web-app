@@ -1,0 +1,67 @@
+@use "sass:map";
+
+/// Create new/different scales by editing the config
+/// This is the single source of truth
+$fluid-config: (
+  // Typescale ratio for calculating steps
+  typescale-ratio: 1.25,
+  // base font size to use for --step0
+  base-fontsize: 1rem,
+  // adjustment added to base-fontsize in --step0 for scaling
+  viewport-scale: 0.5vw,
+  // number of positive steps (--step1, --step2 etc)
+  // and number of negative steps (--step-1, --step-2 etc)
+  steps: (pos: 10, neg: 3)
+);
+
+/// Creates all required css step variables
+/// for the type scale
+///
+/// @param {number} $typescale-ratio
+///   The ratio we use to compute steps.
+/// @example
+///    --step1 : calc(var(--step0 * #{$typescale-ratio}))
+///
+/// @param {integer (rem)} $base-fontsize
+///   The base fontsize we use for step0
+/// @param {integer (vw)} $viewport-scale
+///   adjustment added to base-fontsize for scaling
+/// @example
+///   --step0: calc(#{$base-fontsize}+#{$viewport-scale})
+///
+/// @param {map} $steps
+///   no of positive and negative steps to create in font scales
+/// @example
+///   $steps: (pos: 7, neg: 3)
+
+@mixin create-typescale($typescale-ratio, $base-fontsize, $viewport-scale, $steps){
+  $pos-steps: map.get($steps, pos);
+  $neg-steps: map.get($steps,neg);
+  --step0: calc(#{$base-fontsize} + #{$viewport-scale});
+  @for $step from 1 to $pos-steps{
+    & {
+      --step#{$step}: calc(var(--step#{$step - 1}) * #{$typescale-ratio});
+    }
+  }
+
+  @for $step from 1 to $neg-steps{
+    // to account for the lack of dash in step0
+    // --step-0 doesn't exist so we need to use a different expression
+    // while computing --step-1
+    @if $step != 1 {
+      & {
+        --step-#{$step}: calc(var(--step-#{$step - 1}) / #{$typescale-ratio});
+      }
+    }
+    @else {
+      & {
+        --step-#{$step}: calc(var(--step0) / #{$typescale-ratio});
+      }
+    }
+  }
+}
+
+:root {
+  @include create-typescale($fluid-config...);
+}
+
