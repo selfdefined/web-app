@@ -1,40 +1,130 @@
 [
-  { "data": { "slug": "ok-hand", "title": "👌 [ok-hand]" } },
-  { "data": { "slug": "ableism", "title": "Ableism" } },
-  { "data": { "slug": "barbaric", "title": "Barbaric" } },
-  { "data": { "slug": "biromantic", "title": "Biromantic" } },
-  { "data": { "slug": "bisexual", "title": "Bisexual" } },
-  { "data": { "slug": "cisgender", "title": "Cisgender" } },
-  { "data": { "slug": "crazy", "title": "crazy" } },
+  {
+    "data": {
+      "slug": "ok-hand",
+      "title": "👌 [ok-hand]"
+    }
+  },
+  {
+    "data": {
+      "slug": "ableism",
+      "title": "Ableism"
+    }
+  },
+  {
+    "data": {
+      "slug": "barbaric",
+      "title": "Barbaric"
+    }
+  },
+  {
+    "data": {
+      "slug": "biromantic",
+      "title": "Biromantic"
+    }
+  },
+  {
+    "data": {
+      "slug": "bisexual",
+      "title": "Bisexual"
+    }
+  },
+  {
+    "data": {
+      "slug": "cisgender",
+      "title": "Cisgender"
+    }
+  },
+  {
+    "data": {
+      "slug": "crazy",
+      "title": "crazy"
+    }
+  },
   {
     "data": {
       "slug": "english-as-second-language",
       "title": "English as Second Language (ESL)"
     }
   },
-  { "data": { "slug": "fatphobia", "title": "Fatphobia" } },
-  { "data": { "slug": "gaslighting", "title": "Gaslighting" } },
-  { "data": { "slug": "minorities", "title": "minorities" } },
-  { "data": { "slug": "minoritised", "title": "minoritised" } },
-  { "data": { "slug": "non-binary", "title": "Non-binary" } },
+  {
+    "data": {
+      "slug": "fatphobia",
+      "title": "Fatphobia"
+    }
+  },
+  {
+    "data": {
+      "slug": "gaslighting",
+      "title": "Gaslighting"
+    }
+  },
+  {
+    "data": {
+      "slug": "minorities",
+      "title": "minorities"
+    }
+  },
+  {
+    "data": {
+      "slug": "minoritised",
+      "title": "minoritised"
+    }
+  },
+  {
+    "data": {
+      "slug": "non-binary",
+      "title": "Non-binary"
+    }
+  },
   {
     "data": {
       "slug": "obsessive-compulsive-disorder",
       "title": "Obsessive Compulsive Disorder (OCD)"
     }
   },
-  { "data": { "slug": "pan-sexual", "title": "Pansexual" } },
+  {
+    "data": {
+      "slug": "pansexual",
+      "title": "Pansexual"
+    }
+  },
   {
     "data": {
       "slug": "performative-allyship",
       "title": "performative allyship"
     }
   },
-  { "data": { "slug": "polyamory", "title": "Polyamory" } },
-  { "data": { "slug": "spaz", "title": "Spaz" } },
-  { "data": { "slug": "transgender", "title": "Transgender" } },
-  { "data": { "slug": "unreal", "title": "unreal" } },
-  { "data": { "slug": "white-fragility", "title": "White Fragility" } },
+  {
+    "data": {
+      "slug": "polyamory",
+      "title": "Polyamory"
+    }
+  },
+  {
+    "data": {
+      "slug": "spaz",
+      "title": "Spaz"
+    }
+  },
+  {
+    "data": {
+      "slug": "transgender",
+      "title": "Transgender"
+    }
+  },
+  {
+    "data": {
+      "slug": "unreal",
+      "title": "unreal"
+    }
+  },
+  {
+    "data": {
+      "slug": "white-fragility",
+      "title": "White Fragility"
+    }
+  },
   {
     "data": {
       "slug": "women-and-people-of-colour",
