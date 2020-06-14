@@ -1,12 +1,13 @@
+@import 'typography';
+
 body {
   border-top: 1rem solid $primary-color;
   font-family: $sans-serif;
   font-size: var(--step0);
-  line-height: var(--line-height-heading);
+  line-height: $line-height-heading;
   margin: 0;
   padding: 2rem;
 }
-
 
 code {
   background-color: $dark-grey;

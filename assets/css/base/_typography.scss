@@ -2,7 +2,6 @@ $line-height-heading: 1;
 $line-height-body: 1.4;
 $line-height-tight: 0.8;
 
-
 h1 {
   font-family: $ext-sans;
   font-weight: $bold;
@@ -27,13 +26,12 @@ p {
 li {
   font-size: var(--step-1);
   line-height: $line-height-body;
- 
 }
 
 .thicc-headline {
   font-size: var(--step6);
   line-height: $line-height-tight;
-  margin: 0.5rem 0rem;
+  margin: 0.5rem 0;
   padding: 0;
 }
 
@@ -50,7 +48,7 @@ li {
   font-weight: $bold;
   letter-spacing: 0.01rem;
   line-height: $line-height-heading;
-  margin: .75rem 0;
+  margin: 0.75rem 0;
 }
 
 .small {
