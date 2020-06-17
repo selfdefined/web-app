@@ -7,7 +7,7 @@ alt_words:
   - Main & Secondary
   - Primary & Secondary
   - Primary & Replica
-  - Parent & Workers or Helpers
+  - Parent & Child, Helpers, or Workers
   - Leader & Follower
   - Agency & Operatives
 ---
