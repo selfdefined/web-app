@@ -43,4 +43,4 @@ Hawaiian shirts were popularized by the Tiki culture movement, created after Ame
 
 ## Impact
 
-Although this was previously a non-violent / non-hateful meme, continuing to use it supports the plausible deniability of those who do use it with serious intent – and may put you in danger of being mistaken for a "Boogaloo Boy".
+Although this was previously a non-violent / non-hateful meme, continuing to use it supports the plausible deniability of those who do use it with serious intent. Those who are most vulnerable will not know your intent, and therefore will feel the impact of hurt and fear, regardless.
