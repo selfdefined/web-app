@@ -4,12 +4,16 @@ slug: master-slave
 defined: false
 speech: noun
 alt_words:
-  - Main & Secondary
-  - Primary & Secondary
-  - Primary & Replica
-  - Parent & Child, Helpers, or Workers
-  - Leader & Follower
   - Agency & Operatives
+  - Leader & Follower
+  - Main & Secondary
+  - Parent & Child, Helpers, or Workers
+  - Primary & Replica
+  - Primary & Secondary
+  - Trunk & Branch
+reading:
+  - text: Rename Your Git Branch From Master To Main
+    href: https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx
 ---
 
 A model of asymmetric communication or control where one device or process have total control over other components or are controlled by a component.
