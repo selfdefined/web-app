@@ -6,7 +6,7 @@ There are a wide variety of topics that can cause unnecessary harm to people, in
 
 ## What is the difference between a Content Warning and a Trigger Warning
 
-You may well have heard these two different phrases used to warn of different topics, but what is the differences? It is sometimes said that content warnings are used to help people avoid topics that may cause offence, upset or anxiety, and that trigger warnings are used when warn of a topic that may cause a traumatic reaction.
+Content warnings and trigger warnings are sometimes used interchangeably to warn the reader/user when a topic that may cause an undesirable feeling or reaction. We opt to use content warning as trigger warning is more specific (and makes the assumption that the reader/user will be triggered).
 
 This however is very hard to gauge. People can have very different reactions, just as they may have very different personal experiences, with any topic that you may discuss. Their form follows the same rules though and so for this reason we will be using the term Content Warning for these guidelines.
 
