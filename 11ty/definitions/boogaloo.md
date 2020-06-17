@@ -31,7 +31,7 @@ Some Alt-Right members self-identify as "Boogaloo Boys" (or "Bois"), or speak of
 
 ## Issues
 
-Similarly to the [OK Hand symbol](/definitions/ok-hand.md), the word itself does not have racist origins (and in fact, is a product of the Latin music community) and neither does the original meme (a joke about movie sequels). However, language evolves, and "Boogaloo" has become a term used quite seriously by Alt-Right and White Supremacist communities.
+Similarly to the [OK Hand symbol](/definitions/ok-hand), the word itself does not have racist origins (and in fact, is a product of the Latinx music community) and neither does the original meme (a joke about movie sequels). However, language evolves, and "Boogaloo" has become a term used quite seriously by Alt-Right and White Supremacist communities.
 
 It should be noted that this approach of indoctrinating symbols of hate is one long-documented, and [used for the Swastika as well](https://theconversation.com/how-nazis-twisted-the-swastika-into-a-symbol-of-hate-83020)
 
