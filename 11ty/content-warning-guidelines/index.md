@@ -8,8 +8,6 @@ There are a wide variety of topics that can cause unnecessary harm to people, in
 
 Content warnings and trigger warnings are sometimes used interchangeably to warn the reader/user when a topic that may cause an undesirable feeling or reaction. We opt to use content warning as trigger warning is more specific (and makes the assumption that the reader/user will be triggered).
 
-
-
 ## When to give a Content Warning
 
 Any time that you discuss a topic that you believe may cause a negative reaction for anyone, at any scale, then it would be best to give a content warning. It is best to try and think objectively about this, rather then just through the spectrum of your own personal experience and triggers.
