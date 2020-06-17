@@ -20,7 +20,7 @@ Master/slave terminology is problematic given that slavery was institutionalised
 
 ## Impact
 
-This outdated convention has strong associations with slavery which is exclusionary to members of our community who may continue to live with the negative impacts of slavery. It also demonstrates how pervasive racism is throughout our culture and lanuage.
+The outdated "master/slave" convention has strong associations with slavery which is exclusionary to members of our community who may continue to live with the negative impacts of slavery. It also demonstrates how pervasive and casual racism is throughout our culture and language.
 
 ## Usage Tip
 
