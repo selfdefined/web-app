@@ -24,4 +24,6 @@ The outdated "master/slave" convention has strong associations with slavery whic
 
 ## Usage Tip
 
-There are many alternative terminologies to describe the relationship between two components. It is important to be aware of empathy as well as diversity in the world of technology to ensure everyone feels welcome at the table.
+Seek to change any existing "master/slave" terminology to one of the suggested terms, as there are many alternative terminologies to describe the relationship between two components, many of which are much more specific. Avoid creating new projects with this terminology.
+
+Even if you may not be negatively impacted by this terminology, it can negatively impact other existing and prospective contributors onto your project. The terminology isn't so unique that it's irreplaceable; the lift tends to be trivial in comparison to the potential impact.
