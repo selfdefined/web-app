@@ -16,7 +16,7 @@ A model of asymmetric communication or control where one device or process have 
 
 ## Issues
 
-Master/slave terminology is problematic given that slavery was institutionalized in the United States for hundreds of years. Yet, this type of offensive lanugage is still used casually in many programming languages.
+Master/slave terminology is problematic given that slavery was institutionalised in the United States for hundreds of years. Yet, this type of offensive language is still used casually in many programming languages.
 
 ## Impact
 
