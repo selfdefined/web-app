@@ -21,6 +21,7 @@ flag:
   text: 'Ableist Slur'
   level: avoid
 defined: true
+excerpt: mentally deranged; demented; insane.
 speech: noun
 alt_words:
   - abundant
@@ -65,6 +66,7 @@ This example is the definition of [performative allyship](/definitions/performat
 title: performative allyship
 slug: performative-allyship
 defined: true
+excerpt: when an individual or group of power/majority/privilege loudly profess(es) their actions in the name of 'allyship,' while actively conducting harm to the group they claim to support
 speech: noun
 flag:
   level: tool
