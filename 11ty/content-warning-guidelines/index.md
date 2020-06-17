@@ -49,4 +49,4 @@ In order to give someone a chance to decide to engage with a possibly distressin
 
 ## Responding to feedback
 
-Even taking this on board, someone may feed back to you saying that your content caused them a negative reaction. If this happens, please wherever possible amend your content warning. This will be appreciated by any others in the future who may also have had this negative reaction without warning.
+Even taking this on board, someone may feed back to you saying that your content caused them a negative reaction. If this happens, please wherever possible amend your content warning as possible. The goal of content warnings is to reduce as much harm as possible, and it's never too late to start.
