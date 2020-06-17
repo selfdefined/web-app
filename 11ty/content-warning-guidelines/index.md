@@ -26,7 +26,7 @@ There are two standardised ways of giving a content warning in writing:
   <li>CW: [topic or topics]</li>
 </ul>
 
-We would recommend that wherever possible you choose the first full text example. This will ensure that people who may not be familiar with the acronym of CW will still fully understand. In the case of media such as video, it is vital that it is given in a way that everyone will be able to access it, including through audio or visual only.
+We would recommend that wherever possible you choose the first full text example. This will ensure that people who may not be familiar with the acronym of CW will still fully understand. In the case of media such as video, it is vital that it is given in a way that everyone will be able to access it, including through audio and visual cues.
 
 When describing the topics, you want to ensure that you give someone the opportunity to decide whether to continue, but be careful not to describe in a way that the content warning itself could also be traumatic when read.
 
