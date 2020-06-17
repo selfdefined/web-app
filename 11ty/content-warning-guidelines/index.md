@@ -10,7 +10,6 @@ Content warnings and trigger warnings are sometimes used interchangeably to warn
 
 This however is very hard to gauge. People can have very different reactions, just as they may have very different personal experiences, with any topic that you may discuss. Their form follows the same rules though and so for this reason we will be using the term Content Warning for these guidelines.
 
-The most important thing though, is that a warning is given, rather than which term is used.
 
 ## When to give a Content Warning
 
