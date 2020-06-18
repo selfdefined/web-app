@@ -19,20 +19,9 @@
   </head>
   <body>
     {% block content %}{% endblock content %}
-    <footer class="site-footer">
-      <nav aria-label="Complimentary">
-        <ul class="navigation-list">
-          <li>
-            <a href="/documentation/">Documentation</a>
-          </li>
-          &bull;
-          <li>
-            <a href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}">RSS Feed</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
+    {% include 'components/base/site-footer.njk' %}
     {% block pageScript %}
     {% endblock pageScript %}
   </body>
+  <script defer src="/js/theme-switcher.js"></script>
 </html>

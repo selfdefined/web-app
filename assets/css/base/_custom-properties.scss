@@ -51,10 +51,16 @@
 
   @include color-scheme-light();
 
-  @media (prefers-color-scheme: dark) {
-    @include color-scheme-dark();
-  }
-
   --auto-grid-min-size: 17rem;
   --l-gap: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-user-theme='light']) {
+    @include color-scheme-dark();
+  }
+}
+
+:root[data-user-theme='dark'] {
+  @include color-scheme-dark();
 }
