@@ -19,11 +19,13 @@ reading:
 
 a form of allyship.
 
+when an individual or group of power/majority/privilege (e.g., white, male, abled, unqueer, etc) creates a public display in the name of 'allyship,' serving only themselves and not the group they claim to support, often to receive praise and attention, without taking critical action to dismantle the systems of harm.
+
 > allyship that only serves at the surface level to platform the 'ally,' it makes a statement but doesn’t go beneath the surface and is not aimed at breaking away from the systems of power that oppress.
 
 ## Related Words
 
-performative allyship, non-optical allyship
+performative allyship, corporate blackface, non-optical allyship
 
 ## Impact
 
