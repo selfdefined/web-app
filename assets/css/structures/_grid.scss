@@ -80,8 +80,7 @@
     color: var(--clr-background);
 
     &:focus {
-      background-color: var(--clr-avoid-background);
-      color: var(--clr-foreground);
+      color: var(--clr-background);
     }
   }
 

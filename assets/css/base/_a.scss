@@ -1,7 +1,9 @@
 a {
   color: var(--clr-foreground);
   font-family: $ext-sans;
-  margin: 1rem 0;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  padding: 0.125rem 0.25rem;
   text-decoration-color: var(--clr-border-main);
   text-decoration-line: underline;
   text-decoration-thickness: 0.1em;
@@ -13,6 +15,7 @@ a {
   &:focus {
     background-color: var(--clr-background-light);
     color: var(--clr-foreground);
-    outline: 0;
+    // makes focus visible in windows high contrast mode, do not delete
+    outline: 2px solid transparent;
   }
 }

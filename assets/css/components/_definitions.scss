@@ -12,6 +12,10 @@
   padding: 0 1rem 0 3rem;
   position: relative;
 
+  & a:focus {
+    background-color: var(--clr-background);
+  }
+
   &:before {
     content: '⚠️';
     left: 1rem;
@@ -35,6 +39,10 @@
   overflow: hidden;
   padding: 1rem 1.5rem;
   position: relative;
+
+  & a:focus {
+    background-color: var(--clr-background);
+  }
 
   &--avoid {
     background-color: var(--clr-avoid-background);
