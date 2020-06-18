@@ -24,6 +24,10 @@ code {
   }
 }
 
+[hidden] {
+  display: none;
+}
+
 ul[class] {
   list-style: none;
   margin: 0;

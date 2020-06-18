@@ -3,6 +3,8 @@ function initThemeSwitch() {
 
   if (!$switchContainer) return;
 
+  $switchContainer.hidden = false;
+
   let userOverwrite = ['light', 'dark'];
 
   let $buttons = $switchContainer.querySelectorAll('[type="radio"]');
