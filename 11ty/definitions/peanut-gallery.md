@@ -20,11 +20,11 @@ Used to refer to those giving unsolicited (and unvalued) advice.
 
 ## Issues
 
-Before microphones and opera glasses were common, balcony seats were the worst in the theater. In Vaudevill theaters, the term "Peanut Gallery" became a nickname for these seats where Black people were forced to sit. The least expensive snack served at the theatre would often be peanuts, which the patrons would be rumored to throw at the performers on stage to convey their disapproval. Phrases such as "no comments from the peanut gallery" or "quiet in the peanut gallery" are extensions of the name. 
+Before microphones and opera glasses were common, balcony seats were the worst in the theater. In Vaudevill theaters, the term "Peanut Gallery" became a nickname for these seats where Black people were forced to sit. The least expensive snack served at the theatre would often be peanuts, which the patrons would be rumored to throw at the performers on stage to convey their disapproval. Phrases such as "no comments from the peanut gallery" or "quiet in the peanut gallery" are extensions of the name.
 
 ## Impact
 
-The phrase implies that the opinions expressed by those from the gallery were unsolicited, unwarranted and unhelpful, which then perpetrates that Black people's criticisms are irrelevant or insignificant. 
+The phrase implies that the opinions expressed by those from the gallery were unsolicited, unwarranted and unhelpful, which then perpetrates that Black people's criticisms are irrelevant or insignificant.
 
 ## Usage Tip
 
