@@ -41,16 +41,3 @@
     }
   }
 }
-
-.content-warning {
-  background-color: $lt-background-color-warning;
-  border-left: 4px $yellow solid;
-  overflow: hidden;
-  padding: 1rem 1.5rem;
-  position: relative;
-
-  &--avoid {
-    background-color: $pink;
-    border-left-color: red;
-  }
-}
