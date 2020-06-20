@@ -8,22 +8,23 @@
     {% set pageTitle = titleWithPath or title + ' ' or '' %}
     {% set alert = flag.level or '' %}
     {% set preview = excerpt or renderData.description or description or metadata.description %}
+    {% set fullExcerpt = alert + ": " + preview  %}
 
     <title>{{ pageTitle + metadata.title }}</title>
     <meta
       name="twitter:description"
-      content="{{ alert + ": " + preview }}"
+      content="{{ fullExcerpt }}"
     >
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ pageTitle }}"/>
     <meta
       name="og:description"
-      content="{{ alert + ": " + preview }}"
+      content="{{ fullExcerpt }}"
     >
     <meta name="og:title" content="{{ pageTitle }}"/>
     <meta
       name="description"
-      content="{{ alert + ": " + preview }}"
+      content="{{ fullExcerpt }}"
     >
     <link rel="stylesheet" href="https://use.typekit.net/qlo3dpu.css" rel="preload"/>
     <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
