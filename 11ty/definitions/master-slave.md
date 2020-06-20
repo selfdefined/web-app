@@ -1,7 +1,7 @@
 ---
 title: Master Slave
 slug: master-slave
-defined: false
+defined: true
 speech: noun
 alt_words:
   - Agency & Operatives
