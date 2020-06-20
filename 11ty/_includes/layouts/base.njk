@@ -13,6 +13,7 @@
     >
     <link rel="stylesheet" href="https://use.typekit.net/qlo3dpu.css" rel="preload"/>
     <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
+    <link rel="alternate" type="application/atom+xml" href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}"/>
     {% block pageStyles %}
     {% endblock pageStyles %}
   </head>
@@ -23,6 +24,12 @@
         <ul class="navigation-list">
           <li>
             <a href="/documentation/">Documentation</a>
+          </li>
+          <li>
+            <a href="/content-warning-guidelines/">Content Warning Guidelines</a>
+          </li>
+          <li>
+            <a href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}">RSS Feed</a>
           </li>
         </ul>
       </nav>
