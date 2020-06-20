@@ -5,43 +5,18 @@
 </section>
 
 {% block pageScript%}
-<script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
   // don't use es6+ here because it will not be transpiled
-  window.addEventListener('DOMContentLoaded', async function() {
+  window.addEventListener('DOMContentLoaded', function() {
     function buildResultListItem(result) {
       return `<h4>${result.title}</h4><p>${result.content.substr(0, 100)}</p>`
     }
 
     try {
-      // load definitions in as JSON
-      const result = await fetch('/search.json')
-      const definitions = await result.json()
-
-      // create a map based on title for faster retrieval in search results
-      const definitionMap = definitions.reduce((map, definition) => {
-        map[definition.title] = definition
-        return map
-      }, [])
-
-      // create the full text search
-      const idx = lunr(function() {
-        const self = this
-        this.ref('title')
-        this.field('title')
-        this.field('subterms')
-        this.field('content')
-
-        // load definitions into lunr index
-        for (definition in definitions) {
-          self.add(definitions[definition])
-        }
-      })
-
       const $search = document.querySelector('#search')
       const $resultsContainer = document.querySelector('#search-results-list')
 
-      $search.addEventListener('change', event => {
+      $search.addEventListener('change', async event => {
         const value = event.target.value
 
         if (!event.target.value) {
@@ -49,11 +24,12 @@
           return
         }
 
-        const matches = idx.search(`*${event.target.value}*`)
-        const results = matches.map(match => definitionMap[match.ref])
-        console.log({matches, results })
+        const matches = await fetch(`https://climb-phi-staging.begin.app/self-defined-app-search?q=${event.target.value}`)
+        const results = await matches.json()
 
         $resultsContainer.innerHTML = ''
+
+        // better to create a fragment here
         results.forEach((result) => {
           let $childElement = document.createElement('li')
           $childElement.innerHTML = buildResultListItem(result)

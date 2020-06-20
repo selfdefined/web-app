@@ -6,6 +6,7 @@ permalink: search.json
   {
     "url" : "{{ item.url }}",
     "title" : "{{ item.data.title }}",
+    "defined" : "{{ item.data.defined }}",
     "subterms": "{{item.data.sub_terms | extractSubTermText }}",
     "content" : "{{ item.templateContent | removeMarkdownFormatting }}"
   }{% if not loop.last %},{% else %}{%- endif -%}
