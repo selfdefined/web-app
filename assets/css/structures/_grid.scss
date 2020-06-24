@@ -78,10 +78,6 @@
 
   a {
     color: var(--clr-background);
-
-    &:focus {
-      color: var(--clr-background);
-    }
   }
 
   *::selection {
