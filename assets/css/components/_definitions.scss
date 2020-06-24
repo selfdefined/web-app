@@ -32,20 +32,3 @@
     }
   }
 }
-
-.content-warning {
-  background-color: var(--clr-warning-background);
-  border-left: 4px var(--clr-warning) solid;
-  overflow: hidden;
-  padding: 1rem 1.5rem;
-  position: relative;
-
-  & a:focus {
-    background-color: var(--clr-background);
-  }
-
-  &--avoid {
-    background-color: var(--clr-avoid-background);
-    border-left-color: var(--clr-avoid);
-  }
-}
