@@ -8,6 +8,7 @@ speech: noun
 a problematic term used to refer to a country that doesn’t quite align with Western ideology or the Western image of society. (_Also common are terms such as “third-world” (adj.), “first-world”, “developing/developed nations”, etc._)
 
 ## History
+
 “Three worlds” terminology originally arose during the cold war to define countries that were aligned with NATO (“1st world”), aligned with the Warsaw Pact (“2nd world”), or non-aligned (“3rd world”). Because many third-world countries were economically poor, it became common to refer to poor countries as third-world.
 
 ## Issues
@@ -16,4 +17,4 @@ First off, the term is archaic and refers to a /_NATO vs The Communists_/ worldv
 
 ## Usage Tip
 
-Be more specific or contextual. If we mean “countries with high infant mortality rates”, or “countries experiencing an HIV/AIDS outbreak”, we probably ought to say that. It’s much more clear to be specific. 
+Be more specific or contextual. If we mean “countries with high infant mortality rates”, or “countries experiencing an HIV/AIDS outbreak”, we probably ought to say that. It’s much more clear to be specific.
