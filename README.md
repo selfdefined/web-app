@@ -22,7 +22,7 @@ We want to create and to foster a welcoming, inclusive, and safer environment wh
 
 ### Code of Conduct
 
-We have adapted the [Contributor Covenant](https://github.com/selfdefined/web-app/blob/prod/CODE-OF-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
+We have adapted the [Contributor Convenent](https://github.com/selfdefined/web-app/blob/prod/CODE-OF-CONDUCT.md) and expect any contributors to adhere to it. We as maintainers reserve the right to ban anyone's participation who does not foster the welcoming, inclusive, and safer environment we seek to maintain.
 
 ### Contributing Guide
 
