@@ -32,7 +32,7 @@
 
 // update colors which need to change in dark mode
 @mixin color-scheme-dark {
-  --clr-foreground: white;
+  --clr-foreground: var(--clr-light-grey);
   --clr-foreground-transparent: var(--clr-white-transparent);
   --clr-background: var(--clr-black);
 
