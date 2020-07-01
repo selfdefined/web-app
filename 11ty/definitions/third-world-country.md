@@ -3,13 +3,17 @@ title: third-world country
 slug: third-world-country
 defined: true
 speech: noun
+flag:
+  level: avoid
+  warning: colonialist language
+
 ---
 
-a problematic term used to refer to a country that doesn’t quite align with Western ideology or the Western image of society. (_Also common are terms such as “third-world” (adj.), “first-world”, “developing/developed nations”, etc._)
+describes a country that doesn’t quite align with Western ideology or the Western image of society. (_Also common are terms such as “third-world” (adj.), “first-world”, “developing/developed nations”, etc._)
 
 ## History
 
-“Three worlds” terminology originally arose during the cold war to define countries that were aligned with NATO (“1st world”), aligned with the Warsaw Pact (“2nd world”), or non-aligned (“3rd world”). Because many third-world countries were economically poor, it became common to refer to poor countries as third-world.
+“Three worlds” terminology originally arose during the cold war to define countries that were aligned with North Atlantic Treaty Organization (NATO) (“1st world”), aligned with the Warsaw Pact (“2nd world”), or non-aligned (“3rd world”). Because many third-world countries were economically poor, it became common to refer to poor countries as third-world.
 
 ## Issues
 
