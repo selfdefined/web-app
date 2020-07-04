@@ -1,7 +1,11 @@
 <section class="search">
-  <label for="search">Search</label>
-  <input type="search" id="search" class="search" name="search" />
-    <ul id="search-results-list" class="u-no-padding-left list" aria-labelledby="search" />
+  <label for="search" class="search__label">Look up a definition</label>
+  <div class="search__actions">
+    <input type="search" id="search" class="search__input" name="search" />
+    <button type="button" class="search__button">Search</button>
+  </div>
+
+  <ul id="search-results-list" class="u-no-padding-left list" aria-labelledby="search" />
 </section>
 
 {% block pageScript%}
