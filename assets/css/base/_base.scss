@@ -8,22 +8,6 @@ body {
   padding: 2rem;
 }
 
-code {
-  background-color: var(--clr-border-main);
-  border: pxToRem(1px) solid var(--clr-foreground);
-  border-radius: 0.25em;
-  color: var(--clr-background);
-  font-size: 95%;
-  padding: 0.15em;
-
-  pre & {
-    border: none;
-    border-radius: 0;
-    font-size: inherit;
-    padding: 0;
-  }
-}
-
 [hidden] {
   display: none;
 }
