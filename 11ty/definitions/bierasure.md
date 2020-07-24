@@ -3,6 +3,7 @@ title: Bierasure
 slug: bierasure
 speech: noun
 defined: true
+excerpt: the questioning or denial of the existance or legitimacy of bisexuality
 reading: 
   - text: Erasure of Bisexuality
     href: https://www.glaad.org/bisexual/bierasure
