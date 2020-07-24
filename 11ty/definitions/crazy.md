@@ -5,6 +5,7 @@ flag:
   text: 'Ableist language'
   level: avoid
 defined: true
+excerpt: mentally deranged, insane; can be used in a derogatory manner for someone with mental or psychiatric disabilities
 speech: noun
 alt_words:
   - abundant
