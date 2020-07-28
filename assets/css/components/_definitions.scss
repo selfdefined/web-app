@@ -18,3 +18,26 @@
     font-family: $sans-serif;
     padding-left: 1rem;
 }
+
+.content-flag {
+  background-color: $lt-background-color-warning;
+  overflow: hidden;
+  padding: 0 1rem 0 3rem;
+  position: relative;
+
+  &:before {
+    content: "⚠️";
+    left: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &--avoid {
+    background-color: $pink;
+
+    &:before {
+      content: "🚨";
+    }
+  }
+}

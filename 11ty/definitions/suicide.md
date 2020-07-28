@@ -1,10 +1,11 @@
 ---
-title: Suicide
+title: suicide
 slug: suicide
 defined: true
+speech: noun
 flag:
   level: warning
-  text:
+  text: content warning
 reading:
   - text: "Mental Health Foundation: Suicide"
     href: https://www.mentalhealth.org.uk/a-to-z/s/suicide
@@ -18,6 +19,8 @@ the deliberate act of voluntarily ending one's own life. Motivation for suicide 
 Commonly referred to in conversation and journalism as "committed suicide", "took their own life", or similar, which can have negative connotations with criminality and judgement, and can place blame on the individual.
 
 Can also be used in combination with a related measure of "success" which promotes suicide as a desirable result.
+
+Suicide is sometimes used colloquially to mean something will severely negatively impact you (e.g., "social suicide" and "career suicide"). Replace "career suicide" with "career-ending," which conveys the same intent. Replace "social suicide" with a  complete rephrase where you avoid placing blame on the individual: "Doing this will negatively impact your social life."
 
 ## Impact
 

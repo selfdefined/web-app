@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://use.typekit.net/" crossorigin>
+    <link rel="dns-prefetch" href="https://use.typekit.net/">
+    <link rel="preconnect" href="https://p.typekit.net/" crossorigin>
+    <link rel="dns-prefetch" href="https://p.typekit.net/">
     {# Use title with path, or append a space to the page title to avoid collpasing with the meta title #}
     {% set pageTitle = titleWithPath or title + ' ' or '' %}
     <title>{{ pageTitle + metadata.title }}</title>
@@ -11,8 +14,9 @@
       name="description"
       content="{{ renderData.description or description or metadata.description }}"
     >
-    <link rel="stylesheet" href="https://use.typekit.net/qlo3dpu.css" rel="preload"/>
+    <link rel="stylesheet" href="https://use.typekit.net/qlo3dpu.css">
     <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
+    <link rel="alternate" type="application/atom+xml" href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}">
     {% block pageStyles %}
     {% endblock pageStyles %}
   </head>
@@ -23,6 +27,12 @@
         <ul class="navigation-list">
           <li>
             <a href="/documentation/">Documentation</a>
+          </li>
+          <li>
+            <a href="/content-warning-guidelines/">Content Warning Guidelines</a>
+          </li>
+          <li>
+            <a href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}">RSS Feed</a>
           </li>
         </ul>
       </nav>

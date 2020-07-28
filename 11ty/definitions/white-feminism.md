@@ -33,7 +33,7 @@ White feminism is a tool of white supremacy, as it reinforces the power and defa
 
 - **Not all white women are necessary white feminists.** However, as white feminism is a tool of white supremacy, it is one that every white woman (and white-/woman- presenting person) receives at birth by nature of their appearance as a form of white privilege. Furthermore, every white woman is empowered to use it to reinforce the power of the white supremecist capitalist patriarchy.
 
-- For a white woman to not be a white feminist, they must engage in actively dismantling their unearned privilege and fight their engrained nature. This usually involves learning how to become anti-racist, anti-ablelist, anti-transmisic, etc.
+- For a white woman to not be a white feminist, they must engage in actively dismantling their unearned privilege and fight their engrained nature. This usually involves learning how to become anti-racist, anti-ableist, anti-transmisic, etc.
 
 - While it is not a white feminist's _fault_ that they were born into, indoctrinated with, and socialised to use white feminist tools, it is their _responsibility_ to examine and to unpack the harm they can intentional and unintentionally commit. Just like it's not minoritised women's fault that they were born into bodies that are harmed by white feminism.
 

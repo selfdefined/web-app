@@ -16,7 +16,7 @@ reading:
   - text: "Anti-Oppression: Anti-Fatmisia"
     href: https://simmons.libguides.com/anti-oppression/anti-fatmisia
 ---
----
+
 from Greek for hate or hatred
 
 ## Use
