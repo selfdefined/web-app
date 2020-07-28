@@ -3,6 +3,7 @@ title: Transfeminine
 slug: transfeminine
 speech: adj
 defined: true
+excerpt: describes a [transgender](/definitions/transgender) person for whom femininity forms part of their gender.
 ---
 
 describes a [transgender](/definitions/transgender) person for whom femininity forms part of their gender.
