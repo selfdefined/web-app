@@ -3,6 +3,7 @@ title: Non-binary
 slug: non-binary
 speech: adj
 defined: true
+excerpt: of, relating to, or characterised by being any gender that does not fit into the male-female gender binary; an umbrella term.
 ---
 
 of, relating to, or characterised by being any gender that does not fit into the male-female gender binary; an umbrella term.
