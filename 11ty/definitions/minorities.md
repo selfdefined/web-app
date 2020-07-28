@@ -4,6 +4,7 @@ slug: minorities
 flag:
   level: avoid
 defined: true
+excerpt: the smaller in number of two groups constituting a whole; can be inaccurate and vague
 speech: noun
 alt_words:
   - minoritised
