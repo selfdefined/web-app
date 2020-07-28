@@ -5,6 +5,7 @@ flag:
   text: 'Medical appropriation'
   level: avoid
 defined: true
+excerpt: of sound mind, mentally healthy; the connotation that sanity ((being neurotypical or mentally well and abled) is good implies that insanity (being neurodivergent or mentally ill and disabled) is bad
 speech: noun
 alt_words:
   - logical
