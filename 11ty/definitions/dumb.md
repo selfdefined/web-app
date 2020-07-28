@@ -7,6 +7,7 @@ flag:
 defined: true
 speech: adjective
 alt_words:
+  - basic
   - incomprehensible
   - nonsensical
   - redundant
