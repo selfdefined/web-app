@@ -1,5 +1,6 @@
 .search {
   background: transparent;
+
   .search__label {
     display: inline-block;
     font-family: $ext-sans;
@@ -28,5 +29,9 @@
       font-weight: bold;
       padding: 12px 16px;
     }
+  }
+
+  .search-results-list__list-item__highlight {
+    background: $pale-yellow;
   }
 }
