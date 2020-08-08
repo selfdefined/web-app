@@ -10,11 +10,6 @@
 <script>
   // don't use es6+ here because it will not be transpiled
   window.addEventListener('DOMContentLoaded', function() {
-    function buildResultListItem(result, search) {
-      const occurrences = getAllOccurrences(result.content, search)
-      return `<h4>${result.title}</h4>${occurrences.map(occurrence => `<p>...${occurrence}...</p>`).join('')}`
-    }
-
     try {
       const $search = document.querySelector('#search')
 
