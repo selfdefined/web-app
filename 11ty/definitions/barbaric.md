@@ -5,7 +5,7 @@ flag:
   text: 'Neo-Colonial/Racist slur'
   level: 'avoid'
 defined: true
-speech: adjective
+speech: adj
 reading:
   - text: 'is the word barbarian a slur?'
     href: https://seetobehumanityearth.wordpress.com/2015/07/16/is-the-term-barbarian-a-slur/

@@ -10,17 +10,51 @@ public_folder: "images/uploads"
 collections:
   - name: "definitions"
     label: "Definitions"
+    label_singular: "Definition"
     folder: "11ty/definitions"
     create: true
+    preview_path: "definitions/{{slug}}"
+    editor:
+      preview: false
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "hidden"}
-      - {label: "Defined", name: "defined", widget: "boolean"}
-      # flag
-        # - text
-        # - level
-      # speech
-      # reading
+      - {label: "Title", name: "title", widget: "string", required: true, hint: "The complete title of a definition."}
+      - {label: "Slug", name: "slug", widget: "string", required: true, hint: "A link-friendly version of the title."}
+      - {label: "Defined", name: "defined", widget: "boolean", hint: "Whether or not the definition of this word is finished and should be displayed publicly."}
+      - label: "Flag"
+        name: "flag"
+        widget: "object"
+        hint: "A word is an ableist slur? Or a better alternative for another word? That’s what flags are for."
+        fields:
+        - label: "Level"
+          name: "level"
+          widget: "select"
+          required: true
+          hint: "Either ‘avoid’, ‘tool’ or ‘better-alternative’. Used to render the icon."
+          options:
+            - {label: "Avoid", value: "avoid"}
+            - {label: "Tool", value: "tool"}
+            - {label: "Better alternative", value: "better-alternative"}
+        - {label: "Text", name: "text", widget: "string", hint: "Additional info about the flag. E.g. “Tool of Oppression” or “Racist Slur”."}
+        - {label: "For", name: "for", widget: "string", hint: "Title of the word that should be replaced with the current word."}
+      - label: "Part of speech"
+        name: "speech"
+        widget: "select"
+        required: true
+        hint: "The type of word. E.g. a noun or an adjective."
+        options:
+          - {label: "Adjective", value: "adj"}
+          - {label: "Noun", value: "noun"}
+          - {label: "Noun or adjective", value: "noun or adj"}
+          - {label: "Noun or verb", value: "noun or verb"}
+          - {label: "Verb", value: "verb"}
+      - {label: "Skip in table of content", name: "skip_in_table_of_content", widget: "boolean", hint: "If set to true, the word will not be shown in the table of content."}
+      - label: "Reading materials"
+        name: "reading"
+        widget: "list"
+        hint: "A list of helpful links to further information about the discussed word."
+        fields:
+          - {label: "Text", name: "text", widget: "string", required: true, hint: "A text label which describes the information."}
+          - {label: "Link", name: "href", widget: "string", required: true, hint: "A link to the information."}
         # - text, href
-      # alt_words
+      - {label: "Alternative words", name: "alt_words", widget: "list", hint: "A comma-separated list of words that might be used instead of the described one. If a word in the list is defined it will automatically be linked."}
       - {label: "Body", name: "body", widget: "markdown"}

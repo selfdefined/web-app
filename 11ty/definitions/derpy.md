@@ -5,7 +5,7 @@ flag:
   text: 'Ableist Term'
   level: avoid
 defined: true
-speech: adjective
+speech: adj
 alt_words:
   - ridiculous
   - clumsy

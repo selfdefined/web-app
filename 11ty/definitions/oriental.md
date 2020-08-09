@@ -5,7 +5,7 @@ defined: true
 flag:
   text: 'racist term'
   level: avoid
-speech: noun or adj.
+speech: noun or adj
 alt_words:
   - Asian or Asian-American when you're uncertain. However, when possible, be as specific as possible. If you know or can ask someone's ethnicity, it's better to be specific such as Korean-Canadian or Vietnamese-American.
 reading:

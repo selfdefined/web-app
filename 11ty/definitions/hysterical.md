@@ -2,7 +2,7 @@
 title: hysterical
 slug: hysterical
 defined: true
-speech: adjective
+speech: adj
 flag:
   level: avoid
   text: sexist

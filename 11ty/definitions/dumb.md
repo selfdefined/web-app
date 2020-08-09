@@ -5,7 +5,7 @@ flag:
   text: 'ableist language'
   level: avoid
 defined: true
-speech: adjective
+speech: adj
 alt_words:
   - incomprehensible
   - nonsensical

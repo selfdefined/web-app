@@ -1,7 +1,7 @@
 ---
 title: savage
 slug: savage
-speech: noun or adjective
+speech: noun or adj
 defined: true
 flag:
   level: avoid

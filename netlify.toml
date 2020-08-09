@@ -11,6 +11,9 @@
   # Default build command.
   command = "npm run build"
 
+[dev]
+  framework = "eleventy"
+
 [[redirects]]
   from = "/#ok-hand"
   to = "/definitions/ok-hand/"
