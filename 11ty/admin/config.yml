@@ -32,6 +32,7 @@ collections:
           hint: "Either ‘avoid’, ‘tool’ or ‘better-alternative’. Used to render the icon."
           options:
             - {label: "Avoid", value: "avoid"}
+            - {label: "Warning", value: "warning"}
             - {label: "Tool", value: "tool"}
             - {label: "Better alternative", value: "better-alternative"}
         - {label: "Text", name: "text", widget: "string", hint: "Additional info about the flag. E.g. “Tool of Oppression” or “Racist Slur”."}
