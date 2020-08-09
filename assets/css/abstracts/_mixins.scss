@@ -2,6 +2,10 @@
   content: '🚨';
 }
 
+@mixin icon__warning() {
+  content: '⚠️';
+}
+
 @mixin icon__alt() {
   content: '👍';
 }

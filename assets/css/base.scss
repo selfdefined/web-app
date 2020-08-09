@@ -19,10 +19,11 @@
 
 // 5. Components
 @import 'components/word', 'components/lists', 'components/definitions',
-  'components/flag';
+  'components/flag', 'components/alertbox';
 
 // 6. Page-specific styles
 @import './layouts/pages';
+@import './layouts/homepage';
 
 // 7. Themes
 // @import

@@ -1,6 +1,7 @@
 const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
 const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 module.exports = function(config) {
   // Add a filter using the Config API
@@ -25,18 +26,24 @@ module.exports = function(config) {
     );
 
     if (existingDefinition) {
-      return `<a href="${definitionPermalink(
-        existingDefinition.data.slug
-      )}" aria-label="${subTermData.full_title}">${subTermData.text}</a>`;
+      return `<a href="${definitionPermalink(existingDefinition.data.slug)}">${
+        subTermData.text
+      }</a>`;
     }
 
-    return `<span aria-label="${subTermData.full_title}">${subTermData.text}</span>`;
+    return `<span>${subTermData.text}</span>`;
   });
 
   // just a debug filter to lazily inspect the content of anything in a template
   config.addFilter('postInspect', function(post) {
     console.log(post);
   });
+
+  config.addFilter('isArray', function(thing) {
+    return Array.isArray(thing);
+  });
+
+  config.addPlugin(pluginRss);
 
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
@@ -58,6 +65,13 @@ module.exports = function(config) {
         'tool',
         {
           class: 'tool',
+          text: ''
+        }
+      ],
+      [
+        'warning',
+        {
+          class: 'warning',
           text: ''
         }
       ]
@@ -159,6 +173,17 @@ module.exports = function(config) {
         return a.data.title
           .toLowerCase()
           .localeCompare(b.data.title.toLowerCase());
+      });
+  });
+
+  config.addCollection('definedWordsChronological', (collection) => {
+    return collection
+      .getFilteredByGlob('./11ty/definitions/*.md')
+      .filter((word) => word.data.defined)
+      .sort((a, b) => {
+        if (a.date > b.date) return -1;
+        if (a.date < b.date) return 1;
+        return 0;
       });
   });
 

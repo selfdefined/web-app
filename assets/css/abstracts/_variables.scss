@@ -3,6 +3,10 @@ $secondary-color: hsl(120, 100%, 25%);
 
 $dark-red: hsl(0, 100%, 32.2%);
 $pink: hsl(349.5, 100%, 87.6%);
+$dark-green: hsl(120, 100%, 15%);
+$yellow: hsl(50, 100%, 50%);
+$dark-yellow: hsl(50, 100%, 20%);
+$pale-yellow: hsl(50, 100%, 86%);
 $black: hsl(0, 0%, 13%);
 $white: hsl(0, 0%, 100%);
 
@@ -12,3 +16,5 @@ $light-grey: hsl(0, 0%, 93.3%); // for backgrounds only
 
 $browser-context: 16;
 
+$lt-background-color: $pink;
+$lt-background-color-warning: $pale-yellow;

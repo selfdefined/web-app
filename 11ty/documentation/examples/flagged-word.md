@@ -11,7 +11,7 @@ As explained in the [Front Matter documentation](/documentation/front-matter/#fl
 
 This is a the baseline if a word is everyday use and you want to to explain deeply why this is wrong, but also point to alternatives folks might use. Note: Alt words are not required for words that should be avoided.
 
-This example is copied out of the definition of [crazy](/#crazy).
+This example is copied out of the definition of [crazy](/definitions/crazy).
 
 ```md
 ---
@@ -51,14 +51,14 @@ By using ableist language, we are perpetuating violence against people who exper
 
 ## Usage Tip
 
-Be more specific. Typically we can find an alternate definition by simply reflecting on what emotion we're really feeling.
+Be more specific. Typically we can find an alternate definition by taking time to reflect on what emotion we're really feeling.
 ```
 
 ## Tool
 
 Some words describe a physical or rethorical tool. These typically have no alternatives, but are a good place to link to external resources.
 
-This example is the definition of [performative allyship](/#performative-allyship).
+This example is the definition of [performative allyship](/definitions/performative-allyship).
 
 ```md
 ---

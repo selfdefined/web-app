@@ -5,13 +5,14 @@
   "description": "A modern dictionary about us.",
   "main": "index.js",
   "scripts": {
+    "build": "concurrently npm:build:*",
     "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
     "build:site": "eleventy",
-    "build": "npm run build:css && npm run build:site",
     "create-definitions": "bin/create-definitions",
-    "lint": "npm run lint:css && npm run lint:js",
-    "lint:css": "stylelint \"assets/css/**/*.scss\"",
-    "lint:js": "eslint \"11ty/**/*.js\"",
+    "lint": "concurrently npm:lint:*",
+    "lint:css": "stylelint \"assets/css/**/*.scss\" --fix",
+    "lint:js": "eslint \"**/*.js\" --fix",
+    "lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
     "serve": "concurrently \"npm run serve:site\" \"npm run watch:css\"",
     "serve:site": "eleventy --serve",
     "test": "ava",
@@ -47,30 +48,35 @@
     ],
     "assets/css/**/*.scss": [
       "npm run lint:css -- --fix"
+    ],
+    "**/*.md": [
+      "npm run lint:markdown -- --fix"
     ]
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "markdown-it-anchor": "^5.2.5",
-    "markdown-it-prism": "^2.0.3"
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "markdown-it-anchor": "^5.3.0",
+    "markdown-it-prism": "^2.0.5"
   },
   "devDependencies": {
-    "ava": "^3.5.0",
-    "concurrently": "^5.0.0",
+    "ava": "^3.8.2",
+    "concurrently": "^5.2.0",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "esm": "^3.2.25",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.7",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "markdownlint-cli": "^0.23.1",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
-    "sass": "^1.23.7",
-    "slugify": "^1.3.6",
-    "stylelint": "^13.2.0",
+    "sass": "^1.26.7",
+    "slugify": "^1.4.0",
+    "stylelint": "^13.5.0",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.14.2"
+    "stylelint-scss": "^3.17.2"
   },
   "engines": {
     "node": "12"

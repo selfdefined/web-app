@@ -4,6 +4,9 @@ slug: fatphobia
 defined: true
 speech: noun
 skip_in_table_of_content: true
+flag:
+  level: warning
+  text: content warning
 reading:
   - text: Sizeism and Fatphobia
     href: https://www.srhweek.ca/providers/people-and-communities/sizeism-and-fatphobia/
@@ -24,3 +27,7 @@ A history of being ignored and shamed prevents many fat people from visiting med
 Employers will pay fat employees less than their thin colleagues and offer them no protection from weight stigma in the workplace, as their fatphobic biases lead to their perception of fat employees as lazy, less intelligent, and unmotivated.
 
 Law enforcement officers are less likely to believe fat people reporting sexual assaults, as their fatphobic biases lead them to think of fat people as unattractive, not sexually active, or undesirable.
+
+## Note
+
+While fatphobia is a more widely known term, many prefer fatmisia, as [-misia] means hate or hatred of, which more accurately describes the prejudice and discrimination.

@@ -31,4 +31,4 @@ By conflating arbitrary quirks or behaviours with OCD, we are invalidating OCD a
 
 ## Usage Tip
 
-Be more specific. Typically we can find an alternate definition by simply reflecting on what emotion we're really feeling. In this case, be particularly aware if the behaviour is actually unwanted or uncontrollable.
+Be more specific. Typically we can find an alternate definition by taking time to reflect on what emotion we're really feeling. In this case, be particularly aware if the behaviour is actually unwanted or uncontrollable.

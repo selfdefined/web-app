@@ -1,68 +1,88 @@
 .grid {
-  display: grid;
-  grid-column-gap: 4rem;
-  grid-row-gap: 10rem;
-  grid-template-columns: repeat(4, [col] 1fr [col]);
-  grid-template-rows: fit-content, fit-content, auto;
+	display: grid;
+	grid-column-gap: 4rem;
+	grid-row-gap: 10rem;
+	grid-template-columns: repeat(4, [col] 1fr [col]);
+	grid-template-rows: fit-content, fit-content, auto;
 }
 
 .auto-grid {
-  display: grid;
-  grid-gap: var(--l-gap);
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(var(--auto-grid-min-size), 1fr)
-  );
+	display: grid;
+	grid-gap: var(--l-gap);
+	grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
+}
+
+@media screen and (max-width: 880px) {
+	.auto-grid {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .small-left-grid {
-  display: grid;
-  grid-gap: 1rem;
+	display: grid;
+	grid-gap: 1rem;
 
-  @media (min-width: #{pxToRem(800)}) {
-    grid-template-columns: 10rem 60ch;
-  }
+	@media (min-width: #{pxToRem(800)}) {
+		grid-template-columns: 10rem 60ch;
+	}
 }
 
 .block__dictionary {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50rem;
-  padding: 0 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50rem;
+	padding: 0 1rem;
 }
 
 .block__word {
-  display: flex;
-  flex-direction: column;
-  grid-column: span 2;
-  margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	grid-column: span 2;
+	margin: 1rem;
 }
 
 .block__type {
-  align-items: flex-start;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+	align-items: flex-start;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
 }
 
-.page {
-  align-items: start;
-  display: grid;
-  grid-template-columns: 1fr;
-
-  & > * {
-    grid-column: 1;
-  }
+.list {
+	margin: 1rem 0;
+	li {
+		margin: 0.75rem 0;
+	}
+	a {
+		word-break: break-word;
+	}
 }
 
 .box {
-  background: black;
-  color: white;
-  grid-column: span 2;
-  height: auto;
-  margin: 1rem 0.5rem;
-  padding: 1rem;
+	background: black;
+	color: white;
+	grid-column: span 2;
+	height: auto;
+	margin: 1rem 0;
+	padding: 1rem;
+	@media (min-width: #{pxToRem(768)}) {
+		margin: 1rem 0.5rem;
+	}
 
-  a {
-    color: white;
-  }
+	&--divider {
+		margin: 2rem 0;
+	}
+
+	a {
+		color: white;
+
+		&:focus {
+			background-color: $lt-background-color;
+			color: $black;
+		}
+	}
+	*::selection {
+		background: white; /* WebKit/Blink Browsers */
+		color: black;
+	}
 }

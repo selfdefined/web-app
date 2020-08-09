@@ -1,5 +1,4 @@
-.flag__red {
-  background-color: rgb(255, 192, 203);
+.flag {
   border-radius: 1rem;
   display: inline-block;
   font-size: 0.9rem;
@@ -7,9 +6,19 @@
   margin: 0.5rem 0.75rem 0.25rem 0;
   padding: 0.45rem 0.65rem;
   text-transform: lowercase;
-
-  &:before {
-    @include icon__avoid();
-    @include icon__embed();
+  &--red {
+    background-color:$lt-background-color;
+    &:before {
+      @include icon__avoid();
+      @include icon__embed();
+    }
+  }
+  &--yellow {
+    background-color: $lt-background-color-warning;
+  
+    &:before {
+      @include icon__warning();
+      @include icon__embed();
+    }
   }
 }

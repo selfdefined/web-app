@@ -1,10 +1,11 @@
-<section>
-  <nav class="" aria-label="Definitions">
+<section class="homepage-section homepage-section--toc">
+  <h2 id="terms-heading" class="visually-hidden">Terms</h2>
+  <nav class="" aria-labelledby="terms-heading">
     <ol class="multi-column u-no-padding-left list">
       {% for section in collections.tableOfContent %}
         <li>
-          <span class="sub-headline">{{ section.title }}</span>
-          <ol class="toc__list">
+          <h3 class="sub-headline" id="list{{loop.index}}">{{ section.title }}</h3>
+          <ol class="toc__list" role="list" aria-labelledby="list{{loop.index}}">
             {% for definition in section.definitions %}
               {% include 'components/table-of-content-item.njk' %}
             {% endfor %}
