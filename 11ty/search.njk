@@ -63,7 +63,7 @@ layout: layouts/search.njk
         const results = await matches.json()
 
         $resultsContainer.innerHTML = ''
-        $searchTitle.innerText = `We found ${results.length} ${results.length === 1 ? 'definition' : 'definitions'} containing your search term`
+        $searchTitle.innerText = `We found ${results.length} ${results.length === 1 ? 'definition' : 'definitions'} containing \u275d${value}\u275e`
 
         // better to create a fragment here
         results.forEach((result) => {
