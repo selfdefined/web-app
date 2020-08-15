@@ -4,10 +4,7 @@ const { default: axios } = require('axios');
 exports.handler = async function({ queryStringParameters }, _, callback) {
   try {
     if (!queryStringParameters) {
-      callback({
-        statusCode: 400,
-        body: 'missing query string parameter "q"'
-      });
+      callback(new Error('missing query string parameter "q"'));
     }
 
     const { data: definitions } = await axios.get(
@@ -36,15 +33,12 @@ exports.handler = async function({ queryStringParameters }, _, callback) {
     const matches = idx.search(queryStringParameters.q);
     const results = matches.map((match) => definitionMap[match.ref]);
 
-    callback({
+    callback(null, {
       body: JSON.stringify(results),
       statusCode: 200
     });
   } catch (error) {
     console.log(error);
-    callback({
-      statusCode: 500,
-      body: error.message
-    });
+    callback(error);
   }
 };
