@@ -3,14 +3,15 @@ layout: layouts/search.njk
 ---
 
 <header class="introduction">
-  <h1 class="introduction__title thicc-headline" id="title">
+  <h1 class="introduction__title thicc-headline">
     Search Results
   </h1>
 </header>
 
 <section class="search">
-  <h2 aria-live="polite" role="status" id="search-title">Building your search results, one moment.</h2>
-  <ul id="search-results-list" class="u-no-padding-left list" />
+  {% include 'components/search.njk' %}
+  <h2 aria-live="polite" role="status" class="js-search-title">Building your search results, one moment.</h2>
+  <ul class="js-search-results-list" class="u-no-padding-left list" />
 </section>
 
 {% block pageScript%}
@@ -43,14 +44,14 @@ layout: layouts/search.njk
   window.addEventListener('DOMContentLoaded', function() {
     function buildResultListItem(result, search) {
       const occurrences = getAllOccurrences(result.content, search)
-      return `<h4><a href="${result.url}">${result.title}</a></h4>${occurrences.map(occurrence => `<p>...${occurrence}...</p>`).join('')}`
+      return `<h4><a href="${result.url}">${result.title}</a></h3>${occurrences.map(occurrence => `<p>...${occurrence}...</p>`).join('')}`
     }
 
     const init = async () => {
       try {
         const urlParams = new URLSearchParams(window.location.search);
-        const $searchTitle = document.querySelector('#search-title')
-        const $resultsContainer = document.querySelector('#search-results-list')
+        const $searchTitle = document.querySelector('.js-search-title')
+        const $resultsContainer = document.querySelector('.js-search-results-list')
 
 
         if (!urlParams.has('q')) {
