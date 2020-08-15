@@ -28,7 +28,7 @@ exports.handler = async function({ queryStringParameters }, _, callback) {
       this.field('content');
 
       // load definitions into lunr index
-      for (definition in definitions) {
+      for (const definition in definitions) {
         this.add(definitions[definition]);
       }
     });
