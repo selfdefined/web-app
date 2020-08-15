@@ -11,6 +11,8 @@
   # Default build command.
   command = "npm run build"
 
+  functions = "functions/"
+
 [[redirects]]
   from = "/#ok-hand"
   to = "/definitions/ok-hand/"
