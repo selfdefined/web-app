@@ -13,7 +13,7 @@ We are using [Eleventy](https://www.11ty.io/) to generate the site based on the 
 
 ## Setup
 
-You will need to have Node and Git installed on your machine. To start developing please create a fork of the root repository.
+You will need to have Node and Git installed on your machine. To start developing please create a fork of the [root repository](https://github.com/selfdefined/web-app).
 
 Afterwards, install the dependencies.
 
