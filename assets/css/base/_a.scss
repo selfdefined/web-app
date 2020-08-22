@@ -14,15 +14,15 @@ a {
   }
 
   &:focus {
-    background-color: var(--clr-background-light);
+    background-color: var(--clr-accent);
     color: var(--clr-foreground);
     // makes focus visible in windows high contrast mode, do not delete
     outline: 2px solid transparent;
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       :root:not([data-user-theme='light']) & {
         color: var(--clr-background);
       }
-    }
+    } */
   }
 }
