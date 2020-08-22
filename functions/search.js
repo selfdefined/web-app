@@ -33,6 +33,7 @@ exports.handler = async function({ queryStringParameters }, _, callback) {
     const matches = idx.search(queryStringParameters.q);
     const results = matches.map((match) => definitionMap[match.ref]);
 
+    console.log(results)
     callback(null, {
       body: JSON.stringify(results),
       statusCode: 200

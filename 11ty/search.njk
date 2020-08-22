@@ -2,19 +2,38 @@
 layout: layouts/search.njk
 ---
 
-<header class="introduction">
-  <h1 class="introduction__title thicc-headline">
-    Search Results
-  </h1>
-</header>
+<div class="article-content">
+  <div>
+    {% include 'components/sub-page-header.njk' %}
+    <ul class="js-search-results-menu seach-results-menu" />
+  </div>
 
-<section class="search">
-  {% include 'components/search.njk' %}
-  <h2 aria-live="polite" role="status" class="js-search-title">Building your search results, one moment.</h2>
-  <ul class="js-search-results-list" class="u-no-padding-left list" />
-</section>
+  <div class="page">
+    <header class="introduction">
+      <h1 class="introduction__title thicc-headline">
+        Search Results
+      </h1>
+    </header>
 
-{% block pageScript%}
+    <section class="search">
+      {% include 'components/search.njk' %}
+      <h2 aria-live="polite" role="status" class="js-search-title">Building your search results, one moment.</h2>
+      <ul class="js-search-results-list" class="u-no-padding-left list" />
+    </section>
+  </div>
+</div>
+
+{% block pageStyles %}
+<style>
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block pageScript %}
 <script>
   function getAllOccurrences(str, match) {
     const matchLength = match.length;
@@ -44,7 +63,11 @@ layout: layouts/search.njk
   window.addEventListener('DOMContentLoaded', function() {
     function buildResultListItem(result, search) {
       const occurrences = getAllOccurrences(result.content, search)
-      return `<h4><a href="${result.url}">${result.title}</a></h3>${occurrences.map(occurrence => `<p>...${occurrence}...</p>`).join('')}`
+      return `<h3 id="${result.title}"><a href="${result.url}">${result.title}</a></h3>${occurrences.map(occurrence => `<p>...${occurrence}...</p>`).join('')}`
+    }
+
+    function buildResultMenuItem(result) {
+      return `<a href="#${result.title}">${result.title}</a>`
     }
 
     const init = async () => {
@@ -52,15 +75,15 @@ layout: layouts/search.njk
         const urlParams = new URLSearchParams(window.location.search);
         const $searchTitle = document.querySelector('.js-search-title')
         const $resultsContainer = document.querySelector('.js-search-results-list')
+        const $tableOfContentsContainer = document.querySelector('.js-search-results-menu')
 
-
-        if (!urlParams.has('q')) {
-          $resultsContainer.innerHTML = ''
-          return
-        }
+        // remove any previous results from the list and menu
+        $resultsContainer.innerHTML = ''
+        $tableOfContentsContainer.innerHTML = ''
 
         const value = urlParams.get('q')
         const matches = await fetch(`/.netlify/functions/search?q=${value}`, {mode: 'cors'})
+        // const matches = await fetch(`https://climb-phi-staging.begin.app/self-defined-app-search?q=${value}`, {mode: 'cors'})
         const results = await matches.json()
 
         $resultsContainer.innerHTML = ''
@@ -68,10 +91,17 @@ layout: layouts/search.njk
 
         // better to create a fragment here
         results.forEach((result) => {
-          let $childElement = document.createElement('li')
-          $childElement.classList.add('search-results-list__list-item')
-          $childElement.innerHTML = buildResultListItem(result, value)
-          $resultsContainer.appendChild($childElement)
+          // build the actual result list item
+          let $childListElement = document.createElement('li')
+          $childListElement.classList.add('search-results-list__list-item')
+          $childListElement.innerHTML = buildResultListItem(result, value)
+          $resultsContainer.appendChild($childListElement)
+
+          // build the table of content item
+          let $childMenuElement = document.createElement('li')
+          $childMenuElement.classList.add('search-results-menu__list-item')
+          $childMenuElement.innerHTML = buildResultMenuItem(result, value)
+          $tableOfContentsContainer.appendChild($childMenuElement)
         })
 
       } catch (error) {
