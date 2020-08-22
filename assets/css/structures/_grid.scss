@@ -60,28 +60,3 @@
     word-break: break-word;
   }
 }
-
-.box {
-  background: var(--clr-foreground);
-  color: var(--clr-background);
-  grid-column: span 2;
-  height: auto;
-  margin: 1rem 0;
-  padding: 1rem;
-  @media (min-width: #{pxToRem(768)}) {
-    margin: 1rem 0.5rem;
-  }
-
-  &--divider {
-    margin: 2rem 0;
-  }
-
-  a {
-    color: var(--clr-background);
-  }
-
-  *::selection {
-    background: var(--clr-background); /* WebKit/Blink Browsers */
-    color: var(--clr-foreground);
-  }
-}
