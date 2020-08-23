@@ -46,3 +46,7 @@ npm run build
 ```
 
 This will generate a minified CSS bundle as well as run Eleventy’s production build. Build files are located in `dist`.
+
+## Contributing
+
+Follow the [contributing guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) to start contributing.
