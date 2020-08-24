@@ -1,0 +1,11 @@
+input[type='text'],
+input[type='search'] {
+  border: 0.125rem solid $black;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+
+  &:focus {
+    border-color: $very-blue;
+    outline: 2px solid $very-blue;
+  }
+}

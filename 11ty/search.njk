@@ -72,8 +72,8 @@ layout: layouts/search.njk
         $tableOfContentsContainer.innerHTML = ''
 
         const value = urlParams.get('q')
-        const matches = await fetch(`/.netlify/functions/search?q=${value}`, {mode: 'cors'})
-        // const matches = await fetch(`https://climb-phi-staging.begin.app/self-defined-app-search?q=${value}`, {mode: 'cors'})
+        // const matches = await fetch(`/.netlify/functions/search?q=${value}`, {mode: 'cors'})
+        const matches = await fetch(`https://climb-phi-staging.begin.app/self-defined-app-search?q=${value}`, {mode: 'cors'})
         const results = await matches.json()
 
         $resultsContainer.innerHTML = ''

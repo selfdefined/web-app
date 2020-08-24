@@ -11,8 +11,14 @@ $black: hsl(0, 0%, 13%);
 $white: hsl(0, 0%, 100%);
 
 $dark-grey: hsl(0, 0%, 31%);
-$mid-grey: hsl(0, 0%, 46.3%); // the lightest shade of grey you can get away with, #a11y
+$mid-grey: hsl(
+  0,
+  0%,
+  46.3%
+); // the lightest shade of grey you can get away with, #a11y
 $light-grey: hsl(0, 0%, 93.3%); // for backgrounds only
+
+$very-blue: #2939ff;
 
 $browser-context: 16;
 

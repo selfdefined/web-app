@@ -8,21 +8,7 @@
 }
 
 .search__input {
-  border: 2px solid #212121;
-  border-radius: 3px;
   margin-right: 8px;
-  padding: 12px 16px;
-}
-
-.search__button {
-  background: #2939ff;
-  border: none;
-  border-radius: 3px;
-  color: $white;
-  cursor: pointer;
-  font-family: $ext-sans;
-  font-weight: bold;
-  padding: 12px 16px;
 }
 
 .search-results-list__list-item__highlight {
