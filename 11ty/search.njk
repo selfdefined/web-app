@@ -23,16 +23,6 @@ layout: layouts/search.njk
   </div>
 </div>
 
-{% block pageStyles %}
-<style>
-  @media (prefers-reduced-motion: no-preference) {
-    html {
-      scroll-behavior: smooth;
-    }
-  }
-</style>
-{% endblock %}
-
 {% block pageScript %}
 <script>
   function getAllOccurrences(str, match) {
