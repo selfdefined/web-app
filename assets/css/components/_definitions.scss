@@ -1,32 +1,23 @@
 .word__type {
-    font-family: $con-sans;
-    font-size: 0.85rem;
-    padding-right: 1rem;
-    text-align: right;
-    text-transform: uppercase;
-  }
-
-.word__link {
-    border-bottom: darkgrey solid 0.1em;
-    color: black;
-    font-family: $ext-sans;
-    text-decoration: none;
-  }
-
-.word__breakdown {
-    border-left: 0.1rem solid lightgrey;
-    font-family: $sans-serif;
-    padding-left: 1rem;
+  font-family: $con-sans;
+  font-size: 0.85rem;
+  padding-right: 1rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .content-flag {
-  background-color: $lt-background-color-warning;
+  background-color: var(--clr-warning-background);
   overflow: hidden;
   padding: 0 1rem 0 3rem;
   position: relative;
 
+  & a:focus {
+    background-color: var(--clr-background);
+  }
+
   &:before {
-    content: "⚠️";
+    content: '⚠️';
     left: 1rem;
     position: absolute;
     top: 50%;
@@ -34,10 +25,10 @@
   }
 
   &--avoid {
-    background-color: $pink;
+    background-color: var(--clr-avoid-background);
 
     &:before {
-      content: "🚨";
+      content: '🚨';
     }
   }
 }
