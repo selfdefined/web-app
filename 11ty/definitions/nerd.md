@@ -16,7 +16,8 @@ alt_words:
     - specialist
 ---
 
-From the [DHH](https://medium.com/dictionary-of-digital-humanities/nerd-b7d61b6f536e): "An overly intellectual person, usually obsessive or lacking social skills, focusing their interests on non-mainstream activities, generally highly technical or related to fiction or fantasy narratives. It is used as a stereotype for either derogatory or praising purposes, depending on who's wielding it."
+"an overly intellectual person, usually obsessive or lacking social skills, focusing their interests on non-mainstream activities, generally highly technical or related to fiction or fantasy narratives. It is used as a stereotype for either derogatory or praising purposes, depending on who's wielding it."
+–[Dictionary of Digital Humanities](https://medium.com/dictionary-of-digital-humanities/nerd-b7d61b6f536e)
 
 ## Issues
 
