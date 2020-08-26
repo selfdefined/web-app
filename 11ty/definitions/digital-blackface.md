@@ -2,7 +2,7 @@
 title: digital Blackface
 slug: digital-blackface
 defined: true
-excerpt: a form of appropriation where non-Black individuals use memes and gifs featuring Black people and even emojis with dark skin
+excerpt: a form of appropriation where non-Black individuals use memes and imagery featuring Black people and dark-skinned emojis
 Speech: noun
 reading:
   - text: We Need to Talk About Digital Blackface in Reaction GIFs
