@@ -1,25 +1,15 @@
 body {
-  border-top: 1rem solid $primary-color;
+  background-color: var(--clr-background);
+  border-top: 1rem solid var(--clr-primary);
+  color: var(--clr-foreground);
   font-family: $sans-serif;
   font-size: pxToRem(20);
   margin: 0;
   padding: 2rem;
 }
 
-code {
-  background-color: $dark-grey;
-  border: pxToRem(1px) solid $black;
-  border-radius: 0.25em;
-  color: $white;
-  font-size: 95%;
-  padding: 0.15em;
-
-  pre & {
-    border: none;
-    border-radius: 0;
-    font-size: inherit;
-    padding: 0;
-  }
+[hidden] {
+  display: none;
 }
 
 ul[class] {
