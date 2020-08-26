@@ -1,6 +1,6 @@
 ---
 title: sane
-slug: sanity-check
+slug: sane
 flag:
   text: 'Medical appropriation'
   level: avoid
