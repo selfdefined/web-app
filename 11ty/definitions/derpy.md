@@ -5,7 +5,7 @@ flag:
   text: 'Ableist Term'
   level: avoid
 defined: true
-excerpt: ableist term. avoid. clumsy, foolish, unattractive, or otherwise unintelligent act or person.
+excerpt: clumsy, foolish, unattractive, or otherwise unintelligent act or person.
 speech: adjective
 alt_words:
   - ridiculous

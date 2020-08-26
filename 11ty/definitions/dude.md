@@ -2,7 +2,7 @@
 title: dude
 slug: dude
 defined: true
-excerpt: gendered language. avoid. colloquially, a man; a discourse marker expressing masculine solidarity; an expression of astonishment when used alone
+excerpt: colloquially, a man; a discourse marker expressing masculine solidarity; an expression of astonishment when used alone
 flag:
   level: avoid
 alt_words:

@@ -4,7 +4,7 @@ slug: minorities
 flag:
   level: avoid
 defined: true
-excerpt: avoid. the smaller in number of two groups constituting a whole; can be inaccurate and vague substitute for racially and gender minoritised people.
+excerpt: the smaller in number of two groups constituting a whole; can be inaccurate and vague
 speech: noun
 alt_words:
   - minoritised

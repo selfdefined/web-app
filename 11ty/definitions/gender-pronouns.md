@@ -2,7 +2,7 @@
 title: Gender pronouns
 slug: gender-pronouns
 defined: true
-excerpt: avoid. often used to mean pronouns; falsely associates pronouns and gender.
+excerpt: often used to mean pronouns
 ---
 
 gender pronouns are often used to mean [pronouns](/definitions/pronouns).
