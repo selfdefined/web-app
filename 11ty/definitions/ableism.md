@@ -2,6 +2,7 @@
 title: Ableism
 slug: ableism
 defined: true
+excerpt: a system that places value on people’s bodies and minds based on societally constructed ideas of normalcy, intelligence, excellence, and productivity. These constructed ideas are deeply rooted in anti-Blackness, eugenics, colonialism, and capitalism.
 speech: noun
 flag:
   level: warning
