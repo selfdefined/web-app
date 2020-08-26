@@ -2,7 +2,7 @@
 title: minoritised
 slug: minoritised
 defined: true
-excerpt: groups resulting from social constructs have been granted less power or representation compared to other members or groups in society; preferable as a term to minorities for its focus on power struggle
+excerpt: groups resulting from social constructs have been granted less power or representation compared to other members or groups in society; preferable as a term to minorities for its focus on power struggle. substitute for "minorities."
 speech: adj
 flag:
   level: better-alternative

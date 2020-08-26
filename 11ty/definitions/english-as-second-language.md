@@ -4,7 +4,7 @@ slug: english-as-second-language
 flag:
   level: avoid
 defined: true
-excerpt: the teaching of English to people who speak a different language and who live in a country where English is the main language spoken
+excerpt: avoid. the teaching of English to people who speak a different language and who live in a country where English is the main language spoken
 speech: noun
 alt_words:
   - English as learning-language (ELL)
