@@ -11,6 +11,8 @@ All file names, except stated differently, are relative to the project root.
 
 We are using [Eleventy](https://www.11ty.io/) to generate the site based on the given definitions. As a module bundle we use Parcel.
 
+We’ve compiled a list of [contribution guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) to make it easy for you to start work on the project.
+
 ## Setup
 
 You will need to have Node and Git installed on your machine. To start developing please create a fork of the [root repository](https://github.com/selfdefined/web-app).
@@ -46,7 +48,3 @@ npm run build
 ```
 
 This will generate a minified CSS bundle as well as run Eleventy’s production build. Build files are located in `dist`.
-
-## Contributing
-
-Follow the [contributing guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) to start contributing.
