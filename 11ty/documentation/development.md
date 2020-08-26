@@ -11,7 +11,7 @@ All file names, except stated differently, are relative to the project root.
 
 We are using [Eleventy](https://www.11ty.io/) to generate the site based on the given definitions. As a module bundle we use Parcel.
 
-We’ve compiled a list of [contribution guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) to make it easy for you to start work on the project.
+We’ve compiled a list of [contribution guidelines](https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md) to help you start working on the project.
 
 ## Setup
 
