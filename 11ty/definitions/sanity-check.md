@@ -17,6 +17,7 @@ alt_words:
   - smoke test
   - temperature check
   - soundness check
+  - plausibility check
   - spot check
   - gut check
 reading:
