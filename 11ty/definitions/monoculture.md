@@ -1,7 +1,7 @@
 ---
 title: Monoculture
 slug: monoculture
-defined: false
+defined: true
 speech: noun
 ---
 
