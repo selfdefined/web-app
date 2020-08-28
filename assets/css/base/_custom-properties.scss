@@ -1,4 +1,67 @@
+// create variables for all colours
+@mixin raw-color-names {
+  @each $name, $value in $colors {
+    --clr-#{$name}: #{$value};
+  }
+}
+
+// map the raw colours to abstract names in standard color mode
+// we map the colour values here to prepare for dark mode
+// with these mapping we express the _design intention_ rather than the colour value
+@mixin color-scheme-light {
+  --clr-primary: var(--clr-red);
+  --clr-secondary: var(--clr-green);
+  --clr-foreground: var(--clr-black);
+  --clr-foreground-transparent: var(--clr-black-transparent);
+  --clr-background: white;
+  --clr-accent: var(--clr-pink);
+  --clr-border-main: var(--clr-dark-grey);
+
+  --clr-positive: var(--clr-green);
+  --clr-positive-text: var(--clr-dark-green);
+  --clr-positive-background: var(--clr-pale-green);
+
+  --clr-warning: var(--clr-yellow);
+  --clr-warning-background: var(--clr-pale-yellow);
+  --clr-warning-text: var(--clr-dark-yellow);
+
+  --clr-avoid: var(--clr-red);
+  --clr-avoid-background: var(--clr-pink);
+  --clr-avoid-text: var(--clr-dark-red);
+}
+
+// update colors which need to change in dark mode
+@mixin color-scheme-dark {
+  --clr-foreground: var(--clr-light-grey);
+  --clr-foreground-transparent: var(--clr-white-transparent);
+  --clr-background: var(--clr-black);
+  --clr-accent: var(--clr-berry);
+
+  --clr-positive-text: var(--clr-pale-green);
+  --clr-positive-background: var(--clr-dark-green);
+
+  --clr-warning-background: var(--clr-dark-yellow);
+  --clr-warning-text: var(--clr-pale-yellow);
+
+  --clr-avoid-background: var(--clr-dark-red);
+  --clr-avoid-text: var(--clr-pink);
+}
+
 :root {
+  @include raw-color-names();
+
+  @include color-scheme-light();
+
   --auto-grid-min-size: 17rem;
   --l-gap: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-user-theme='light']) {
+    @include color-scheme-dark();
+  }
+}
+
+:root[data-user-theme='dark'] {
+  @include color-scheme-dark();
 }

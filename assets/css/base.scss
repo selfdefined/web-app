@@ -10,7 +10,7 @@
 
 // 3. Base stuff
 @import 'base/custom-properties', 'base/fonts', 'base/base', 'base/selection',
-  'base/typography', './base/a', 'base/button', 'base/input', 'base/helpers';
+  'base/typography', './base/a',  'base/input', 'base/button', 'base/radio-buttons', 'base/helpers', 'base/code';
 
 // 4. Layout-related sections
 @import 'structures/header', 'structures/footer', 'structures/grid',
@@ -18,7 +18,7 @@
   './structures/definition-content', './structures/definition-navigation';
 
 // 5. Components
-@import 'components/word', 'components/lists', 'components/definitions',
+@import 'components/word', './components/box', 'components/lists', 'components/definitions',
   'components/flag', 'components/alertbox', 'components/search';
 
 // 6. Page-specific styles
