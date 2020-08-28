@@ -1,6 +1,10 @@
 .search__form {
   background: transparent;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
+}
+
+.search__label {
+  display: block;
 }
 
 .search__actions {
@@ -8,9 +12,9 @@
 }
 
 .search__input {
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 .search-results-list__list-item__highlight {
-  background: $pale-yellow;
+  background: var(--clr-pale-yellow);
 }

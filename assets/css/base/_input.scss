@@ -1,11 +1,13 @@
 input[type='text'],
 input[type='search'] {
-  border: 0.125rem solid $black;
+  background: var(--clr-background);
+  border: 0.125rem solid var(--clr-foreground);
   border-radius: 0.25rem;
-  padding: 0.75rem 1rem;
+  color: inherit;
+  padding: 0.5rem 0.75rem;
 
   &:focus {
-    border-color: $very-blue;
-    outline: 2px solid $very-blue;
+    border-color: var(--clr-very-blue);
+    outline: 2px solid var(--clr-very-blue);
   }
 }
