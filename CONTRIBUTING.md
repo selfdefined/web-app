@@ -25,7 +25,7 @@ Below we describe two ways for you to get started: through [issues](#version-1-i
 
 ### Version 1: Issues
 
-If you know a word that should be defined, but—for whatever reason—don’t feel confident writing the definition yourself (or maybe you disagree with an existing defintion), please [open an issue](https://github.com/tatianamac/selfdefined/issues/new). We can then collectively figure out how to best get this word defined.
+If you know a word that should be defined, but—for whatever reason—don’t feel confident writing the definition yourself (or maybe you disagree with an existing definition), please [open an issue](https://github.com/tatianamac/selfdefined/issues/new). We can then collectively figure out how to best get this word defined.
 
 An issue might also be appropriate if you are unsure about some nuances of a definition you want to define. By opening an issue you start a conversation, and that is always a good thing!
 
@@ -54,13 +54,13 @@ For this tutorial we will take the word «Obsessive Compulsive Disorder», as it
   All definitions consist of two parts: **front matter** and **content**. Front Matter is a technical bubble for some structured data about your content. On our website you can find the [complete documentation on Front Matter](https://www.selfdefined.app/documentation/front-matter/). Here’s a quick run down:
 
   Every definition _needs_ to have the following meta information: `title`, `slug`, `defined`, and `speech`. Let's discuss what each of these mean:
-  
+
   - `title` is a word or a phrase you are defining. In this example it's «Obsessive Compulsive Disorder».
-  
+
   - `slug` is a string that we'll use to link to this word. It should be a URL-friendly, all-lowercase hyphenated version of the full title. In our example it's `obsessive-compulsive-disorder`.
-  
+
   - `defined` flag can either be `true` or `false`. As soon as you set it to `true`, your definition will be visible on our website.
-  
+
   - `speech` stores information about the word's part of speech. What kind of word you are defining? A noun? Or an adjective? That’s what `speech` is for. In our example it is a `noun`.
 
   This leaves us with the following front matter:
