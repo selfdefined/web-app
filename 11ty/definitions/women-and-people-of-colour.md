@@ -4,6 +4,7 @@ slug: women-and-people-of-colour
 flag:
   level: avoid
 defined: true
+excerpt: often used as a phrase to encompass “non-white, non-men,” seeking to provide solidarity for these two groups; erases women of colour, non-binary individuals
 speech: noun
 alt_words:
   - people of colour and white women

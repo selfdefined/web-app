@@ -5,6 +5,7 @@ flag:
   text: 'Ableist language'
   level: avoid
 defined: true
+excerpt: a basic test to quickly evaluate whether a claim or the result of a calculation can possibly be true; when expressed literally, examines if the author of a test was sane when they wrote it; commonly used in software engineering to assess whether something is reasonable and sound or meets its goals/acceptance criteria.
 speech: noun
 alt_words:
   - basic function test

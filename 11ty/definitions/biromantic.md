@@ -3,6 +3,7 @@ title: Biromantic
 slug: biromantic
 speech: adj
 defined: true
+excerpt: of, relating to, or characterised by being romantically attracted to more than one gender.
 reading:
   - text: Sorting Out Romantic vs Sexual Feelings
     href: http://teenhealthsource.com/blog/faq-sorting-out-romantic-vs-sexual-feelings/

@@ -3,6 +3,7 @@ title: Pronouns
 slug: pronouns
 speech: noun
 defined: true
+excerpt: a word that substitutes for a noun, in particular, a person's name; a person's pronouns does not necessarily align with their gender presentation or their gender identity
 reading:
   - text: "Merriam-Webster: Words We're Watching: Singular They"
     href: https://www.merriam-webster.com/words-at-play/singular-nonbinary-they

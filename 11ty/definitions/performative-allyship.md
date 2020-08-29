@@ -2,6 +2,7 @@
 title: performative allyship
 slug: performative-allyship
 defined: true
+excerpt: when an individual or group of power/majority/privilege (e.g., white, male, abled, unqueer, etc) loudly profess(es) their actions in the name of 'allyship,' while actively conducting harm to, taking focus away from, and generally being unhelpful towards the group they claim to support, often to receive praise and attention, without taking critical action to dismantle the systems of harm.
 speech: noun
 flag:
   level: tool
