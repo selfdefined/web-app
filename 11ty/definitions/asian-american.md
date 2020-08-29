@@ -2,6 +2,7 @@
 title: Asian-American
 slug: asian-american
 defined: true
+excerpt: umbrella term for people of Asian descent (immigrant or natural born) who live in and/or are from the United States.
 speech: noun
 skip_in_table_of_content: true
 ---

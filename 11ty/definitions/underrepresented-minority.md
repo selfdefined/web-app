@@ -2,6 +2,7 @@
 title: underrepresented minority (URM)
 slug: underrepresented-minority
 defined: true
+excerpt: group whose representation is disproportionately less than their proportion in the general population; often racial or ethnic minority is implied, but can be used to represent any identifier, such as LGBTQIA+, disabled, gender, etc. often abbreviated as URM
 speech: noun
 flag:
   level: avoid

@@ -2,6 +2,7 @@
 title: White fragility
 slug: white-fragility
 defined: true
+excerpt: the tendency for dominant white culture to respond to racism with defensive, dismissive, and angry responses; “a state in which even a minimum amount of racial stress becomes intolerable, triggering a range of defensive moves.” (Robin DiAngelo).
 speech: noun
 flag:
   level: tool

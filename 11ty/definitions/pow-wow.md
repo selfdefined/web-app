@@ -2,6 +2,7 @@
 title: pow-wow
 slug: pow-wow
 defined: true
+excerpt: social gathering, ceremony, or celebrations held in different Native American communities that can be spiritually symbolic in nature, involve dancing and regalia, and involve months of planning with hundreds of people in attendance; colloquially is culturally appropriated and used to mean "to meet" (verb) or meeting, working session, or gathering (noun); from Narragansett word powwaw, meaning "spiritual leader"
 speech: noun or verb
 flag:
   level: avoid
