@@ -198,6 +198,8 @@ module.exports = function(config) {
 
   config.setLibrary('md', mdIt);
 
+  config.addPassthroughCopy({ [`./11ty/assets/js/**/*`]: '/js' });
+
   // You can return your Config object (optional).
   return {
     dir: {
