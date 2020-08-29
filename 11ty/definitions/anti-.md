@@ -7,8 +7,8 @@ sub_terms:
     full_title: anti-blackness
   - text: -queerness
     full_title: anti-queerness
-  - text: -Semitism
-    full_title: anti-semitism
+  - text: -semitism
+    full_title: antisemitism
   - text: -trans
     full_title: anti-trans
 ---
