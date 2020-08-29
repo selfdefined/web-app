@@ -19,7 +19,7 @@ module.exports = function definitionContentNextEntries(
 
   return `<section class="definition-navigation definition__further-definitions_nav">
     <h2 class="visually-hidden">Browse</h2>
-    <div><h3 class="definition-navigation__sub-headline" id="context-nav-previous">Previous words</h3>
+    <div><h3 class="smcp-headline" id="context-nav-previous">Previous words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-previous">
         ${
           previous.length
@@ -29,7 +29,7 @@ module.exports = function definitionContentNextEntries(
             : ''
         }</nav>
     </div>
-    <div><h3 class="definition-navigation__sub-headline" id="context-nav-next">Next words</h3>
+    <div><h3 class="smcp-headline" id="context-nav-next">Next words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-next">${
         next.length
           ? `<ul class="definition-navigation__list">${next
