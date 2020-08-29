@@ -26,3 +26,11 @@ The term can be used in a way that leads to weaponizing a person's passion again
 ## Impact
 
 By assigning negativity to the passion that someone exhibits for the things they enjoy, we invalidate their individuality and reduce the enjoyment they derive from their passions. As a result, we may cause these people to abandon hobbies or interests, instilling a feeling of wrongness in finding joy how they see fit (provided their methods of finding joy are not harmful).
+
+## Taking It Back
+
+Individuals can utilize this term in a self-descriptive way to identify that they are extremely passionate about their hobbies and interests. Acknowledging this usage and supporting people who see themselves this way is an effective method of reclaiming the positive aspects of this term and validating the way people see and think of their passions as it relates to their identity.
+
+## See Also
+
+[Blerd](/definitions/blerd)
