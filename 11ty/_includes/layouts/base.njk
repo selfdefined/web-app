@@ -11,7 +11,11 @@
     {% set pageTitle = titleWithPath or title + ' ' or '' %}
 
     {% if flag.level == "avoid" %}
-      {%  set alert = flag.level + ": " %}
+      {% if flag.text %}
+        {%  set alert = flag.level + ": " + flag.text + ". " %}
+      {% else %}
+        {%  set alert = flag.level + ": " %}
+      {% endif %}
     {% else %}
       {% set alert = '' %}
     {% endif %}
