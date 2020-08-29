@@ -5,7 +5,7 @@ flag:
   text: 'Neo-Colonial/Racist slur'
   level: 'avoid'
 defined: true
-excerpt: something which is obscenely cruel; primitive; unsophisticated.
+excerpt: Something which is obscenely cruel; primitive; unsophisticated. In modern day usage, you can notice this rhetoric being employed almost always for the purpose of demonizing "foreign" (more often than not from the global south) cultures.
 speech: adjective
 reading:
   - text: 'is the word barbarian a slur?'
