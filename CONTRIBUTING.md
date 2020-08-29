@@ -17,7 +17,7 @@ Please remember that the contributing team is always here to [help](#get-help). 
 Below we describe two ways for you to get started: through [issues](#version-1-issues) or [pull requests](#version-2-pull-requests).
 
 ---
-**Note:** We also have [documentation](https://www.selfdefined.app/documentation/) that covers development and build processes, provides examples, and describes front matter configurations.
+**Note:** We also have [documentation](https://www.selfdefined.app/documentation/) that covers development and build processes, provides examples, frequently asked questions, and describes front matter configurations.
 
 ---
 
@@ -81,7 +81,7 @@ For this tutorial we will take the word «Obsessive Compulsive Disorder», as it
 
 We have created some examples that you can use as the baseline for your work. Take a look at the [File Examples](https://www.selfdefined.app/documentation/examples/) section of our documentation.
 
-## Get Help
+**Related:** [When should I open an issue versus a pull request (PR)?](https://www.selfdefined.app/documentation/frequently-asked-questions/#when-should-i-open-an-issue-versus-a-pull-request-(pr)%13F)
 
 If you've already tried reading through our [documentation](https://www.selfdefined.app/documentation/) and are stuck, we're here to help and ask your questions:
 
