@@ -32,6 +32,6 @@ Les personnes les plus vulnérables à l'impact de l'oppression de la Suprémati
 
 Continuer d'utiliser le symbole avec ses connotations dénuées de haine pour "le récupérer", n'élimine pas la nouvelle signification envahissante associée avec la Suprémacie Blanche. Au contraire, continuer son utilisation contribue uniquement à perpétuer les préjudices émotionnels et psychologiques sur les populations les plus vulnérables et susceptibles d'être touchées.
 
-## Autres Langues
+## Autres langues
 
 [English](/definitions/ok-hand)
