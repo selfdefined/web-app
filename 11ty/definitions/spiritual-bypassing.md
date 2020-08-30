@@ -19,7 +19,7 @@ Also referred to as toxic positivity. Spiritual bypassing is behavior that uses 
 
 Spiritual bypassing avoids deeply addressing discomfort by offering surface-level platitudes, often in the form of co-opted religious, philosophical, and spiritual practices and terminology.
 
-Not addressing discomfort means an individual will not process and internalize difficult or painful events. This escapism prevents them from working through discomfort and hardship. This approach is directly at odds with Yoga’s practice of being present and working through emotional discomfort.
+Not addressing discomfort means an individual will not process and internalize difficult or painful events. Escapism of this form prevents the individual from working through discomfort and hardship. Such a spiritual bypassing approach is directly at odds with Yoga’s practice of being present and working through emotional discomfort.
 
 Failing to acknowledge hardship is especially problematic in the context of minoritized groups in wellness spaces. Downplaying both invalidates their lived experiences and creates an environment that both disincentives further participation and suppresses trauma.
 
