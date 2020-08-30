@@ -25,7 +25,7 @@ Failing to acknowledge hardship is especially problematic in the context of mino
 
 Wellness instructors often perpetuate spiritual bypassing by modeling the behavior they see from others practitioners, notably on social media. Oftentimes they are unaware of its negative aspects and view the behavior as a deeper investment in the practice.
 
-Furthermore, co-opted language and imagery is often drawn specifically from Indian culture and Hindu faith. These concepts are often presented with no attribution and devoid of, or in conflict with the original context.
+Furthermore, co-opted language and imagery is often drawn specifically from Indian culture and Hindu faith. Concepts are often presented by people who do not identify as Indian or of Hindu faith and without attribution to and context of or in conflict with the original cultural context.
 
 ## Examples
 
