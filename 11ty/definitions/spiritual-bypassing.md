@@ -13,7 +13,7 @@ reading:
     href: https://www.mic.com/p/spiritual-bypassing-is-the-all-lives-matter-of-the-yoga-world-dont-buy-it-27631880
 ---
 
-Also referred to as toxic positivity. Spiritual bypassing is behavior that uses spiritual ideas and practices to delay or ignore acknowledging hardship. The pursuit of “good vibes only” or “oneness” can also downplay difficulties brought up by others, especially from [minoritized](/definitions/minoritised/) groups. Spiritual bypassing is present in many Western wellness and self-help practices, primarily Yoga.
+a behavior that uses spiritual ideas and practices to delay or ignore acknowledging hardship; the pursuit of “good vibes only” or “oneness” that can downplay difficulties brought up by others, especially from [minoritized](/definitions/minoritised/) groups; present in many Western wellness and self-help practices, primarily Yoga
 
 ## Issues
 
