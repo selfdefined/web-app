@@ -1,5 +1,5 @@
 ---
-title: Spiritual Bypassing
+title: spiritual bypassing
 slug: spiritual-bypassing
 defined: true
 excerpt: a form of appropriation where non-Black individuals use memes and imagery featuring Black people and dark-skinned emojis
