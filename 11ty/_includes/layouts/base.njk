@@ -11,23 +11,22 @@
     {% set pageTitle = titleWithPath or title + ' ' or '' %}
 
     {% set preview = excerpt or renderData.description or description or metadata.description %}
-    {% set metaContent = {% metaDescriptionWithFlag  preview, flag %} %}
 
     <title>{{ pageTitle + metadata.title }}</title>
     <meta
       name="twitter:description"
-      content="{{ metaContent }}"
+      content="{% metaDescriptionWithFlag  preview, flag %}"
     >
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{{ pageTitle }}"/>
     <meta
       name="og:description"
-      content="{{ metaContent }}"
+      content="{% metaDescriptionWithFlag  preview, flag %}"
     >
     <meta name="og:title" content="{{ pageTitle }}"/>
     <meta
       name="description"
-      content="{{ metaContent }}"
+      content="{% metaDescriptionWithFlag  preview, flag %}"
     >
     <link rel="stylesheet" href="https://use.typekit.net/qlo3dpu.css">
     <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
