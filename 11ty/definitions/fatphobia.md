@@ -2,6 +2,7 @@
 title: Fatphobia
 slug: fatphobia
 defined: true
+excerpt: the fear, hatred, and stigmitasation of fat people.
 speech: noun
 skip_in_table_of_content: true
 flag:

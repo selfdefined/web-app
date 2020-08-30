@@ -3,6 +3,7 @@ title: savage
 slug: savage
 speech: noun or adjective
 defined: true
+excerpt: (adj) not domesticated, primative or civilised; wild, uncultivated; cold-blooded; colloquially used to mean ruthless or unconscionable. (noun) an undomesticated person, subhuman. historically used to by European settlers to dehumanize Indigenous peoples
 flag:
   level: avoid
   text: racist slur

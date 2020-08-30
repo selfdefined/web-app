@@ -2,6 +2,7 @@
 title: neopronouns
 slug: neopronouns
 defined: true
+excerpt: a set of words that go alongside traditional third-person pronouns (he/she/singular they) such as ze/zir, ze/hir, xe/xem, and plural they.
 speech: noun
 reading:
   - text: "LGBTA Wiki: Neopronouns"
