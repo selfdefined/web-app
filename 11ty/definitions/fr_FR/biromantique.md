@@ -17,11 +17,9 @@ de, relatif à, ou caractérisé par une attirance romantique pour plus d'un gen
 
 ## Note
 
-Biromantique n'implique aucun type d'attirance sexuelle particulier, ni aucune attirance sexuelle du tout. Une personne
-biromantique peut être asexuée, homosexuelle, hétérosexuelle, [bisexuelle](/definitions/fr_FR/bisexuel), [pansexuelle](/definitions/fr_FR/pansexuel), etc.
+Biromantique n'implique aucun type d'attirance sexuelle particulier, ni aucune attirance sexuelle du tout. Une personne biromantique peut être asexuée, homosexuelle, hétérosexuelle, [bisexuelle](/definitions/fr_FR/bisexuel), [pansexuelle](/definitions/fr_FR/pansexuel), etc.
 
-Biromantique n'exclut pas une attirance romantique pour les personnes [non-binaires](/definitions/fr_FR/non-binaire) ou
-[transgenres](/definitions/fr_FR/transgenre).
+Biromantique n'exclut pas une attirance romantique pour les personnes [non-binaires](/definitions/fr_FR/non-binaire) ou [transgenres](/definitions/fr_FR/transgenre).
 
 ## Autres Langues
 
