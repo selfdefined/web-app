@@ -22,7 +22,7 @@ Qu'en est-il des femmes de couleur ? En tant que femme de couleur, je suis parta
 
 ## Impact
 
-De ce fait, cett expression suscite un sentiment d'effacement chez les femmes de couleur. Elle néglige également les
+De ce fait, cette expression suscite un sentiment d'effacement chez les femmes de couleur. Elle néglige également les
 personnes [non-binaires](/definitions/fr_FR/non-binaire).
 
 ## Autres langues
