@@ -2,6 +2,7 @@
 title: South Asian
 slug: south-asian
 defined: true
+excerpt: umbrella term for people of South Asian descent; countries include Afghanistan, Bangladesh, Bhutan, Maldives, Nepal, India, Pakistan, and Sri Lanka.
 speech: noun
 skip_in_table_of_content: true
 ---
