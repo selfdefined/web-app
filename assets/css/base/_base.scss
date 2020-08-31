@@ -6,6 +6,10 @@ body {
   font-size: pxToRem(20);
   margin: 0;
   padding: 2rem;
+
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
 }
 
 [hidden] {

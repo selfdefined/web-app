@@ -17,10 +17,8 @@
   a {
     color: var(--clr-background);
 
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-user-theme='light']) &:focus {
-        background-color: var(--clr-pink);
-      }
+    @include dark-mode-rule {
+      background-color: var(--clr-pink);
     }
   }
 

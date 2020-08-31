@@ -1,0 +1,104 @@
+---
+layout: layouts/search.njk
+---
+
+<div class="article-content">
+  <div>
+    {% include 'components/sub-page-header.njk' %}
+    <ul class="js-search-results-menu seach-results-menu" />
+  </div>
+
+  <div class="page">
+    <header class="introduction">
+      <h1 class="introduction__title thicc-headline">
+        Search Results
+      </h1>
+    </header>
+
+    <section class="search">
+      {% include 'components/search.njk' %}
+      <h2 aria-live="polite" role="status" class="js-search-title">Building your search results, one moment.</h2>
+      <ul class="js-search-results-list" class="u-no-padding-left list" />
+    </section>
+  </div>
+</div>
+
+{% block pageScript %}
+<script>
+  function getAllOccurrences(str, match) {
+    const matchLength = match.length;
+    const indices = []
+    let startIndex = 0, index
+
+    str = str.toLowerCase();
+    match = match.toLowerCase();
+
+    while ((index = str.indexOf(match, startIndex)) > -1) {
+        indices.push(index);
+        startIndex = index + matchLength;
+    }
+
+    return indices.map(index => {
+      // this needs some cleaning up
+      // currently there are edge cases that break the selection of the substring
+      const start = index < 50 ? index : index - 50;
+      const end = matchLength + 100;
+      const exerpt = str.substr(start, end)
+
+      return exerpt.replace(match, `<span class="search-results-list__list-item__highlight">${match}</span>`)
+    })
+  }
+
+  // don't use es6+ here because it will not be transpiled
+  window.addEventListener('DOMContentLoaded', function() {
+    function buildResultListItem(result, search) {
+      const occurrences = getAllOccurrences(result.content, search)
+      return `<h3 id="${result.title}"><a href="${result.url}">${result.title}</a></h3>${occurrences.map(occurrence => `<p>...${occurrence}...</p>`).join('')}`
+    }
+
+    function buildResultMenuItem(result) {
+      return `<a href="#${result.title}">${result.title}</a>`
+    }
+
+    const init = async () => {
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const $searchTitle = document.querySelector('.js-search-title')
+        const $resultsContainer = document.querySelector('.js-search-results-list')
+        const $tableOfContentsContainer = document.querySelector('.js-search-results-menu')
+
+        // remove any previous results from the list and menu
+        $resultsContainer.innerHTML = ''
+        $tableOfContentsContainer.innerHTML = ''
+
+        const value = urlParams.get('q')
+        const matches = await fetch(`/.netlify/functions/search?q=${value}`, {mode: 'cors'})
+        // const matches = await fetch(`https://climb-phi-staging.begin.app/self-defined-app-search?q=${value}`, {mode: 'cors'})
+        const results = await matches.json()
+
+        $resultsContainer.innerHTML = ''
+        $searchTitle.innerText = `We found ${results.length} ${results.length === 1 ? 'definition' : 'definitions'} containing \u275d${value}\u275e`
+
+        // better to create a fragment here
+        results.forEach((result) => {
+          // build the actual result list item
+          let $childListElement = document.createElement('li')
+          $childListElement.classList.add('search-results-list__list-item')
+          $childListElement.innerHTML = buildResultListItem(result, value)
+          $resultsContainer.appendChild($childListElement)
+
+          // build the table of content item
+          let $childMenuElement = document.createElement('li')
+          $childMenuElement.classList.add('search-results-menu__list-item')
+          $childMenuElement.innerHTML = buildResultMenuItem(result, value)
+          $tableOfContentsContainer.appendChild($childMenuElement)
+        })
+
+      } catch (error) {
+        console.log('error in search!', error)
+      }
+    }
+    init()
+  })
+</script>
+{% endblock %}

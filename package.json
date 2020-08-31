@@ -8,7 +8,6 @@
     "build": "concurrently npm:build:*",
     "build:css": "parcel build assets/css/base.scss --out-dir dist/assets/css/",
     "build:site": "eleventy",
-    "create-definitions": "bin/create-definitions",
     "lint": "concurrently npm:lint:*",
     "lint:css": "stylelint \"assets/css/**/*.scss\" --fix",
     "lint:js": "eslint \"**/*.js\" --fix",
@@ -18,9 +17,6 @@
     "test": "ava",
     "watch": "eleventy --watch",
     "watch:css": "parcel watch assets/css/base.scss --out-dir dist/assets/css/"
-  },
-  "bin": {
-    "create-definitions": "bin/create-definitions"
   },
   "repository": {
     "type": "git",
@@ -56,6 +52,8 @@
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "axios": "^0.19.2",
+    "lunr": "^2.3.8",
     "markdown-it-anchor": "^5.3.0",
     "markdown-it-prism": "^2.0.5"
   },
@@ -73,6 +71,7 @@
     "parcel-bundler": "^1.12.4",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.19.1",
+    "remove-markdown": "^0.3.0",
     "sass": "^1.26.7",
     "slugify": "^1.4.0",
     "stylelint": "^13.5.0",

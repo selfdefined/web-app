@@ -1,16 +1,16 @@
 @charset 'UTF-8';
 
 // 1. Configuration and helpers
-@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins',
-  'abstracts/universal-selector';
+@import 'abstracts/variables', 'abstracts/functions', 'abstracts/mixins';
 
 // 2. Vendors
 // @import
 // 'vendors/normalize';
 
 // 3. Base stuff
-@import 'base/custom-properties', 'base/fonts', 'base/base', 'base/selection',
-  'base/typography', './base/a', 'base/helpers', 'base/radio-buttons', 'base/code';
+@import 'base/custom-properties', 'base/fonts', 'base/universal-selector',
+  'base/base', 'base/selection', 'base/typography', './base/a', 'base/input',
+  'base/button', 'base/radio-buttons', 'base/helpers', 'base/code';
 
 // 4. Layout-related sections
 @import 'structures/header', 'structures/footer', 'structures/grid',
@@ -18,8 +18,9 @@
   './structures/definition-content', './structures/definition-navigation';
 
 // 5. Components
-@import 'components/word', './components/box', 'components/lists', 'components/definitions',
-  'components/flag', 'components/alertbox';
+@import 'components/word', './components/box', 'components/lists',
+  'components/definitions', 'components/flag', 'components/alertbox',
+  'components/search';
 
 // 6. Page-specific styles
 @import './layouts/pages';

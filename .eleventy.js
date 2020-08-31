@@ -2,6 +2,7 @@ const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
 const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const removeMd = require('remove-markdown');
 
 module.exports = function(config) {
   // Add a filter using the Config API
@@ -185,6 +186,27 @@ module.exports = function(config) {
         if (a.date < b.date) return 1;
         return 0;
       });
+  });
+
+  config.addCollection('search', (collection) => {
+    return collection
+      .getFilteredByGlob('./11ty/definitions/*.md')
+      .sort((a, b) => {
+        // `localeCompare()` is super cool: http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+        return a.data.title
+          .toLowerCase()
+          .localeCompare(b.data.title.toLowerCase());
+      });
+  });
+
+  // add filter to strip Markdown formatting from search text
+  config.addFilter('removeMarkdownFormatting', (value) => {
+    return removeMd(value).replace(/[\s\s+,\n]/g, ' ');
+  });
+
+  // add filter to extract text from sub_terms in search template
+  config.addFilter('extractSubTermText', (value) => {
+    return value ? value.map((subterm) => subterm.text).join(',') : '';
   });
 
   const mdIt = require('markdown-it')({

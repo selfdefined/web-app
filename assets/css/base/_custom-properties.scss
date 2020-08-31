@@ -56,10 +56,8 @@
   --l-gap: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-user-theme='light']) {
-    @include color-scheme-dark();
-  }
+@include dark-mode-rule {
+  @include color-scheme-dark();
 }
 
 :root[data-user-theme='dark'] {

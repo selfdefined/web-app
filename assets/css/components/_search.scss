@@ -1,0 +1,20 @@
+.search__form {
+  background: transparent;
+  margin-bottom: 2rem;
+}
+
+.search__label {
+  display: block;
+}
+
+.search__actions {
+  display: flex;
+}
+
+.search__input {
+  margin-right: 0.5rem;
+}
+
+.search-results-list__list-item__highlight {
+  background: var(--clr-pale-yellow);
+}

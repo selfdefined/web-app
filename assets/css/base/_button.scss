@@ -1,0 +1,19 @@
+button {
+  appearance: none;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-family: $ext-sans;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+
+  &.-main {
+    background: var(--clr-very-blue);
+    color: white;
+  }
+
+  &:focus {
+    outline: 0.125rem solid var(--clr-very-blue);
+    outline-offset: 0.125rem;
+  }
+}

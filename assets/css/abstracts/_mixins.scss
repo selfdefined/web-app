@@ -21,3 +21,11 @@
 @mixin icon__embed() {
   margin-right: 0.35rem;
 }
+
+@mixin dark-mode-rule() {
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-user-theme='light']) {
+      @content;
+    }
+  }
+}
