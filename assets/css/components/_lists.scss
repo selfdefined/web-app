@@ -1,4 +1,4 @@
-ol {
+ol, dl {
   margin: 0;
   padding: 0 0 0 1em;
 }
@@ -19,6 +19,10 @@ li {
     content: '\21B3';
     padding-right: pxToRem(5);
   }
+}
+
+dt {
+  font-weight: $bold;
 }
 
 .list-semicolon {
