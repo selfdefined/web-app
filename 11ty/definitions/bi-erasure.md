@@ -11,12 +11,12 @@ reading:
     href: https://www.gayly.com/study-finds-bi-erasure-can-lead-depression
 ---
 
-or, bi erasure; the questioning or denial of the existance or legitimacy of [Bisexuality](/definitions/bisexual); the shortened form of "bisexual erasure"
+or, bi erasure; the questioning or denial of the existence or legitimacy of [Bisexuality](/definitions/bisexual); the shortened form of "bisexual erasure"
 
 ## Examples
 
 - Telling a bi person that they're going through a phase or are confused
-- Falsely connoting being bi with a certain sexual status or gender—bi people can be asexual, monogamous, polygamous and/or cis or trans, non-binary, agender, etc.
+- Falsely connoting being bi with a certain sexual status or gender—bi people can be asexual, monogamous, polygamous and/or cis or trans, non-binary, agender, etc. Being bi-sexual does not necessitate other characteristics of identity
 - Questioning our "queerness" because of our current partner (when a bi woman is with a man, for one example)
 - Using phrases like "Bi now, gay later"
 - Saying bisexuality isn't real
