@@ -19,4 +19,4 @@ By connecting gender and perpetuating unnecessary gender norms and expectations,
 
 ## Other Languages
 
-[Français](/definitions/fr_FR/pronoms-de-genre)
+[Français](/definitions/fr_FR/pronoms-genres)

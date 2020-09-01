@@ -1,6 +1,6 @@
 ---
-title: Pronoms de genre
-slug: pronoms-de-genre
+title: Pronoms genrés
+slug: pronoms-genres
 defined: true
 excerpt: souvent utilisé pour signifier pronoms
 ---
