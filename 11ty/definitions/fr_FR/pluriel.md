@@ -5,7 +5,7 @@ speech: nom
 defined: true
 ---
 
-désigne plus d'une entité vivant dans un organisme d'accueil.
+désigne plusieurs entités vivant dans un organisme d'accueil.
 
 ## Lire aussi
 
