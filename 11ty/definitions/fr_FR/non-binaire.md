@@ -14,7 +14,7 @@ Par exemple, une personne non-binaire peut avoir un genre entre homme et femme, 
 
 Les personnes non-binaires peuvent aussi s'identifier ou non comme [transgenres](/definitions/fr_FR/transgenre).
 
-Bien que non-binaire soit couramment utilisé comme terme générique, le simple fait qu'une personne s'identifie à un terme compris dans ce terme générique n'implique pas nécessairement qu'elle s'identifie aussi comme non-binaire. Par exemple, une personne peut être agenre, mais ne pas s'identifier au terme "non-binaire".
+Bien que "non-binaire" soit couramment utilisé comme terme générique, le simple fait qu'une personne s'identifie avec un terme générique n'implique pas nécessairement qu'elle s'identifie aussi comme non-binaire. Par exemple, une personne peut être agenre, sans s'identifier en tant que "non-binaire".
 
 ## Autres langues
 
