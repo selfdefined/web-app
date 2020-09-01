@@ -2,6 +2,7 @@
 title: R-word
 slug: r-word
 defined: true
+excerpt: previously used in a medical context as an umbrella term for people with intellectual and developmental disabilities (I/DD); typically used in a modern context as a denigrating term for a person with an I/DD, or a derogatory term to compare someone without an I/DD to someone with an I/DD
 speech: noun
 flag:
   level: avoid

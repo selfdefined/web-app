@@ -2,6 +2,7 @@
 title: Gaslighting
 slug: gaslighting
 defined: true
+excerpt: psychological manipulation tactic used to abuse by instilling doubt in the victim's own thoughts, observations, feelings by denying, misdirecting, and lying to them; from the Gaslight play (1933) and film (1944)
 speech: noun
 flag:
   level: tool

@@ -2,6 +2,7 @@
 title: dude
 slug: dude
 defined: true
+excerpt: colloquially, a man; a discourse marker expressing masculine solidarity; an expression of astonishment when used alone
 flag:
   level: avoid
 alt_words:

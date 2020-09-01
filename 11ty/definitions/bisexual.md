@@ -3,6 +3,7 @@ title: Bisexual
 slug: bisexual
 speech: adj
 defined: true
+excerpt: of, relating to, or characterised by being sexually attracted to more than one gender.
 reading:
  - text: Am I Bisexual?
    href: http://www.bisexualindex.org.uk/index.php/AmIBisexual
