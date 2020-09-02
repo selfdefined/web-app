@@ -21,7 +21,7 @@ alt_words:
 
 ## Self-Identification
 
-Individuals may use this term to self-identify and to indicate their extreme passionate for hobbies and interests. Acknowledging this usage and supporting people who self-identify and reclaim this term can validate the way people perceive their passions as it relates to their identity.
+Individuals may use this term to self-identify and to indicate their extreme passion for hobbies and interests. Acknowledging this usage and supporting people who self-identify and reclaim this term can validate the way people perceive their passions as it relates to their identity.
 
 ## Issues
 
