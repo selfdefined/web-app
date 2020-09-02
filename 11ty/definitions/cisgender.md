@@ -9,3 +9,7 @@ excerpt: of, relating to, or characterised by being a gender that matches the ge
 of, relating to, or characterised by being a gender that matches the gender they were assigned at birth.
 
 The opposite of [transgender](/definitions/transgender).
+
+## Other Languages
+
+[Français](/definitions/fr_FR/cisgenre)

@@ -20,3 +20,7 @@ tactique de manipulation psychologique utilisée pour abuser en faisant pénétr
 Gaslighting renforce les systèmes de pouvoir, car les abuseurs du gaslighting sont systématiquement dans des positions de dominant où leur parole sera constamment considérée plus importante que celle de leur victime (e.g., personne blanche plutôt qu'une personne de couleur, homme plutôt qu'une femme, personne capable plutôt qu'une personne handicapée, parent plutôt qu'un enfant, directeur plutôt qu'employée, etc). Gaslighting est un comportement et une tactique abusives et oppressifs.
 
 L'abuseur peut prendre le contrôle de la victime, qui ne fait plus confiance à ses propres perceptions. La victime peut devenir dépendante de son oppresseur, et l'internaliser.
+
+## Autres langues
+
+[English](/definitions/gaslighting)
