@@ -1,5 +1,5 @@
 ---
-title: Non-binaire
+title: non-binaire
 slug: non-binaire
 speech: adj
 defined: true
