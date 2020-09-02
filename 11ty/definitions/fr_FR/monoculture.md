@@ -1,5 +1,5 @@
 ---
-title: Monoculture
+title: monoculture
 slug: monoculture
 defined: true
 speech: nom
