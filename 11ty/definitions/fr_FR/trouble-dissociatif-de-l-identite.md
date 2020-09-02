@@ -16,7 +16,7 @@ pensée.
 
 ## Lire aussi
 
-- [pluriel](/definitions/fr_FR/pluriel)
+[pluriel](/definitions/fr_FR/pluriel)
 
 ## Autres langues
 
