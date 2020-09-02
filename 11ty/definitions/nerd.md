@@ -11,8 +11,8 @@ alt_words:
     - enthusiast
     - fan
   relating to skill or intelligence:
-    - expert
     - adept
+    - expert
     - specialist
 ---
 
