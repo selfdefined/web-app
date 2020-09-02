@@ -5,8 +5,8 @@ speech: adj
 defined: true
 excerpt: of, relating to, or characterised by being sexually attracted to more than one gender.
 reading:
- - text: Am I Bisexual?
-   href: http://www.bisexualindex.org.uk/index.php/AmIBisexual
+  - text: Am I Bisexual?
+    href: http://www.bisexualindex.org.uk/index.php/AmIBisexual
 ---
 
 of, relating to, or characterised by being sexually attracted to more than one gender.
@@ -17,4 +17,5 @@ Bisexuality does not preclude attraction to [non-binary](/definitions/non-binary
 
 ## Other languages
 
-[Nederlands](/definitions/nl_NL/biseksueel)
+- [Français](/definitions/fr_FR/bisexuel)
+- [Nederlands](/definitions/nl_NL/biseksueel)

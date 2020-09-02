@@ -23,3 +23,7 @@ What happens to women of colour? As a woman of colour, I am split between both w
 ## Impact
 
 As such, it elicits feelings of erasure for women of colour. It also neglects [non-binary](/definitions/non-binary) individuals.
+
+## Other Languages
+
+[Français](/definitions/fr_FR/femmes-et-personnes-de-couleur)
