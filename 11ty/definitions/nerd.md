@@ -7,9 +7,9 @@ defined: true
 speech: noun
 alt_words:
   relating to passion:
-    - fan
     - aficionado
     - enthusiast
+    - fan
   relating to skill or intelligence:
     - expert
     - adept
