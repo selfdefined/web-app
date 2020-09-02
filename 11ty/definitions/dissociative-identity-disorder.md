@@ -10,3 +10,7 @@ Dissociative identity disorder (DID) is a mental illness that involves disruptio
 ## Read also
 
 - [plural](/definitions/plural)
+
+## Other Languages
+
+[Français](/definitions/fr_FR/trouble-dissociatif-de-l-identite)

@@ -20,3 +20,7 @@ of, relating to, or characterised by being romantically attracted to more than o
 Biromantic does not imply any particular kind of sexual attraction, or sexual attraction at all. A biromantic person may be asexual, homosexual, heterosexual, [bisexual](/definitions/bisexual), [pansexual](/definitions/pansexual), etc.
 
 Biromantic does not preclude romantic attraction to [non-binary](/definitions/non-binary) or [transgender](/definitions/transgender) people.
+
+## Other Langues
+
+[Français](/definitions/fr_FR/biromantique)
