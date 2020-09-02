@@ -7,7 +7,7 @@ speech: noun or verb
 flag:
   level: avoid
   text: cultural appropriation
-alt-words:
+alt_words:
 - brainstorm/brainstorming session
 - gather/gathering
 - get together
