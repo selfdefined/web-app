@@ -3,6 +3,13 @@ title: pronoms genrés
 slug: pronoms-genres
 defined: true
 excerpt: souvent utilisé pour signifier pronoms
+reading:
+  - text: Le pronom non genré «they» entre dans le dictionnaire Webster
+    href: http://www.slate.fr/story/181860/etats-unis-genre-anglais-pronom-non-binaire-they-dictionnaire-merriam-webster
+  - text: Variance de genre
+    href: https://fr.wikipedia.org/wiki/Variance_de_genre
+  - text: Agenre
+    href: https://fr.wiktionary.org/wiki/agenre
 ---
 
 les pronoms genrés sont souvent utilisés pour signifier [pronoms](/definitions/pronouns).
