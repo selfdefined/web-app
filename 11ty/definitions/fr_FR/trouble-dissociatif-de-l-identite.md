@@ -3,6 +3,9 @@ title: trouble dissociatif de l'identité
 slug: trouble-dissociatif-de-l-identite
 speech: nom
 defined: true
+reading:
+  - text: Trouble dissociatif de l'identité
+    href: https://fr.wikipedia.org/wiki/Trouble_dissociatif_de_l%27identité
 ---
 
 Le trouble dissociatif de l'identité (TDI et anciennement connu sous le nom de "double personalité" ou "trouble de la personalité
