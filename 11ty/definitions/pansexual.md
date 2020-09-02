@@ -10,3 +10,7 @@ reading:
 ---
 
 someone who is sexually attracted to people regardless of their gender, or to people of any gender.
+
+## Other Languages
+
+[Français](/definitions/fr_FR/pansexuel)
