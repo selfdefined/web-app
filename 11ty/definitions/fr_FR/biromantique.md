@@ -1,5 +1,5 @@
 ---
-title: Biromantique
+title: biromantique
 slug: biromantique
 speech: adj
 defined: true
