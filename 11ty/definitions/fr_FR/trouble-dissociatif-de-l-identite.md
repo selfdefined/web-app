@@ -1,5 +1,5 @@
 ---
-title: Trouble dissociatif de l'identité
+title: trouble dissociatif de l'identité
 slug: trouble-dissociatif-de-l-identite
 speech: nom
 defined: true
@@ -15,6 +15,6 @@ pensée.
 
 - [pluriel](/definitions/fr_FR/pluriel)
 
-## Autres Langues
+## Autres langues
 
 [English](/definitions/dissociative-identity-disorder)
