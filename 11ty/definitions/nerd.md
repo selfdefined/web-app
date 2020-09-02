@@ -21,7 +21,7 @@ alt_words:
 
 ## Issues
 
-The term can be used in a way that leads to weaponizing a person's passion against them, which may manifest as bullying of that person's appearance or background.
+When used in reference to someone else without their consent, the term can weaponise a person's passion against them, or bully someone based on their appearance or background.
 
 ## Impact
 
