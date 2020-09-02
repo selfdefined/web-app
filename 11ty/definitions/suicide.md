@@ -2,6 +2,7 @@
 title: suicide
 slug: suicide
 defined: true
+excerpt: the deliberate act of voluntarily ending one's own life. Motivation for suicide can be the result of conscious or unconscious thoughts and feelings.
 speech: noun
 flag:
   level: warning

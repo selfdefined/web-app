@@ -3,6 +3,7 @@ title: Polyamory
 slug: polyamory
 speech: noun
 defined: true
+excerpt: belief that romantic and/or sexual exclusivity is not necessary for a happy, committed relationship; an umbrella term for various types of relationships (coded as romantic or quasi-romantic, sexual or non-sexual) where all partners involved consent to ethical non-monogamy, such as polycules, throuples, group marriages, etc.
 reading:
   - text: 'My definition of polyamory'
     href: https://avris.it/blog/my-definition-of-polyamory

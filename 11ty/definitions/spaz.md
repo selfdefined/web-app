@@ -5,6 +5,7 @@ flag:
   text: 'Ableist Slur'
   level: avoid
 defined: true
+excerpt: irrationally nervous person; hyperactive; a shortened version of "spastic", an alteration in muscle tone affected by the medical condition spasticity, which is seen in spastic diplegia and many other forms of cerebral palsy.
 speech: noun
 alt_words:
   - hyper
