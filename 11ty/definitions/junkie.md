@@ -1,21 +1,23 @@
 ---
 title: junkie
-slug: 'junkie'
+slug: junkie
 speech: noun
 defined: true
 flag:
   level: avoid
   text: 'ableist language'
+  excerpt: a drug addict. a person who suffers from a complex disease of the brain and body that involves compulsive use of one or more substances despite serious health and social consequences.
 alt_words:
+  - aficionado
+  - buff
   - fanatic
   - enthusiast
-  - lover
   - fiend
-  - buff
   - geek
+  - lover
 ---
 
-a drug addict. a person who suffers from a complex disease of the brain and body that involves compulsive use of one or more substances despite serious health and social consequences.
+a drug addict; a person who suffers from a complex disease of the brain and body that involves compulsive use of one or more substances despite serious health and social consequences
 
 ## Issues
 
