@@ -1,5 +1,5 @@
 ---
-title: Transgenre
+title: transgenre
 slug: transgenre
 speech: adj
 defined: true
