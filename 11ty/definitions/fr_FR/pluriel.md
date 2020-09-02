@@ -1,5 +1,5 @@
 ---
-title: Pluriel
+title: pluriel
 slug: pluriel
 speech: nom
 defined: true
