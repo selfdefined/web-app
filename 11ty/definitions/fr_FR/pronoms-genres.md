@@ -1,5 +1,5 @@
 ---
-title: Pronoms genrés
+title: pronoms genrés
 slug: pronoms-genres
 defined: true
 excerpt: souvent utilisé pour signifier pronoms
