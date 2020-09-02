@@ -9,8 +9,7 @@ reading:
   href: https://nonprofitaf.com/2017/10/21-things-you-can-do-to-be-more-respectful-of-native-american-cultures/#more-4624
 - text: What does circle the wagons mean
   href: https://www.wisegeek.com/what-does-circle-the-wagons-mean.htm
-- text: >-
-  Circle the wagons will come out of will come out of next printings of Robin Benway\'s FAR FROM THE TREE
+- text: Circle the wagons will come out of will come out of next printings of Robin Benway\'s FAR FROM THE TREE
   href: https://americanindiansinchildrensliterature.blogspot.com/2017/12/circle-wagons-will-come-out-of-next.html
 alt_words:
 - collect the team
