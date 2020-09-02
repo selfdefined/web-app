@@ -12,6 +12,13 @@ alt_words:
   - personnes blanches non-binaires, et femmes blanches
   - trouver des moyens de recadrer les raisons de l'existence de cette dynamique
   - ou omettre
+reading:
+  - text: Des " personnes de couleur "
+    href: https://www.lanouvellerepublique.fr/france-monde/des-personnes-de-couleur
+  - text: Comprendre le racisme ordinaire en six leçons
+    href: https://www.madmoizelle.com/racisme-ordinaire-lecons-amie-noire-372273
+  - text: Personne de couleur
+    href: https://www.linternaute.fr/dictionnaire/fr/definition/personne-de-couleur/
 ---
 
 souvent utilisé comme une expression pour englober "qui n'est pas de couleur blanche, qui n'est pas un homme", cherchant à assurer la solidarité de ces deux groupes
