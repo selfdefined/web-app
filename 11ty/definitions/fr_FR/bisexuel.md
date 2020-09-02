@@ -1,5 +1,5 @@
 ---
-title: Bisexuel
+title: bisexuel
 slug: bisexuel
 speech: adj
 defined: true
