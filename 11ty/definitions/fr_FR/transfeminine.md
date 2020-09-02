@@ -1,5 +1,5 @@
 ---
-title: Transféminine
+title: transféminine
 slug: transfeminine
 speech: adj
 defined: true
