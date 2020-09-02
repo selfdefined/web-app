@@ -27,9 +27,9 @@ When used in reference to someone else without their consent, the term can weapo
 
 By assigning negativity to the passion that someone exhibits for the things they enjoy, we invalidate their individuality and reduce the enjoyment they derive from their passions. As a result, we may cause these people to abandon hobbies or interests, instilling a feeling of wrongness in finding joy how they see fit (provided their methods of finding joy are not harmful).
 
-## Taking It Back
+## Self-Identification
 
-Individuals can utilize this term in a self-descriptive way to identify that they are extremely passionate about their hobbies and interests. Acknowledging this usage and supporting people who see themselves this way is an effective method of reclaiming the positive aspects of this term and validating the way people see and think of their passions as it relates to their identity.
+Individuals may use this term to self-identify and to indicate their extreme passionate for hobbies and interests. Acknowledging this usage and supporting people who self-identify and reclaim this term can validate the way people perceive their passions as it relates to their identity.
 
 ## See Also
 
