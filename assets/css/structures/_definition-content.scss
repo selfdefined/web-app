@@ -35,6 +35,10 @@
       grid-column: 1 / -1;
       line-height: 1.4;
     }
+    
+    & > ul {
+      grid-column: 1 / -1;
+    }
 
     & h2 {
       flex: 0 1 auto;
