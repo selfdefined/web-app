@@ -13,13 +13,33 @@ reading:
 
 ---
 
-Attention Deficit Hyperactivity Disorder (initialised to ADHD) is a neurodivergence that expresses itself as a lack of impulse control at two extremes. It is commonly identified in children by their inability to remain focused on tasks that disinterests them. At the other end of the expressions, a person with ADHD has the ability to "hyperfocus" on a task that highly interests them. The following traits are examples of hyperfocus:
+## Overview
+Attention Deficit Hyperactivity Disorder (initialised to ADHD) is a neurodivergence that expresses itself as a lack of impulse control at two extremes. It is commonly identified in children by their inability to remain focused on tasks that disinterests them. At the other end of the expressions, a person with ADHD has the ability to "hyperfocus" on a task that highly interests them.
+
+There are several common traits and behaviors that can be associated with ADHD:
+
+### Hyperfocus
+The following traits are examples of hyperfocus:
 
 - performing hyperfocused tasks for an extraordinary amount of time
 - becoming unresponsive to outside prompts (even to body signals like the need to eat or sleep)
 - repetition of tasks to "perfection" rather than "good enough"
-  
-Naturally there could be positive outcomes when someone with ADHD hyperfocuses on beneficial tasks (e.g. studying a musical piece for an upcoming recital). In contrast, hyperfocus on non-beneficial tasks (like staying up late playing video games) can have the opposite effect. ADHD is a lifelong condition that some professionals believe should not be "cured". Rather the recommendation is to help the person with ADHD build coping mechanisms to direct their hyperfocus on beneficial tasks and minimize the impact of non-beneficial tasks.
+
+Naturally there could be positive outcomes when someone with ADHD hyperfocuses on beneficial tasks (e.g. studying a musical piece for an upcoming recital). In contrast, hyperfocus on non-beneficial tasks (like staying up late playing video games) can have the opposite effect. ADHD is a lifelong condition that some professionals believe should not be "cured". Rather the recommendation is to help the person with ADHD build coping mechanisms to direct their hyperfocus on beneficial tasks and minimize the impact of non-beneficial tasks.  
+
+### Executive Dysfunction
+Per [ADDitude](https://www.additudemag.com/what-is-executive-function-disorder/), Executive Dysfunction affects a person's ability to "engage in goal-directed action." This typically manifests in difficulty planning, completing tasks, and staying organized. This may mean someone with ADHD frequently has trouble starting chores, for example. In other cases, people with ADHD find it difficult to break large goals into small, actionable tasks.
+
+### Working Memory Issues
+People with ADHD often have issues with their working memory. Working memory is important for decision-making and reasoning - it allows people to keep and reference multiple thoughts quickly when synthesizing information and also when context-switching. A deficit in working memory means that people with ADHD can seem forgetful and it makes context-switching especially difficult. It can also result in someone bouncing around between several tasks, especially when those tasks are mundane or uninteresting.
+
+### Emotional Dysregulation
+ADHD makes it hard to regulate emotional reactions. According to [How to ADHD](https://www.youtube.com/watch?v=2kew2JhKq3Y), Emotional Dysregulation is often overlooked, but it can be partly attributed to deficits in inhibition, self-soothing, focus, and working memory. In children, this can cause tantrums. Adults with ADHD are often expressive, excitable, and they often show atypically intense emotion.
+
+### Distractibility
+Distractibility is one of the "hallmark" traits people think of when they think of ADHD. Because ADHD causes interest-driven behavior, people with ADHD often have trouble maintaining focus on uninteresting tasks. This means people with ADHD often jump between several tasks, and it can be very easy for them to become distracted by other things. Common distractors are loud sounds, other people, the Internet, and bright lights. Everyone experiences distraction at some point. However, for people with ADHD, distraction can be nearly constant and it disrupts focused, deep work.
+
+Distractibility also has social consequences - in conversation, it can seem to others that someone with ADHD is not listening or does not care. A common behavior to counteract distractibility is ["stimming"](https://www.healthline.com/health/autism/stimming), which is commonly associated with Autism. Many people with ADHD use fidget devices or other tools to stimulate their senses and keep themselves focused on a task or a conversation. Stimming is a natural reaction to anxiety or sensory overload, and it can help regulate focus.
 
 ## Appropriate Usage
 
