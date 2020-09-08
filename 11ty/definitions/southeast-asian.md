@@ -8,7 +8,8 @@ skip_in_table_of_content: true
 ---
 umbrella term for people of Southeast Asian descent. South Asian countries include two sub-regions:
 
-### Mainland Southeast Asia:
+### Mainland Southeast Asia
+
 - Cambodia
 - Laos
 - Myanmar
@@ -16,7 +17,8 @@ umbrella term for people of Southeast Asian descent. South Asian countries inclu
 - Thailand
 - Vietnam
 
-### Maritime Southeast Asia:
+### Maritime Southeast Asia
+
 - Andaman and Nicobar Islands (India)
 - Ashmore and Cartier Islands (Australia)
 - Brunei
