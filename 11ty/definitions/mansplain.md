@@ -3,6 +3,7 @@ title: Mansplain
 slug: mansplain
 speech: verb
 defined: true
+excerpt: the act of explaining (usually by a man) something without asking consent to do so, often to someone who already knows and/or after someone else has already explained it (usually a woman or femme person)
 reading:
 - text: "Rebecca Solnit's 'Men Explain Things to Me' (2008)"
   href: https://www.guernicamag.com/rebecca-solnit-men-explain-things-to-me/

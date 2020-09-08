@@ -13,6 +13,10 @@ un système qui accorde de l'importance aux corps et esprits des gens selon des 
 
 Pour paraphraser Lewis, le capacistisme "pousse les gens et la société à considérer comme importantes les personnes selon leurs apparences et/ou leurs capacités à [...] produire, exceller ou 'bien se comporter'". Vous n'avez pas besoin d'être handicapé pour éprouver le capacitisme, et les personnes handicapées peuvent également participer au renforcement du capacitisme, que ce soit intérieurement (et ainsi se faisant du mal eux-mêmes) et extérieurement (en faisant du mal à d'autres personnes handicapées).
 
+## Autres langues
+
+[English](/definitions/ableism)
+
 ## Pour aller plus loin
 
 - [Conférence: Contexte, Clarté & Foundation](https://www.talilalewis.com/blog/longmore-lecture-context-clarity-grounding)

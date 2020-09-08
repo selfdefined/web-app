@@ -11,11 +11,11 @@ test('first item', (t) => {
     renderDefinitionContentNextEntries(title, slug, testCollection),
     `<section class="definition-navigation definition__further-definitions_nav">
     <h2 class="visually-hidden">Browse</h2>
-    <div><h3 class="definition-navigation__sub-headline" id="context-nav-previous">Previous words</h3>
+    <div><h3 class="smcp-headline" id="context-nav-previous">Previous words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-previous">
         </nav>
     </div>
-    <div><h3 class="definition-navigation__sub-headline" id="context-nav-next">Next words</h3>
+    <div><h3 class="smcp-headline" id="context-nav-next">Next words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-next"><ul class="definition-navigation__list"><li><a href=/definitions/ableism/>Ableism</a></li><li><a href=/definitions/barbaric/>Barbaric</a></li><li><a href=/definitions/biromantic/>Biromantic</a></li></ul></nav>
     </div>
     </section>`
@@ -28,11 +28,11 @@ test('last item', (t) => {
     renderDefinitionContentNextEntries(title, slug, testCollection),
     `<section class="definition-navigation definition__further-definitions_nav">
     <h2 class="visually-hidden">Browse</h2>
-    <div><h3 class="definition-navigation__sub-headline" id="context-nav-previous">Previous words</h3>
+    <div><h3 class="smcp-headline" id="context-nav-previous">Previous words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-previous">
         <ul class="definition-navigation__list"><li><a href=/definitions/transgender/>Transgender</a></li><li><a href=/definitions/unreal/>unreal</a></li><li><a href=/definitions/white-fragility/>White Fragility</a></li></ul></nav>
     </div>
-    <div><h3 class="definition-navigation__sub-headline" id="context-nav-next">Next words</h3>
+    <div><h3 class="smcp-headline" id="context-nav-next">Next words</h3>
       <nav class="definition-navigation__nav" aria-labelledby="context-nav-next"></nav>
     </div>
     </section>`

@@ -1,8 +1,12 @@
 .site-footer {
+  display: flex;
+  flex-wrap: wrap;
   grid-column: 1 / -1;
   margin-top: 3rem;
 
-  ul > li {
-    display: inline-block;
+  & > * {
+    flex: 0 1 19rem;
+    margin-bottom: 1em;
+    margin-right: 1rem;
   }
 }
