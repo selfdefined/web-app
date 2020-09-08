@@ -63,6 +63,11 @@
       // padding-left: 1rem;
       grid-column: 2;
     }
+
+    & h3 ~ ul {
+      border-bottom: 0.1rem solid lightgrey;
+      padding-bottom: 1rem;
+    }
   }
 
   &__speech {
