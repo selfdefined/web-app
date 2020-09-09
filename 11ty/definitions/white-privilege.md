@@ -32,4 +32,4 @@ Within a country with a predominantly white population, the following statements
 
 ## Issue
 
-As with [white fragility(definitions/white-fragility/)], a focus on white privilege can be distracting from systemic racism. Additionally, caution needs to taken because the phrase can make it sound like whiteness is best.
+As with [white fragility(/definitions/white-fragility/)], a focus on white privilege can be distracting from systemic racism. Additionally, caution needs to taken because the phrase can make it sound like whiteness is best.
