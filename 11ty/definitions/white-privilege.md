@@ -21,6 +21,7 @@ White privilege is not earned but something some people are born into because of
 ## Examples
 
 Within a country with a predominantly white population, the following statements, for example, would be true for people with white skin but not for people of colour:
+
 - I can turn on the TV, open a magazine, search for an image online, buy birthday cards, and so on, and see people who look like me widely and positively represented.
 - When I learn or am reminded about our national history, or even about that of "civilization", I will be shown that people who look like me made it what it is.
 - I can buy plasters and easily have them more or less match my skin colour.
