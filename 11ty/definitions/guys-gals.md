@@ -1,6 +1,6 @@
 ---
 title: Guys and Gals
-slug: guys-gals
+slug: guys
 defined: false
 speech: noun
 reading:
