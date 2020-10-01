@@ -6,7 +6,10 @@ module.exports = {
     assert: {
       preset: "lighthouse:no-pwa",
       assertions: {
-        "font-display": "off"
+        "font-display": "off",
+        "uses-rel-preconnect": "off",
+        "render-blocking-resources": "off",
+        "uses-long-cache-ttl": "off"
       }
     }
   },
