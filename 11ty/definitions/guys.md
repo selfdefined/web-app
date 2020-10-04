@@ -6,6 +6,8 @@ speech: noun
 reading:
   - text: Hey Guys
     href: https://heyguys.cc/
+  - text: Online etymology dictionary
+    href: https://www.etymonline.com/word/guy
 alt_words:
   - all
   - comrades
