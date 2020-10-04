@@ -7,16 +7,16 @@ reading:
   - text: Hey Guys
     href: https://heyguys.cc/
 alt_words:
+  - all
+  - comrades
   - everyone
   - folks
-  - all
   - friends
+  - peeps
+  - people
   - team
   - y'all
   - yinz
-  - people
-  - peeps
-  - comrades
 ---
 
 "Hey guys" is a common salutation, but it's not gender neutral. People who aren't men can feel excluded when addressed as "guys," even if that is not the intent.
