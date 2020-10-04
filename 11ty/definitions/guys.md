@@ -1,5 +1,5 @@
 ---
-title: Guys and Gals
+title: Guys
 slug: guys
 defined: false
 speech: noun
