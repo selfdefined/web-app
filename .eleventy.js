@@ -1,5 +1,6 @@
 const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
+const metaDescriptionWithFlag = require('./11ty/shortcodes/metaDescriptionWithFlag');
 const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 
@@ -93,6 +94,8 @@ module.exports = function(config) {
     'renderDefinitionContentNextEntries',
     renderDefinitionContentNextEntries
   );
+
+  config.addShortcode('metaDescriptionWithFlag', metaDescriptionWithFlag);
 
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
   config.addCollection('tableOfContent', (collection) => {
@@ -197,6 +200,8 @@ module.exports = function(config) {
   mdIt.use(anchor);
 
   config.setLibrary('md', mdIt);
+
+  config.addPassthroughCopy({ [`./11ty/assets/js/**/*`]: '/js' });
 
   // You can return your Config object (optional).
   return {

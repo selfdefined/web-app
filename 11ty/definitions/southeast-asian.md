@@ -2,6 +2,7 @@
 title: Southeast Asian
 slug: southeast-asian
 defined: true
+excerpt: umbrella term for people of Southeast Asian descent; the two main subregions are Mainland Southeast Asia and Maritime Southeast Asia
 speech: noun
 skip_in_table_of_content: true
 ---

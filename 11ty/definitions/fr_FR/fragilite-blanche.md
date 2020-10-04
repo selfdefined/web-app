@@ -18,3 +18,7 @@ la tendance pour la culture blanche dominante de répondre au racisme de façon 
 ## Impact
 
 La fragilité blanche permet de détourner les conversations cruciales à propos des oppresseurs systémique. Le coût de la fragilité blanche est qu'il donne la priorité aux sentiments des personnes blanches tout en ignorant et en invalidant la nuisance systémique envers les personnes de couleur. La fragilité blanche empêche également les personnes blanches de réaliser un travail anti-raciste pour combattre leur racisme intériorisé.
+
+## Autres langues
+
+[English](/definitions/white-fragility)

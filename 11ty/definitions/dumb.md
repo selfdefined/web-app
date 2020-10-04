@@ -5,8 +5,10 @@ flag:
   text: 'ableist language'
   level: avoid
 defined: true
+excerpt: non-verbal, non-speaking, silent, refraining from speaking or unable to speak; sometimes __mute__ which can also be ableist; colloquially used to mean unintelligent or senseless
 speech: adjective
 alt_words:
+  - basic
   - incomprehensible
   - nonsensical
   - redundant

@@ -5,6 +5,7 @@ flag:
   text: 'Racist Symbol'
   level: avoid
 defined: true
+excerpt: hand gesture where right thumb and right index finger form a circle; typically used for confirmation or as the number nine in American Sign Language, now appropriated as White Supremacist symbol
 speech: noun
 alt_words:
   - 👍

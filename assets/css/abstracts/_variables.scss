@@ -1,20 +1,20 @@
-$primary-color: hsl(0, 100%, 50%);
-$secondary-color: hsl(120, 100%, 25%);
-
-$dark-red: hsl(0, 100%, 32.2%);
-$pink: hsl(349.5, 100%, 87.6%);
-$dark-green: hsl(120, 100%, 15%);
-$yellow: hsl(50, 100%, 50%);
-$dark-yellow: hsl(50, 100%, 20%);
-$pale-yellow: hsl(50, 100%, 86%);
-$black: hsl(0, 0%, 13%);
-$white: hsl(0, 0%, 100%);
-
-$dark-grey: hsl(0, 0%, 31%);
-$mid-grey: hsl(0, 0%, 46.3%); // the lightest shade of grey you can get away with, #a11y
-$light-grey: hsl(0, 0%, 93.3%); // for backgrounds only
+$colors: (
+  red: hsl(0, 100%, 50%),
+  green: hsl(120, 100%, 25%),
+  dark-red: hsl(0, 100%, 32.2%),
+  pink: hsl(349.5, 100%, 87.6%),
+  berry: hsl(350deg 54% 44%),
+  dark-green: hsl(120s, 100%, 15%),
+  pale-green: hsl(120, 73%, 80%),
+  yellow: hsl(50, 100%, 50%),
+  dark-yellow: hsl(50, 100%, 20%),
+  pale-yellow: hsl(50, 100%, 86%),
+  black: hsl(0, 0%, 13%),
+  black-transparent: hsla(0, 0%, 13%, 85%),
+  white-transparent: hsl(0, 0%, 100%, 85%),
+  light-grey: hsl(0, 0%, 92%),
+  dark-grey: hsl(0, 0%, 31%),
+  mid-grey: hsl(0, 0%, 46.3%)
+);
 
 $browser-context: 16;
-
-$lt-background-color: $pink;
-$lt-background-color-warning: $pale-yellow;
