@@ -16,7 +16,7 @@ reading:
     href: https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx
 ---
 
-A model of asymmetric communication or control where one device or process have total control over other components or are controlled by a component.
+A model of asymmetric communication or control where one device or process has total control over one or more other components.
 
 ## Issues
 
