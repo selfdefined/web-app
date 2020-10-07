@@ -25,7 +25,7 @@ Meanwhile, the overrepresented majority is usually the group that possesses the 
 ## Preferable To
 
 [minorities](/definitions/minorities)
-[underrepresented minorities](/definitions/underrepresented-minorities)
+[underrepresented minority](/definitions/underrepresented-minority)
 
 ## Benefits
 
