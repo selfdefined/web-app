@@ -1,5 +1,5 @@
 ---
-title: Colonialism
+title: colonialism
 slug: colonialism
 speech: noun
 excerpt: The act of enforcing one's political and ideological dominance in a country or region that is not of one's origin
