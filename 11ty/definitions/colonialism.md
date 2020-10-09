@@ -2,7 +2,7 @@
 title: colonialism
 slug: colonialism
 speech: noun
-excerpt: The act of enforcing one's political and ideological dominance in a country or region that is not of one's origin
+excerpt: the act of enforcing one's political and ideological dominance in a country or region that is not of one's origin
 sub_terms:
     - text: modern
     full_title: modern colonialism
