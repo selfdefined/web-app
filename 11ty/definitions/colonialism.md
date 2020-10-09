@@ -4,7 +4,14 @@ slug: colonialism
 speech: noun
 excerpt: The act of enforcing one's political and ideological dominance in a country or region that is not of one's origin
 sub_terms:
-    - text: neo colonialism, western colonialism, modern colonialism
+    - text: modern
+    full_title: modern colonialism
+    - text: neo-
+    full_title: neo-colonialism
+    - text: settler
+    full_title: settler colonialism
+    - text: Western
+    full_title: Western colonialism
 defined: true
 reading:
     - text: A brief context of colonialism
