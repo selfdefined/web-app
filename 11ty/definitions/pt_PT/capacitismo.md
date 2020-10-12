@@ -11,7 +11,7 @@ reading:
   href: https://pt.wikipedia.org/wiki/Capacitismo
 ---
 
-Um sistema que valoriza o corpo e a mente das pessoas com base em ideias construídas socialmente de normalidade, inteligência, excelência e produtividade. Essas ideias construídas estão profundamente enraizadas no anti-negritude, na eugenia, no colonialismo e no capitalismo.
+Um sistema que valoriza o corpo e a mente das pessoas com base em ideias construídas socialmente de normalidade, inteligência, excelência e produtividade. Essas ideias construídas estão profundamente enraizadas na anti-negritude, na eugenia, no colonialismo e no capitalismo.
 
 — Talila "TL" Lewis
 
