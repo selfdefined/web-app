@@ -1,5 +1,5 @@
 ---
-title: Capacitismo / Aptidismo
+title: Capacitismo
 slug: capacitismo
 defined: true
 speech: noun
