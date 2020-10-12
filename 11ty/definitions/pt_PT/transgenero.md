@@ -1,13 +1,13 @@
 ---
-title: Transgênero
+title: Transgénero
 slug: transgenero
 speech: adj
 defined: true
-excerpt: De, relacionado a, ou caracterizado por um gênero que não corresponde ao gênero ao qual foram atribuídos no nascimento.
+excerpt: De, relacionado a, ou caracterizado por um género que não corresponde ao género ao qual foram atribuídos no nascimento.
 ---
-De, relacionado a, ou caracterizado por um gênero que não corresponde ao gênero ao qual foram atribuídos no nascimento.
+De, relacionado a, ou caracterizado por um género que não corresponde ao género ao qual foram atribuídos no nascimento.
 
-O oposto de [cisgenero](/definitions/cisgenero).
+O oposto de [cisgénero](/definitions/cisgenero).
 
 ## Other Languages
 
