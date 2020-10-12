@@ -1,14 +1,14 @@
 ---
-title: Cisgênero
+title: Cisgénero
 slug: cisgenero
 speech: adj
 defined: true
-excerpt: de, relacionado a, ou caracterizado por ser um gênero que corresponde ao gênero ao qual foram atribuídos no nascimento
+excerpt: de, relacionado a, ou caracterizado por ser um género que corresponde ao género ao qual foram atribuídos no nascimento
 ---
 
-De, relacionado a, ou caracterizado por ser um gênero que corresponde ao gênero ao qual foram atribuídos no nascimento.
+De, relacionado a, ou caracterizado por ser um género que corresponde ao género ao qual foram atribuídos no nascimento.
 
-O oposto de [transgenero] (/definitions/transgenero).
+O oposto de [transgénero] (/definitions/transgenero).
 
 ## Other Languages
 
