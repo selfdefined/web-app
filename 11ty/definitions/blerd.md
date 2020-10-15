@@ -4,6 +4,7 @@ slug: blerd
 defined: true
 excerpt: a combination of the words 'black' and 'nerd' to reference someone who is both a nerd and black (of African decent)
 speech: noun
+reading:
 ---
 a combination of the words 'black' and 'nerd' to reference someone who is both a nerd and black (of African decent)
 
