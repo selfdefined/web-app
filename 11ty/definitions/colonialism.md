@@ -6,8 +6,6 @@ excerpt: the act of enforcing one's political and ideological dominance in a cou
 sub_terms:
     - text: modern
     full_title: modern colonialism
-    - text: neo-
-    full_title: neo-colonialism
     - text: settler
     full_title: settler colonialism
     - text: Western
