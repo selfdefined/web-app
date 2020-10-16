@@ -1,6 +1,6 @@
 ---
-title: grandfathered in
-slug: 'grandfathered-in'
+title: grandfathering
+slug: 'grandfathering'
 speech: verb
 defined: true
 flag:
