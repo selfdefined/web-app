@@ -6,7 +6,7 @@ defined: true
 flag:
  level: avoid
  text: racist language
-excerpt: To permit to continue under expired rules
+excerpt: avoid. colloquially, to permit to continue under expired rules; racist origins of Grandfather Clause
 alt_words:
   - legacy
   - historical
