@@ -4,8 +4,8 @@ slug: 'grandfathering'
 speech: verb
 defined: true
 flag:
- level: avoid
- text: racist language
+  level: avoid
+  text: racist language
 excerpt: avoid. colloquially, to permit to continue under expired rules; racist origins of Grandfather Clause
 alt_words:
   - legacy
@@ -21,16 +21,22 @@ reading:
     href: https://www.npr.org/sections/codeswitch/2013/10/21/239081586/the-racial-history-of-the-grandfather-clause
 ---
 
-To permit to continue under expired rules
+colloquially, to permit to continue under expired rules; racist origins of Grandfather Clause
 
 ## Issues
 
-In the United States, ‘Grandfather Clause’ originally referred to provisions adopted by seven Southern states after the Civil War in an effort to disenfranchise African-American voters by requiring voters to pass literacy tests or meet other significant qualifications, while exempting from such requirements those who were descendants of men who were eligible to vote before 1867. This type of law ensured that illiterate whites were able to vote while restricting Black Americans from voting.  This practice of grandfather clauses did not officially end until 1965, when the Voting Rights Act was implemented.
+In the United States, ‘Grandfather Clause’ originally referred to provisions adopted by seven Southern states after the Civil War in an effort to disenfranchise African-American voters by requiring voters to pass literacy tests or meet other significant qualifications, while exempting from such requirements those who were descendants of men who were eligible to vote before 1867. This type of law ensured that illiterate whites were able to vote while restricting Black Americans from voting. This practice of grandfather clauses did not officially end until 1965, when the Voting Rights Act was implemented.
 
 ## Impact
 
-The modern use of the phrases of "grandfathering" and "grandfathered in" ignores their racist roots and normalises a term that further enfranchised white Americans and restricted Black Americans from voting.  Refraining to use this term is an acknowledgement of its history and a dedication to inclusivity by avoiding inciting images of racism out of context.
+The modern use of the phrases of "grandfathering" and "grandfathered in" ignores their racist roots and normalises a term that further enfranchised white Americans and restricted Black Americans from voting. Refraining to use this term is an acknowledgement of its history and a dedication to inclusivity by avoiding inciting images of racism out of context.
 
 ## Usage Tip
 
-Use a neutral word like 'legacy' instead, or be more specific about the circumstances.  Rather than saying 'those customers were grandfathered in to the 2017 pricing schedule', rephrase it to 'those customers have retained the pricing schedule from 2017 due to the terms of service at the time' or 'those customers are on a legacy pricing plan from 2017.
+When possible, be more specific about the circumstances. Usually, we can acknowledge a specific timeframe or what benefits a group is receiving during which timelines.
+
+Acknowledging legal reasons (contracts, updated terms of service) for differences can give helpful context.
+
+Substitute "grandfathered in" for more active language. "We allowed X people Y benefits since they were long-time customers (more than 10 years)."
+
+The concept of 'grandfathering' should be considered. Why are you providing benefits and/or exceptions to this group? Are you perpetuating the inequitable concepts that this word carries as a result? Removing just the word will not remove these inequities.
