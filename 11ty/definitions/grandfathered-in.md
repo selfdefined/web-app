@@ -29,7 +29,7 @@ In the United States, ‘Grandfather Clause’ originally referred to provisions
 
 ## Impact
 
-The modern use of the phrase "grandfathered in" ignores its racist roots and normalizes a term that enfranchised white Americans and restricted Black Americans from voting.  Refraining to use this term is an acknowledgement of its history and a dedication to inclusivity by avoiding inciting images of racism out of context.
+The modern use of the phrases of "grandfathering" and "grandfathered in" ignores their racist roots and normalises a term that further enfranchised white Americans and restricted Black Americans from voting.  Refraining to use this term is an acknowledgement of its history and a dedication to inclusivity by avoiding inciting images of racism out of context.
 
 ## Usage Tip
 
