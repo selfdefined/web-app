@@ -1,5 +1,5 @@
 ---
-title: Food Desert
+title: food desert
 slug: food-desert
 defined: true
 speech: noun
