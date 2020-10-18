@@ -4,6 +4,9 @@ slug: food-desert
 defined: true
 speech: noun
 excerpt: an area that has limited access to affordable and nutritious food
+reading:
+  - text: "Food Empowerment Project: Food Deserts"
+    href: https://foodispower.org/access-health/food-deserts/
 ---
 
 a geographic area where residents’ access to affordable, healthy food options (especially fresh fruits and vegetables) is restricted or non-existent due to the absence of grocery stores within convenient traveling distance.
