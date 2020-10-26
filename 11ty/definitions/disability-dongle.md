@@ -20,7 +20,7 @@ a disability aid that is meant to solve a real or perceived problem experienced 
 
 Because disabled people were not included in the design process, the dongle may not be as practical or as helpful as it might seem. It may be unsafe to use or prohibitively expensive. Its target users may not consider the "problem" it was meant to solve a problem at all.
 
-Media often sensationalizes stories about disability dongles. These stories often exaggerate the dongles' practicality, and are susceptible to forms of [inspiration porn](/definitions/inspiration-porn). The media attention garned from building a dongle is [often a large motivation](https://theoutline.com/post/2452/when-disability-tech-is-just-a-marketing-exercise?zd=4&zi=dsuyln7q) for building the dongle in the first place.
+Media often sensationalizes stories about disability dongles. These stories often exaggerate the dongles' practicality, and are susceptible to forms of [inspiration porn](https://www.youtube.com/watch?v=SxrS7-I_sMQ). The media attention garned from building a dongle is [often a large motivation](https://theoutline.com/post/2452/when-disability-tech-is-just-a-marketing-exercise?zd=4&zi=dsuyln7q) for building the dongle in the first place.
 
 Creators of disability dongles put the onus of accessibility on disabled individuals, who are expected to buy expensive devices to participate in society in full. Disabled advocates often argue that accessibility is a civil right, and that true access requires making the environment itself accessible through infrastructure.
 
