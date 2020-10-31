@@ -2,11 +2,11 @@
 title: Blerd
 slug: blerd
 defined: true
-excerpt: a combination of the words 'black' and 'nerd' to reference someone who is both a nerd and black (of African decent)
+excerpt: a combination of the words 'Black' and 'nerd' to reference someone who is both a nerd and Black.
 speech: noun
 reading:
 ---
-a combination of the words 'black' and 'nerd' to reference someone who is both a nerd and black (of African decent)
+a combination of the words 'Black' and 'nerd' to reference someone who is both a nerd and Black.
 
 ## Self-Identification
 
@@ -14,11 +14,11 @@ Individuals who identify as Black may use this term to self-identify and to indi
 
 ## Issues
 
-Since the term 'nerd' by itself can be vague, the term blerd can be possibly used to describe anyone who is black and smart.
+Blerd is a term for self-identification/community-identification, so it shouldn't be used to describe someone else without their consent, particularly from non-Black folks.
 
 ## Impact
 
-The term has been used in both positive & negative contexts.  However many individuals who identify as black have used it positively for self-identification
+The term has been used in both positive & negative contexts.  However many individuals who identify as Black have used it positively for self-identification
 
 ## Read also
 
