@@ -10,7 +10,7 @@ umbrella term for people of Asian descent (immigrant or natural born) who live i
 
 ## Considerations
 
-As many countries and cultures are enveloped within this umbrella term, try to be as specific as possible. When speaking of Vietnamese-Americans or Chinese-Americans, use those terms instead. Be careful to not assume that every English-speaking Asian person you meet in the U.S. is necessarily Asian-American. (For one, they could be Asian-Canadian or have any other number of nationalities. In general, be mindful of accuracy and confirm with relevant parties.
+As many countries and cultures are enveloped within this umbrella term, try to be as specific as possible. When speaking of Vietnamese-Americans or Chinese-Americans, use those terms instead. Be careful to not assume that every English-speaking Asian person you meet in the U.S. is necessarily Asian-American (for one, they could be Asian-Canadian or have any other number of nationalities). In general, be mindful of accuracy and confirm with relevant parties.
 
 ## Note
 

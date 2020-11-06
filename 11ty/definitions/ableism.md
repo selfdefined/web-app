@@ -25,3 +25,4 @@ To paraphrase Lewis, ableism "leads to people and society determining who is val
 ## Other Languages
 
 [Français](/definitions/fr_FR/capacitisme)
+[Português](/definitions/pt_PT/capacitismo)
