@@ -14,7 +14,7 @@ the continued influence and impact of colonial-era ideologies and practices in a
 
 ### Note
 
-An extension of colonialism that appears in the 21st century is neo-colonialism - a more pervasive form of imposing ideological and economic dominance on a country after it has been declared independent from its colonizer. The stealth nature of neo-colonialism can be traced to treaties, agreements, and ideologies that have been imparted from the oppresors on the oppressed because of previous dependencies.
+Neo-colonialism is a modern and more pervasive form of imposing ideological and economic dominance on a country after it has been declared independent from its coloniser. The stealth nature of neo-colonialism can be traced to treaties, agreements, and ideologies that have been imparted from the oppressors onto the oppressed from previous dependencies.
 
 ### Impact
 In most African nations that were colonised by the British empire, western countries' ideals are seen as civilized and the best representation of societal progress. Standards of living that are ancestral are often dismissed as uncivilised and unconventional, erasing what is often thousands of years of culture.
