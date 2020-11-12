@@ -3,11 +3,7 @@ title: neo-colonialism
 slug: neo-colonialism
 speech: noun
 excerpt: the continued influence of colonial era ideologies and practices in a country or region by former dependencies, generally enforced by its own government and/or citizens as a lingering effect of colonialism
-sub_terms:
-    - text: neo-
-    full_title: neo-colonialism
-    - text: modern
-    full_title: modern colonialism
+skip_in_table_of_content: true
 defined: true
 reading:
     - text: neo-colonialim - internet encyclopedia of philosophy
