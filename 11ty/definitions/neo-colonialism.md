@@ -10,7 +10,7 @@ reading:
       href: https://iep.utm.edu/neocolon/
 ---
 
-the continued influence of colonial era ideologies and practices in a country or region by former dependencies, generally enforced by its own government and/or citizens as a lingering effect of colonialism
+the continued influence and impact of colonial-era ideologies and practices in a country or region by former dependencies, generally enforced by its own government and/or citizens as a lingering effect of [colonialism](/definitions/colonialism)
 
 ### Note
 
