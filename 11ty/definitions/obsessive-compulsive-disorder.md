@@ -5,6 +5,7 @@ flag:
   level: avoid
   text: Medical Appropriation
 defined: true
+excerpt: a mental illness usually embodied by unwanted repeated thoughts (obsession) coupled with repeated behaviour, routine, or action (compulsion); often misused to highlight personality quirks or fussiness usually involved with cleaning
 speech: noun
 alt_words:
   - conscientious

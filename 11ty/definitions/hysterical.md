@@ -2,6 +2,7 @@
 title: hysterical
 slug: hysterical
 defined: true
+excerpt: feeling or showing uncontrollable outburst of emotion; casually, very funny
 speech: adj
 flag:
   level: avoid

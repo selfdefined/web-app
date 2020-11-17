@@ -2,6 +2,7 @@
 title: Oriental
 slug: oriental
 defined: true
+excerpt: racist alternative to Asian/Asian-American; embodies Eastern culture as "strange, exotic, dirty, effeminate, weak" as explained in Edward Said's book Orientalism
 flag:
   text: 'racist term'
   level: avoid

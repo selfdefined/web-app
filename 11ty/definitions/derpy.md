@@ -5,6 +5,7 @@ flag:
   text: 'Ableist Term'
   level: avoid
 defined: true
+excerpt: clumsy, foolish, unattractive, or otherwise unintelligent act or person.
 speech: adj
 alt_words:
   - ridiculous
