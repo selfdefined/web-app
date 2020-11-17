@@ -36,7 +36,7 @@ reading:
     href: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6148600/
 ---
 
-To allow or deny access to a service, a privilege, or recognition.
+colloquially: umbrella term used to represent a list of entities/people who are to be allowed or denied access to a service, privilege, or recognition: to "blacklist" is "to exclude", to "whitelist" means "to include;" carries anti-Black sentiments
 
 ## Issues
 
