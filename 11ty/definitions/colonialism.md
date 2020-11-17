@@ -20,7 +20,7 @@ reading:
 
 the act of forcing a group of people in a region or country to live under the policies and ideologies of an invading government or group of people for the purposes of asserting geo-political dominance.
 
-### Note
+## Note
 
 Though [often associated with imperialism](https://plato.stanford.edu/entries/colonialism/), the two words have different Latin etymologies that drive how the connotation of colonialism and the word colony have evolved. The most notable instances of colonialism to the general public are Western colonialism and recently, neo-colonialism.
 
