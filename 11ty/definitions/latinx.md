@@ -2,6 +2,7 @@
 title: Latinx
 slug: latinx
 defined: true
+excerpt: increasingly popular alternative in the United States to the gendered Latino/Latina; considered a pan-ethnic term
 reading:
     - text: "Remezcla: Hispanic vs. Latino vs. Latinx: A Brief History of How These Words Originated"
       href: https://remezcla.com/features/culture/latino-vs-hispanic-vs-latinx-how-these-words-originated/

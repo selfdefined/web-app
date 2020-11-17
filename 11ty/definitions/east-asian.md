@@ -2,6 +2,7 @@
 title: East Asian
 slug: east-asian
 defined: true
+excerpt: umbrella term for people of East Asian descent; countries include China, Hong Kong, Macau, Mongolia, North Korea, South Korea, Japan, and Taiwan
 speech: noun
 skip_in_table_of_content: true
 ---

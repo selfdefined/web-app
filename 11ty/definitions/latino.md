@@ -2,6 +2,7 @@
 title: Latin American/Latino/Latina
 slug: latino
 defined: true
+excerpt: umbrella term for people of Latin American ancestry; Latino (and Latina) are inherently gendered terms, see Latinx for gender neutral form; considered a pan-ethnic term
 reading:
     - text: "Remezcla: Hispanic vs. Latino vs. Latinx: A Brief History of How These Words Originated"
       href: https://remezcla.com/features/culture/latino-vs-hispanic-vs-latinx-how-these-words-originated/

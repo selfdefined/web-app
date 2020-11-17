@@ -5,6 +5,7 @@ flag:
   text: 'avoid'
   level: avoid
 defined: true
+excerpt: a word that substitutes for a noun, in particular, a person's name; may not necessarily align with their gender presentation or their gender identity; the addition of the word 'preferred' should be avoided as it implies a person's pronouns is a choice
 speech: noun
 alt_words:
   - pronoun
