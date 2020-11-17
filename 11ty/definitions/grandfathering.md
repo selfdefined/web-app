@@ -25,7 +25,7 @@ colloquially, to permit to continue under expired rules; racist origins of Grand
 
 ## Issues
 
-In the United States, ‘Grandfather Clause’ originally referred to provisions adopted by seven Southern states after the Civil War in an effort to disenfranchise African-American voters by requiring voters to pass literacy tests or meet other significant qualifications, while exempting from such requirements those who were descendants of men who were eligible to vote before 1867. This type of law ensured that illiterate whites were able to vote while restricting Black Americans from voting. This practice of grandfather clauses did not officially end until 1965, when the Voting Rights Act was implemented.
+In the United States, ‘Grandfather Clause’ originally referred to provisions adopted by seven Southern states after the Civil War in an effort to disenfranchise Black voters by requiring voters to pass literacy tests or meet other significant qualifications, while exempting from such requirements those who were descendants of men who were eligible to vote before 1867. This type of law ensured that illiterate white Americans were able to vote while preventing Black Americans from voting. This practice of grandfather clauses did not officially end until 1965, when the Voting Rights Act was implemented.
 
 ## Impact
 
