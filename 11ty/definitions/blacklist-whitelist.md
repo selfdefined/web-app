@@ -42,14 +42,14 @@ colloquially: umbrella term used to represent a list of entities/people who are 
 
 <!-- Black/white admittance and denial (Jim Crow) -->
 
-The first problem is the admittance and denial of people based on their race and skin color. The term are rooted in racism: "blacklist" started appearing when the enslavement and deportation of Africans by Europeans began.
+The first problem is the admittance and denial of people based on their race and skin color. The terms are rooted in racist history: "blacklist" started appearing when the enslavement and deportation of Africans by Europeans began.
 
-Using "black" and "white" to determine whether an entity is included or excluded from a group is correlated to the racist idea that Black and White people have been respectively denied and allowed privileges based on the color of their skin. Similarly to the concept of [master/slave](/definitions/master-slave), blacklist/whitelist is used casually in the realm of software development, which reinforces the exclusion of Black people from the industry.
+Using "black" and "white" to determine whether an entity is excluded or included, respectively, from a group supports the systemic racism that denies Black people entry while allowing white people entry. Similarly to the concept of [master/slave](/definitions/master-slave), blacklist/whitelist is used abundantly and casually in the realm of software development, which can reinforce the systemic exclusion of Black people from the industry.
 
 <!-- Black/white as a good/bad dichotomy -->
 
 The second issue with these terms is the implication that black is bad and white is good. A "blacklist" often refers to a list of undesirable things (spammy phone numbers, undesired guests, etc.) whereas a "whitelist" refers to a list of virtuous things (important guests, emails we want to receive, etc.) In 1610, the _Douglas Harper Etymology Dictionary_ defined the term "blacklist" as a "list of persons who have incurred suspicion".
-
+While the origins predate the transatlantic slave trade, the concept of a blacklist as eliciting "suspicion" reinforce the systemic racism that causes disproportionately [higher incarceration and incrimination of Black people](https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidence-criminal-justice-system/) for equivalent crimes to non-Black people. 
 From [this NCBI article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6148600/):
 
 > "To compound the issue, it is also striking how often the term “whitelist” is used for a supposedly good, respectable, or safe list of publishers. The racism in such “black is bad, white is good” metaphors is inappropriate and needs to cease."
@@ -58,6 +58,6 @@ These terms not only reflect, but they also reinforce and perpetuate a racist cu
 
 ## Usage Tip
 
-Seek to change any existing "blacklist/whitelist" terminology to one of the suggested terms, which have the advantage of being more descriptive and less jargony.
+Be more specific: Not only are "blacklist/whitelist" racist, they tend to be jargony and change from usage to usage as to what it means.
 
-Even if you may not be negatively impacted by this terminology, it can negatively impact other existing and prospective contributors onto your project. The terminology isn't so unique that it's irreplaceable; the lift tends to be trivial in comparison to the potential impact.
+Even if you may not be negatively impacted by this terminology, it can negatively impact other existing and prospective contributors onto your project and spaces. The terminology isn't so unique that it's irreplaceable; the lift tends to be trivial in comparison to the potential impact.
