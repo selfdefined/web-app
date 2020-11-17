@@ -8,10 +8,23 @@ defined: true
 excerpt: 'umbrella term used to represent a list of entities/people who are to be allowed or denied access to a service, privilege, or recognition: to "blacklist" is "to exclude", to "whitelist" means "to include".'
 speech: noun; verb
 alt_words:
-  - 'blacklist (noun): blocklist, denylist, excludelist'
-  - 'whitelist (noun): allowlist, passlist, trustlist, safelist'
-  - 'blacklist (verb): block, deny, exclude'
-  - 'whitelist (verb): allow, trust, include'
+  blacklist (noun):
+    - blocklist
+    - denylist
+    - excludelist
+  whitelist (noun):
+    - allowlist
+    - passlist
+    - trustlist
+    - safelist
+  to blacklist (verb):
+    - to block
+    - to deny
+    - to exclude
+  to whitelist (verb):
+    - to allow
+    - to trust
+    - to include
 reading:
   - text: UK security agency bans blacklist and whitelist for being racist
     href: https://www.techspot.com/news/85080-uk-cyber-security-agency-stop-using-racist-blacklist.html
