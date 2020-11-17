@@ -5,7 +5,7 @@ flag:
   level: avoid
   text: racist term
 defined: true
-excerpt: umbrella term used to represent a list of entities/people who are to be allowed or denied access to a service, privilege, or recognition: to "blacklist" is "to exclude", to "whitelist" means "to include".
+excerpt: 'umbrella term used to represent a list of entities/people who are to be allowed or denied access to a service, privilege, or recognition: to "blacklist" is "to exclude", to "whitelist" means "to include".'
 speech: noun; verb
 alt_words:
   - 'blacklist (noun): blocklist, denylist, excludelist'
