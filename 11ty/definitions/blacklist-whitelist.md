@@ -49,7 +49,9 @@ Using "black" and "white" to determine whether an entity is excluded or included
 <!-- Black/white as a good/bad dichotomy -->
 
 The second issue with these terms is the implication that black is bad and white is good. A "blacklist" often refers to a list of undesirable things (spammy phone numbers, undesired guests, etc.) whereas a "whitelist" refers to a list of virtuous things (important guests, emails we want to receive, etc.) In 1610, the _Douglas Harper Etymology Dictionary_ defined the term "blacklist" as a "list of persons who have incurred suspicion".
-While the origins predate the transatlantic slave trade, the concept of a blacklist as eliciting "suspicion" reinforce the systemic racism that causes disproportionately [higher incarceration and incrimination of Black people](https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidence-criminal-justice-system/) for equivalent crimes to non-Black people. 
+
+While the origins predate the transatlantic slave trade, the concept of a blacklist as eliciting "suspicion" reinforces the systemic racism that causes disproportionately [higher incarceration and incrimination of Black people](https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidence-criminal-justice-system/) for equivalent crimes to non-Black people.
+
 From [this NCBI article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6148600/):
 
 > "To compound the issue, it is also striking how often the term “whitelist” is used for a supposedly good, respectable, or safe list of publishers. The racism in such “black is bad, white is good” metaphors is inappropriate and needs to cease."
@@ -58,6 +60,6 @@ These terms not only reflect, but they also reinforce and perpetuate a racist cu
 
 ## Usage Tip
 
-Be more specific: Not only are "blacklist/whitelist" racist, they tend to be jargony and change from usage to usage as to what it means.
+Be more specific: not only are "blacklist/whitelist" racist, they tend to be jargony and their meaning changes depending on the context.
 
 Even if you may not be negatively impacted by this terminology, it can negatively impact other existing and prospective contributors onto your project and spaces. The terminology isn't so unique that it's irreplaceable; the lift tends to be trivial in comparison to the potential impact.
