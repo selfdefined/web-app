@@ -7,7 +7,6 @@ flag:
 defined: true
 speech: adj
 excerpt: non-verbal, non-speaking, silent, refraining from speaking or unable to speak; sometimes __mute__ which can also be ableist; colloquially used to mean unintelligent or senseless
-speech: adj
 alt_words:
   - basic
   - incomprehensible
