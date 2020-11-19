@@ -8,8 +8,27 @@ skip_in_table_of_content: true
 ---
 umbrella term for people of Southeast Asian descent. South Asian countries include two sub-regions:
 
-- **Mainland Southeast Asia:** Cambodia, Laos, Myanmar, Peninsular Malaysia, Thailand and Vietnam.
-- **Maritime Southeast Asia:** Andaman and Nicobar Islands (India), Ashmore and Cartier Islands (Australia), Brunei, Christmas Island (Australia), the Cocos (Keeling) Islands (Australia), East Malaysia, East Timor, Indonesia (except Western New Guinea, which is considered a part of the Australian continent), the Philippines and Singapore.
+### Mainland Southeast Asia
+
+- Cambodia
+- Laos
+- Myanmar
+- Peninsular Malaysia
+- Thailand
+- Vietnam
+
+### Maritime Southeast Asia
+
+- Andaman and Nicobar Islands (India)
+- Ashmore and Cartier Islands (Australia)
+- Brunei
+- Christmas Island (Australia)
+- the Cocos (Keeling) Islands (Australia)
+- East Malaysia
+- East Timor
+- Indonesia (except Western New Guinea, which is considered a part of the Australian continent)
+- the Philippines
+- Singapore
 
 ## Considerations
 
