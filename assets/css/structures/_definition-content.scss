@@ -57,11 +57,17 @@
     }
 
     & h2 ~ p,
-    & h2 ~ ul {
+    & h2 ~ ul,
+    & h2 ~ blockquote {
       font-size: inherit;
       // border-left: 0.1rem solid lightgrey;
       // padding-left: 1rem;
       grid-column: 2;
+    }
+
+    & h2 ~ blockquote {
+      border-left: 0.1rem solid lightgrey;
+      padding-left: 1rem;
     }
   }
 
