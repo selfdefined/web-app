@@ -9,7 +9,7 @@ reading:
     href: https://ideas.repec.org/a/aea/aecrev/v68y1978i2p290-94.html
 ---
 
-The investment in time, effort, and money done by people to manage personal and professional online reputations.
+the investment in time, effort, and money done by people to manage personal and professional online reputations.
 
 ## Issues
 
