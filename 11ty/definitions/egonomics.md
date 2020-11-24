@@ -1,5 +1,5 @@
 ---
-title: Egonomics
+title: egonomics
 slug: egonomics
 defined: true
 excerpt: the investment in time, effort, and money done by people to manage personal and professional online reputations.
