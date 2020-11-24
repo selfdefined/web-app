@@ -1,5 +1,5 @@
 ---
-title: Guys
+title: guys
 slug: guys
 defined: false
 speech: noun
