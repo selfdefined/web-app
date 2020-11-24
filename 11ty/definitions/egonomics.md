@@ -11,7 +11,7 @@ reading:
 
 the investment in time, effort, and money done by people to manage personal and professional online reputations.
 
-## Issues
+## Origins
 
 Egonomics is first proposed by Thomas Schelling in his paper "Egonomics, or the Art of Self-Management."
 
