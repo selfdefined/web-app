@@ -1,6 +1,6 @@
 ---
 title: colourblind
-slug: colorblind-racism
+slug: colourblind
 flag:
   text: 'Medical appropriation'
   level: avoid
