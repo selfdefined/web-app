@@ -5,13 +5,8 @@ flag:
   text: 'Medical appropriation'
   level: avoid
 defined: true
-excerpt: Colorblind, someone with decreased ability to see color or differences in color; colloquially, belief that racism is no longer a problem and that we all have equal opportunities.
+excerpt: someone with decreased ability to see colour or differences in colour; colloquially, the concept that someone "does not see race" and therefore, that race and racism no longer exist and no longer impact people's lives; a tool of white supremacy```
 speech: adjective
-alt_words:
-  - ignorant
-  - insensitive
-  - post-racial
-  - race neutral
 reading:
   - text: 'What you erase when you say “I don’t see color”'
     href: https://medium.com/@tinu/what-you-erase-when-you-say-i-dont-see-color-73360346afa7
