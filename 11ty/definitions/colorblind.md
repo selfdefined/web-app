@@ -1,5 +1,5 @@
 ---
-title: colorblind (race)
+title: colourblind
 slug: colorblind-racism
 flag:
   text: 'Medical appropriation'
