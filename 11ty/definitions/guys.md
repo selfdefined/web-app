@@ -21,7 +21,7 @@ alt_words:
   - yinz
 ---
 
-This term is used colloquial for a person (guy, singular) or group of people (guys, plural); its origins come from Guy Fawkes.
+colloquially, a group of people (or, a person when singular); its origin comes from Guy Fawkes, a man, and thus, historically referenced a man or men/fellow or fellows. 
 
 ## Issues
 "Hey guys" is a common English salutation for groups of people. However, as guys is not gender-neutral, people can feel excluded when addressed as "guys."
