@@ -15,7 +15,7 @@ reading:
     href: https://www.psychologytoday.com/us/blog/the-man-cave/201908/toxic-positivity-dont-always-look-the-bright-side
 ---
 
-a behavior that uses spiritual ideas and practices to delay or ignore acknowledging hardship; the pursuit of “good vibes only” or “oneness” that can downplay difficulties brought up by others, especially from [minoritized](/definitions/minoritised/) groups. Spiritual bypassing is commonly found amongst Western wellness and self-help practitioners, including spiritual teachers and leaders, Yoga instructors, preachers, and motivational speakers.
+a behaviour that uses spiritual ideas and practices to delay or ignore acknowledging hardship; the pursuit of “good vibes only” or “oneness” that can downplay difficulties brought up by others, especially from [minoritised](/definitions/minoritised/) groups; commonly exhibited by Western wellness and self-help practitioners, including spiritual teachers and leaders, Yoga instructors, preachers, and motivational speakers.
 
 ## Issues
 
