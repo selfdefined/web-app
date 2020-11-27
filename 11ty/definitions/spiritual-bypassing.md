@@ -29,7 +29,7 @@ Furthermore, co-opted language and imagery is often drawn specifically from tene
 
 ## Examples
 
-Saying a phrase such as, “we are all one” or “we are all human” when confronted with difficulty or hardship.
+Saying a phrase such as, “we are all one” or “we are all human” when confronted with difficulty or hardship, in particular when that hardship or oppression is specific to an axis of someone's identity, such as their race, gender, neurodiversity, ability, etc.
 
 ## Impact
 
