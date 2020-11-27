@@ -33,7 +33,7 @@ Saying a phrase such as, “we are all one” or “we are all human” when con
 
 ## Impact
 
-Not addressing discomfort means an individual will not process and internalize difficult or painful events. Escapism of this form prevents the individual from working through hardship. 
+Not addressing discomfort means an individual will not process and internalise difficult or painful events. Escapism of this form prevents the individual from working through hardship. 
 
 Failing to acknowledge hardship is especially problematic in the context of minoritized groups. Downplaying invalidates both their lived experiences and creates an environment that both disincentives further participation and suppresses trauma.
 
