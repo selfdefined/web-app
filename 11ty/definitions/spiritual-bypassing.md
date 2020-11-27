@@ -35,7 +35,7 @@ Saying a phrase such as, “we are all one” or “we are all human” when con
 
 Not addressing discomfort means an individual will not process and internalise difficult or painful events. Escapism of this form prevents the individual from working through hardship. 
 
-Failing to acknowledge hardship is especially problematic in the context of minoritized groups. Downplaying invalidates both their lived experiences and creates an environment that both disincentives further participation and suppresses trauma.
+Failing to acknowledge hardship is especially problematic in the context of minoritised groups. Downplaying invalidates both their lived experiences and creates an environment that both disincentives further participation and suppresses trauma.
 
 [Other possible effects of spiritual bypassing](https://www.researchgate.net/publication/319321341_The_Opiate_of_the_Masses_Measuring_Spiritual_Bypass_and_Its_Relationship_to_Spirituality_Religion_Mindfulness_Psychological_Distress_and_Personality) include dichotomous thinking, obsession, codependence, narcissism, spiritual materialism, and abdication of personal responsibility.
 
