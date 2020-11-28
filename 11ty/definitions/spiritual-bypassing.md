@@ -27,6 +27,8 @@ Wellness instructors often perpetuate spiritual bypassing by modeling the behavi
 
 Furthermore, co-opted language and imagery is often drawn specifically from tenets of faith. These concepts are often presented by people who do not identify with the underlying belief system. They are also often presented without attribution or context, and the instance of application may be in conflict with the original cultural context.
 
+It is also worth noting that when spiritual bypassing is practiced by individuals in positions of authority it directly and indirectly exercises power. Suppressing expressions of hardship is a regulatory behaviour that invalidates lived experiences.
+
 ## Examples
 
 Saying a phrase such as, “we are all one” or “we are all human” when confronted with difficulty or hardship, in particular when that hardship or oppression is specific to an axis of someone's identity, such as their race, gender, neurodiversity, ability, etc.
@@ -45,4 +47,6 @@ Also understand the chilling effects it has on minoritized communities, and how 
 
 Understanding how to identify spiritual bypassing as a discrete behavior and any co-opted concepts that are used to perform it is an important first step. It can be present both in-person and on social media channels.
 
-Identification means an individual can cease these behaviors, if practicing them. If witnessed, it is advised to use indirect questioning techniques such as [motivational interviewing](https://en.wikipedia.org/wiki/Motivational_interviewing) to ascertain the underlying factors compelling this behavior. Direct confrontation may have opposite of the desired effect. It may be construed as an attack on the person's authority, or cause them to double-down and further incorporate it into their sense of identity.
+Identification means an individual can cease these behaviors, if practicing them. If witnessed, it is advised to use indirect questioning techniques such as [motivational interviewing](https://en.wikipedia.org/wiki/Motivational_interviewing) to ascertain the underlying factors compelling this behaviour. 
+
+Direct confrontation may have opposite of the desired effect. It may be construed as an attack on the person's authority, or cause them to double-down and further incorporate it into their sense of identity.
