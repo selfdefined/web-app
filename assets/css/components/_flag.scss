@@ -1,5 +1,4 @@
-.flag__red {
-  background-color:$lt-background-color;
+.flag {
   border-radius: 1rem;
   display: inline-block;
   font-size: 0.9rem;
@@ -8,24 +7,21 @@
   padding: 0.45rem 0.65rem;
   text-transform: lowercase;
 
-  &:before {
-    @include icon__avoid();
-    @include icon__embed();
+  &--red {
+    background-color: var(--clr-avoid-background);
+
+    &:before {
+      @include icon__avoid();
+      @include icon__embed();
+    }
   }
-}
 
-.flag__yellow {
-  background-color: $lt-background-color-warning;
-  border-radius: 1rem;
-  display: inline-block;
-  font-size: 0.9rem;
-  font-weight: bold;
-  margin: 0.5rem 0.75rem 0.25rem 0;
-  padding: 0.45rem 0.65rem;
-  text-transform: lowercase;
+  &--yellow {
+    background-color: var(--clr-warning-background);
 
-  &:before {
-    @include icon__warning();
-    @include icon__embed();
+    &:before {
+      @include icon__warning();
+      @include icon__embed();
+    }
   }
 }

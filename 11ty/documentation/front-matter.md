@@ -53,6 +53,20 @@ Whether or not the definition of this word is finished and should be displayed p
 defined: true
 ```
 
+## Excerpt
+
+| Key     | Type    | required |
+| ------- | ------- | -------- |
+| excerpt | String  | true     |
+
+An abbreviated version of the definition that will appear in social media previews. In the social preview, the excerpt will be prefaced with the flag level.
+
+### Example
+
+```yaml
+excerpt: This is the short version of the definition that will appear in social previews.
+```
+
 ## Speech
 
 | Key    | Type   | required |

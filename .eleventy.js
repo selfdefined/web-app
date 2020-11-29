@@ -1,6 +1,8 @@
 const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
+const metaDescriptionWithFlag = require('./11ty/shortcodes/metaDescriptionWithFlag');
 const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 module.exports = function(config) {
   // Add a filter using the Config API
@@ -25,9 +27,9 @@ module.exports = function(config) {
     );
 
     if (existingDefinition) {
-      return `<a href="${definitionPermalink(
-        existingDefinition.data.slug
-      )}">${subTermData.text}</a>`;
+      return `<a href="${definitionPermalink(existingDefinition.data.slug)}">${
+        subTermData.text
+      }</a>`;
     }
 
     return `<span>${subTermData.text}</span>`;
@@ -37,6 +39,12 @@ module.exports = function(config) {
   config.addFilter('postInspect', function(post) {
     console.log(post);
   });
+
+  config.addFilter('isArray', function(thing) {
+    return Array.isArray(thing);
+  });
+
+  config.addPlugin(pluginRss);
 
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
@@ -65,7 +73,7 @@ module.exports = function(config) {
         'warning',
         {
           class: 'warning',
-          text: 'Content warning'
+          text: ''
         }
       ]
     ]);
@@ -86,6 +94,8 @@ module.exports = function(config) {
     'renderDefinitionContentNextEntries',
     renderDefinitionContentNextEntries
   );
+
+  config.addShortcode('metaDescriptionWithFlag', metaDescriptionWithFlag);
 
   // NOTE (ovlb): this will not be remembered as the best code i’ve written. if anyone seeing this has a better solution then the following to achieve sub groups of the definitions: i am happy to get rid of it
   config.addCollection('tableOfContent', (collection) => {
@@ -169,6 +179,17 @@ module.exports = function(config) {
       });
   });
 
+  config.addCollection('definedWordsChronological', (collection) => {
+    return collection
+      .getFilteredByGlob('./11ty/definitions/*.md')
+      .filter((word) => word.data.defined)
+      .sort((a, b) => {
+        if (a.date > b.date) return -1;
+        if (a.date < b.date) return 1;
+        return 0;
+      });
+  });
+
   const mdIt = require('markdown-it')({
     html: true
   });
@@ -179,6 +200,8 @@ module.exports = function(config) {
   mdIt.use(anchor);
 
   config.setLibrary('md', mdIt);
+
+  config.addPassthroughCopy({ [`./11ty/assets/js/**/*`]: '/js' });
 
   // You can return your Config object (optional).
   return {

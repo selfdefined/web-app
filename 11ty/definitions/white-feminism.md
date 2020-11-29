@@ -2,6 +2,7 @@
 title: white feminism
 slug: white-feminism
 defined: true
+excerpt: a form of "feminism" that prioritises the issues of and denies the privileges of abled, white, [cisgender](/definitions/cisgender), hetero Western/Anglo women, while ignoring to outwardly denying the issues of disabled, Black/brown, trans, queer women; actively denies intersectional forms of oppression including but not limited to racism, sexism, transmisia, Islamomisia, queermisia.
 flag:
   level: tool
   text: white supremacy tool
@@ -33,7 +34,7 @@ White feminism is a tool of white supremacy, as it reinforces the power and defa
 
 - **Not all white women are necessary white feminists.** However, as white feminism is a tool of white supremacy, it is one that every white woman (and white-/woman- presenting person) receives at birth by nature of their appearance as a form of white privilege. Furthermore, every white woman is empowered to use it to reinforce the power of the white supremecist capitalist patriarchy.
 
-- For a white woman to not be a white feminist, they must engage in actively dismantling their unearned privilege and fight their engrained nature. This usually involves learning how to become anti-racist, anti-ablelist, anti-transmisic, etc.
+- For a white woman to not be a white feminist, they must engage in actively dismantling their unearned privilege and fight their engrained nature. This usually involves learning how to become anti-racist, anti-ableist, anti-transmisic, etc.
 
 - While it is not a white feminist's _fault_ that they were born into, indoctrinated with, and socialised to use white feminist tools, it is their _responsibility_ to examine and to unpack the harm they can intentional and unintentionally commit. Just like it's not minoritised women's fault that they were born into bodies that are harmed by white feminism.
 
@@ -58,6 +59,7 @@ If you suspect you might be a white feminist, examine your brand of feminism.
 If you are white, examine your own [white fragility](/definitions/white-fragility). Reading Black feminist and womanist texts by authors like Angela Davis, bell hooks, and Audre Lorde is a good place to start.
 
 ## Editor's Notes
+
 [Non-binary](/definitions/non-binary), agender, gender non-conforming, and other gender minoritised people are often neglected in traditional feminist rhetoric. In this entry, we've explicitly not conflated and used the term "non-binary people and women" as many non-binary people do not like being lumped in with women. Exploring the nuance between even Black/brown women and Black/brown non-binary people, as one example, requires separate subtext beyond the scope of this singular definition.
 
 In our definition of women, we include trans women, because trans women are women.

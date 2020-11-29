@@ -3,6 +3,7 @@ title: -misia
 slug: -misia
 speech: noun
 defined: true
+excerpt: from Greek for hate or hatred
 sub_terms:
   - text: Fat
     full_title: fatmisia
@@ -16,7 +17,7 @@ reading:
   - text: "Anti-Oppression: Anti-Fatmisia"
     href: https://simmons.libguides.com/anti-oppression/anti-fatmisia
 ---
----
+
 from Greek for hate or hatred
 
 ## Use

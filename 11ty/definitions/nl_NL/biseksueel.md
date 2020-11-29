@@ -18,4 +18,5 @@ Biseksualiteit sluit aangetrokken zijn tot [non-binaire](../../non-binary) perso
 
 ## Andere talen
 
-[English](../../bisexual)
+- [English](/definitions/bisexual)
+- [Français](/definitions/fr_FR/bisexuel)

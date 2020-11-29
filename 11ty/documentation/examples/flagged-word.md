@@ -11,7 +11,7 @@ As explained in the [Front Matter documentation](/documentation/front-matter/#fl
 
 This is a the baseline if a word is everyday use and you want to to explain deeply why this is wrong, but also point to alternatives folks might use. Note: Alt words are not required for words that should be avoided.
 
-This example is copied out of the definition of [crazy](/#crazy).
+This example is copied out of the definition of [crazy](/definitions/crazy).
 
 ```md
 ---
@@ -21,6 +21,7 @@ flag:
   text: 'Ableist Slur'
   level: avoid
 defined: true
+excerpt: mentally deranged; demented; insane.
 speech: noun
 alt_words:
   - abundant
@@ -58,13 +59,14 @@ Be more specific. Typically we can find an alternate definition by taking time t
 
 Some words describe a physical or rethorical tool. These typically have no alternatives, but are a good place to link to external resources.
 
-This example is the definition of [performative allyship](/#performative-allyship).
+This example is the definition of [performative allyship](/definitions/performative-allyship).
 
 ```md
 ---
 title: performative allyship
 slug: performative-allyship
 defined: true
+excerpt: when an individual or group of power/majority/privilege loudly profess(es) their actions in the name of 'allyship,' while actively conducting harm to the group they claim to support
 speech: noun
 flag:
   level: tool

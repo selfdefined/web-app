@@ -1,0 +1,31 @@
+.box {
+  background: var(--clr-foreground);
+  color: var(--clr-background);
+  grid-column: span 2;
+  height: auto;
+  margin: 1rem 0;
+  padding: 1rem;
+
+  @media (min-width: #{pxToRem(768)}) {
+    margin: 1rem 0.5rem;
+  }
+
+  &--divider {
+    margin: 2rem 0;
+  }
+
+  a {
+    color: var(--clr-background);
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-user-theme='light']) &:focus {
+        background-color: var(--clr-pink);
+      }
+    }
+  }
+
+  *::selection {
+    background: var(--clr-background);
+    color: var(--clr-foreground);
+  }
+}

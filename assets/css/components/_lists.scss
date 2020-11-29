@@ -1,4 +1,4 @@
-ol {
+ol, dl {
   margin: 0;
   padding: 0 0 0 1em;
 }
@@ -21,6 +21,10 @@ li {
   }
 }
 
+dt {
+  font-weight: $bold;
+}
+
 .list-semicolon {
   list-style: none;
   margin: 0;
@@ -31,6 +35,16 @@ li {
 
     &:not(:last-child)::after {
       content: '; ';
+    }
+  }
+}
+
+.list-default {
+  li {
+    list-style: initial;
+    margin-left: 2rem;
+    &:last-child {
+      margin-bottom: 0.5rem;
     }
   }
 }

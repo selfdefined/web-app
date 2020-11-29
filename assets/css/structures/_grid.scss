@@ -10,7 +10,7 @@
   display: grid;
   grid-gap: var(--l-gap);
   grid-template-columns: repeat(
-    auto-fill,
+    auto-fit,
     minmax(var(--auto-grid-min-size), 1fr)
   );
 }
@@ -51,30 +51,12 @@
   grid-template-columns: 1fr 4fr;
 }
 
-.page {
-  align-items: start;
-  display: grid;
-  grid-template-columns: 1fr;
-
-  & > * {
-    grid-column: 1;
+.list {
+  margin: 1rem 0;
+  li {
+    margin: 0.75rem 0;
   }
-}
-
-.box {
-  background: black;
-  color: white;
-  grid-column: span 2;
-  height: auto;
-  margin: 1rem 0.5rem;
-  padding: 1rem;
-
   a {
-    color: white;
-
-    &:focus {
-      background-color: $lt-background-color;
-      color: $black;
-    }
+    word-break: break-word;
   }
 }

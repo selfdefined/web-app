@@ -1,20 +1,34 @@
 .word__type {
-    font-family: $con-sans;
-    font-size: 0.85rem;
-    padding-right: 1rem;
-    text-align: right;
-    text-transform: uppercase;
+  font-family: $con-sans;
+  font-size: 0.85rem;
+  padding-right: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.content-flag {
+  background-color: var(--clr-warning-background);
+  overflow: hidden;
+  padding: 0 1rem 0 3rem;
+  position: relative;
+
+  & a:focus {
+    background-color: var(--clr-background);
   }
 
-.word__link {
-    border-bottom: darkgrey solid 0.1em;
-    color: black;
-    font-family: $ext-sans;
-    text-decoration: none;
+  &:before {
+    content: '⚠️';
+    left: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
-.word__breakdown {
-    border-left: 0.1rem solid lightgrey;
-    font-family: $sans-serif;
-    padding-left: 1rem;
+  &--avoid {
+    background-color: var(--clr-avoid-background);
+
+    &:before {
+      content: '🚨';
+    }
+  }
 }

@@ -3,6 +3,7 @@ title: Biromantic
 slug: biromantic
 speech: adj
 defined: true
+excerpt: of, relating to, or characterised by being romantically attracted to more than one gender.
 reading:
   - text: Sorting Out Romantic vs Sexual Feelings
     href: http://teenhealthsource.com/blog/faq-sorting-out-romantic-vs-sexual-feelings/
@@ -16,6 +17,10 @@ of, relating to, or characterised by being romantically attracted to more than o
 
 ## Note
 
-Biromantic does not imply any particular kind of sexual attraction, or sexual attraction at all. A biromantic person may be asexual, homosexual, heterosexual, [bisexual](/definitions/bisexual), [pansexual](/definitions/pan-sexual), etc.
+Biromantic does not imply any particular kind of sexual attraction, or sexual attraction at all. A biromantic person may be asexual, homosexual, heterosexual, [bisexual](/definitions/bisexual), [pansexual](/definitions/pansexual), etc.
 
 Biromantic does not preclude romantic attraction to [non-binary](/definitions/non-binary) or [transgender](/definitions/transgender) people.
+
+## Other Langues
+
+[Français](/definitions/fr_FR/biromantique)
