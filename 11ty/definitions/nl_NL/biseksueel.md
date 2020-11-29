@@ -14,6 +14,7 @@ Biseksualiteit sluit aangetrokken zijn tot [non-binaire](../../non-binary) perso
 ## Meer informatie
 
 [Am I Bisexual?](http://www.bisexualindex.org.uk/index.php/AmIBisexual)
+[Feiten en fabels over biseksualiteit](http://ikvrouwvanjou.nl/2015/05/fabels-over-biseksualiteit/)
 
 ## Andere talen
 
