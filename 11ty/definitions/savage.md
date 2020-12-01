@@ -40,7 +40,7 @@ alt_words:
 
 The term savage is deeply rooted in settler colonialism, used primarily to justify colonisation by dehumanising Indigenous people, in particular, with regard to North American Indigenous peoples.
 
-The theories behind the "noble savage" led to scientific racism. [Boarding schools](https://eji.org/history-racial-injustice-cultural-genocide) were constructed to separate Indigenous children from their parents, becuase white colonisers didn't believe that they were equipped to be parents.
+The theories behind the "noble savage" led to scientific racism. [Boarding schools](https://eji.org/history-racial-injustice-cultural-genocide) were constructed to separate Indigenous children from their parents, because white colonisers didn't believe that they were equipped to be parents.
 
 “When the school is on the reserve the child lives with its parents, who are savages; he is surrounded by savages, and though he may learn to read and write his habits, and training and mode of thought are Indian. He is simply a savage who can read and write … [T]he Indian children should be withdrawn as much as possible from the parental influence, and the only way to do that would be to put them in central training industrial schools where they will acquire the habits and modes of thought of white men.”[2](https://eji.org/history-racial-injustice-cultural-genocide)
 
