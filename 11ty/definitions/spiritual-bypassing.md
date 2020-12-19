@@ -2,7 +2,7 @@
 title: spiritual bypassing
 slug: spiritual-bypassing
 defined: true
-excerpt: a behavior that uses spiritual ideas and practices to delay or ignore acknowledging hardship
+excerpt: a behaviour that uses spiritual ideas and practices to delay or ignore acknowledging hardship especially of minoritised groups
 Speech: noun
 reading:
   - text: What Is Spiritual Bypassing? - Psychology Today
