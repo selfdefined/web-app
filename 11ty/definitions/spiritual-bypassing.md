@@ -41,7 +41,7 @@ Failing to acknowledge hardship is especially problematic in the context of mino
 
 [Other possible effects of spiritual bypassing](https://www.researchgate.net/publication/319321341_The_Opiate_of_the_Masses_Measuring_Spiritual_Bypass_and_Its_Relationship_to_Spirituality_Religion_Mindfulness_Psychological_Distress_and_Personality) include dichotomous thinking, obsession, codependence, narcissism, spiritual materialism, and abdication of personal responsibility.
 
-Also understand the chilling effects it has on minoritized communities, and how it affects their presence (or lack of presence) in spaces where spiritual bypassing is practiced.
+Also understand the chilling effects it has on minoritised communities, and how it affects their presence (or lack of presence) in spaces where spiritual bypassing is practiced.
 
 ## What to do instead
 
