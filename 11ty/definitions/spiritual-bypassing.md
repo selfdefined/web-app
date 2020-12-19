@@ -19,7 +19,7 @@ a behaviour that uses spiritual ideas and practices to delay or ignore acknowled
 
 ## Issues
 
-Spiritual bypassing avoids deeply addressing discomfort by offering surface-level platitudes, often in the form of co-opted religious, philosophical, and spiritual practices, terminology, and imagery. 
+Spiritual bypassing avoids deeply addressing discomfort by offering surface-level platitudes, often in the form of co-opted religious, philosophical, and spiritual practices, terminology, and imagery.
 
 Spiritual bypassing is also referred to as toxic positivity. It is commonly found in wellness spaces, temples, churches, hospitals, therapy centers, and self-help groups.
 
