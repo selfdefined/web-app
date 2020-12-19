@@ -47,6 +47,6 @@ Also understand the chilling effects it has on minoritized communities, and how 
 
 Understanding how to identify spiritual bypassing as a discrete behavior and any co-opted concepts that are used to perform it is an important first step. It can be present both in-person and on social media channels.
 
-Identification means an individual can cease these behaviors, if practicing them. If witnessed, it is advised to use indirect questioning techniques such as [motivational interviewing](https://en.wikipedia.org/wiki/Motivational_interviewing) to ascertain the underlying factors compelling this behaviour. 
+Identification means an individual can cease these behaviors, if practising them. If witnessed, it is advised to use indirect questioning techniques such as [motivational interviewing](https://en.wikipedia.org/wiki/Motivational_interviewing) to ascertain the underlying factors compelling this behaviour.
 
 Direct confrontation may have opposite of the desired effect. It may be construed as an attack on the person's authority, or cause them to double-down and further incorporate it into their sense of identity.
