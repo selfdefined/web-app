@@ -12,7 +12,7 @@ reading:
 
 ---
 
-the idea that corporations declare support of the Black Lives Matter movement, without actually committing to implementing real change within their company
+the idea that corporations publicly declare support of the Black Lives Matter movement, often with vague language, without actually committing to or implementing real, systemic change within their company to support Black employees, clients, customers, and community
 
 ## Examples
 
