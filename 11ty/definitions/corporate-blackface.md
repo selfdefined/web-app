@@ -3,7 +3,7 @@ title: Corporate Blackface
 slug: 'corporate-blackface'
 speech: noun
 defined: true
-excerpt: the idea that corporations declare support of the Black Lives Matter movement, without actually committing to implementing real change within their company
+excerpt: the idea that corporations publicly declare support of the Black Lives Matter movement, often with vague language, without actually committing to or implementing real, systemic change within their company to support Black employees, clients, customers, and community
 reading:
   - text: You Can Keep The Corporate Blackface
     href: https://www.tanyavital.com/news/keep-the-corporate-black-face
@@ -16,7 +16,16 @@ the idea that corporations publicly declare support of the Black Lives Matter mo
 
 ## Examples
 
-- For example, a company tweets Black Lives Matter. But the company has a toxic work culture, and discriminates against its Black employees. It refuses to enact effective policies or diversify its teams, and yet, it has the audacity to post a soldarity statement, claiming to support Black lives.
+When a company:
+
+- releases statements, claiming to support Black lives, but fails to fix the toxicity and discrimination against Black people within their own company culture
+- openly showcases black people in its marketing materials, but doesn't actually include Black folks in any of its user research
+- as all-white leadership and tweets about its support of Black Lives Matter without addressing its complicity within white supremacy
+- does little to increase diversity and inclusion of Black voices in their company while stating that they are fighting for diversity and inclusion
+- claims to care about diversity and representation, but then fires their leading engineer, who also happens to be a woman of color, for calling them out on their racial bias
+- no longer actively tries to increase diversity and inclusion in their company after Black Lives Matter is no longer trending on social media
+
+There are so many ways that corporations show again and again that they only really care about their image, rather than Black lives.
 
 ## Related Words
 
