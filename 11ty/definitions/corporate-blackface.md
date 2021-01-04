@@ -25,7 +25,7 @@ When a company:
 - claims to care about diversity and representation, but then retaliates against/terminates a Black employee for identifying and speaking out on anti-Blackness they experience in the workplace
 - no longer actively tries to increase diversity and inclusion in their company after Black Lives Matter is no longer trending on social media
 
-There are so many ways that corporations show again and again that they only really care about their image, rather than Black lives.
+While the list above is finite, there are many more ways that corporations show again and again that they only really care about their image, rather than Black lives.
 
 ## Related Words
 
