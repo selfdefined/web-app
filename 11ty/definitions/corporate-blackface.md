@@ -19,7 +19,7 @@ the idea that corporations publicly declare support of the Black Lives Matter mo
 When a company:
 
 - releases statements, claiming to support Black lives, but fails to fix the toxicity and discrimination against Black people within their own company culture
-- openly showcases black people in its marketing materials, but doesn't actually include Black folks in any of its user research
+- openly showcases illustrations and or stock photography of Black people in its marketing materials, but doesn't actually include them in any of its teams and/or user research
 - as all-white leadership and tweets about its support of Black Lives Matter without addressing its complicity within white supremacy
 - does little to increase diversity and inclusion of Black voices in their company while stating that they are fighting for diversity and inclusion
 - claims to care about diversity and representation, but then fires their leading engineer, who also happens to be a woman of color, for calling them out on their racial bias
