@@ -22,7 +22,7 @@ When a company:
 - openly showcases illustrations and or stock photography of Black people in its marketing materials, but doesn't actually include them in any of its teams and/or user research
 - has an all-white leadership team and tweets about its support of Black Lives Matter without addressing its complicity within white supremacy
 - does little to increase diversity and inclusion of Black voices in their company while stating that they are fighting for diversity and inclusion
-- claims to care about diversity and representation, but then fires their leading engineer, who also happens to be a woman of color, for calling them out on their racial bias
+- claims to care about diversity and representation, but then retaliates against/terminates a Black employee for identifying and speaking out on anti-Blackness they experience in the workplace
 - no longer actively tries to increase diversity and inclusion in their company after Black Lives Matter is no longer trending on social media
 
 There are so many ways that corporations show again and again that they only really care about their image, rather than Black lives.
