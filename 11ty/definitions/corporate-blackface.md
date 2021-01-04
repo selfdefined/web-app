@@ -21,7 +21,7 @@ When a company:
 - releases statements, claiming to support Black lives, but fails to fix the toxicity and discrimination against Black people within their own company culture
 - openly showcases illustrations and or stock photography of Black people in its marketing materials, but doesn't actually include them in any of its teams and/or user research
 - has an all-white leadership team and tweets about its support of Black Lives Matter without addressing its complicity within white supremacy
-- does little to increase diversity and inclusion of Black voices in their company while stating that they are fighting for diversity and inclusion
+- does little to impact policy that disproportionately and negatively influences their Black employees, clients, and/or customers
 - claims to care about diversity and representation, but then retaliates against/terminates a Black employee for identifying and speaking out on anti-Blackness they experience in the workplace
 - no longer actively tries to increase diversity and inclusion in their company after Black Lives Matter is no longer trending on social media
 
