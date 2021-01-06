@@ -22,7 +22,7 @@ Antisemitism can arise in many different ways, including:
 
 Antisemitic ideology includes dehuminization and degredation of Jews, as well as myths which adapt over time.
 
-## Cycle of antisemitism
+## How it works
 
 Many groups are oppressed due to a fixed hierarchy, such as anti-Black racism in the United States. Antisemitism is part of a repeating cycle which goes in waves of severity.
 
