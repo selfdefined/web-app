@@ -30,7 +30,7 @@ Antisemitism is most visible when people are forced to compete for scarce resour
 
 ## Origin
 
-Antisemitism began in European Christianity as ideological oppression, functioning to protect the ruling class and divert blame for hardship. While it began as a religious intolerance, antisemitism has always in-part been xenophobic.
+Antisemitism began in European Christianity as ideological oppression, and functions to protect the ruling class and divert blame for hardship. While it began as a religious intolerance, antisemitism has always in-part been xenophobic.
 
 #### Note
 
