@@ -36,6 +36,6 @@ Antisemitism began in European Christianity as ideological oppression, and funct
 
 The International Holocaust Remembrance Alliance (IHRA) addresses the [spelling of 'antisemitism'](https://www.holocaustremembrance.com/antisemitism/spelling-antisemitism), instead of 'anti-Semitism':
 
-> [...] the conjunction of the prefix ‘anti’ with ‘Semitism’ indicates antisemitism as referring to all people who speak Semitic languages or to all those classified as ‘Semites’. The term has, however, since its inception referred to prejudice against Jews alone.
+"[...] the conjunction of the prefix ‘anti’ with ‘Semitism’ indicates antisemitism as referring to all people who speak Semitic languages or to all those classified as ‘Semites’. The term has, however, since its inception referred to prejudice against Jews alone."
 
 The unhyphenated spelling is preferred as a way to delegitimize the idea that antiseminism is inclusive of all Semitic people, e.g. non-Jewish Arabs, Assyrians, and Arameans.
