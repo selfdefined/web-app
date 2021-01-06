@@ -16,10 +16,10 @@ aggression towards, discrimination, or prejudice against Jewish people.
 
 Antisemitism can arise in many different ways, including:
 
-+ racial, which implies that Jews constitute a distinct race or ethnic group with inherent traits or negative characteristics;
-+ economic, which infers certain activities become harmful when performed by Jews, often specifically links Jews and money;
-+ religious, which includes discrimination against Jewish religious beliefs and religious teachings by other groups implying the inferiority of Jews;
-+ and political, which implies Jews seek national and/or world power.
+-  racial, which implies that Jews constitute a distinct race or ethnic group with inherent traits or negative characteristics;
+-  economic, which infers certain activities become harmful when performed by Jews, often specifically links Jews and money;
+-  religious, which includes discrimination against Jewish religious beliefs and religious teachings by other groups implying the inferiority of Jews;
+-  and political, which implies Jews seek national and/or world power.
 
 Antisemitic ideology includes dehuminization and degredation of Jews, as well as myths which adapt over time.
 
