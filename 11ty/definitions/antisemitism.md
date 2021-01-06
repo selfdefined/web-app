@@ -9,6 +9,7 @@ reading:
      href: https://www.jfrej.org/assets/uploads/JFREJ-Understanding-Antisemitism-November-2017-v1-3-2.pdf
    - text: "Working definition of antisemitism from The International Holocaust Remembrance Alliance (IHRA)"
       href: https://www.holocaustremembrance.com/working-definition-antisemitism
+skip_in_table_of_content: true
 ---
 
 aggression towards, discrimination, or prejudice against Jewish people.
