@@ -25,7 +25,7 @@ Antisemitic ideology includes dehuminization and degredation of Jews, as well as
 
 ## How it works
 
-Many groups are oppressed due to a fixed hierarchy, such as anti-Black racism in the United States. Antisemitism is part of a repeating cycle which goes in waves of severity.
+Many groups are oppressed due to a fixed hierarchy, such as anti-Black racism in the United States. Historically, antisemitism has been described as cyclical. Jewish communities rotate between periods of stability, including some success, and periods of increased negative visibility which sometimes lead to violence. This further perpetuates myths about Jewish power.
 
 Antisemitism is most visible when people are forced to compete for scarce resources.
 
