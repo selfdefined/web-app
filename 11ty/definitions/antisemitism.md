@@ -1,5 +1,5 @@
 ---
-title: Antisemitism
+title: antisemitism
 slug: antisemitism
 defined: true
 speech: noun
