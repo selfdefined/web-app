@@ -21,7 +21,7 @@ Antisemitism can arise in many different ways, including:
 -  religious, which includes discrimination against Jewish religious beliefs and religious teachings by other groups implying the inferiority of Jews;
 -  and political, which implies Jews seek national and/or world power.
 
-Antisemitic ideology includes dehuminization and degredation of Jews, as well as myths which adapt over time.
+Antisemitic ideology includes dehuminisation and degradation of Jews, as well as myths which adapt over time.
 
 ## How it works
 
