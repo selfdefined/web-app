@@ -5,7 +5,7 @@ defined: true
 speech: noun
 excerpt: aggression towards, discrimination, or prejudice against Jewish people.
 reading:
-   - text: "Antisemitism Education, Training &amp; Thought Leadership, from Jews for Racial &amp; Economic Justice"
+  - text: "Antisemitism Education, Training &amp; Thought Leadership, from Jews for Racial &amp; Economic Justice"
      href: https://www.jfrej.org/assets/uploads/JFREJ-Understanding-Antisemitism-November-2017-v1-3-2.pdf
    - text: "Working definition of antisemitism from The International Holocaust Remembrance Alliance (IHRA)"
       href: https://www.holocaustremembrance.com/working-definition-antisemitism
