@@ -39,9 +39,9 @@ Antisemitism tends to be most visible in moments when people are forced to compe
 
 It's important to understand that Jews are a diverse group of people, inclusive of various ethnicities and races. 
 
-Some Jews come from European and Russian ancestry (Ashkenazi); Middle Eastern, North African, Central Asian, and Balkan (Mizrahi); Ethiopian and Ugandan (African); and Spanish and Portuguese (Sephardi).
+Some Jews come from European and Russian ancestry (Ashkenazi); Spanish and Portuguese (Sephardi); Ethiopian and Ugandan (African); and Middle Eastern, North African, Central Asian, and Balkan (Mizrahi).
 
-There are Jews who are white, Black, Hispanic, Asian, Indigenous, and every census classification of race. There are mixed-race Jews whose ancestors could include any combination. Jews are a global, multi-racial, multi-ethnic people.
+There are Jews who are white, Black, Hispanic, Asian, Indigenous, and every census classification of race. There are mixed-race Jews whose ancestors could include any group of people. Jews are a global people, multi-racial and multi-ethnic.
 
 #### Note
 
