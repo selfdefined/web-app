@@ -7,8 +7,8 @@ excerpt: aggression towards, discrimination, or prejudice against Jewish people.
 reading:
   - text: "Antisemitism Education, Training &amp; Thought Leadership, from Jews for Racial &amp; Economic Justice"
      href: https://www.jfrej.org/assets/uploads/JFREJ-Understanding-Antisemitism-November-2017-v1-3-2.pdf
-   - text: "Working definition of antisemitism from The International Holocaust Remembrance Alliance (IHRA)"
-      href: https://www.holocaustremembrance.com/working-definition-antisemitism
+   - text: "#NoIHRA"
+      href: https://www.noihra.ca/
 skip_in_table_of_content: true
 ---
 
@@ -35,8 +35,4 @@ Antisemitism began in European Christianity as ideological oppression, and funct
 
 #### Note
 
-The International Holocaust Remembrance Alliance (IHRA) addresses the [spelling of 'antisemitism'](https://www.holocaustremembrance.com/antisemitism/spelling-antisemitism), instead of 'anti-Semitism':
-
-"[...] the conjunction of the prefix ‘anti’ with ‘Semitism’ indicates antisemitism as referring to all people who speak Semitic languages or to all those classified as ‘Semites’. The term has, however, since its inception referred to prejudice against Jews alone."
-
-The unhyphenated spelling is preferred as a way to delegitimize the idea that antiseminism is inclusive of all Semitic people (e.g., non-Jewish Arabs, Assyrians, and Arameans).
+The unhyphenated spelling of antisemitism is preferred as a way to delegitimize the idea that antiseminism is inclusive of all Semitic people (e.g., non-Jewish Arabs, Assyrians, and Arameans).
