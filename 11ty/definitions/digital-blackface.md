@@ -36,3 +36,7 @@ Digital Blackface is also an issue of representation and culture appropriation: 
 ## What To Do (instead)
 
 If you are not Black, before using a Black person's identity to express or convey an idea, take a moment to reflect upon what you're doing and what message you're trying to convey. In most situations, you would probably be better off picking a gif or meme of a non-Black person, better yet, of a race you identify with.
+
+## Related Words
+
+[corporate blackface](/definitions/corporate-blackface)
