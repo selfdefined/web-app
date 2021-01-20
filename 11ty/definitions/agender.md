@@ -2,7 +2,7 @@
 title: agender
 slug: agender
 defined: true
-speech: adjective
+speech: adj
 ---
 
 of, relating to, or characterised by being someone for whom one or more of the following is true:

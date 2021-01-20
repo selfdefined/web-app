@@ -6,7 +6,7 @@ flag:
   level: avoid
 defined: true
 excerpt: amusia, a neurological disorder that can be congenital (from birth) or acquired (due to comorbidity or injury) that results in the inability to differentiate speech, loss of ability to sing or produce pitch, or other disassociations with music (like rhythm); colloquially, when something is insensitive or poorly thought through.
-speech: adjective
+speech: adj
 alt_words:
   - badly drawn
   - in poor taste

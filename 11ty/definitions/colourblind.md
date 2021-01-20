@@ -6,7 +6,7 @@ flag:
   level: avoid
 defined: true
 excerpt: someone with decreased ability to see colour or differences in colour; colloquially, the concept that someone "does not see race" and therefore, that race and racism no longer exist and no longer impact people's lives; a tool of white supremacy```
-speech: adjective
+speech: adj
 reading:
   - text: 'What you erase when you say “I don’t see color”'
     href: https://medium.com/@tinu/what-you-erase-when-you-say-i-dont-see-color-73360346afa7
