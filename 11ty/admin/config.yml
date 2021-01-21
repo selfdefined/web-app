@@ -14,8 +14,6 @@ collections:
     folder: "11ty/definitions"
     create: true
     preview_path: "definitions/{{slug}}"
-    editor:
-      preview: false
     fields:
       - {label: "Title", name: "title", widget: "string", required: true, hint: "The complete title of a definition."}
       - {label: "Slug", name: "slug", widget: "string", required: true, hint: "A link-friendly version of the title."}

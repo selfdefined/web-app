@@ -11,5 +11,10 @@ permalink: '/admin/index.html'
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@2.10.55/dist/netlify-cms.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="/admin/preview.js" type="text/babel"></script>
+  <script>
+    CMS.registerPreviewStyle('/assets/css/base.css')
+  </script>
 </body>
 </html>
