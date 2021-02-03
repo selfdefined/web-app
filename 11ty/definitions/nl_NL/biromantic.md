@@ -17,7 +17,7 @@ Romantisch aangetrokken zijn tot meer dan één geslacht of sekse.
 ## Noot
 
 Biromantic impliceert geen seksuele aantrekkingskracht. Een biromantic persoon kan aseksueel, homoseksueel, heteroseksueel, biseksueel, pan seksueel etc. zijn.
-Biromantic sluit romantisch aangetrokken zijn tot non-binaire of transgender personen niet uit.
+Biromantic sluit romantisch aangetrokken zijn tot non-binaire personen of mensen die transgender zijn niet uit.
 
 ## Andere talen
 
