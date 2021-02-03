@@ -18,7 +18,7 @@ alt_words:
   - feral
 ---
 
-iemand die primitief, wreed of niet gesofisticeerd is
+Iemand/een persoon die primitief, wreed of niet gesofisticeerd is
 
 ## Problemen
 
@@ -27,7 +27,7 @@ In het Nederlands wordt het tegenwoordig gebruikt voor iemand die zonder smaak, 
 
 ## Gebruik
 
-Vermijdt woorden die een wrede of negatieve oorsprong hebben. Er is bijna altijd een beter alternatief, een inclusievere en minder pijnlijke.
+Vermijd woorden die een wrede of negatieve oorsprong hebben. Er is bijna altijd een beter alternatief, een inclusievere en minder pijnlijke.
 
 ## Andere talen
 
