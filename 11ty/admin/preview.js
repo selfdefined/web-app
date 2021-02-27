@@ -73,7 +73,7 @@ const DefinitionPreview = createClass({
       altWords,
       furtherReading = '';
 
-    const flag = {
+    const flag = this.props.entry.getIn(['data', 'flag'], false) && {
       level: this.props.entry.getIn(['data', 'flag', 'level']),
       text: this.props.entry.getIn(['data', 'flag', 'text'])
     };
@@ -107,9 +107,9 @@ const DefinitionPreview = createClass({
         break;
     }
 
-    const body = decodeHtml(
-      md.render(this.props.entry.getIn(['data', 'body']))
-    );
+    const body =
+      this.props.entry.getIn(['data', 'body'], false) &&
+      decodeHtml(md.render(this.props.entry.getIn(['data', 'body'])));
 
     altWords =
       this.props.entry.getIn(['data', 'alt_words'], false) &&
