@@ -42,7 +42,7 @@
     }
   },
   "lint-staged": {
-    "11ty/**/*.js": [
+    "11ty/**/*.js,!11ty/admin/preview.js": [
       "npm run lint:js -- --fix",
       "npm run test"
     ],
