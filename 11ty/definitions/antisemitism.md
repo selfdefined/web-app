@@ -43,6 +43,6 @@ Some Jews come from European and Russian ancestry (Ashkenazi); Spanish and Portu
 
 There are Jews who are white, Black, Hispanic, Asian, Indigenous, and every census classification of race. There are mixed-race Jews whose ancestors could include any group of people. Jews are a global people, multi-racial and multi-ethnic.
 
-#### Note
+## Note
 
 The unhyphenated spelling of antisemitism is preferred as a way to delegitimize the idea that antiseminism is inclusive of all Semitic people (e.g., non-Jewish Arabs, Assyrians, and Arameans).
