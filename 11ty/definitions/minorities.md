@@ -4,6 +4,7 @@ slug: minorities
 flag:
   level: avoid
 defined: true
+excerpt: the smaller in number of two groups constituting a whole; can be inaccurate and vague
 speech: noun
 alt_words:
   - minoritised
@@ -26,4 +27,4 @@ By repeatedly referring to groups as "minorities," they are being infantised to 
 
 - [minoritised](/definitions/minoritised)
 - [overrepresented majority](/definitions/overrepresented-majority)
-- [underrepresented majority](/definitions/underrepresented-minority)
+- [underrepresented minority](/definitions/underrepresented-minority)

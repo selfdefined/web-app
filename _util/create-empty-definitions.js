@@ -6,7 +6,7 @@ import { promisify } from 'util';
 const writeFile = promisify(fs.writeFile);
 
 import { words } from './undefined-words';
-const defintionPath = path.resolve(process.cwd(), '11ty/definitions/');
+const definitionPath = path.resolve(process.cwd(), '11ty/definitions/');
 
 const template = `
 ---
@@ -29,7 +29,7 @@ export function createDefinitions() {
       .trim();
 
     try {
-      await writeFile(`${defintionPath}/${slug}.md`, content, 'utf8');
+      await writeFile(`${definitionPath}/${slug}.md`, content, 'utf8');
     } catch (e) {
       console.error(e);
 

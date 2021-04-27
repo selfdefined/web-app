@@ -2,6 +2,7 @@
 title: Hispanic
 slug: hispanic
 defined: true
+excerpt: umbrella term for people of Spanish, or Spanish-speaking ancestry; considered a pan-ethnic term
 reading:
     - text: "Remezcla: Hispanic vs. Latino vs. Latinx: A Brief History of How These Words Originated"
       href: https://remezcla.com/features/culture/latino-vs-hispanic-vs-latinx-how-these-words-originated/

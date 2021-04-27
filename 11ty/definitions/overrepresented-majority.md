@@ -2,6 +2,7 @@
 title: overrepresented majority (ORM)
 slug: overrepresented-majority
 defined: true
+excerpt: group resulting from social constructs have grant less power or representation compared to other members or groups in society; acts as a contrast to underrepresented minority (URM)
 speech: noun
 flag:
   level: better-alternative
@@ -24,7 +25,7 @@ Meanwhile, the overrepresented majority is usually the group that possesses the 
 ## Preferable To
 
 [minorities](/definitions/minorities)
-[underrepresented minorities](/definitions/underrepresented-minorities)
+[underrepresented minority](/definitions/underrepresented-minority)
 
 ## Benefits
 

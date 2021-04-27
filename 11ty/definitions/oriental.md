@@ -2,6 +2,7 @@
 title: Oriental
 slug: oriental
 defined: true
+excerpt: racist alternative to Asian/Asian-American; embodies Eastern culture as "strange, exotic, dirty, effeminate, weak" as explained in Edward Said's book Orientalism
 flag:
   text: 'racist term'
   level: avoid
@@ -17,7 +18,7 @@ reading:
 
 ## Issues
 
-The word Oriental is rooted in the concept of Orientalism, which is strongly articulated by Edward Said in eponymous book, _Orientalism_. In his book, Said illustrates the Orient as being the observed "other" or "foreigner," whereas the Occident (or the West) is centred as the default. All Eastern culture is prescribed through this imperialist, pejorative lens, where it is deemed as strange, exotic, dirty, effeminate, and weak. By presenting Eastern culture through this lens, Western culture may present set itself up for dominance through cultural hegemony and colonisation.
+The word Oriental is rooted in the concept of Orientalism, which is strongly articulated by Edward Said in eponymous book, _Orientalism_. In his book, Said illustrates the Orient as being the observed "other" or "foreigner," whereas the Occident (or the West) is centred as the default. All Eastern culture is prescribed through this imperialist, pejorative lens, where it is deemed as strange, exotic, dirty, effeminate, and weak. By presenting Eastern culture through this lens, Western culture may set itself up for dominance through cultural hegemony and colonisation.
 
 Calling someone Oriental reinforces those hegemonic ideas even if you're unaware of its historical context.
 

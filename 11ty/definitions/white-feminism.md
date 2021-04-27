@@ -2,6 +2,7 @@
 title: white feminism
 slug: white-feminism
 defined: true
+excerpt: a form of "feminism" that prioritises the issues of and denies the privileges of abled, white, [cisgender](/definitions/cisgender), hetero Western/Anglo women, while ignoring to outwardly denying the issues of disabled, Black/brown, trans, queer women; actively denies intersectional forms of oppression including but not limited to racism, sexism, transmisia, Islamomisia, queermisia.
 flag:
   level: tool
   text: white supremacy tool
