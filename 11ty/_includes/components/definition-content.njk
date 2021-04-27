@@ -1,10 +1,7 @@
 {% macro renderAltWords(words, labels) %}
   {%- if words | isArray -%}
     {# Array #}
-    <ul
-      class="list-semicolon"
-      {% if labels %}aria-labelledby="{{ labels | join(' ') }}"{% endif %}
-    >
+    <ul class="list-semicolon" {% if labels %} aria-labelledby="{{ labels | join(' ') }}" {% endif %}>
       {%- for word in words -%}
         <li>
           {{ word | linkIfExistsInCollection(collections.definedWords) | safe }}
@@ -15,8 +12,7 @@
     {# Object #}
     {# With class="", the list loses padding via the CSS reset style. #}
     {# For multi-level category support, we may want an actual class. #}
-    <ul class="">
-      {%- for category, list in words -%}
+      <ul class=""> {%- for category, list in words -%}
         <li>
           {% set categoryId = ("alt-words-" + category) | replace(' ', '-') %}
           <strong id="{{ categoryId }}">{{ category }}</strong>
@@ -26,7 +22,6 @@
     </ul>
   {%- endif -%}
 {% endmacro %}
-
 <section class="definition-content">
   <section class="definition-content__content">
     {{ content | safe }}
@@ -40,7 +35,7 @@
   {%- if reading -%}
     <section class="definition-content__content">
       <h2 id="further-reading">Further Reading</h2>
-      <ul class="list-semicolon" aria-labelledby="further-reading">
+      <ul class="list-no-bullets" aria-labelledby="further-reading">
         {% for link in reading %}
           <li>
             <a href="{{link.href}}">{{ link.text | safe }}</a>
