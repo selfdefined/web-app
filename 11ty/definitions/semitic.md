@@ -5,9 +5,6 @@ flag: _ _
 defined: true
 excerpt: related to languages, races, and culture of people who live or come from across part of western Asia and northern Africa, which include Arabic, Hebrew, Aramaic, and Amharic.
 speech: adjective
-alt_words:
-- _ _
-- _ _
 ---
 
 1. Related to languages, races, and culture of people who live or come from across part of western Asia and northern Africa. There are included Arabic, Hebrew, Aramaic and Amharic.
