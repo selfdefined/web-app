@@ -7,8 +7,7 @@ excerpt: related to languages, races, and culture of people who live or come fro
 speech: adjective
 ---
 
-1. Related to languages, races, and culture of people who live or come from across part of western Asia and northern Africa. There are included Arabic, Hebrew, Aramaic and Amharic.
-2. Mainly referred to as Arabic and Hebrew.
+related to languages, races, and culture of people who live or come from across part of western Asia and northern Africa, which include Arabic, Hebrew, Aramaic, and Amharic.
 
 ## Sources
 
