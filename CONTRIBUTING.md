@@ -87,7 +87,7 @@ We have created some examples that you can use as the baseline for your work. Ta
 
 If you've already tried reading through our [documentation](https://www.selfdefined.app/documentation/) and are stuck, we're here to help and ask your questions:
 
-- Join our [Slack community](https://selfdefined.slack.com/join/shared_invite/zt-i0ctid84-a2t6AM1QIqS0xdW71PzYPw#/).
+- Join our [Discord community](https://discord.gg/c4XtX4F2tK).
 - Reach out to [@SelfDefinedApp](https://www.twitter.com/selfdefinedapp) on Twitter.
 - File an [issue](https://github.com/tatianamac/selfdefined/issues/new) if you think our docs are missing some information that might be helpful.
 - Contact <selfdefined@tatianamac.com>.
