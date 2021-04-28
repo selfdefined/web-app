@@ -26,6 +26,52 @@
         }
       }
     }
+
+    initSpoilers()
   })
+
+  {#
+    Simple spoiler components.
+    Usage example (html):
+
+    <button
+      aria-expanded="true"
+      aria-controls="element-with-large-content"
+      class="spoiler__toggle-btn"
+      id="toggle-spoiler-button">
+    </button>
+    <p
+      class="spoiler__content"
+      id="element-with-large-content"
+      aria-labelledby="toggle-spoiler-button">
+      A lot of content...
+    </p>
+  #}
+  function initSpoilers() {
+    const spoilerElements = document.querySelectorAll('.spoiler')
+
+    if (spoilerElements.length === 0) {
+      return;
+    }
+
+    for (let spoilerElem of spoilerElements) {
+      if (spoilerElem.dataset.spoilerMobileOnly === 'true' && window.innerWidth > 880) {
+        continue;
+      }
+
+      const toggleElem = spoilerElem.querySelector('.spoiler__toggle-btn')
+      const contentElem = spoilerElem.querySelector('.spoiler__content')
+
+      if (toggleElem != null && contentElem != null) {
+        toggleElem.addEventListener('click', function handleSpoilerToggleClick() {
+          spoilerElem.classList.toggle('spoiler_collapsed');
+
+          const collapsed = spoilerElem.classList.contains('spoiler_collapsed');
+          toggleElem.setAttribute('aria-expanded', String(!collapsed));
+        })
+      }
+    }
+  }
+
 </script>
 {% endblock %}

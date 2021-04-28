@@ -5,3 +5,15 @@
     margin-top: calc(var(--l-gap) * 4);
   }
 }
+
+#ways-to-help.spoiler {
+  .sub-headline {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .spoiler__toggle-btn {
+      color: #fff;
+    }
+  }
+}
