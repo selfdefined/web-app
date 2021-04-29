@@ -18,8 +18,8 @@
   force = true
   headers = {X-From = "Netlify"}
 
-[[redirects]]
-  from = "/discord"
-  to = "https://discord.com/invite/c4XtX4F2tK"
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "/discord"
+#   to = "https://discord.com/invite/c4XtX4F2tK"
+#   status = 301
+#   force = true
