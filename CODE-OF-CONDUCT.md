@@ -40,7 +40,7 @@ This Code of Conduct applies within all community spaces, including but not limi
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [selfdefined@tatianamac.com](mailto:selfdefined@tatianamac.com). All complaints will be reviewed and investigated promptly and fairly.
 
-All community leaders and moderators are obligated to respect the privacy and security of the reporter of any incident. Community leaders reserve the right to divulge information about any incidents to the broader community in order to reduce harm including the context of the harm and identity of the perpetrator of harm. In doing so, we will always seek to protect the most vulnerable parties and their identities (first, the reporters and/or the harmed) so as to reduce retaliation.
+All community leaders are obligated to respect the privacy and security of the reporter of any incident. Community leaders reserve the right to divulge information about any incidents to the broader community in order to reduce harm including the context of the harm and identity of the perpetrator of harm. In doing so, we will always seek to protect the most vulnerable parties and their identities (first, the reporters and/or the harmed) so as to reduce retaliation.
 
 ## Enforcement Guidelines
 
