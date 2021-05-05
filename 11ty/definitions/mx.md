@@ -3,7 +3,7 @@ title: Mx.
 slug: mx
 speech: noun
 defined: true
-excerpt: someone who is sexually attracted to people regardless of their gender, or to people of any gender.
+excerpt: gender-neutral honorific or title of courtesy, equivalent to Ma'am, Madam, Miss, Mr, Mrs, Mrs, Sir.
 reading:
   - text: 'This Gender-Neutral Word Could Replace Mr. and Ms.'
   - text: 'Merriam-Webster definition'
