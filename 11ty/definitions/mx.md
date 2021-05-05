@@ -18,7 +18,7 @@ In formal settings, defaulting to gendered titles of courtesy can misgender peop
 
 Mx allows you to maintain formality without making assumptions about people's titles/saluations and/or gender.
 
-In the same vein of [/definitions/pronouns](pronouns), it's important to not make assumptions about which honorific to use for someone and instead ask for explicit consent whenever possible.
+In the same vein of [pronouns](/definitions/pronouns), it's important to not make assumptions about which honorific to use for someone and instead ask for explicit consent whenever possible.
 
 Many (though not all) nonbinary people might opt to use Mx.
 
