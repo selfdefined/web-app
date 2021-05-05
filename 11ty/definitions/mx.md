@@ -14,7 +14,7 @@ gender-neutral honorific or title of courtesy, equivalent to Ma'am, Madam, Miss,
 
 ## Considerations
 
-In formal settings, defaulting to gendered titles of courtesy can misgender people. While titles and salutations are not necessarily indicative of gender, there tends to be a corrolation between **Ma'am** and woman- or femme-assumed individuals.
+In formal settings, defaulting to gendered titles of courtesy can misgender people. While titles and salutations are not necessarily indicative of gender, there tends to be a corrolation. For example, **Ma'am** tends to be used to refer to woman- or femme-assumed individuals.
 
 Mx allows you to maintain formality without making assumptions about people's titles/saluations and/or gender.
 
