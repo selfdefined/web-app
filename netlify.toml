@@ -17,3 +17,9 @@
   status = 301
   force = true
   headers = {X-From = "Netlify"}
+
+# [[redirects]]
+#   from = "/discord"
+#   to = "INSERT LINK HERE"
+#   status = 301
+#   force = true
