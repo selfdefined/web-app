@@ -10,12 +10,14 @@ reading:
   href: https://blackgirllostkeys.com/adhd/no-time-to-confront-racism-in-neurodiversity/
 - text: DSM-5 ADHD Diagnosis
   href: https://www.cdc.gov/ncbddd/adhd/diagnosis.html
+- text: ICD-11 ADHD Entry
+  href: https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f821852937
 
 ---
 
 ## Overview
 
-Attention Deficit Hyperactivity Disorder (initialised to ADHD) is a neurodivergence that expresses itself as a lack of impulse control at two extremes. It is commonly identified in children by their inability to remain focused on tasks that disinterests them. At the other end of the expressions, a person with ADHD has the ability to "hyperfocus" on a task that highly interests them.
+Attention Deficit Hyperactivity Disorder (initialised to ADHD) is a neurodivergence which presents as a persistent pattern of inattention and/or hyperactivity-impulsivity that has a direct negative impact on academic, occupational, or social functioning. Inattention refers to significant difficulty in sustaining attention to tasks that do not provide a high level of stimulation or frequent rewards, distractability and problems with organisation. Hyperactivity refers to excessive motor activity and difficulties with remaining still, most evident in structured situations that require behavioural self-control. Impulsivity is a tendency to act in response to immediate stimuli, without deliberation or consideration of the risks and consequences. 
 
 There are several common traits and behaviors that can be associated with ADHD:
 
