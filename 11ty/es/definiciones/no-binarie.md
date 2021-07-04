@@ -6,7 +6,7 @@ defined: true
 excerpt: de, en relación con, o caracterizade por cualquier género que no encaje en el binarismo de género masculino-femenino; un término paraguas.
 ---
 
-de, en relación con, o caracterizade por cualquier género que no encaje en el binarismo de género másculino-femenino; un término paraguas.
+de, en relación con, o caracterizade por cualquier género que no encaje en el binarismo de género masculino-femenino; un término paraguas.
 
 Por ejemplo, una persona no binaria puede tener algún género entre masculino y femenino, tener múltiples géneros, ningún género, o un género culturalmente específico (por ejemplo: dos espíritus).
 
