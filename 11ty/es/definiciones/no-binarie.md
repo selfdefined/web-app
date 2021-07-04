@@ -3,7 +3,7 @@ title: No binarie
 slug: no-binarie
 speech: adj
 defined: true
-excerpt: de, en relación con, o caracterizade por cualquier género que no encaje en el binarismo de género másculino-femenino; un término paraguas.
+excerpt: de, en relación con, o caracterizade por cualquier género que no encaje en el binarismo de género masculino-femenino; un término paraguas.
 ---
 
 de, en relación con, o caracterizade por cualquier género que no encaje en el binarismo de género másculino-femenino; un término paraguas.
