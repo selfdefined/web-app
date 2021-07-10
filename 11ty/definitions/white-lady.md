@@ -19,3 +19,5 @@ White lady is colloqial slang for a female ghost or apparition often popular in 
 
 Recently this story has been featured in [Trese](https://www.denofgeek.com/tv/trese-the-filipino-folklore-behind-netflixs-new-anime/ "Trese: Netflix series")
 
+#### Possible Relations ####
+_Gweilo (Cantonese)_ : Questionably used as a derogatory term against westerners.
