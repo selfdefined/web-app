@@ -1,5 +1,5 @@
 ---
-title: Racialized
+title: racialised
 slug: racialized
 defined: false
 ---
