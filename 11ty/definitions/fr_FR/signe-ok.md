@@ -22,7 +22,7 @@ Ce geste de la main a été utilisé par des Suprémacistes Blancs comme une fa�
 
 ## Problèmes
 
-Bien que l'on puisse débattre que les origines du symbole et un grand nombre de leurs utilisations n'implique pas de connotations racistes, et que les 4chan-ers « l'ont présenté comme un canular », il est indéniable que le symbole a évolué et est devenu un geste vraiment utilisé par les suprémacistes blancs.
+Bien que l'on puisse débattre que les origines du symbole et un grand nombre de leurs utilisations n'impliquent pas de connotations racistes, et que les 4chan-ers « l'ont présenté comme un canular », il est indéniable que le symbole a évolué et est devenu un geste vraiment utilisé par les suprémacistes blancs.
 
 L'incertitude créée par les 4chan-ers fait partie intégrante de leur stratégie. Parce qu'ils ont eux-mêmes identifié ce geste comme un canular, ils peuvent retourner à cette explication. Pendant ce temps, si des gens commencent à adopter ce symbole, comme cela a été le cas, il devient un signe de ralliement pour les Suprémacistes Blancs. Il faudrait aussi noter que cette approche d'endoctrinement des symboles de haine est documentée depuis longtemps, et [a aussi été utilisé pour la Swastika](https://theconversation.com/how-nazis-twisted-the-swastika-into-a-symbol-of-hate-83020).
 
