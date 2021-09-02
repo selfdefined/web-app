@@ -11,8 +11,10 @@ alt_words:
   dumb (noun):
     - basic
     - incomprehensible
-    - nonsensical
+    - irrational
+    - odd
     - redundant
+    - ridiculous
     - shallow
     - silly
     - senseless
@@ -31,7 +33,6 @@ alt_words:
     - perplexed
     - shocked
     - stunned
-    - stupified
 reading:
   - text: Etymonline entry
     href: https://www.etymonline.com/word/dumb
