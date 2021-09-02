@@ -17,11 +17,11 @@ alt_words:
     - ridiculous
     - shallow
     - silly
-    - senseless
     - strange
     - weird
     - unfamiliar
     - unfathomable
+    - unreasonable
     - unnecessary
   dumbfounded (noun):
     - amazed
