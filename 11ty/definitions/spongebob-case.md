@@ -7,21 +7,24 @@ flag:
 defined: true
 excerpt: text styling that alternates lowercase and uppercase (often randomly) letters to indicate mockery or sarcasm, or to take a deragatory tone, popularised with a meme of SpongeBob Squarepants where he is deformed.
 speech: adjective
-alt_words:
-  - ending text with '/sarcasm' to clarify that the comment above is not to be taken at face value
 reading:
-  - text: Python
-    href: https://www.etymonline.com/word/dumb
-
+  - text: 'Twitter @traependergrast'
+    href: https://twitter.com/traependergrast/status/1296101920608792577?s=20
+  - text: 'Babycenter Community post @aolz'
+    href: https://community.babycenter.com/post/a77147834/psa-this-is-ableist
+  - text: 'Know your meme: Mocking SpongeBob'
+    href: https://knowyourmeme.com/memes/mocking-spongebob
   - text: 'Wikipedia: Alternating caps'
     href: https://en.wikipedia.org/wiki/Alternating_caps
 ---
 
-text styling that randomly alternates lowercase and uppercase letters to indicate sarcasm or to take a deragatory tone, popularised with a meme of SpongeBob Squarepants where he is deformed; also known as alternating caps.
+text styling that randomly alternates lowercase and uppercase letters to indicate sarcasm or to take a deragatory tone, popularised with a meme of SpongeBob Squarepants where he is deformed; also known as Mocking SpongeBob, SpongeMock, or alternating caps.
 
-## Meme
+## Context
 
 The meme, Mocking SpongeBob or SpongeMock, shows SpongeBob Squarepants in a deformed state (from an episode where SpongeBob is acting like a chicken, with his arms and torso askew). [Read more about the meme's evolution](https://knowyourmeme.com/memes/mocking-spongebob). People overlaid text onto this image in the SpongeBob casing, typically in a call and response way to show mockery or a response to mockery.
+
+The meme went viral and gained so much ubiquity that multiple libraries, packages, and online tools were made for people to convert text into SpongeBob case.
 
 ## Issues
 
