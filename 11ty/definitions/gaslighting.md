@@ -14,7 +14,7 @@ reading:
     href: https://www.aconsciousrethink.com/6766/gaslighting-examples/
 ---
 
-psychological manipulation tactic used to abuse by instilling doubt in the victim's own thoughts, observations, feelings by denying, misdirecting, and lying to them; originated from the Gaslight play (1933) and film (1944), where a man changes the lights in the house, while denying her observations of the changes.
+psychological manipulation tactic used to abuse by instilling doubt in the victim's own thoughts, observations, feelings by denying, misdirecting, and lying to them; originated from the *Gaslight* play (1933) and film (1944), where a man changes the lights in the house, while denying her observations of the changes.
 
 ## Impact
 
