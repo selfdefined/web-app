@@ -2,14 +2,14 @@
 title: Short bus
 slug: short-bus
 defined: true
-excerpt:
+excerpt: A derogatory and ableist term synonymous with the r-word. It refers to a Type A or B school bus, which is smaller than the conventional Type C bus. The term is commonly associated with and used to insult those with intellectual or developmental disabilities, or mock others at their expense.
 speech: noun
 flag:
   level: avoid
   text: ableist slur
 ---
 
-"Short bus" is an ableist slang term for a [Type A or B school bus](https://en.wikipedia.org/wiki/School_bus#Types). While these school bus types are used to transport smaller groups of students to school or related activities, they may also be used to transport students with intellectual and/or developmental disabilities (I/DD). The term is a derogatory shorthand for [the r-word](/r-word/).
+"Short bus" is a derogatory and ableist term for a [Type A or B school bus](https://en.wikipedia.org/wiki/School_bus#Types). While these school bus types are used to transport smaller groups of students to school or related activities, they may also be used to transport students with intellectual and/or developmental disabilities (I/DD). The term is a derogatory shorthand for [the r-word](/r-word/).
 
 ## Issues
 
