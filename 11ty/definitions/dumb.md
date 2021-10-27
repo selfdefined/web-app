@@ -8,18 +8,31 @@ defined: true
 excerpt: non-verbal, non-speaking, silent, refraining from speaking or unable to speak; sometimes __mute__ which can also be ableist; colloquially used to mean unintelligent or senseless
 speech: adjective
 alt_words:
-  - basic
-  - incomprehensible
-  - nonsensical
-  - redundant
-  - shallow
-  - silly
-  - senseless
-  - strange
-  - weird
-  - unfamiliar
-  - unfathomable
-  - unnecessary
+  dumb (noun):
+    - basic
+    - incomprehensible
+    - irrational
+    - odd
+    - redundant
+    - ridiculous
+    - shallow
+    - silly
+    - strange
+    - weird
+    - unfamiliar
+    - unfathomable
+    - unreasonable
+    - unnecessary
+  dumbfounded (noun):
+    - amazed
+    - awed
+    - floored
+    - nonplussed
+  dumbstruck (noun):
+    - astonished
+    - perplexed
+    - shocked
+    - stunned
 reading:
   - text: Etymonline entry
     href: https://www.etymonline.com/word/dumb
@@ -29,23 +42,32 @@ reading:
     href: https://www.nad.org/resources/american-sign-language/community-and-culture-frequently-asked-questions/
   - text: 'National Geographic Creation of Sign Language'
     href: https://www.nationalgeographic.com/history/magazine/2019/05-06/creation-of-sign-language/
+  - text: 'Quora: Do you know when you are using derogatory ableist language'
+    href: https://www.quora.com/Do-you-know-when-you-are-using-derogatory-ableist-language/answer/Jayden-Brunner
   - text: 'Stereotypes and Evaluations of People who are D/deaf [PDF, 363KB]'
     href: https://digitalcommons.unf.edu/cgi/viewcontent.cgi?article=1020&context=honors
   - text: 'StackExchange "Who first wrote about deafness"'
     href: https://history.stackexchange.com/questions/7293/who-first-wrote-about-deafness
+  - text: 'Transphobe Tears: Ableist Language'
+    href: https://cishits.tumblr.com/post/79281810833/two-things-1-i-feel-like-ableist-language-is-harder
 ---
 
-non-verbal, non-speaking, silent, refraining from speaking or unable to speak; sometimes __mute__ which can also be ableist; colloquially used to mean unintelligent or senseless
+non-verbal, non-speaking, silent, refraining from speaking or unable to speak; sometimes **mute** which can also be ableist; colloquially used to mean senseless or a vague filler word
+
+## Related Words
+
+- dumbfounded
+- dumbstruck
 
 ## Issues
 
-Dumb initially meant "mute, silent, refraining or unable to speak." Old German __thumb__ carried a dual meaning of "stupid", which eventually took over.
+Dumb initially meant "mute, silent, refraining or unable to speak." Old German **thumb** carried a dual meaning of "stupid", which eventually took over.
 
-An oft-cited quote by Greek philosopher Aristotle reads, "Men that are deaf are in all cases also dumb.**" Historically the Greeks valued physical prowess (as evidenced by their invention of the Olympic Games) and their language, so anyone who lacked the ability to perform certain physical tasks or conduct reason (verbalise reason, rather) in their language was considered invaluable to society. The historical context is still ever present today, where we devalue disabled bodies and minds.
+An oft-cited quote by Greek philosopher Aristotle reads, "Men that are deaf are in all cases also dumb.\*\*" Historically the Greeks valued physical prowess (as evidenced by their invention of the Olympic Games) and their language, so anyone who lacked the ability to perform certain physical tasks or conduct reason (verbalise reason, rather) in their language was considered invaluable to society. The historical context is still ever present today, where we devalue disabled bodies and minds.
 
-Using dumb reinforces these cultural values.
+Using dumb (and its related words like dumbstruck, dumbfounded) reinforces these cultural values.
 
-**Isolation to only "men" also reinforces the historical patriarchical ideas that intersected with these ableist ones.
+\*\*Isolation to only "men" also reinforces the historical patriarchical ideas that intersected with these ableist ones.
 
 ## Impact
 
