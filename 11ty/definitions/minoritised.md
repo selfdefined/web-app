@@ -12,7 +12,7 @@ reading:
     href: https://www.theodysseyonline.com/minority-vs-minoritize
 ---
 
-groups resulting from social constructs have been granted less power or representation compared to other members or groups in society
+groups, resulting from social constructs, that have been granted less power or representation compared to other members or groups in society
 
 ## Preferable To
 
