@@ -15,7 +15,7 @@ reading:
   - href: https://benchmarkeducation.com/best-practices-library/supporting-english-language-learners-in-reading-writing.html#section_2
     text: ELL Glossary by Benchmark Education (US)
   - href: http://www.naldic.org.uk/eal-teaching-and-learning/eal-glossary/#MainControl_Glossary_ZoneMain_GlossaryPlaceholderControl1_ctl00_PresentationModeControlsContainer_SECTION_E
-  - text: EAL glossary by NALDIC (UK)
+    text: EAL glossary by NALDIC (UK)
 ---
 
 the teaching of English to people who speak a different language and who live in a country where English is the main language spoken
