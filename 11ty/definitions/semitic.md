@@ -7,6 +7,8 @@ speech: adjective
 ---
 
 related to languages, races, and culture of people who live or come from across part of western Asia and northern Africa, which include Arabic, Hebrew, Aramaic, and Amharic.
+## Note
+While Semitic refers to a broad spectrum of languages, races, and cultures as described above, it is often mistakenly only used to speak about Arabic and Hebrew.
 
 ## Sources
 
