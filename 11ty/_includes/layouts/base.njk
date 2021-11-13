@@ -35,6 +35,29 @@
     {% endblock pageStyles %}
   </head>
   <body>
+    <script>
+      /**
+      * @type String
+      */
+      let userThemeSetting = localStorage.getItem('sdUserTheme');
+
+      if (userThemeSetting) {
+        document.documentElement.setAttribute(
+          'data-user-theme',
+          userThemeSetting
+        );
+      }
+
+      window.setUserPreference = function setUserPreference(value) {
+        localStorage.setItem('sdUserTheme', value);
+        document.documentElement.setAttribute('data-user-theme', value);
+      }
+
+      window.unsetUserPreference = function unsetUserPreference() {
+        localStorage.removeItem('sdUserTheme');
+        document.documentElement.removeAttribute('data-user-theme');
+      }
+    </script>
     {% block content %}{% endblock content %}
     {% include 'components/base/site-footer.njk' %}
     {% block pageScript %}
