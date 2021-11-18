@@ -26,7 +26,7 @@ The term upholds an ableist sense of normalcy, and furthers the harmful and excl
 
 ## Impact
 
-As is the case with any ableist term, "short bus" is a derogatory synonym for the the r-word that should be avoided. It is dehumanizing slang used by children and adults alike to directly insult disabled people, or mock those without an I/DD for perceived low intelligence or capability at the expense of those who have an I/DD.
+As is the case with any ableist term, "short bus" is a derogatory slur, which is often used synonymously for the the r-word. Regardless of intent, awareness or target of the insult, using this term dehumanises disabled people by mocking perceived low intelligence or capability.
 
 When we use ableist language, we are creating spaces in which we willingly harm those experiencing physical, mental, or psychological disabilities, regardless of our intent.
 
