@@ -32,6 +32,18 @@ When we use ableist language, we are creating spaces in which we willingly harm 
 
 ## Alt Words
 
-There is no scenario in which the term "short bus" can be used constructively, unless the intent is to discuss the term itself in an effort to remove it from common usage. In all other situations in which you are describing someone's actions or output, use descriptive language rather than insulting someone at the expense of those with an I/DD.
+## Usage/Alt Words
+
+When referring to the smaller bus, use Type C, which is more specific and accurate.
+
+When using it as an insult, it cannot be used constructively. Usage should be reserved to discuss the term itself in an effort to remove it from common usage and reduce its ongoing harm.
+
+In all other situations, use descriptive language to describe the person's output or actions: For example, if someone writes a paper that is factually inaccurate or otherwise lacking in substance, offer a constructive criticism of paper's contents rather than attempt to humiliate them with ableist language that perpetuates harm.
+
+Some examples of phrases that could replace common self-deprecating usages:
+- "What a brain fart."
+- "Wow, that was so spacey of me."
+- "I can't believe I did that. I must be tired."
+- "I had a lapse in judgment."
 
 For example, if someone writes a paper that is factually inaccurate or otherwise lacking in substance, offer a constructive criticism of paper's contents rather than attempt to humiliate them with ableist language that perpetuates harm.
