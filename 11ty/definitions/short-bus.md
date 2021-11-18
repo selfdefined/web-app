@@ -16,7 +16,11 @@ a [Type A or B school bus](https://en.wikipedia.org/wiki/School_bus#Types), whic
 
 ## Issues
 
-There are four school bus types ranging from A to D, with the Type C school bus being the conventional vehicle used to transport large numbers of students. The term "short bus" upholds the perception in which students without an I/DD ride exclusively on Type C buses meant for "normal" students, while their "abnormal" peers are relegated to smaller Type A or B buses. This perception ignores the reality that Type A and B school buses may be used to transport small numbers of students&mdash;often in remote or rural communities&mdash;directly to school or to a hub to transfer to a larger bus.
+## Issues
+The term "short bus" upholds several **false** and **[ableist](/definitions/ableism)** ideas:
+- Students without I/DD ride exclusively on Type C buses, whereas students with I/DD ride exclusively on Type A and B buses. Type C buses are more abundant, used by nondisabled students, and thus seen as "normal." Type A and B buses are less common, and often used by disabled students, and thus seen as "abnormal," making it the target of jokes (at the expense of disabled students). This idea reiterates disabled as "abnormal" and nondisabled as "normal."
+- Type A and B school buses are only used for disabled students, when in reality, they may be used to transport small numbers of students&mdash;often in remote or rural communities&mdash;directly to school or to a hub to transfer to a larger bus.
+- Mobility aids and accessibility infrastructure, which tend to be [undersupported and underfunded](https://www.nydailynews.com/opinion/ny-oped-infrastructure-raw-deal-disabled-20210805-mgmhsqiy4rdtvc3jsgqhvilf5u-story.html), are worthy of mockery. This type of codified insult is one way in which infrastructural issues are reinforced and perpetuated by cultural norms.
 
 The term upholds an ableist sense of normalcy, and furthers the harmful and exclusionary practices that segregate those with an I/DD from the rest of society while depriving them of their dignity.
 
