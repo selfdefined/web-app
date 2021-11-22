@@ -9,17 +9,15 @@ function initThemeSwitch() {
 
   let $buttons = $switchContainer.querySelectorAll('[type="radio"]');
 
-  /**
-   * @type String
-   */
-  let userThemeSetting = localStorage.getItem('sdUserTheme');
-
   function setInitialState() {
+    /**
+     * @type String
+     */
+    let userThemeSetting = document.documentElement.getAttribute(
+      'data-user-theme'
+    );
+
     if (userThemeSetting) {
-      document.documentElement.setAttribute(
-        'data-user-theme',
-        userThemeSetting
-      );
       $switchContainer.querySelector(
         `[value="${userThemeSetting}"]`
       ).checked = true;
@@ -28,25 +26,15 @@ function initThemeSwitch() {
     }
   }
 
-  function setUserPreference(value) {
-    localStorage.setItem('sdUserTheme', value);
-    document.documentElement.setAttribute('data-user-theme', value);
-  }
-
-  function unsetUserPreference() {
-    localStorage.removeItem('sdUserTheme');
-    document.documentElement.removeAttribute('data-user-theme');
-  }
-
   Array.from($buttons).forEach(function($button) {
     $button.addEventListener('change', function() {
       // only run the switch functionality for the currently active radio button
       if (!$button.checked) return;
 
       if (userOverwrite.includes($button.value)) {
-        setUserPreference($button.value);
+        window.setUserPreference($button.value);
       } else {
-        unsetUserPreference();
+        window.unsetUserPreference();
       }
     });
   });
