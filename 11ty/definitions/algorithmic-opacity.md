@@ -12,4 +12,4 @@ An algorithmic system may be kept opaque deliberately to conceal how it operates
 
 ## Impact
 
-When concealed, this prevents users/consumers from fully understanding what these algorithms can and cannot do. Ultimately, lack of transparency allows for biases to remain unchecked, and this creates potential for additional harm to be done.
+When concealed, algorithmic opacity prevents users/consumers from fully understanding what these algorithms can and cannot do. Ultimately, lack of transparency allows for human-led biases to remain unchecked, which creates the potential for additional harm.
