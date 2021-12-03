@@ -1,5 +1,5 @@
 ---
-title: Algorithmic Opacity
+title: algorithmic opacity
 slug: algorithmic-opacity
 defined: true
 speech: noun
