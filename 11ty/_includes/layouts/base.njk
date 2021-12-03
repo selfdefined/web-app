@@ -9,10 +9,24 @@
     <link rel="dns-prefetch" href="https://p.typekit.net/">
     {# Use title with path, or append a space to the page title to avoid collpasing with the meta title #}
     {% set pageTitle = titleWithPath or title + ' ' or '' %}
+
+    {% set preview = excerpt or renderData.description or description or metadata.description %}
+
     <title>{{ pageTitle + metadata.title }}</title>
     <meta
+      name="twitter:description"
+      content="{% metaDescriptionWithFlag  preview, flag %}"
+    >
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ pageTitle }}"/>
+    <meta
+      name="og:description"
+      content="{% metaDescriptionWithFlag  preview, flag %}"
+    >
+    <meta name="og:title" content="{{ pageTitle }}"/>
+    <meta
       name="description"
-      content="{{ renderData.description or description or metadata.description }}"
+      content="{% metaDescriptionWithFlag  preview, flag %}"
     >
     <link rel="stylesheet" href="https://use.typekit.net/qlo3dpu.css">
     <link rel="stylesheet" href="{{ '/assets/css/base.css' | url }}">
@@ -21,23 +35,33 @@
     {% endblock pageStyles %}
   </head>
   <body>
+    <script>
+      /**
+      * @type String
+      */
+      let userThemeSetting = localStorage.getItem('sdUserTheme');
+
+      if (userThemeSetting) {
+        document.documentElement.setAttribute(
+          'data-user-theme',
+          userThemeSetting
+        );
+      }
+
+      window.setUserPreference = function setUserPreference(value) {
+        localStorage.setItem('sdUserTheme', value);
+        document.documentElement.setAttribute('data-user-theme', value);
+      }
+
+      window.unsetUserPreference = function unsetUserPreference() {
+        localStorage.removeItem('sdUserTheme');
+        document.documentElement.removeAttribute('data-user-theme');
+      }
+    </script>
     {% block content %}{% endblock content %}
-    <footer class="site-footer">
-      <nav aria-label="Complimentary">
-        <ul class="navigation-list">
-          <li>
-            <a href="/documentation/">Documentation</a>
-          </li>
-          <li>
-            <a href="/content-warning-guidelines/">Content Warning Guidelines</a>
-          </li>
-          <li>
-            <a href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}">RSS Feed</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
+    {% include 'components/base/site-footer.njk' %}
     {% block pageScript %}
     {% endblock pageScript %}
   </body>
+  <script defer src="/js/theme-switcher.js"></script>
 </html>

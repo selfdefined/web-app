@@ -4,6 +4,7 @@ slug: women-and-people-of-colour
 flag:
   level: avoid
 defined: true
+excerpt: often used as a phrase to encompass “non-white, non-men,” seeking to provide solidarity for these two groups; erases women of colour, non-binary individuals
 speech: noun
 alt_words:
   - people of colour and white women
@@ -22,3 +23,7 @@ What happens to women of colour? As a woman of colour, I am split between both w
 ## Impact
 
 As such, it elicits feelings of erasure for women of colour. It also neglects [non-binary](/definitions/non-binary) individuals.
+
+## Other Languages
+
+[Français](/definitions/fr_FR/femmes-et-personnes-de-couleur)

@@ -4,14 +4,18 @@ slug: english-as-second-language
 flag:
   level: avoid
 defined: true
+excerpt: the teaching of English to people who speak a different language and who live in a country where English is the main language spoken
 speech: noun
 alt_words:
   - English as learning-language (ELL)
+  - English as an additional language (EAL)
   - or non-native
   - or omit (because do you really know, for sure?)
 reading:
   - href: https://benchmarkeducation.com/best-practices-library/supporting-english-language-learners-in-reading-writing.html#section_2
-    text: ELL Glossary by Benchmark Education
+    text: ELL Glossary by Benchmark Education (US)
+  - href: http://www.naldic.org.uk/eal-teaching-and-learning/eal-glossary/#MainControl_Glossary_ZoneMain_GlossaryPlaceholderControl1_ctl00_PresentationModeControlsContainer_SECTION_E
+    text: EAL glossary by NALDIC (UK)
 ---
 
 the teaching of English to people who speak a different language and who live in a country where English is the main language spoken

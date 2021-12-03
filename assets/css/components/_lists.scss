@@ -1,4 +1,5 @@
-ol {
+ol,
+dl {
   margin: 0;
   padding: 0 0 0 1em;
 }
@@ -21,18 +22,14 @@ li {
   }
 }
 
-.list-semicolon {
+dt {
+  font-weight: $bold;
+}
+
+.list-no-bullets {
   list-style: none;
   margin: 0;
   padding: 0;
-
-  & > li {
-    display: inline;
-
-    &:not(:last-child)::after {
-      content: '; ';
-    }
-  }
 }
 
 .list-default {

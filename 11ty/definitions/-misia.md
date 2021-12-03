@@ -3,6 +3,7 @@ title: -misia
 slug: -misia
 speech: noun
 defined: true
+excerpt: from Greek for hate or hatred
 sub_terms:
   - text: Fat
     full_title: fatmisia
