@@ -7,6 +7,7 @@ speech: noun
 
 The effect of an algorithmic system designed in a way that makes difficult to explain why a certain decision was made by it.
 
+## Issues
 An algorithmic system may be kept opaque deliberately to conceal how it operates, unintentionally due to the expert technical knowledge required to understand it, or as result of a mismatch between how humans and algorithms understand the input given.
 
 ## Impact
