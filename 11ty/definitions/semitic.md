@@ -23,4 +23,4 @@ While Semitic refers to a broad spectrum of languages, races, and cultures as de
 
 ## Related Terms
 
-[antisemitic](/definitions/antisemitic)
+[antisemitism](/definitions/antisemitism)
