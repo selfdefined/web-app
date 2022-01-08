@@ -42,7 +42,7 @@ referencing and affirming that (bottom) position as origin to move away, as-is, 
 When meaning including ideas of anyone, that want to participate in positive change, rather than saying `"let's do it with a bottom-up approach"`, use below alternatives or find something that is semantically immune to lose against perception of autority, level and hierarchy.
 
 let's do it .. 
+- in a grassroots fashion
 - together
 - collectively 
 - proactively
-- ..
