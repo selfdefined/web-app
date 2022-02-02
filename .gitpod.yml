@@ -1,0 +1,11 @@
+tasks:
+  - before: nvm install $(cat .nvmrc) && nvm use $(cat .nvmrc)
+    init: npm install
+    command: npm run serve
+ports:
+  - port: 8080
+    onOpen: open-preview
+vscode:
+  extensions:
+    - eseom.nunjucks-template@0.2.1:/mR0hTMGkFUiVnTyOmnlCg==
+    - esbenp.prettier-vscode@3.20.0:37/f4uBlE287wUjENFq1aA==
