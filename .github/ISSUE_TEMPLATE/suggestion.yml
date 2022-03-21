@@ -1,0 +1,44 @@
+name: Word Suggestion
+description: Share a word suggestion
+title: ":blue_book: "
+labels: ["Type · Definitions", "Status · Unconfirmed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to fill out word definition request!
+  - type: input
+    id: word
+    attributes:
+      label: What word would you like to see defined?
+      description: What word do you think need to be in the Self-Defined dictionary and why?
+    validations:
+      required: true
+  - type: textarea
+    id: related-resources
+    attributes:
+      label: Please share any relevant links
+      description: Please provide at least one related example or definition.
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: If you already have a definition in mind, share it here
+      description: If you have an idea about what the definition should be, please share it here.
+      render: shell
+  - type: checkboxes
+    id: assign-to-me
+    attributes:
+      label: Would you like to take ownership of defining this word?
+      description: By checking this, you'll be assigned this issue and we'll work with you to get the definition added should it be accepted!
+      options:
+        - label: Yeah, assign it to me!
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/selfdefined/web-app/blob/prod/CODE-OF-CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

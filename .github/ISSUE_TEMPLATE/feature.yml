@@ -1,0 +1,32 @@
+name: Feature Request
+description: File a feature request
+title: ":pray: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to fill out this feature request!
+  - type: textarea
+    id: request
+    attributes:
+      label: What did you have in mind?
+      description: What is it that seems to be missing or could be improved?
+    validations:
+      required: true
+  - type: checkboxes
+    id: existing
+    attributes:
+      label: Is this a new feature or a suggested update?
+      description: This helps us properly label issues and move them along the right workflows.
+      options:
+        - label: This is a suggestion for an existing feature
+        - label: This is a new feature
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/selfdefined/web-app/blob/prod/CODE-OF-CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
