@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: related-resources
     attributes:
-      label: Please share any relevant links
+      label: Please share any relevant links to articles, books, podcasts, videos, etc. We prefer when speaking about a group that the writer identifies as part of that group.
       description: Please provide at least one related example or definition.
     validations:
       required: true
