@@ -19,7 +19,7 @@ body:
       label: Is this a new feature or a suggested update?
       description: This helps us properly label issues and move them along the right workflows.
       options:
-        - label: This is a suggestion for an existing feature
+        - label: Existing feature
         - label: This is a new feature
           required: true
   - type: checkboxes
