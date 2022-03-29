@@ -21,7 +21,7 @@ body:
   - type: checkboxes
     id: assign-to-me
     attributes:
-      label: Would you like to take ownership of defining this word?
+      label: Would you like to lead translating this word?
       description: By checking this, you'll be assigned this issue and we'll work with you to get the definition added should it be accepted!
       options:
         - label: Yeah, assign it to me!
