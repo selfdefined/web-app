@@ -20,7 +20,7 @@ body:
       description: This helps us properly label issues and move them along the right workflows.
       options:
         - label: Existing feature
-        - label: This is a new feature
+        - label: New feature
           required: true
   - type: checkboxes
     id: terms
