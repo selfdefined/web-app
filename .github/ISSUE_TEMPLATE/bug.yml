@@ -18,21 +18,33 @@ body:
   - type: textarea
     id: expected-behavior
     attributes:
-      label: What should have happened?
-      description: What were you trying to accomplish?
-      placeholder: Tell us what you expected to see!
+      label: Expenced behavior
+      description: Tell us what you expected to see
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Browsers
+      description: What browsers are you seeing the problem on?
       multiple: true
       options:
         - Firefox
         - Chrome
         - Safari
         - Microsoft Edge
+        - Brave
+        - Other
+  - type: input
+    id: other-browser
+    attributes:
+      label: Other browser
+      description: What browser did you experience the issue in?
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Was this issue on a mobile device? If so, what one?
   - type: textarea
     id: logs
     attributes:

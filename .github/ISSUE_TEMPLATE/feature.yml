@@ -1,6 +1,6 @@
 name: Feature Request
 description: File a feature request
-title: ":pray: "
+title: ":ballot_box: "
 body:
   - type: markdown
     attributes:
@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: request
     attributes:
-      label: What did you have in mind?
+      label: Request
       description: What is it that seems to be missing or could be improved?
     validations:
       required: true
