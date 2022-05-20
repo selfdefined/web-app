@@ -43,22 +43,7 @@ We love encouraging first-time contributors and have labelled [good first issues
 
 ## Future Roadmap/Intention
 
-1. **Dictionary site**: Webapp where words can be connected, linking to alternates for bad terms or alternates for definitions with nuance. Create ability to use parameters so someone can connect multiple words they use together, to help clear up how they define themselves. For example, `?disabled+pan+Indigenous`. Creating such a strand easily would allow people to link in email signatures, Twitter bios, etc.
-2. **Twitter bot:** Allows someone to tag [@SelfDefinedBot](https://twitter.com/SelfDefinedBot) in order to get automated reply. For example '@SelfDefinedBot define racism'.
-3. **Slack bot:** Problematic words could be flagged and alternates could be provided. Could also define words.
-4. **Custom API:** Allows dictionary to be adapted and referenced under other large-scale projects.
-
-### Design Intention
-
-- Typography at its core, focused on legibility, performance, and future-proofing for translations/non-Roman alphabets.
-- High-contrast colour palette, again for legibility.
-- Lack of imagery or ornamentation, given the sensitivity and representation of these communities. Depicting them visually at this time feels reductionist.
-
-### Philosophies
-
-- Maintain OSS nature for non-profit and other OSS uses, but charge for corporate uses.
-- Ensure that dictionary includes nuances and expresses that not everyone ascribes to terms exactly as they are; illustrate and articulate those nuances wherever possible.
-- Accessibility, inclusion, and performance are at the core of this project.
+If you're curious about the roadmap for Self-Defined, [check out the doc](./ROADMAP.md).
 
 ## Contributors
 
