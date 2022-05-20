@@ -1,5 +1,31 @@
-.summary {
-  grid-column: span 2;
+.site-header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+
+  .site-header__title {
+    margin-right: 1em;
+    margin-top: 0.5em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .navigation-list {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin-right: 0.5em;
+      padding-bottom: 0;
+
+      :last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
 
 

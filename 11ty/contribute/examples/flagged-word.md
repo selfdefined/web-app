@@ -2,7 +2,7 @@
 title: Flagged Word
 parent:
   title: Examples
-  href: '/documentation/examples'
+  href: '/contribute/examples'
 ---
 
 As explained in the [Front Matter documentation](/documentation/front-matter/#flag) we can use different flags which inform readers at a glance how this word is used. Here are some examples.

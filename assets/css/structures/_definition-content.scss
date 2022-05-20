@@ -18,17 +18,6 @@
       margin-top: 2rem;
     }
 
-    @supports (display: grid) {
-      // align-items: flex-start;
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: 1fr 4fr;
-
-      & > * {
-        margin: 0 !important;
-      }
-    }
-
     & > p,
     & > ul {
       font-family: $sans-serif;

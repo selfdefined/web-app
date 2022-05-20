@@ -1,8 +1,8 @@
 ---
 title: Development & Build
 parent:
-  title: Documentation
-  href: '/documentation'
+  title: Contribute
+  href: '/contribute'
 ---
 
 This guide will walk you through the current state of the development config. Things get a bit technical here. 🤖

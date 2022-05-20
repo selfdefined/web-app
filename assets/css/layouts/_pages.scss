@@ -8,15 +8,6 @@
   }
 }
 
-.article-content {
-  display: grid;
-  grid-gap: 1rem;
-
-  @media (min-width: 800px) {
-    grid-template-columns: 10rem 45rem;
-  }
-}
-
 .wide-content {
   @media (min-width: 800px) {
     display: grid;
@@ -26,6 +17,7 @@
 }
 
 .definition {
+  margin: auto;
   max-width: 47rem;
 }
 
