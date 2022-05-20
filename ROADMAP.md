@@ -1,6 +1,7 @@
 # Self-Defined Project Road Map
 
 ## Values & philosophies
+
 These are the values and philosophies that we want to embody in our decision making and our roadmap should always reflect them.
 
 ### Design values
@@ -16,6 +17,7 @@ These are the values and philosophies that we want to embody in our decision mak
 - Accessibility, inclusion, and performance are at the core of this project.
 
 ## Roadmap
+
 This is the project roadmap for the Self-Defined website for 2022. It will be updated as the year goes on and relfected in milestones as work moves closer to the "doing" phase.
 
 ### Short-term goals
