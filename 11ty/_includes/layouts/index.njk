@@ -4,28 +4,6 @@
 {% block content %}
   <main>
     {{ content | safe }}
-    {% include 'components/table-of-content.njk' %}
-
   </main>
 
-{% endblock %}
-
-
-{% block pageScript%}
-<script>
-  // don't use es6+ here because it will not be transpiled
-  window.addEventListener('DOMContentLoaded', function() {
-    if (location.hash) {
-      var allLinks = Array.from(document.querySelectorAll('.toc__list-item > a'));
-
-      for (var i = 0; i < allLinks.length; i++) {
-        var link = allLinks[i]
-
-        if (link.href.includes(location.hash.replace('#', ''))) {
-          window.location = link.href
-        }
-      }
-    }
-  })
-</script>
 {% endblock %}

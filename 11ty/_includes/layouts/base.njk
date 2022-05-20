@@ -58,6 +58,7 @@
         document.documentElement.removeAttribute('data-user-theme');
       }
     </script>
+    {% include 'components/base/site-header.njk' %}
     {% block content %}{% endblock content %}
     {% include 'components/base/site-footer.njk' %}
     {% block pageScript %}
