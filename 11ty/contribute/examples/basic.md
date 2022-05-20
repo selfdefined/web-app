@@ -2,7 +2,7 @@
 title: Basic Definition
 parent:
   title: Examples
-  href: '/documentation/examples'
+  href: '/contribute/examples'
 ---
 
 This example is the very basic variant. It is not very involved, but gets its job done.

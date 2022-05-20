@@ -1,5 +1,5 @@
 ---
-title: Docs
+title: Contribute
 ---
 
 As always, documentation is a work in progress. However, this is what we have so far:

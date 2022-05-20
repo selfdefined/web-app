@@ -1,15 +1,15 @@
 ---
 title: Front Matter
 parent:
-  title: Documentation
-  href: '/documentation'
+  title: Contribute
+  href: '/contribute'
 ---
 
 We use Front Matter for a range of things. Of course, we provide basic information through it. But also more advanced stuff (technical term) such as sub terms for items in the table of content or further reading links for the definition.
 
 This page will tell you all you need to know.
 
-Note: We also maintain a list of annotated, complete example definitions, which you can grab and go. They are listed on the [Examples documentation page](/documentation/examples).
+Note: We also maintain a list of annotated, complete example definitions, which you can grab and go. They are listed on the [Examples documentation page](/contribute/examples).
 
 ## Title
 
@@ -55,9 +55,9 @@ defined: true
 
 ## Excerpt
 
-| Key     | Type    | required |
-| ------- | ------- | -------- |
-| excerpt | String  | true     |
+| Key     | Type   | required |
+| ------- | ------ | -------- |
+| excerpt | String | true     |
 
 An abbreviated version of the definition that will appear in social media previews. In the social preview, the excerpt will be prefaced with the flag level.
 
