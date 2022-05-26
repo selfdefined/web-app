@@ -16,3 +16,7 @@ Reiterating "gender pronouns" enforces the idea that there is necessarily a rela
 ## Impact
 
 By connecting gender and perpetuating unnecessary gender norms and expectations, we are perpetuating violence against gender minoritised people. Using this language perpetuates those systems and language of harm, regardless of our intent.
+
+## Other Languages
+
+[Français](/definitions/fr_FR/pronoms-genres)

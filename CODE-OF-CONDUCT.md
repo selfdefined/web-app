@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, of all ages, body sizes, visible or invisible disabilities, ethnicities, sex characteristics, gender identities and expressions, levels of experience, education levels, socio-economic statuses, nationality, neurodivergences, personal appearances, races, religions, or sexual identities and orientations.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and functional community.
 
@@ -13,18 +13,18 @@ Examples of behavior that contributes to a positive environment for our communit
 - Demonstrating compassion and kindness toward other people
 - Being respectful of differing opinions, viewpoints, and experiences
 - Giving and gracefully accepting constructive feedback
-- Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
+- Accepting responsibility and apologizing to those affected by our harm and our mistakes, and learning from the experience
 - Focusing on what is best not just for us as individuals, but for the overall community
 
 Examples of unacceptable behavior include:
 
-- Refusal to respect and to use someone's methods of self-identification, (e.g., using someone's pronouns)
-- The use of any terms deemed in the dictionary (but not limited to) as words to avoid as slurs
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- refusal to respect and to use someone's methods of self-identification, (e.g., refusing to use someone's pronouns);
+- use of any terms deemed in the dictionary (but not limited to) as words to avoid as slurs;
+- any consentless use of sexualised language or imagery, and sexual attention or advances of any kind;
+- trolling, insulting, or derogatory comments, and personal or political attacks;
+- public or private harassment;
+- publishing others' private information, such as a physical or email address, without their explicit permission;
+- other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Enforcement Responsibilities
 
@@ -34,13 +34,13 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+This Code of Conduct applies within all community spaces, including but not limited to our GitHub repo, Slack community, and Discord community, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [selfdefined@tatianamac.com](mailto:selfdefined@tatianamac.com). All complaints will be reviewed and investigated promptly and fairly.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+All community leaders are obligated to respect the privacy and security of the reporter of any incident. Community leaders reserve the right to divulge information about any incidents to the broader community in order to reduce harm including the context of the harm and identity of the perpetrator of harm. In doing so, we will always seek to protect the most vulnerable parties and their identities (first, the reporters and/or the harmed) so as to reduce retaliation.
 
 ## Enforcement Guidelines
 
@@ -66,18 +66,18 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 ### 4. Permanent Ban
 
-**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.
+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within the community.
 
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0,
-available at <https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.>
+available at <https://www.contributor-covenant.org/version/2/0/code_of_conduct.html>.
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
 
 [homepage]: https://www.contributor-covenant.org
 
 For answers to common questions about this code of conduct, see the FAQ at
-<https://www.contributor-covenant.org/faq.> Translations are available at <https://www.contributor-covenant.org/translations.>
+<https://www.contributor-covenant.org/faq>. Translations are available at <https://www.contributor-covenant.org/translations>.

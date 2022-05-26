@@ -1,0 +1,61 @@
+name: Bug Report
+description: File a bug report
+title: ":bug: "
+labels: ["Type · Bug", "Status · Unconfirmed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What issue are you facing?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expenced behavior
+      description: Tell us what you expected to see
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Browsers
+      description: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Brave
+        - Other
+  - type: input
+    id: other-browser
+    attributes:
+      label: Other browser
+      description: What browser did you experience the issue in?
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Was this issue on a mobile device? If so, what one?
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log (or console) output
+      description: Please copy and paste any relevant output. This will be automatically formatted into code, so no need for backticks!
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/selfdefined/web-app/blob/prod/CODE-OF-CONDUCT.md)
+      options:
+        - label: I agree to follow Self-Defined's Code of Conduct
+          required: true
