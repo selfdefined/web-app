@@ -1,16 +1,6 @@
 <li class="toc__list-item">
   {{ definition.data.title | linkIfExistsInCollection(collections.definedWords) | safe  }}
-  {%- if
-    definition.data.flag and
-    definition.data.flag.text and
-    (definition.data.flag.level == 'avoid') -%}
-    <span class="flag flag--red">{{ definition.data.flag.text }}</span>
-  {%- elseif
-    definition.data.flag and
-    definition.data.flag.text and
-    (definition.data.flag.level == 'warning') -%}
-    <span class="flag flag--yellow">{{ definition.data.flag.text }}</span>
-  {% endif %}
+  {% tableOfContentFlag definition.data %}
   {%- if definition.data.sub_terms -%}
     <ul class="sub-terms" role="list" aria-label="{{definition.data.title}}">
       {% for term in definition.data.sub_terms %}

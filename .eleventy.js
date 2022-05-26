@@ -2,6 +2,8 @@ const definitionPermalink = require('./11ty/helpers/definitionPermalink');
 const renderDefinitionContentNextEntries = require('./11ty/shortcodes/renderDefinitionContentNextEntries');
 const metaDescriptionWithFlag = require('./11ty/shortcodes/metaDescriptionWithFlag');
 const findExistingDefinition = require('./11ty/filters/helpers/findExistingDefinition');
+const tableOfContentFlag = require('./11ty/shortcodes/tableOfContentFlag');
+
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 module.exports = function(config) {
@@ -46,6 +48,7 @@ module.exports = function(config) {
 
   config.addPlugin(pluginRss);
 
+  config.addShortcode('tableOfContentFlag', tableOfContentFlag);
   config.addShortcode('definitionFlag', (flag) => {
     const cleanText = new Map([
       [
