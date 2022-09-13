@@ -1,0 +1,2 @@
+# prevent blank issue
+blank_issues_enabled: false
