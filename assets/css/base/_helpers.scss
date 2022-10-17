@@ -23,3 +23,12 @@
   white-space: nowrap;
   width: 1px;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex__space-between {
+  align-items: center;
+  justify-content: space-between;
+}

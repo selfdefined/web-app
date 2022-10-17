@@ -1,0 +1,36 @@
+.spoiler__content {
+  display: block;
+}
+
+.spoiler__toggle-btn {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+
+  svg {
+    transform: rotate(-180deg);
+    transition: transform 100ms ease-in-out;
+  }
+}
+
+.spoiler_collapsed {
+  .spoiler__content {
+    display: none;
+  }
+
+  .spoiler__toggle-btn svg {
+    transform: rotate(0);
+  }
+}
+
+@media screen and (min-width: 880px) {
+  [data-spoiler-mobile-only="true"].spoiler_collapsed {
+    .spoiler__content {
+      display: block;
+    }
+
+    .spoiler__toggle-btn {
+      display: none;
+    }
+  }
+}

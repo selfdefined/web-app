@@ -5,3 +5,9 @@
     margin-top: calc(var(--l-gap) * 4);
   }
 }
+
+#ways-to-help.spoiler {
+  .spoiler__toggle-btn {
+    color: var(--clr-accent);
+  }
+}

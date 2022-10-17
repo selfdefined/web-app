@@ -15,12 +15,38 @@ layout: layouts/index.njk
       With the foundation of vocabulary, we can begin to understand lived experiences of people different than us. Words can provide us with a sense of identity and allow us to find kinship through common experiences.
     </p>
   </div>
-  <div class="box">
-    <h2 class="sub-headline">Ways to help</h2>
-    <ol class="list">
+  <section
+    class="box spoiler spoiler_collapsed"
+    data-spoiler-mobile-only="true"
+    id="ways-to-help">
+    <header aria-labelledby="ways-to-help-heading" class="flex flex__space-between">
+      <h2 class="sub-headline" id="ways-to-help-heading">Ways to help</h2>
+      <button
+        aria-expanded="false"
+        aria-controls="ways-to-help-content"
+        class="spoiler__toggle-btn"
+        id="ways-to-help-visibility-toggle">
+        {# https://css.gg/chevron-down #}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+          aria-labelledby="spoiler-toggle-icon-title"
+          focusable="false">
+          <path fill="currentColor" d="M6.34 7.76L4.93 9.17 12 16.24l7.07-7.07-1.41-1.41L12 13.4 6.34 7.76z"/>
+          <title id="spoiler-toggle-icon-title">Toggle spoiler</title>
+        </svg>
+      </button>
+    </header>
+    <ol
+      class="list spoiler__content"
+      id="ways-to-help-content"
+      aria-labelledby="ways-to-help-heading">
       <li>Submit words and definitions or contribute to our code base through <a href="https://github.com/tatianamac/selfdefined/pulls" rel="noreferrer">pull requests</a> or <a href="https://github.com/tatianamac/selfdefined/issues" rel="noreferrer">issues</a>. Start with our <a href="https://github.com/selfdefined/web-app/blob/prod/CONTRIBUTING.md" rel="noreferrer">contributing guidelines</a> and <a href="/documentation/">documentation</a>.</li>
       <li>Sponsor this work through <a href="https://opencollective.com/selfdefined">Open Collective</a> or <a href="https://github.com/sponsors/tatianamac">GitHub Sponsors</a>.</li>
       <li>Follow us on Twitter <a href="https://www.twitter.com/selfdefinedapp">@SelfDefinedApp</a>.</li>
     </ol>
-  </div>
+  </section>
 </header>
