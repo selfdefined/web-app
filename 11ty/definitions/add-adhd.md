@@ -5,13 +5,13 @@ defined: true
 speech: noun
 reading:
   - text: 'What Is ADHD? Meaning, Symptoms & Tests'
-    href: <https://www.additudemag.com/what-is-adhd-symptoms-causes-treatments/>
+    href: https://www.additudemag.com/what-is-adhd-symptoms-causes-treatments/
   - text: 'No Time To Confront Racism In Neurodiversity'
-    href: <https://blackgirllostkeys.com/adhd/no-time-to-confront-racism-in-neurodiversity/>
+    href: https://blackgirllostkeys.com/adhd/no-time-to-confront-racism-in-neurodiversity/
   - text: DSM-5 ADHD Diagnosis
-    href: <https://www.cdc.gov/ncbddd/adhd/diagnosis.html>
+    href: https://www.cdc.gov/ncbddd/adhd/diagnosis.html
   - text: ICD-11 ADHD Entry
-    href: <https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f821852937>
+    href: https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f821852937
 ---
 
 ## Overview
