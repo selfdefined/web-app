@@ -83,6 +83,20 @@ We have created some examples that you can use as the baseline for your work. Ta
 
 **Related:** [When should I open an issue versus a pull request (PR)?](https://www.selfdefined.app/documentation/frequently-asked-questions/#when-should-i-open-an-issue-versus-a-pull-request)
 
+## Contributing Code
+
+### Online one-click setup for code contributions
+
+You can use Gitpod (an online Open Source VS Code like IDE which is free for Open Source) for contributing to the code online, with a single click it will launch a workspace and automatically:
+
+- clone the self-defined repo.
+- install the dependencies.
+- start `npm run serve`.
+
+so that you can start straight away.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
 ## Get Help
 
 If you've already tried reading through our [documentation](https://www.selfdefined.app/documentation/) and are stuck, we're here to help and ask your questions:
