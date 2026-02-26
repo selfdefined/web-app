@@ -1,0 +1,15 @@
+{%- if
+  flag and
+  flag.text and
+  (flag.level == 'avoid') -%}
+  <div class="u-margin-bottom-double content-flag content-flag--avoid">
+    <p class="small">We would recommend adding a content warning when speaking about this term. Please <a href="/content-warning-guidelines/">read the guidance</a> on how and when to warn people before using this term in any context.</p>
+  </div>
+{%- elseif
+  flag and
+  flag.text and
+  (flag.level == 'warning') -%}
+  <div class="u-margin-bottom-double content-flag">
+    <p class="small">We would recommend adding a content warning when speaking about this term. Please <a href="/content-warning-guidelines/">read the guidance</a> on how and when to warn people before using this term in any context.</p>
+  </div>
+{% endif %}

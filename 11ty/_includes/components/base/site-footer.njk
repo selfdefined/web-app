@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <nav aria-label="Complimentary">
+    <ul class="navigation-list">
+      <li>
+        <a href="/documentation/">Documentation</a>
+      </li>
+      <li>
+        <a href="/content-warning-guidelines/">Content Warning Guidelines</a>
+      </li>
+      <li>
+        <a href="{{ metadata.feedPermalink | absoluteUrl(metadata.url) }}">RSS Feed</a>
+      </li>
+    </ul>
+  </nav>
+  <div role="group" class="js-theme-switch" aria-labelledby="clrmd-hl" hidden>
+    <h2 id="clrmd-hl" class="smcp-headline">Colour mode</h2>
+    {% for theme in site.themes %}
+      <div class="radio-wrapper">
+        <input
+          type="radio"
+          name="display-mode"
+          value="{{ theme.value }}"
+          id="display-mode-{{ theme.value }}"
+        >
+        <label for="display-mode-{{ theme.value }}">{{ theme.label }}</label>
+      </div>
+    {% endfor %}
+  </div>
+</footer>

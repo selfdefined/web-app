@@ -14,10 +14,10 @@ alt_words:
   - malformed
   - silly
 reading:
- - text: Derp is ableist and offensive
-   href: https://americandramedy.blogspot.com/2013/06/derp-is-ableist-and-offensive-stop.html
- - text: Ableist words and terms to avoid
-   href: https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
+  - text: Derp is ableist and offensive
+    href: https://americandramedy.blogspot.com/2013/06/derp-is-ableist-and-offensive-stop.html
+  - text: Ableist words and terms to avoid
+    href: https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html
 ---
 
 clumsy, foolish, unattractive, or otherwise unintelligent act or person.

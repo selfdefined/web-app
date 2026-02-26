@@ -1,6 +1,6 @@
 ---
 title: Pansexual
-slug: pan-sexual
+slug: pansexual
 speech: adj
 defined: true
 reading:

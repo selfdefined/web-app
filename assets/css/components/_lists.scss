@@ -34,3 +34,13 @@ li {
     }
   }
 }
+
+.list-default {
+  li {
+    list-style: initial;
+    margin-left: 2rem;
+    &:last-child {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

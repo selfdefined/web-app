@@ -31,3 +31,7 @@ The uncertainty created by the 4chan-ers is a critical part of their strategy. T
 The people most vulnerable to the oppressive impact of White Supremacy will never know for certain if the symbol is being used in one of its non-violent manners or if it's being used in its racist violent manners. The oppressed must choose the option that protects them, which is typically erring on the side of caution.
 
 Continuing to use the symbol with its non-hateful connotations to "take it back," does not eliminate its pervasive new meaning associated with White Supremacy. Instead, continuing usage only perpetuates emotional and psychological harm upon the most vulnerable and susceptible populations.
+
+## Other Languages
+
+[Français](/definitions/fr_FR/signe-ok)

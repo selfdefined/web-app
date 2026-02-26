@@ -1,0 +1,15 @@
+code {
+  background-color: var(--clr-foreground);
+  border: pxToRem(1px) solid var(--clr-foreground-transparent);
+  border-radius: 0.25em;
+  color: var(--clr-background);
+  font-size: 95%;
+  padding: 0.15em;
+
+  pre & {
+    border: none;
+    border-radius: 0;
+    font-size: inherit;
+    padding: 0;
+  }
+}

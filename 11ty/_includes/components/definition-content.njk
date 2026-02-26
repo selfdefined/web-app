@@ -1,20 +1,40 @@
+{% macro renderAltWords(words, labels) %}
+  {%- if words | isArray -%}
+    {# Array #}
+    <ul
+      class="list-semicolon"
+      {% if labels %}aria-labelledby="{{ labels | join(' ') }}"{% endif %}
+    >
+      {%- for word in words -%}
+        <li>
+          {{ word | linkIfExistsInCollection(collections.definedWords) | safe }}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- else -%}
+    {# Object #}
+    {# With class="", the list loses padding via the CSS reset style. #}
+    {# For multi-level category support, we may want an actual class. #}
+    <ul class="">
+      {%- for category, list in words -%}
+        <li>
+          {% set categoryId = ("alt-words-" + category) | replace(' ', '-') %}
+          <strong id="{{ categoryId }}">{{ category }}</strong>
+          {{ renderAltWords(list, labels.concat(categoryId)) }}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+{% endmacro %}
+
 <section class="definition-content">
-  <section class="u-margin-bottom-double" aria-labelledby="definition-speech">
-    <h2 id="definition-speech" class="visually-hidden">Speech</h2>
-    <p class="definition-content__speech">{{ speech }}</p>
-  </section>
   <section class="definition-content__content">
     {{ content | safe }}
-    {# <p>{{ alt_words }}</p> #}
   </section>
   {%- if alt_words -%}
     <section class="definition-content__content">
       <h2 id="alt-words">Alt Words</h2>
-      <ul class="list-semicolon" aria-labelledby="alt-words">
-        {% for word in alt_words %}
-          <li>{{ word | linkIfExistsInCollection(collections.definedWords) | safe }}</li>
-        {% endfor %}
-      </ul>
+      {{ renderAltWords(alt_words, ["alt-words"]) }}
     </section>
   {% endif %}
   {%- if reading -%}

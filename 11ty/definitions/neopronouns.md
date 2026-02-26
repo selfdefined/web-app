@@ -8,7 +8,7 @@ reading:
     link: https://lgbta.wikia.org/wiki/Neopronouns
 ---
 
-a set of words that go alongside traditional third-person pronouns (he/she/they) such as ze/zir, ze/hir, xe/xem.
+a set of words that go alongside traditional third-person pronouns (he/she/singular they) such as ze/zir, ze/hir, xe/xem, and plural they.
 
 ## Note
 
